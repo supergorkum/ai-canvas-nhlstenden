@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { font-family: 'Inter', Arial, sans-serif; @apply bg-nhl-nacht text-gray-800 antialiased; }
+}
+@layer components {
+  .nhl-gradient-deep { background: linear-gradient(160deg, #0F1E52 0%, #162D6E 40%, #1E3A8A 70%, #2563EB 100%); }
+  .card { @apply bg-white rounded-2xl border border-gray-100 shadow-sm; }
+  .card-hover { @apply transition-all duration-200 hover:shadow-md hover:-translate-y-0.5; }
+  .btn-primary { @apply bg-nhl-blauw hover:bg-nhl-blauw-dark text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition-colors; }
+  .btn-roze { @apply bg-nhl-roze hover:bg-nhl-roze-dark text-white px-4 sm:px-5 py-2.5 rounded-xl font-semibold text-sm transition-colors; }
+  .btn-ghost { @apply text-gray-500 hover:text-gray-700 hover:bg-gray-100 px-4 py-2 rounded-lg text-sm transition-colors; }
+  .page-title { @apply text-3xl font-bold text-nhl-blauw; }
+  .section-label { @apply text-nhl-roze font-semibold text-xs uppercase tracking-widest; }
+  .badge-blauw { @apply inline-flex items-center gap-1 bg-blue-50 text-nhl-blauw px-2.5 py-0.5 rounded-full text-xs font-medium; }
+  .invoer { @apply w-full rounded-xl border border-gray-200 px-3.5 py-2.5 text-sm outline-none focus:border-nhl-roze focus:ring-2 focus:ring-pink-100 bg-white; }
+}
+.knooppunt { transition: transform .18s cubic-bezier(.34,1.56,.64,1); transform-box: fill-box; transform-origin: center; }
+g:hover > .knooppunt { transform: scale(1.25); }
+@keyframes pulse-ring { 0%,100% { opacity:.25 } 50% { opacity:.6 } }
+.pulse-ring { animation: pulse-ring 1.8s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .knooppunt, .pulse-ring { transition: none; animation: none; } }

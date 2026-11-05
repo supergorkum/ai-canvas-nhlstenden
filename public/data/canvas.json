@@ -1,0 +1,3470 @@
+{
+ "meta": {
+  "bijgewerkt": "5 november 2026",
+  "ritme": "elke werkdag om 07:40 (redactieronde)",
+  "aiNetwerkCommit": "497649c7e9ca9aa8b60e6b66fdf2d6b47cea0c07",
+  "laatsteMelding": null,
+  "bronnen": [
+   {
+    "naam": "AI Netwerk NHL Stenden",
+    "stand": "volledig verwerkt (broncode t/m v2.55); gegevens die alleen in de opslag van de site staan (zelf toegevoegde initiatieven, pilotupdates) nog niet"
+   },
+   {
+    "naam": "Drive-map AI Canvas NHL Stenden",
+    "stand": "aangemaakt, inbox nog leeg"
+   },
+   {
+    "naam": "Meldformulier",
+    "stand": "actief zodra de site live staat"
+   },
+   {
+    "naam": "nhlstenden.com",
+    "stand": "nog niet bereikbaar vanuit de redactieomgeving (netwerkinstelling)"
+   },
+   {
+    "naam": "intranet.nhlstenden.com",
+    "stand": "nog niet bereikbaar (netwerkinstelling; vraagt waarschijnlijk inloggen)"
+   }
+  ]
+ },
+ "entiteiten": [
+  {
+   "id": "ai-netwerk",
+   "naam": "AI-Netwerk NHL Stenden",
+   "soort": "organisatie",
+   "status": "actief",
+   "samenvatting": "Het AI-Netwerk brengt alle AI-initiatieven, pilots, thema's, kennis en mensen bij NHL Stenden samen op één plek. Het is een verbinder die overzicht en samenhang biedt, geen tweede inhoudelijke eigenaar.",
+   "details": "Initiatief van het Transitieprogramma Digitalisering. Verbindt de zes spreektafels, deelt kennis, faciliteert pilots en signaleert knelpunten aan de Stuurgroep. Bewaakt de verplichtingen uit de EU AI Act met een signaalsystematiek en genereert de voortgangsrapportage: per kwartaal aan de Stuurgroep, jaarlijks samenvattend aan het College van Bestuur. In oudere code/teksten 'AI-HUB' genoemd. Het AI-Netwerk blijft het verbindings- en uitvoeringsinstrument van de AI-Koers.",
+   "eigenaar": "Transitieprogramma Digitalisering",
+   "links": [
+    {
+     "label": "AI-Netwerk platform",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Over.jsx:92, src/pages/Over.jsx:101, src/pages/Over.jsx:112, src/pages/Over.jsx:115 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "kernteam-ai-netwerk",
+   "naam": "Kernteam AI-Netwerk",
+   "soort": "organisatie",
+   "status": "actief",
+   "samenvatting": "Kernteam met operationele verantwoordelijkheid voor het platform en de netwerkorganisatie, bestaande uit Kwartiermaker, Informatiemanager en ICT Analist.",
+   "details": "Overlegt maandelijks over voortgang, knelpunten en operationele besluiten; bewaakt de werking van het AI-Netwerk. De Informatiemanager beheert de inhoud en ondersteunt de AI-desk; de ICT Analist ontwikkelt en beheert de webtool en ondersteunt sandbox-omgevingen en de AI-desk technisch. Organiseerde de Kick-off van het AI-Netwerk; voegde veel bronnen/links toe (ook als 'Kernteam AI-HUB').",
+   "periode": "maandelijks overleg",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:165, src/pages/Over.jsx:5, src/pages/Over.jsx:35, src/pages/Over.jsx:120 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "kwartiermaker-digitale-samenhang",
+   "naam": "Kwartiermaker Digitale Samenhang",
+   "soort": "organisatie",
+   "status": "actief",
+   "samenvatting": "Initiator, strateeg en bestuurlijk aanspreekpunt van het AI-Netwerk; programmaleiding van het Programma AI en opsteller van de AI-Koers.",
+   "details": "Bewaakt de koers en samenhang van het AI-Netwerk, is bestuurlijk aanspreekpunt richting Stuurgroep Transitieprogramma en directie, en verbindt het AI-Netwerk met het externe netwerk: SURF, NPULS, Vereniging Hogescholen. Verzorgt de dagelijkse aansturing en rapporteert aan de stuurgroep. Verbindende schakel in het hybride governancemodel. (Functie, geen persoonsnaam in de bron.)",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Over.jsx:7, src/pages/Over.jsx:9, src/pages/Over.jsx:13, src/pages/Governance.jsx:166 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "stuurgroep-transitieprogramma",
+   "naam": "Stuurgroep Transitieprogramma",
+   "soort": "organisatie",
+   "status": "actief",
+   "samenvatting": "Bestuurlijke opdrachtgever: stelt kaders, bewaakt voortgang en neemt besluiten over richting en middelen; opdrachtgever van het Programma AI.",
+   "details": "Overlegt per kwartaal; bewaakt de globale kernambitie. Werd op 10 september 2026 bijgepraat over de lijn, de route en het opzetten van het Programma AI. Versie 1.0 van de AI-Koers gaat ter vaststelling naar de Stuurgroep (en daarna CvB). Elders ook 'Stuurgroep Digitalisering' genoemd (naam is gelijkgetrokken).",
+   "periode": "per kwartaal",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:164, src/pages/Governance.jsx:117, src/pages/Governance.jsx:139, src/pages/Governance.jsx:153 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "transitieprogramma-digitalisering",
+   "naam": "Transitieprogramma Digitalisering",
+   "soort": "organisatie",
+   "status": "actief",
+   "samenvatting": "Programma waarbinnen de AI-Koers en het AI-Netwerk zijn belegd; bestuurlijk kader van het AI-Netwerk.",
+   "details": "Het AI-Netwerk is een initiatief van het Transitieprogramma Digitalisering. Binnen dit programma wordt het Programma AI ingericht. In het vijflagenmodel staat 'Prog. Digitale Transitie' als primaire eigenaar van laag 4 (Platforms & Applicaties); ook verantwoordelijke voor het roadmap-item AI-desk operationeel.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Rapport.jsx:254, src/pages/Rapport.jsx:350, src/pages/Governance.jsx:226, src/pages/Fundament.jsx:87 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "college-van-bestuur",
+   "naam": "College van Bestuur (CvB)",
+   "soort": "organisatie",
+   "samenvatting": "Stelt het AI-beleid, de maatregelen en procedures vast en besluit over aanschaf van hoog-risico AI op advies van het AI-compliance team.",
+   "details": "Stelde het AI Compliance Beleid v2.0 vast op 16 december 2025. Stelt de AI-Koers vast na definitieve steun van de Stuurgroep, ontvangt de jaarrapportage en beslist over significante investeringen en risicoacceptatie.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:55, src/pages/Beleid.jsx:77, src/pages/Governance.jsx:94, src/pages/Governance.jsx:120 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "thema-overleg-leren",
+   "naam": "Thema-overleg / spreektafel AI & Leren",
+   "soort": "organisatie",
+   "spoor": "leren",
+   "samenvatting": "Maandelijks thema-overleg (spreektafel) voor de koerslijn AI & Leren; focus: Initiatieven en ontwikkelingen binnen de koerslijn.",
+   "details": "Afdeling: OO&I. Deelnemers: Docenten, studenten, toetscommissies, EduGenAI-gebruikers. Trekker: 'Volgt' / 'Wordt ingevuld'. Initiatieven worden aangemeld via de relevante spreektafel.",
+   "eigenaar": "OO&I",
+   "periode": "maandelijks",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:166, src/pages/Governance.jsx:5, src/pages/Over.jsx:78, src/pages/Governance.jsx:14 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "thema-overleg-werken",
+   "naam": "Thema-overleg / spreektafel AI & Werken",
+   "soort": "organisatie",
+   "spoor": "werken",
+   "samenvatting": "Maandelijks thema-overleg (spreektafel) voor de koerslijn AI & Werken; focus: Initiatieven en ontwikkelingen binnen de koerslijn.",
+   "details": "Afdeling: DLWO. Deelnemers: IV-organisatie, P&O, diensten, DLWO. Trekker: 'Volgt' / 'Wordt ingevuld'. Initiatieven worden aangemeld via de relevante spreektafel.",
+   "eigenaar": "DLWO",
+   "periode": "maandelijks",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:167, src/pages/Governance.jsx:6, src/pages/Over.jsx:79, src/pages/Governance.jsx:14 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "thema-overleg-verantwoordelijkheid",
+   "naam": "Thema-overleg / spreektafel AI & Verantwoordelijkheid",
+   "soort": "organisatie",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Maandelijks thema-overleg (spreektafel) voor de koerslijn AI & Verantwoordelijkheid; focus: AI Act verplichtingen, governance en ethiek.",
+   "details": "Afdeling: Concernstaf. Deelnemers: AI officer, data manager, informatiemanager. Trekker: 'Volgt' / 'Wordt ingevuld'. Initiatieven worden aangemeld via de relevante spreektafel.",
+   "eigenaar": "Concernstaf",
+   "periode": "maandelijks",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:168, src/pages/Governance.jsx:7, src/pages/Over.jsx:80, src/pages/Governance.jsx:14 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "thema-overleg-geletterdheid",
+   "naam": "Thema-overleg / spreektafel AI & Geletterdheid",
+   "soort": "organisatie",
+   "spoor": "geletterdheid",
+   "samenvatting": "Maandelijks thema-overleg (spreektafel) voor de koerslijn AI & Geletterdheid; focus: Vaardigheden en professionalisering.",
+   "details": "Afdeling: OO&I, HRM & DLWO. Deelnemers: ARDA-ambassadeurs, MyAcademy, bibliotheek, studenten. Trekker: 'Volgt' / 'Wordt ingevuld'. Initiatieven worden aangemeld via de relevante spreektafel.",
+   "eigenaar": "OO&I, HRM & DLWO",
+   "periode": "maandelijks",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:169, src/pages/Governance.jsx:8, src/pages/Over.jsx:81, src/pages/Governance.jsx:14 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "thema-overleg-werkveld",
+   "naam": "Thema-overleg / spreektafel AI & Werkveld",
+   "soort": "organisatie",
+   "spoor": "werkveld",
+   "samenvatting": "Maandelijks thema-overleg (spreektafel) voor de koerslijn AI & Werkveld; focus: Regionale samenwerking en praktijkprojecten.",
+   "details": "Afdeling: Academie. Deelnemers: Werkveldcommissies, regionale partners, Frisius MC. Trekker: 'Volgt' / 'Wordt ingevuld'. Initiatieven worden aangemeld via de relevante spreektafel.",
+   "eigenaar": "Academie",
+   "periode": "maandelijks",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:170, src/pages/Governance.jsx:9, src/pages/Over.jsx:82, src/pages/Governance.jsx:14 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "thema-overleg-onderzoek",
+   "naam": "Thema-overleg / spreektafel AI & Onderzoek",
+   "soort": "organisatie",
+   "spoor": "onderzoek",
+   "samenvatting": "Maandelijks thema-overleg (spreektafel) voor de koerslijn AI & Onderzoek; focus: Onderzoek met en naar AI.",
+   "details": "Afdeling: OO&I & Lectoraat. Deelnemers: Lectoraten, data manager, bibliotheek, kennisinstellingen. Trekker: 'Volgt' / 'Wordt ingevuld'. Initiatieven worden aangemeld via de relevante spreektafel.",
+   "eigenaar": "OO&I & Lectoraat",
+   "periode": "maandelijks",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:171, src/pages/Governance.jsx:10, src/pages/Over.jsx:83, src/pages/Governance.jsx:14 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-compliance-team",
+   "naam": "AI Compliance Team / AI Compliance Groep",
+   "soort": "organisatie",
+   "spoor": "verantwoordelijkheid",
+   "status": "actief",
+   "samenvatting": "Multidisciplinair adviesteam dat risico's van AI-systemen beoordeelt en regelmatig rapporteert over AI-risico's, in lijn met de AI Act.",
+   "details": "Geeft advies aan bestuur en directeur over hoog-risico AI en aan de eigenaar (directeur) over laag-risico AI. Contact: aicompliance@nhlstenden.com (AI-risicoscan). Schreef de Voortgangsrapportage AI Compliance aan het CvB (februari 2026). Verantwoordelijke voor inventarisatie hoog-risico AI-systemen; contact voor pilot AI-feedback ChatGPT op scripties.",
+   "links": [
+    {
+     "label": "E-mail",
+     "url": "mailto:aicompliance@nhlstenden.com"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:115, src/pages/Beleid.jsx:46, src/pages/Beleid.jsx:56, src/pages/Beleid.jsx:90 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "privacy-security-team",
+   "naam": "Team Privacy & Security",
+   "soort": "organisatie",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Team waarvan de Privacy Officer advies en ondersteuning geeft bij het reduceren van privacyrisico's; beheert de privacy QuickScan.",
+   "details": "Bij gebruik van AI voor diagnostische doeleinden, studentenbeoordelingen of bijzondere persoonsgegevens is voorafgaande validatie via de privacy QuickScan vereist.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:47, src/pages/Beleid.jsx:57, src/pages/Beleid.jsx:231",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "fg-ciso",
+   "naam": "FG en CISO",
+   "soort": "organisatie",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Functionaris Gegevensbescherming en CISO adviseren en toetsen bij AI-governance, samen met het compliance-team.",
+   "details": "Adviseurs in het hybride governancemodel; auteurs (FG/CISO) van de Bespreeknotitie AI-Governance strategie NHL Stenden (juni 2026).",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:217, public/ai-koers/paginas.json:pagina 13, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ctl",
+   "naam": "Centre for Teaching and Learning (CTL)",
+   "soort": "organisatie",
+   "spoor": "leren",
+   "samenvatting": "Vakeigenaar voor toetsing, didactiek en professionalisering; de richtlijnen voor AI bij toetsing en examinering liggen bij het CTL en de examencommissies.",
+   "details": "Biedt docenten ondersteuning via richtlijnen, webinars en materialen; intranetpagina's 'AI & Toetsing, richtlijnen en beoordelen', 'AI in het onderwijs', 'AI in je studie' en 'AI-webinars van Npuls'. Leerroutes per rol via CTL en MyAcademy. Publiceert artikelen (o.a. over UvA AI-chat, AI & the stability of learning tasks).",
+   "links": [
+    {
+     "label": "CTL: AI & Toetsing",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI---toetsing,-richtlijnen-en-beoordeling.aspx"
+    },
+    {
+     "label": "CTL: AI in het onderwijs",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI.aspx"
+    },
+    {
+     "label": "CTL: AI in je studie",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-in-je-studie.aspx"
+    },
+    {
+     "label": "CTL",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:19, src/data/themas.js:23, src/data/themas.js:75, src/data/themas.js:109 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "examencommissies",
+   "naam": "Examencommissies",
+   "soort": "organisatie",
+   "spoor": "leren",
+   "samenvatting": "Samen met het CTL eigenaar van de richtlijnen voor AI bij toetsing en examinering.",
+   "details": "AI-bestendige toetsvormen ontstaan onder regie van CTL en examencommissies; het CTL heeft adviezen voor examencommissies en een stappenplan bij fraude.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:19, src/initialData.js:276, src/pages/NVAO.jsx:40, public/ai-koers/paginas.json:pagina 5 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "oo-i",
+   "naam": "Onderwijs, Onderzoek & Internationalisering (OO&I)",
+   "soort": "organisatie",
+   "spoor": "leren",
+   "samenvatting": "Dienst en vakeigenaar voor onderwijs-, onderzoeks- en datakaders; primaire eigenaar van laag 3 (Onderwijs, Onderzoek & Data).",
+   "details": "Stuurt op de inhoudelijke en onderwijskundige kant van AI: integratie in curriculum en didactiek, passende AI-modellen, kwaliteit en privacy in data-architectuur. Afdeling bij thema's AI & Leren, AI & Geletterdheid en AI & Onderzoek. Opsteller van 'AI in DBE' (addendum OO&I-beleid) en het NHL Stenden AI-competentieframework.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:92, src/data.js:93, src/initialData.js:293, src/pages/Governance.jsx:5 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "dlwo",
+   "naam": "Digitale Leer- en Werkomgeving (DLWO)",
+   "soort": "organisatie",
+   "spoor": "werken",
+   "samenvatting": "Dienst die eigenaar is van laag 2 (Chips & Hardware) en verantwoordelijk voor platforms, koppelingen en beheer van de infrastructuur.",
+   "details": "Afdeling bij thema AI & Werken. Inrichting van de technische sandbox via DLWO in samenwerking met SURF. Medeverantwoordelijk voor het toetsen van menselijk toezicht bij ProctorExam.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:101, src/initialData.js:298, src/pages/Governance.jsx:6, src/pages/Governance.jsx:64 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "facility-management",
+   "naam": "Facility Management (FM)",
+   "soort": "organisatie",
+   "samenvatting": "Primaire eigenaar van laag 1 (Energie & Fysieke Infrastructuur) in het vijflagenmodel.",
+   "details": "Bewaakt of de fysieke infrastructuur klaar is voor de exponentiële AI-groei; ook genoemd als Fysieke Leer- en Werkomgeving (FM).",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:109, src/initialData.js:299, src/pages/Fundament.jsx:11",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "hrm",
+   "naam": "Human Resource Management (HRM)",
+   "soort": "organisatie",
+   "spoor": "geletterdheid",
+   "samenvatting": "Dienst; samen met OO&I verantwoordelijk voor de AI-basistraining voor medewerkers en betrokken bij het thema AI & Geletterdheid.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:295, src/App.jsx:74, src/pages/Governance.jsx:8, src/pages/Geletterdheid.jsx:68",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "fcp",
+   "naam": "Finance, Control & Procurement (FCP)",
+   "soort": "organisatie",
+   "spoor": "werken",
+   "samenvatting": "Dienst die AI omarmt in datagedreven werken en bedrijfsvoeringsprocessen.",
+   "details": "In data.js aangeduid als 'Financiën, Control & Planning', in de organisatielijst als 'Finance, Control & Procurement'.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:296, src/data.js:118",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "concernstaf",
+   "naam": "Concernstaf",
+   "soort": "organisatie",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Afdeling die het thema AI & Verantwoordelijkheid draagt.",
+   "details": "Deelnemers: AI officer, data manager, informatiemanager.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:7, src/pages/Over.jsx:80",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "bibliotheek",
+   "naam": "Bibliotheek NHL Stenden",
+   "soort": "organisatie",
+   "spoor": "geletterdheid",
+   "samenvatting": "Ontwikkelde LibGuides voor AI-ondersteuning van studenten en medewerkers.",
+   "details": "Deelnemer aan thema's AI & Geletterdheid en AI & Onderzoek.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:133, src/pages/Governance.jsx:8, src/pages/Governance.jsx:10",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "myacademy",
+   "naam": "MyAcademy",
+   "soort": "organisatie",
+   "spoor": "geletterdheid",
+   "samenvatting": "Professionaliseringsaanbod voor medewerkers; biedt de workshops 'AI op je werkplek'.",
+   "details": "Leerroutes per rol via CTL en MyAcademy; deelnemer thema AI & Geletterdheid.",
+   "links": [
+    {
+     "label": "MyAcademy",
+     "url": "https://newuniversity.sharepoint.com/sites/MyAcademy"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:76, src/pages/Geletterdheid.jsx:71, src/pages/Governance.jsx:8, public/ai-koers/paginas.json:pagina 9",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "academie-educatie",
+   "naam": "Academie Educatie",
+   "soort": "organisatie",
+   "spoor": "leren",
+   "samenvatting": "Academie met de pilot AI-Feedback in Schrijfonderwijs en het initiatief Digitalisering & Mediawijsheid binnen de lerarenopleiding.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:38, src/initialData.js:303, src/data.js:117",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "amce",
+   "naam": "Academie Media, Commerce & Entrepreneurship (AMCE)",
+   "soort": "organisatie",
+   "spoor": "leren",
+   "samenvatting": "Academie die als proeftuin voor NHL Stenden ervaring opdoet met verantwoorde AI-oplossingen en het concept Human Value AI hanteert.",
+   "details": "In de organisatielijst 'Academie Media, Commercie & Ondernemerschap'. Voert de AMCE AI-Proeftuin met vier werkpakketten uit.",
+   "mensen": [
+    {
+     "naam": "Patrick Bemelmans",
+     "rol": "contact AMCE AI-pilot"
+    },
+    {
+     "naam": "Alette Hospers",
+     "rol": "contact AMCE AI-pilot"
+    },
+    {
+     "naam": "Frits van Essen",
+     "rol": "contact AMCE AI-pilot"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:103, src/initialData.js:284, src/initialData.js:307, src/App.jsx:107",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "academie-verpleegkunde-gezondheid",
+   "naam": "Academie Verpleegkunde en Gezondheid",
+   "soort": "organisatie",
+   "spoor": "werkveld",
+   "samenvatting": "Academie die de Frisius MC AI-workshops uitvoert.",
+   "details": "Naam komt niet voor in de academielijst (daar: 'Academie Gezondheid & Welzijn').",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:82, src/initialData.js:305",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "lectoraat-cv-ai",
+   "naam": "Lectoraat Computer Vision & AI (ook: Computer Vision & Data Science)",
+   "soort": "organisatie",
+   "spoor": "werkveld",
+   "status": "actief",
+   "samenvatting": "NHL Stenden lectoraat dat onderzoek doet naar Computer Vision toepassingen in het Noord-Nederlandse werkveld, van beeldherkenning in de zorg tot kwaliteitscontrole in de industrie.",
+   "details": "Loopt voorop in toegepast AI-onderzoek bij NHL Stenden; meer dan twee decennia ervaring in het integreren van AI in organisaties. Met het I'M A.I.-initiatief maakt het NHL Stenden tot een erkend regionaal AI-kenniscentrum.",
+   "links": [
+    {
+     "label": "Lectoraat CV&AI",
+     "url": "https://www.nhlstenden.com/onderzoek/lectoraten/computer-vision-artificial-intelligence"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:126, src/data.js:55, src/initialData.js:273, src/pages/Netwerk.jsx:21 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-coalitie",
+   "naam": "AI Coalitie NHL Stenden",
+   "soort": "organisatie",
+   "spoor": "leren",
+   "status": "actief",
+   "samenvatting": "Interne coalitie van early adopters die AI-toepassingen verkennen en ervaringen delen.",
+   "details": "Wordt in september tot oktober 2026 meegenomen in de koers en Sandbox-opzet; feedback wordt verwerkt.",
+   "periode": "sept-okt 2026 (consultatie)",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:116, src/pages/Governance.jsx:118, src/pages/Netwerk.jsx:38",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "hsb",
+   "naam": "HSB",
+   "soort": "organisatie",
+   "samenvatting": "Overleg/gremium waar de AI-Koers in september tot oktober 2026 centraal staat, zichtbaar waar activiteiten belegd zijn.",
+   "details": "Afkorting HSB wordt in de bron niet uitgelegd.",
+   "periode": "sept-okt 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:119",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "hmr",
+   "naam": "HMR (medezeggenschap)",
+   "soort": "organisatie",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Medezeggenschap die jaarlijks een samenvattende rapportage ontvangt en betrokken wordt bij vaststelling en jaarlijkse herijking van de AI-Koers.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 8, public/ai-koers/paginas.json:pagina 13",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "iv-organisatie",
+   "naam": "IV-organisatie (nieuw)",
+   "soort": "organisatie",
+   "spoor": "werken",
+   "samenvatting": "Nieuwe IV-organisatie waarnaar het Programma AI na een geplande landing wordt overgedragen.",
+   "details": "Draagt samen met CvB, onderwijs, onderzoek en bedrijfsvoering verantwoordelijkheid voor keuzes over AI-toepassingen.",
+   "periode": "overdracht 2029-30",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:6, src/pages/Governance.jsx:251, src/pages/Governance.jsx:391, public/ai-koers/paginas.json:pagina 13",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "solution-partners",
+   "naam": "Techniek & Infrastructuur (solution partners)",
+   "soort": "organisatie",
+   "samenvatting": "Laag van mensen onder het kernteam die als solution partner meedenken over veilige en effectieve AI-integratie in de ICT-omgeving.",
+   "details": "Expertise op Veiligheid & AVG, Integratie & API, Solution Partnership en actuele kennis van het AI-landschap.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Over.jsx:50, src/pages/Over.jsx:159, src/pages/Over.jsx:163, src/pages/Rapport.jsx:581",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "werkveldcommissies",
+   "naam": "Werkveldcommissies",
+   "soort": "organisatie",
+   "spoor": "werkveld",
+   "samenvatting": "Deelnemers aan thema AI & Werkveld; AI-competenties worden met hen afgestemd.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:9, public/ai-koers/paginas.json:pagina 10",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "surf",
+   "naam": "SURF",
+   "soort": "extern",
+   "samenvatting": "De ICT-samenwerkingsorganisatie voor onderwijs en onderzoek; NHL Stenden participeert via SURF in de AI-Hub en Denktank en heeft toegang tot veilige, AVG-conforme infrastructuur inclusief GPT-NL.",
+   "details": "Organiseert de SURF Summit en Denktank-bijeenkomsten. Technische sandbox wordt ingericht via DLWO in samenwerking met SURF. Bewuste sourcingstrategie (cloud/on-premise) in samenwerking met SURF en de AI-Fabriek Groningen.",
+   "links": [
+    {
+     "label": "SURF",
+     "url": "https://www.surf.nl"
+    },
+    {
+     "label": "SURF AI Act",
+     "url": "https://www.surf.nl/ai-act"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:313, src/pages/Rapport.jsx:356, src/components/Footer.jsx:52, src/pages/Inspiratie.jsx:347 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "surf-ai-hub",
+   "naam": "SURF AI-Hub",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "status": "actief",
+   "samenvatting": "Samenwerkingsplatform voor AI in het Nederlandse hoger onderwijs: veilige toegang tot modellen, kennisdeling en gezamenlijke pilots. NHL Stenden levert actief input.",
+   "details": "In data.js gecombineerd als 'SURF AI-Hub & Denktank' (strategisch netwerk van hogeronderwijsinstellingen dat de koers voor AI mede bepaalt) en 'SURF AI-HUB & GPT-NL' (soevereine infrastructuur en eigen Nederlands taalmodel).",
+   "eigenaar": "SURF",
+   "links": [
+    {
+     "label": "SURF AI-Hub",
+     "url": "https://www.surf.nl/en/themes/artificial-intelligence/projects-and-collaborations/ai-hub"
+    },
+    {
+     "label": "SURF AI in het onderwijs",
+     "url": "https://www.surf.nl/themas/artificial-intelligence/ai-in-het-onderwijs"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:120, src/data.js:122, src/pages/Netwerk.jsx:23, src/pages/Netwerk.jsx:424 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "surf-denktank",
+   "naam": "SURF Denktank (Digitale Transitie)",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "status": "actief",
+   "samenvatting": "Strategisch netwerk/denktank van SURF over AI in het hoger onderwijs waaraan NHL Stenden actief input levert.",
+   "details": "De actieagenda van de Denktank Digitale Transitie 2026 wordt gepresenteerd op de SURF Summit 2026.",
+   "eigenaar": "SURF",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:120, src/initialData.js:246, src/initialData.js:253, src/pages/Rapport.jsx:356 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "gpt-nl",
+   "naam": "GPT-NL",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "status": "actief",
+   "samenvatting": "Soeverein Nederlands taalmodel, AVG-compliant en transparant, in samenwerking met SURF en kennisinstellingen; alternatief voor commerciële aanbieders.",
+   "links": [
+    {
+     "label": "GPT-NL",
+     "url": "https://gptnl.nl"
+    },
+    {
+     "label": "GPT-NL (data.js)",
+     "url": "https://gpt-nl.nl/"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:122, src/pages/Netwerk.jsx:25, src/pages/Netwerk.jsx:426, src/components/Footer.jsx:53 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-fabriek-groningen",
+   "naam": "AI-Fabriek Groningen",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "status": "actief",
+   "samenvatting": "Regionale soevereine rekenkracht en datafaciliteit; strategisch alternatief voor Big Tech rekenkracht.",
+   "details": "200 miljoen euro uit het Nationaal Groeifonds (2025). Relevant voor laag 2 (Chips & Hardware): NHL Stenden kiest een sourcingstrategie in samenwerking met SURF en de AI-Fabriek Groningen.",
+   "links": [
+    {
+     "label": "AI-Fabriek (nijbegun.nl)",
+     "url": "https://www.nijbegun.nl/projecten/ai-fabriek/"
+    },
+    {
+     "label": "SURF AI-Fabriek",
+     "url": "https://www.surf.nl/themas/artificial-intelligence/ai-fabriek"
+    },
+    {
+     "label": "Rijksoverheid €200M",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/nederland-zet-in-op-200-miljoen-euro-voor-aifabriek-in-groningen"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:123, src/data.js:100, src/pages/Netwerk.jsx:26, src/pages/Netwerk.jsx:425 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "npuls",
+   "naam": "Npuls",
+   "soort": "extern",
+   "spoor": "geletterdheid",
+   "samenvatting": "Nationaal programma van mbo, hbo, wo en SURF voor digitalisering en AI in het onderwijs; via Npuls wordt gewerkt aan AI-geletterdheid en docentprofessionalisering.",
+   "details": "Via het Nationaal Groeifonds ruim 560 miljoen euro voor digitalisering van mbo, hbo en wo. Bundelt initiatieven rond AI in toetsing, curriculum en docentprofessionalisering ('Npuls Expeditie AI').",
+   "links": [
+    {
+     "label": "Npuls",
+     "url": "https://npuls.nl"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:270, src/initialData.js:314, src/pages/Netwerk.jsx:427, src/pages/Rapport.jsx:356 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "npuls-digitale-geletterdheid",
+   "naam": "NPULS Digitale Geletterdheid",
+   "soort": "extern",
+   "spoor": "geletterdheid",
+   "status": "actief",
+   "samenvatting": "Nationaal programma voor digitale geletterdheid; kaders en materialen direct bruikbaar voor het geletterdheidsthema.",
+   "eigenaar": "Npuls",
+   "links": [
+    {
+     "label": "Npuls digitale geletterdheid",
+     "url": "https://npuls.nl/onderwerpen/digitale-geletterdheid"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:121, src/pages/Netwerk.jsx:49, src/pages/Sporen.jsx:88",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "npuls-sectorbelofte-ai-data",
+   "naam": "Npuls-sectorbelofte 'AI en data waarde(n)vol inzetten'",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "NHL Stenden is medeondertekenaar van de drie Npuls-sectorbeloften; de AI-Koers is de instellingsinvulling van de belofte 'AI en data waarde(n)vol inzetten'.",
+   "details": "Vier onderwerpen: AI- en datageletterdheid, voorzieningen AI en data (EduGenAI, CEDA), verantwoord gebruik (referentiekader, algoritmeregister), inzicht en strategie. Andere beloften: leren zonder drempels; doorlopend het beste onderwijs.",
+   "eigenaar": "Npuls",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 5, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-go-raamwerk",
+   "naam": "AI-GO! Raamwerk voor AI-geletterdheid in het onderwijs",
+   "soort": "extern",
+   "spoor": "geletterdheid",
+   "samenvatting": "Evidence-informed raamwerk van Npuls (2025) dat onderwijsprofessionals in mbo, hbo en wo helpt AI-geletterdheid te begrijpen en te bevorderen.",
+   "details": "Basis voor het instellingsbrede basisprofiel AI-geletterdheid en voor curriculumherziening bij NHL Stenden.",
+   "eigenaar": "Npuls",
+   "periode": "2025",
+   "links": [
+    {
+     "label": "AI-GO",
+     "url": "https://npuls.nl/kennisbank/ai-go-een-raamwerk-voor-ai-geletterdheid-in-het-onderwijs"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:77, src/pages/Geletterdheid.jsx:70, src/pages/NVAO.jsx:11, src/pages/NVAO.jsx:15 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "npuls-ai-webinars",
+   "naam": "Npuls AI-webinars (via CTL)",
+   "soort": "extern",
+   "spoor": "geletterdheid",
+   "samenvatting": "Overzicht van Npuls AI-webinars beschikbaar via het CTL-intranet; actuele professionalisering voor docenten en medewerkers.",
+   "eigenaar": "Npuls / CTL",
+   "links": [
+    {
+     "label": "CTL: AI-webinars van Npuls",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-webinars-van-Npuls.aspx"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:280, src/pages/NVAO.jsx:28",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "npuls-visie-toetsing",
+   "naam": "Npuls: Visie op toetsing en examinering in het tijdperk van AI",
+   "soort": "extern",
+   "spoor": "leren",
+   "samenvatting": "Npuls-handreiking over toetsing en examinering met AI, gekoppeld aan NVAO-standaard 3.",
+   "eigenaar": "Npuls",
+   "links": [
+    {
+     "label": "Npuls visie toetsing",
+     "url": "https://npuls.nl/kennisbank/visie-op-toetsing-examinering-en-ai-handreikingen"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:43",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "edugenai",
+   "naam": "SURF EduGenAI",
+   "soort": "extern",
+   "spoor": "leren",
+   "status": "pilot / verkenning",
+   "samenvatting": "Veilig nationaal platform voor generatieve AI in het onderwijs, verwacht breed beschikbaar eind 2026; NHL Stenden kiest het als veilig platform voor generatieve AI, ingericht per opleiding.",
+   "details": "Pilot 2025-2026. Tijdlijn AI-Koers 2026: 'Start EduGenAI pilot'. Wordt in de AMCE AI-proeftuin verkend als onderwijsplatform. EduGenAI-gebruikers nemen deel aan thema AI & Leren.",
+   "eigenaar": "SURF",
+   "periode": "pilot 2025-2026; breed beschikbaar eind 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:105, src/initialData.js:110, src/pages/Governance.jsx:5, public/ai-koers/paginas.json:pagina 4 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "rdi",
+   "naam": "Rijksinspectie Digitale Infrastructuur (RDI)",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "AI-toezichthouder en beheerder (met AP) van de Nederlandse AI Regulatory Sandbox.",
+   "links": [
+    {
+     "label": "RDI",
+     "url": "https://www.rdi.nl"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:268, src/initialData.js:317, src/data.js:134",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "autoriteit-persoonsgegevens",
+   "naam": "Autoriteit Persoonsgegevens (AP)",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Co-beheerder van de Nederlandse Regulatory Sandbox; informatie over DPIA, AVG en AI-toepassingen met persoonsgegevens.",
+   "links": [
+    {
+     "label": "AP",
+     "url": "https://www.autoriteitpersoonsgegevens.nl"
+    },
+    {
+     "label": "AP/RDI toezicht AI",
+     "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:269, src/data.js:134, src/pages/Governance.jsx:79",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-regulatory-sandbox",
+   "naam": "AI Regulatory Sandbox (nationaal, AP en RDI)",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "status": "in ontwikkeling",
+   "samenvatting": "Juridisch begeleidingstraject van RDI en AP voor NHL Stenden als aanbieder van hoog-risico AI-systemen; de nationale sandbox moet uiterlijk 2 augustus 2027 open zijn.",
+   "details": "Relevant zodra NHL Stenden zelf AI bouwt voor selectie, beoordeling of begeleiding van studenten. Toetsing aan EU AI Act, AVG en ethisch waardenkompas; verplicht bij AI-ondersteunde studieloopbaanbegeleiding of toetsing. Het pilotproces van NHL Stenden volgt nu al dezelfde zes fasen. Praktijkgids en infoplaat beschikbaar. (data.js bevat ook een intern item 'Regulatory Sandbox: gecontroleerde experimenteeromgeving, in voorbereiding'.)",
+   "eigenaar": "RDI en AP",
+   "periode": "uiterlijk 2 augustus 2027 open",
+   "links": [
+    {
+     "label": "AP/RDI",
+     "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:124, src/data.js:134, src/data.js:31, src/pages/Governance.jsx:69 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "universiteit-van-het-noorden",
+   "naam": "Universiteit van het Noorden",
+   "soort": "extern",
+   "spoor": "onderzoek",
+   "samenvatting": "Initiatiefnemer van Programma Bach.",
+   "links": [
+    {
+     "label": "UvhN programma's",
+     "url": "https://universiteitvanhetnoorden.nl/programmas/"
+    },
+    {
+     "label": "uvan.nl",
+     "url": "https://www.uvan.nl"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:135, src/initialData.js:271",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "programma-bach",
+   "naam": "Programma Bach",
+   "soort": "extern",
+   "spoor": "onderzoek",
+   "status": "in ontwikkeling",
+   "samenvatting": "Nationaal onderwijsversterkingsprogramma voor digitale autonomie en soevereiniteit, geïnitieerd vanuit de Universiteit van het Noorden; vier programmalijnen, investering 94 miljoen euro in 5 jaar.",
+   "details": "Maakt duidelijk dat de transitie naar soevereine infrastructuur ook het onderzoeksdomein raakt. NHL Stenden sluit aan bij Programma Bach (koerslijn AI & Onderzoek). Programmavoorstel (januari 2026) staat in Documentatie.",
+   "eigenaar": "Universiteit van het Noorden",
+   "periode": "5 jaar",
+   "links": [
+    {
+     "label": "UvhN",
+     "url": "https://universiteitvanhetnoorden.nl/programmas/"
+    },
+    {
+     "label": "Programmavoorstel (PDF)",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Programmavoorstel Bach - digitale autonomie en soevereiniteit.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:135, src/data.js:64, src/data/themas.js:105, src/initialData.js:220 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "frisius-mc",
+   "naam": "Frisius MC",
+   "soort": "extern",
+   "spoor": "werkveld",
+   "samenvatting": "Regionale zorgpartner waarmee NHL Stenden samenwerkt in de Friese AI-propositie, het FrisiusLab en gezamenlijke AI-workshops.",
+   "details": "Deelnemer aan het thema AI & Werkveld.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:54, src/data.js:136, src/initialData.js:86, src/pages/Governance.jsx:9 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "firda",
+   "naam": "Firda",
+   "soort": "extern",
+   "spoor": "werkveld",
+   "samenvatting": "Regionale partner (mbo) in de Friese AI-propositie met Frisius MC en NHL Stenden.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:136, src/initialData.js:222, src/pages/Rapport.jsx:356, src/pages/Rapport.jsx:362",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "rug",
+   "naam": "Rijksuniversiteit Groningen (RUG)",
+   "soort": "extern",
+   "spoor": "werkveld",
+   "samenvatting": "Partner bij de opschaling van Vision Technology en in de Friese AI-propositie.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:137, src/pages/Rapport.jsx:356, src/pages/Rapport.jsx:362",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "innovatie-cluster-drachten",
+   "naam": "Innovatie Cluster Drachten",
+   "soort": "extern",
+   "spoor": "werkveld",
+   "samenvatting": "Regionale partner voor samenwerking op AI in het werkveld.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:54, src/data/themas.js:92, src/pages/WatLeverHetOp.jsx:9, public/ai-koers/paginas.json:pagina 4",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-fryslan-coalitie",
+   "naam": "AI Fryslân-coalitie",
+   "soort": "extern",
+   "spoor": "werkveld",
+   "samenvatting": "Regionaal netwerk waarmee NHL Stenden samenwerkt, als vliegwiel voor innovatie in het noorden.",
+   "details": "Alleen genoemd in de rapport-generatiefunctie.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode netlify/functions/rapport-genereren.js:420, netlify/functions/rapport-genereren.js:442",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "vereniging-hogescholen",
+   "naam": "Vereniging Hogescholen",
+   "soort": "extern",
+   "samenvatting": "Koepelorganisatie hogescholen; onderdeel van het nationale netwerk van het AI-Netwerk.",
+   "links": [
+    {
+     "label": "Vereniging Hogescholen",
+     "url": "https://www.vereniginghogescholen.nl"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:316, src/pages/Over.jsx:13, src/components/Footer.jsx:55, src/pages/Rapport.jsx:361",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "nvao",
+   "naam": "NVAO",
+   "soort": "extern",
+   "spoor": "leren",
+   "samenvatting": "Accreditatieorganisatie die in januari 2026 de Startverkenning Generatieve AI publiceerde en instellingen oproept tot een integrale aanpak langs vier standaarden.",
+   "details": "Drie vervolgstappen: instellingsbrede richtlijnen, integrale benadering over alle standaarden, GenAI expliciet in kwaliteitszorg.",
+   "links": [
+    {
+     "label": "NVAO",
+     "url": "https://www.nvao.net"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:116, src/pages/NVAO.jsx:118, src/pages/NVAO.jsx:121",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "uva-ai-chat",
+   "naam": "UvA eigen AI-chat",
+   "soort": "extern",
+   "spoor": "leren",
+   "samenvatting": "De Universiteit van Amsterdam lanceerde een eigen AI-chatomgeving voor veilig experimenteren; referentie voor NHL Stenden GPT-NL inzet.",
+   "details": "Gedeeld door CTL NHL Stenden (25 juni 2026).",
+   "eigenaar": "Universiteit van Amsterdam",
+   "links": [
+    {
+     "label": "CTL artikel",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/UvA-lanceert-eigen-AI-chat--veilig-exp-.aspx"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:287",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ou-regieorgaan-genai-onderzoek",
+   "naam": "Onderzoek AI-gebruik Open Universiteit / Regieorgaan GenAI",
+   "soort": "extern",
+   "samenvatting": "Onderzoek (2024) waaruit blijkt dat 96% van studenten en docenten generatieve AI actief gebruikt.",
+   "details": "n=164 studenten + 45 docenten, juni-juli 2024.",
+   "mensen": [
+    {
+     "naam": "Maryam Alqassab",
+     "rol": "onderzoeker (Dr.)"
+    }
+   ],
+   "periode": "2024",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "programma-ai",
+   "naam": "Programma AI",
+   "soort": "initiatief",
+   "status": "in ontwikkeling",
+   "samenvatting": "Uitvoeringsvorm van de AI-Koers binnen het Transitieprogramma Digitalisering, met de Stuurgroep als opdrachtgever en de programmaleiding bij de Kwartiermaker Digitale Samenhang.",
+   "details": "De zes koerslijnen vormen de programmalijnen; governance, compliance en de sandboxes vormen de dragende zevende lijn. Het programma voegt opdracht, financiering en verantwoording toe. Een tijdelijke motor met een geplande overdracht naar de nieuwe IV-organisatie. Invulling van het actiethema Verantwoorde AI uit de Digitale Koers 2030.",
+   "eigenaar": "Transitieprogramma Digitalisering",
+   "periode": "2026-2030",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:117, src/pages/Governance.jsx:226, src/pages/Governance.jsx:229, src/pages/Governance.jsx:237 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-desk",
+   "naam": "AI-Desk",
+   "soort": "initiatief",
+   "spoor": "verantwoordelijkheid",
+   "status": "in ontwikkeling",
+   "samenvatting": "Verplicht loket voor medewerkers die een AI-tool willen bouwen of inzetten; toetst of het systeem veilig, AVG-compliant en AI Act-conform is voordat breed gebruik wordt toegestaan.",
+   "details": "Roadmap-item 'AI-desk operationeel' (prioriteit hoog, Q4 2026, verantwoordelijke Prog. Digitale Transitie, gekoppeld aan AI Act art. 26). Informatiemanager en ICT Analist ondersteunen de AI-desk.",
+   "eigenaar": "Prog. Digitale Transitie",
+   "periode": "Q4 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:125, src/data.js:33, src/App.jsx:93, src/pages/Over.jsx:28 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "technische-sandbox",
+   "naam": "Technische sandbox",
+   "soort": "initiatief",
+   "spoor": "verantwoordelijkheid",
+   "status": "gepland (2026)",
+   "samenvatting": "Afgeschermde omgeving voor veilig testen van AI-toepassingen op geanonimiseerde of gesimuleerde data, toegankelijk voor alle spreektafels.",
+   "details": "Pilots die de sandbox doorlopen krijgen een kwaliteitslabel. Inrichting via DLWO in samenwerking met SURF. Tijdlijn: technische sandbox inrichten in 2026.",
+   "eigenaar": "DLWO",
+   "periode": "2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:55, src/pages/Governance.jsx:60, src/pages/Governance.jsx:64, src/pages/Governance.jsx:389 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "sandbox-van-nhl-stenden",
+   "naam": "De Sandbox van NHL Stenden (pilotregistratie)",
+   "soort": "initiatief",
+   "spoor": "verantwoordelijkheid",
+   "status": "lopend (eerste pilot)",
+   "samenvatting": "Een van de eerste ankers van de koers: borging en structuur voor AI-pilots met projectregistratie voor teams en aantoonbare borging voor beleid en toezicht.",
+   "details": "Registratie in acht stappen, risicoklasse via twaalf vragen, stoplicht per pilot (AI-verordening, risico, soevereiniteit, voortgang) en rapportage in één klik voor Stuurgroep, CvB, toezicht en audit. De Sandbox is zelf als eerste pilot geregistreerd; voor gebruik met echte namen volgt een privacytoets en verhuizing naar een beheerde NHL Stenden-omgeving.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:110, src/pages/Governance.jsx:113, src/pages/Governance.jsx:345, src/pages/Governance.jsx:347 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "academie-educatie-mediawijsheid",
+   "naam": "Academie Educatie: Digitalisering & Mediawijsheid",
+   "soort": "initiatief",
+   "spoor": "leren",
+   "status": "actief",
+   "samenvatting": "Integratie van AI in de praktijk van digitalisering en mediawijsheid binnen de lerarenopleiding.",
+   "eigenaar": "Academie Educatie",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:117, src/pages/Netwerk.jsx:39",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "fcp-data-ai",
+   "naam": "FCP: Data & AI",
+   "soort": "initiatief",
+   "spoor": "werken",
+   "status": "actief",
+   "samenvatting": "Financiën, Control & Planning omarmt AI in datagedreven werken en bedrijfsvoeringsprocessen.",
+   "eigenaar": "FCP",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:118, src/pages/Netwerk.jsx:40",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "bdb-ai-verrijking",
+   "naam": "BDB Cursus AI-verrijking",
+   "soort": "initiatief",
+   "spoor": "geletterdheid",
+   "status": "actief",
+   "samenvatting": "De Basiskwalificatie Didactische Bekwaamheid wordt verrijkt met AI-componenten voor docenten.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:119, src/pages/Netwerk.jsx:41, src/pages/Evenementen.jsx:86",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "arda-ai-modules",
+   "naam": "ARDA AI-modules",
+   "soort": "initiatief",
+   "spoor": "geletterdheid",
+   "status": "actief",
+   "samenvatting": "AI-modules ingericht binnen ARDA voor medewerkers en studenten; livegang begin 2026, onderdeel van het AI-geletterdheidsplan conform het AP-stappenplan.",
+   "details": "Docenten worden ondersteund met peer learning, praktijkvoorbeelden en risicobewustzijn via onder andere ARDA; ARDA-ambassadeurs nemen deel aan thema AI & Geletterdheid.",
+   "periode": "livegang begin 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:132, src/data.js:43, src/data/themas.js:73, src/pages/Governance.jsx:8 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "libguides-ai",
+   "naam": "LibGuides AI-ondersteuning",
+   "soort": "initiatief",
+   "spoor": "geletterdheid",
+   "status": "actief",
+   "samenvatting": "De bibliotheek ontwikkelde LibGuides als praktische wegwijzer voor verantwoord AI-gebruik bij onderzoek en onderwijs.",
+   "eigenaar": "Bibliotheek",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:133, src/pages/NVAO.jsx:25",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-in-de-zorg-werkveldproject",
+   "naam": "AI in de Zorg: werkveldproject",
+   "soort": "project",
+   "spoor": "werkveld",
+   "status": "actief",
+   "samenvatting": "Samenwerking met regionale zorgpartners rond AI-toepassingen in de zorgpraktijk; studenten doen praktijkgericht onderzoek naar beelddiagnostiek en procesondersteuning.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:127",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "applied-research-ai",
+   "naam": "Applied Research AI: lectoraten",
+   "soort": "initiatief",
+   "spoor": "onderzoek",
+   "status": "actief",
+   "samenvatting": "Overkoepelend programma waarbij meerdere lectoraten van NHL Stenden AI inzetten als onderzoeksinstrument én als onderzoeksonderwerp.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:128, src/pages/Netwerk.jsx:45, src/components/ImpactDashboard.jsx:222",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-ethiek-onderzoekslijn",
+   "naam": "AI-ethiek onderzoekslijn",
+   "soort": "initiatief",
+   "spoor": "onderzoek",
+   "status": "in ontwikkeling",
+   "samenvatting": "Onderzoek naar de ethische dimensies van AI-inzet in hoger onderwijs en maatschappij; bijdrage aan nationale en Europese discussies over verantwoorde AI.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:129, src/components/ImpactDashboard.jsx:222",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "friese-ai-propositie",
+   "naam": "Friese AI-propositie",
+   "soort": "initiatief",
+   "spoor": "werkveld",
+   "status": "in ontwikkeling",
+   "samenvatting": "Regionale samenwerking tussen Frisius MC, NHL Stenden en Firda voor een Friese AI-propositie met acht propositierichtingen voor zorg, onderwijs, maakindustrie en geletterdheid.",
+   "details": "Werksessie Friese AI-behoeften (19 januari 2026) uitgewerkt in een terugkoppeling. Rapport noemt ook de RUG als partner.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:136, src/initialData.js:86, src/initialData.js:222, src/pages/Rapport.jsx:356 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "frisiuslab",
+   "naam": "FrisiusLab",
+   "soort": "initiatief",
+   "spoor": "werkveld",
+   "samenvatting": "Samenwerking van NHL Stenden en Frisius MC op zorg, onderwijs en onderzoek; maakt concrete leerresultaten in de zorg meetbaar.",
+   "links": [
+    {
+     "label": "FrisiusLab nieuws",
+     "url": "https://www.nhlstenden.com/nieuws-en-artikelen/met-het-frisiuslab-zetten-nhl-stenden-en-frisius-mc-vol-in-op-innovatie"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:97, src/pages/NVAO.jsx:55, src/pages/NVAO.jsx:57, netlify/functions/rapport-genereren.js:442",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "vision-technology-opschaling",
+   "naam": "Vision Technology opschaling",
+   "soort": "initiatief",
+   "spoor": "werkveld",
+   "status": "actief",
+   "samenvatting": "Fryslân heeft meer dan 20 jaar expertise in Vision Technology; NHL Stenden zet in op opschaling naar maritiem, recycling, zorg en landbouw, samen met RUG en bedrijfsleven.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:137, public/ai-koers/paginas.json:pagina 10",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "studie-uitval-ai-dashboard",
+   "naam": "Studie-uitval AI-dashboard",
+   "soort": "initiatief",
+   "spoor": "leren",
+   "status": "verkenning",
+   "samenvatting": "Verkennend initiatief voor een AI-systeem dat op basis van studiegegevens vroegtijdige uitval voorspelt.",
+   "details": "Als NHL Stenden dit zelf bouwt, is een AI Regulatory Sandbox-aanvraag aanbevolen vanwege hoog-risico classificatie.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:138",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "imai",
+   "naam": "I'M A.I.",
+   "soort": "initiatief",
+   "spoor": "onderzoek",
+   "samenvatting": "NHL Stenden-initiatief dat AI-technologie en toepassingen samenbrengt via vier communities: Research, Learning, Business en Experience Center.",
+   "details": "Brengt studenten, docenten en bedrijven samen rondom AI-toepassingen; met het lectoraat maakt het NHL Stenden een erkend regionaal AI-kenniscentrum.",
+   "links": [
+    {
+     "label": "I'M A.I.",
+     "url": "https://www.nhlstenden.com/onderzoek/lectoraten/computer-vision-data-science/IMAI"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:272, src/pages/NVAO.jsx:25, src/pages/NVAO.jsx:29, public/ai-koers/paginas.json:pagina 4 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "minor-ai-in-practice",
+   "naam": "Minor AI in Practice",
+   "soort": "initiatief",
+   "spoor": "leren",
+   "samenvatting": "Minor voor studenten die AI willen onderzoeken en toepassen in echte beroepspraktijk; twee tracks: AI for Everyone en AI for Image Data.",
+   "links": [
+    {
+     "label": "Minor",
+     "url": "https://www.nhlstenden.com/en/minors/ai-in-practice"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:274, src/pages/NVAO.jsx:13",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "minor-decision-making-genai",
+   "naam": "Minor Decision Making & Generative AI",
+   "soort": "initiatief",
+   "spoor": "leren",
+   "samenvatting": "Minor over AI-ondersteunde besluitvorming, kritisch denken en data-analyse, inclusief module over generatieve AI en ethische implicaties.",
+   "links": [
+    {
+     "label": "Minor",
+     "url": "https://www.nhlstenden.com/en/minors/decision-making-and-generative-ai"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:275, src/pages/NVAO.jsx:14",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "pabo-ai-integratie",
+   "naam": "AI-integratie in de PABO-opleiding",
+   "soort": "initiatief",
+   "spoor": "leren",
+   "samenvatting": "Integratie van AI-geletterdheid in het curriculum van de PABO (gedeeld door een anonieme docent).",
+   "periode": "12 juni 2026 (melding)",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:285, src/pages/Inspiratie.jsx:17",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "myacademy-ai-op-je-werkplek",
+   "naam": "Workshops 'AI op je werkplek' (Basis / Prompten en toepassen)",
+   "soort": "initiatief",
+   "spoor": "geletterdheid",
+   "samenvatting": "Twee workshops van 90 minuten via MyAcademy, onderdeel van het thema Digitale tools in het MyAcademy-aanbod voor medewerkers.",
+   "eigenaar": "MyAcademy",
+   "links": [
+    {
+     "label": "MyAcademy",
+     "url": "https://newuniversity.sharepoint.com/sites/MyAcademy"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Geletterdheid.jsx:71",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "algoritmeregister",
+   "naam": "Algoritmeregister",
+   "soort": "initiatief",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Centraal register waarin AI-toepassingen worden bijgehouden (transparantie); succesvolle toepassingen worden erin opgenomen.",
+   "details": "Doel 2029-30: algoritmeregister volledig. NHL Stenden standaardiseert op wat landelijk komt, waaronder het algoritmeregister.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:24, src/pages/Governance.jsx:19, src/pages/Governance.jsx:391, public/ai-koers/paginas.json:pagina 5",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-koers-consultatie",
+   "naam": "AI-Koers consultatie: presentatie met feedback per pagina",
+   "soort": "initiatief",
+   "status": "lopend",
+   "samenvatting": "Bezoekers bladeren door de AI-Koers en geven per pagina een duimpje en feedback; een automatisch rapport vat de reacties samen.",
+   "details": "Rol wordt gevraagd (docent/student/management/overig). Het feedbackrapport wordt met Claude (Opus 5.5) samengesteld; getallen worden in code berekend. Opslag in Netlify Blobs.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/AIKoers.jsx:158, src/pages/AIKoers.jsx:175, src/pages/AIKoersVerslag.jsx:197, src/pages/Start.jsx:275 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-compliance-capaciteit",
+   "naam": "AI compliance-capaciteit (AI officer en data manager)",
+   "soort": "initiatief",
+   "spoor": "verantwoordelijkheid",
+   "status": "gepland",
+   "samenvatting": "De uitvoering vraagt een bewuste investering in AI compliance-capaciteit, waaronder een AI officer en een data manager.",
+   "details": "Tijdlijn governance 2026: eerste compliance-capaciteit.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 13, src/pages/Governance.jsx:7, src/pages/Governance.jsx:389",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-basistraining-medewerkers",
+   "naam": "AI & Geletterdheid basistraining voor alle medewerkers",
+   "soort": "project",
+   "spoor": "geletterdheid",
+   "status": "lopend",
+   "samenvatting": "Verplichte introductiecursus AI voor alle NHL Stenden medewerkers en docenten: wat is AI, hoe werkt het, wat mag wel en niet?",
+   "details": "Roadmap-item, prioriteit hoog, gekoppeld aan AI Act art. 4.",
+   "eigenaar": "HR & OO&I",
+   "periode": "Q3 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/App.jsx:72, src/pages/Geletterdheid.jsx:68",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "inventarisatie-hoog-risico-ai",
+   "naam": "Inventarisatie hoog-risico AI-systemen",
+   "soort": "project",
+   "spoor": "verantwoordelijkheid",
+   "status": "gepland",
+   "samenvatting": "Nagaan welke gebruikte AI-systemen onder de categorie hoog-risico van de AI Act vallen; ProctorExam en mogelijke profileringssystemen als eerste.",
+   "details": "Gekoppeld aan AI Act art. 9 & 10.",
+   "eigenaar": "AI Compliance Groep",
+   "periode": "Q4 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/App.jsx:79",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "beleidskader-genai-studenten",
+   "naam": "Beleidskader generatieve AI voor studenten",
+   "soort": "beleid",
+   "spoor": "leren",
+   "status": "gepland",
+   "samenvatting": "Helder beleid over wat studenten wel en niet mogen met AI bij opdrachten en toetsing, inclusief transparantieverplichting conform AI Act art. 50.",
+   "details": "Roadmap-item, prioriteit hoog.",
+   "eigenaar": "OO&I",
+   "periode": "Q3 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/App.jsx:86",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "toetsen-toezicht-proctorexam",
+   "naam": "Toetsen menselijk toezicht ProctorExam",
+   "soort": "project",
+   "spoor": "verantwoordelijkheid",
+   "status": "gepland",
+   "samenvatting": "Nagaan of de inzet van ProctorExam voldoet aan de AI Act-eisen voor menselijk toezicht, transparantie naar studenten en dataminimalisatie.",
+   "details": "Toegevoegd door AI Compliance Groep; gekoppeld aan AI Act art. 13 & 14.",
+   "eigenaar": "DLWO & Academies",
+   "periode": "Q1 2027",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/App.jsx:100",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "pilot-ai-feedback-schrijfonderwijs",
+   "naam": "AI-Feedback in Schrijfonderwijs",
+   "soort": "pilot",
+   "spoor": "leren",
+   "status": "Lopend",
+   "samenvatting": "Studenten krijgen automatische feedback op schrijfopdrachten met behulp van AI, waardoor de docent meer tijd heeft voor persoonlijke begeleiding.",
+   "details": "Platform ChatGPT / OpenAI. Update 15 juni 2026: eerste tests met drie docenten afgerond; studenten positief over snelheid, feedback soms te generiek.",
+   "eigenaar": "Academie Educatie",
+   "periode": "start 2026-09",
+   "links": [
+    {
+     "label": "SURF: AVG en AI-tools in het onderwijs",
+     "url": "https://www.surf.nl/online-onderwijs"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:37, src/pages/Pilots.jsx:22",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "pilot-ai-feedback-scripties",
+   "naam": "AI-Feedback ChatGPT op scripties",
+   "soort": "pilot",
+   "spoor": "leren",
+   "status": "Verkenning",
+   "samenvatting": "Docenten experimenteren met ChatGPT om studenten sneller feedback te geven op scripties.",
+   "details": "Geen sandboxaanvraag nodig: NHL Stenden is gebruiker, niet aanbieder. Wel verplicht: verwerkersovereenkomst en DPIA. Platform ChatGPT (zakelijke versie); meerdere academies.",
+   "eigenaar": "Meerdere academies (contact: AI Compliance Team)",
+   "periode": "start 2026-09",
+   "links": [
+    {
+     "label": "SURF Model Verwerkersovereenkomst 4.0",
+     "url": "https://pec.surf.nl/vernieuwde-surf-modelverwerkersovereenkomst-beschikbaar/"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:60",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "pilot-frisius-ai-workshops",
+   "naam": "Frisius MC AI-workshops",
+   "soort": "pilot",
+   "spoor": "werkveld",
+   "status": "in ontwikkeling",
+   "samenvatting": "Gezamenlijke AI-workshops tussen Frisius MC en NHL Stenden als onderdeel van de Friese AI-propositie, met focus op AI in de zorg.",
+   "details": "Thema's: ambient listening, virtual nursing en ketenoverstijgende datakoppeling.",
+   "eigenaar": "Academie Verpleegkunde en Gezondheid",
+   "periode": "start 2026-10",
+   "links": [
+    {
+     "label": "FrisiusLab",
+     "url": "https://www.nhlstenden.com/nieuws-en-artikelen/met-het-frisiuslab-zetten-nhl-stenden-en-frisius-mc-vol-in-op-innovatie"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:81",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "amce-ai-proeftuin",
+   "naam": "AMCE AI-Proeftuin (overkoepelende pilot)",
+   "soort": "pilot",
+   "spoor": "leren",
+   "status": "in ontwikkeling",
+   "samenvatting": "AMCE wil als proeftuin voor NHL Stenden ervaring opdoen met verantwoorde AI-oplossingen in een veilige, gedeelde experimenteeromgeving met vier werkpakketten.",
+   "details": "Platforms: AI Sandbox, EduGenAI, Mistral AI, Claude. Werkpakketten: data- en workflow-AI (Gemini CLI + MCP), RAG-agents, visuele prototyping, evaluatie agentic workflows (Claude naast Copilot). Loopt van september 2026 tot 1 januari 2027 en levert advies over opschaling, governance en kostenmodel voor de hele hogeschool. Bron: Voorstel AI-pilot AMCE v0.1.",
+   "mensen": [
+    {
+     "naam": "Patrick Bemelmans",
+     "rol": "contact/verantwoordelijke"
+    },
+    {
+     "naam": "Alette Hospers",
+     "rol": "contact/verantwoordelijke"
+    },
+    {
+     "naam": "Frits van Essen",
+     "rol": "contact/verantwoordelijke"
+    }
+   ],
+   "eigenaar": "AMCE",
+   "periode": "september 2026 tot 1 januari 2027",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:102, src/App.jsx:107, src/initialData.js:284, src/pages/Rapport.jsx:715",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "amce-wp1",
+   "naam": "WP1: Data- en workflow-AI met Gemini CLI & MCP",
+   "soort": "pilot",
+   "spoor": "werken",
+   "status": "in ontwikkeling",
+   "samenvatting": "Studenten en docenten verkennen hoe AI databronnen (GA4, SEO-data, CRM, API's) op een gecontroleerde manier verbindt via Gemini CLI en MCP-servers, met nadruk op professioneel oordeelsvermogen.",
+   "details": "Platform: Gemini CLI, MCP-servers, GA4, SEO-tools. Roadmap-status: te-starten.",
+   "mensen": [
+    {
+     "naam": "Patrick Bemelmans",
+     "rol": "contact/verantwoordelijke"
+    }
+   ],
+   "eigenaar": "AMCE",
+   "periode": "start 2026-09; roadmap Q3 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:123, src/App.jsx:114",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "amce-wp2",
+   "naam": "WP2: RAG-agents voor onderwijs en kennisdeling",
+   "soort": "pilot",
+   "spoor": "leren",
+   "status": "in ontwikkeling",
+   "samenvatting": "RAG-gestuurde AI-agents gevoed met gevalideerde academiedocumenten (OER, rubrics, beroepsprofielen); de agent ondersteunt maar neemt geen formele beslissingen over.",
+   "details": "Platform: RAG, LLM naar keuze, gevalideerde academiedocumenten. Roadmap-status: te-starten.",
+   "mensen": [
+    {
+     "naam": "Alette Hospers",
+     "rol": "contact/verantwoordelijke"
+    }
+   ],
+   "eigenaar": "AMCE",
+   "periode": "start 2026-09; roadmap Q3 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:144, src/App.jsx:121",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "amce-wp3",
+   "naam": "WP3: Visuele AI-prototyping voor Ad-ontwikkeling",
+   "soort": "pilot",
+   "spoor": "leren",
+   "status": "in ontwikkeling",
+   "samenvatting": "Met beeldgeneratie-AI verkennen studenten en docenten snel campagneconcepten, interfaces en merkbeelden binnen Associate degree-ontwikkeling, inclusief kritische beoordeling op inclusie, stereotypering en auteursrecht.",
+   "details": "Platform: Beeldgeneratie AI. Roadmap-status: te-starten.",
+   "mensen": [
+    {
+     "naam": "Frits van Essen",
+     "rol": "contact/verantwoordelijke"
+    }
+   ],
+   "eigenaar": "AMCE",
+   "periode": "start 2026-09; roadmap Q3 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:165, src/App.jsx:128",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "amce-wp4",
+   "naam": "WP4: Evaluatie agentic workflows: Claude vs Copilot",
+   "soort": "pilot",
+   "spoor": "werken",
+   "status": "in ontwikkeling",
+   "samenvatting": "Vergelijkend onderzoek welke taken passen bij Microsoft Copilot en welke bij een Claude-omgeving voor agentic workflows; Claude als vergelijkings- en evaluatieomgeving, niet als vervanging.",
+   "details": "Platform: Claude (Anthropic), Microsoft Copilot. Roadmap-status: te-starten.",
+   "mensen": [
+    {
+     "naam": "Patrick Bemelmans",
+     "rol": "contact/verantwoordelijke"
+    }
+   ],
+   "eigenaar": "AMCE",
+   "periode": "start 2026-09; roadmap Q4 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:186, src/App.jsx:135",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-koers",
+   "naam": "NHL Stenden AI-Koers 2026 tot 2030 (v0.4d)",
+   "soort": "beleid",
+   "status": "consultatieversie",
+   "samenvatting": "De consultatieversie van de AI-Koers: manifest, omgevingsanalyse, vertrekpunt, zes koerslijnen met keuzes en indicatoren, experimenteerruimte, governance en tijdlijn.",
+   "details": "Directe uitvoeringslijn van de vastgestelde Digitale Koers 2030, belegd binnen het Transitieprogramma Digitalisering; opgesteld door de Kwartiermaker Digitale Samenhang. Reacties worden verwerkt richting versie 1.0, ter vaststelling door de Stuurgroep Transitieprogramma en daarna het CvB. Volgende herijking januari 2027. Uitvoering in het Programmaplan AI.",
+   "eigenaar": "Kwartiermaker Digitale Samenhang",
+   "periode": "2026-2030; versie september 2026",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers.pdf"
+    },
+    {
+     "label": "HTML concept-restyle",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers-v0_4-concept-restyle.html"
+    },
+    {
+     "label": "HTML v0.4d",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers-v0_4d.html"
+    },
+    {
+     "label": "Presentatie",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers-presentatie.pptx"
+    },
+    {
+     "label": "Poster A2",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers-Poster-A2-preview.png"
+    },
+    {
+     "label": "Paginadata",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/paginas.json"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:208, src/pages/Fundament.jsx:312, src/pages/Fundament.jsx:338, src/pages/Governance.jsx:139 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "digitale-koers-2030",
+   "naam": "Digitale Koers 2030 NHL Stenden",
+   "soort": "beleid",
+   "status": "vastgesteld (concept v8 genoemd)",
+   "samenvatting": "Vastgestelde koers met vier digitale ambities die AI positioneert als samenhangende veranderlijn en het sturingsmodel en waardenkader bevat waarop de AI-Koers voortbouwt.",
+   "details": "Benoemt het actiethema Verantwoorde AI: een AI-programma dat voorziet in beleid, governance en tools. Bronvermelding: concept v8, 18 juni 2026.",
+   "periode": "t/m 2030",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 3, public/ai-koers/paginas.json:pagina 13, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "strategisch-instellingsplan",
+   "naam": "Strategisch Instellingsplan NHL Stenden 2025-2030",
+   "soort": "beleid",
+   "samenvatting": "De strategische koers van NHL Stenden; bovenliggend aan de Digitale Koers 2030 en de AI-Koers.",
+   "periode": "2025-2030",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 3, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "programmaplan-ai",
+   "naam": "Programmaplan AI",
+   "soort": "beleid",
+   "status": "aanzet, werkdocument",
+   "samenvatting": "Apart document waarin de uitvoering van de AI-Koers wordt uitgewerkt: inrichting, capaciteit en middelen per koerslijn, werkwijze, overlegritme en eigenaarschap per thema.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 1, public/ai-koers/paginas.json:pagina 3, public/ai-koers/paginas.json:pagina 12, public/ai-koers/paginas.json:pagina 13 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-beleid-v2",
+   "naam": "AI Compliance Beleid NHL Stenden v2.0",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "status": "vastgesteld",
+   "samenvatting": "Officieel NHL Stenden AI-beleid, gepubliceerd in NL en EN, vastgesteld door het College van Bestuur op 16 december 2025.",
+   "details": "Bevat doelstellingen, algemene kaders, risicoclassificatie conform AI Act, governance-rollen en acht richtlijnen voor eigen gebruik. Inclusief intakeproces met nummeringsystematiek en risicomatrix gekoppeld aan het software-aanvraagproces. Engelstalige versie: AI compliance policy v2.0.",
+   "eigenaar": "College van Bestuur / AI Compliance Team",
+   "periode": "vastgesteld 16 december 2025",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:130, src/pages/Beleid.jsx:76, src/pages/Beleid.jsx:77, src/pages/Beleid.jsx:209 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-risicoscan",
+   "naam": "AI-risicoscan",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Het aanschaffen of gebruiken van AI-toepassingen wordt altijd vooraf gevalideerd via een interne AI- en privacyscan; contact via het AI compliance team.",
+   "details": "De directeur is verantwoordelijk voor het uitvoeren van een AI-risicoscan.",
+   "eigenaar": "AI Compliance Team",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:22, src/pages/Beleid.jsx:46, src/pages/Beleid.jsx:58, src/pages/Rapport.jsx:353",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "privacy-quickscan",
+   "naam": "Privacy QuickScan",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Voorafgaande validatie bij AI voor diagnostische doeleinden, studentenbeoordelingen of bijzondere persoonsgegevens.",
+   "eigenaar": "Team Privacy & Security",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:47, src/pages/Beleid.jsx:230",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ethisch-waardenkompas",
+   "naam": "Ethisch waardenkompas",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "status": "in ontwikkeling",
+   "samenvatting": "NHL Stenden ethisch waardenkompas voor AI-gebruik, gereed voor bestuurlijke agendering; na vaststelling vertaling naar handelingsperspectief.",
+   "details": "Samen met een Acceptable AI Use Policy wordt vastgelegd wat wel en niet gedaan wordt, inclusief verbod op ongecontroleerde besluitvorming over studenten.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:131, src/pages/Governance.jsx:75, src/data/themas.js:55, public/ai-koers/paginas.json:pagina 8",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "acceptable-ai-use-policy",
+   "naam": "Acceptable AI Use Policy",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "status": "gepland",
+   "samenvatting": "Policy waarin wordt vastgelegd wat NHL Stenden wel en niet doet met AI; leidend voor bijvoorbeeld wat een AI-chatbot wel en niet mag zeggen.",
+   "details": "Te onderscheiden van de bestaande ICT Acceptable Use Policy (AUP).",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 8, src/pages/Governance.jsx:37",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-governancestructuur",
+   "naam": "AI-governance-ontwerp (hybride sturingsmodel)",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "status": "in ontwikkeling",
+   "samenvatting": "Governance-ontwerp bij de AI-Koers: centrale richting vanuit de Stuurgroep, decentraal eigenaarschap bij academies en diensten, met het AI-Netwerk als coördinerende kern.",
+   "details": "Proces van idee tot uitrol in zes stappen (initiatief, intake, risicoclassificatie, pilot via sandbox, evaluatie, uitrol). Zes waarborgen: privacy by design, menselijk toezicht, transparantie, documentatie, stoprecht, digitale autonomie. Fasering 2026 Funderen, 2027-28 Uitbouwen, 2029-30 Verankeren. Nog niet vastgesteld.",
+   "periode": "2026-2030",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:131, src/pages/Governance.jsx:138, src/pages/Governance.jsx:146, src/pages/Governance.jsx:14 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "vijflagenmodel",
+   "naam": "Vijflagenmodel",
+   "soort": "beleid",
+   "samenvatting": "Ordeningsprincipe achter het AI-Netwerk: vijf lagen van energie tot gebruik, elk met een eigen primaire eigenaar.",
+   "details": "Laag 1 Energie & Fysieke Infrastructuur (FM), 2 Chips & Hardware (DLWO), 3 Onderwijs, Onderzoek & Data (OO&I), 4 Platforms & Applicaties (Prog. Digitale Transitie, meest urgent), 5 Gebruik & Toepassingen (alle academies & diensten). 'Eerst organiseren, dan automatiseren.'",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:70, src/pages/Fundament.jsx:29, src/pages/Fundament.jsx:236, src/components/Lagen.jsx:22 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-kompas",
+   "naam": "AI Kompas NHL Stenden",
+   "soort": "beleid",
+   "status": "definitief",
+   "samenvatting": "Strategisch overzicht van de AI-architectuur en het vijflagenmodel.",
+   "periode": "juni 2026",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/NHL_Stenden_AI_Compass Definitief.pdf"
+    },
+    {
+     "label": "PPTX (niet gelinkt in code)",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/NHL_Stenden_AI_Compass Definitief.pptx"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:209",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-whitepaper-v9",
+   "naam": "AI Whitepaper NHL Stenden v9",
+   "soort": "beleid",
+   "samenvatting": "Whitepaper over de strategische AI-koers van NHL Stenden; uitgewerkte visie op verantwoorde AI-inzet.",
+   "periode": "april 2026",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/whitepaper_AI_koers_NHL_Stenden_v09.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:210",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "analyse-ai-gebruik",
+   "naam": "Analyse AI-gebruik NHL Stenden",
+   "soort": "beleid",
+   "samenvatting": "Analyse van huidig AI-gebruik binnen NHL Stenden: welke tools worden ingezet en door wie.",
+   "periode": "april 2026",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Analyse_AI_Gebruik_NHL_Stenden.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:211",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-en-werk",
+   "naam": "AI en Werk (document)",
+   "soort": "beleid",
+   "spoor": "werken",
+   "samenvatting": "Document over de impact van AI op werk en werkprocessen binnen NHL Stenden.",
+   "periode": "april 2026",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/ai-en-werk.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:212",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "trai-document",
+   "naam": "TRAI Document",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Intern document over Transparantie, Risico, AI en Integriteit bij NHL Stenden.",
+   "periode": "april 2026",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/TRAI-document.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:215",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "digital-sovereignty-radar",
+   "naam": "Digital Sovereignty Radar",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Overzicht van digitale soevereiniteitsthema's en positionering van NHL Stenden daarin.",
+   "periode": "maart 2026",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Digital_Sovereignty_Radar.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:216",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "sandbox-praktijkgids",
+   "naam": "AI Regulatory Sandbox Praktijkgids en Infoplaat",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Praktijkgids voor NHL Stenden over wanneer wel en niet een regulatory sandbox aanvragen, inclusief beslisboom en stappenplan; plus een visuele infoplaat.",
+   "periode": "2026 / maart 2026",
+   "links": [
+    {
+     "label": "Praktijkgids PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/regulatory_sandbox_ai_NHL_Stenden.pdf"
+    },
+    {
+     "label": "Infoplaat",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/InfoPlaat-sandbox.png"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:217, src/initialData.js:221",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-compliance-voortgangsrapportage",
+   "naam": "AI Compliance Voortgangsrapportage",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Rapportage van het AI Compliance Team aan het CvB; kernboodschap: AI leeft sterk maar centrale regie ontbreekt.",
+   "periode": "februari 2026",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Voortgangsrapportage_AI_Compliance_v1.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:219",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "nvao-startverkenning-genai",
+   "naam": "NVAO Startverkenning Generatieve Artificiële Intelligentie",
+   "soort": "beleid",
+   "spoor": "leren",
+   "samenvatting": "Thematische analyse kwaliteitszorg (januari 2026) van 509 opleidingsbeoordelingen; aandacht voor GenAI sterk gericht op toetsing (72%), integrale aanpak ontbreekt.",
+   "details": "NHL Stenden gebruikt de startverkenning mede als basis voor de doorontwikkeling van het evaluatiebeleid.",
+   "eigenaar": "NVAO",
+   "periode": "januari 2026",
+   "links": [
+    {
+     "label": "Lokale PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Startverkenning_Generatieve_Artificiele_Intelligentie.pdf"
+    },
+    {
+     "label": "NVAO PDF",
+     "url": "https://www.nvao.net/files/attachments/.14069/Initial_Exploration_of_Generative_Artificial_Intelligence.pdf"
+    },
+    {
+     "label": "NVAO nieuws",
+     "url": "https://www.nvao.net/en/news/2026/2/nvao-netherlands-publishes-initial-exploration-of-generative-ai"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:218, src/pages/NVAO.jsx:118, src/pages/NVAO.jsx:217, src/pages/NVAO.jsx:55",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ctl-richtlijnen-ai-toetsing",
+   "naam": "CTL-richtlijnen AI & Toetsing (geen AI-detector)",
+   "soort": "beleid",
+   "spoor": "leren",
+   "samenvatting": "NHL Stenden-richtlijnen voor AI en toetsing met adviezen voor examencommissies en een stappenplan bij fraude; NHL Stenden kiest bewust geen AI-detector aan te schaffen.",
+   "details": "Detectoren zijn niet betrouwbaar; het beleid focust op sterk toetsontwerp en heldere toetsinstructie.",
+   "eigenaar": "CTL",
+   "periode": "25 juni 2026 (artikel)",
+   "links": [
+    {
+     "label": "CTL: AI & Toetsing",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI---toetsing,-richtlijnen-en-beoordeling.aspx"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:276, src/initialData.js:286, src/pages/NVAO.jsx:40, src/pages/NVAO.jsx:42 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-in-dbe-addendum",
+   "naam": "AI in DBE, addendum bij het OO&I-beleid 2025-2030",
+   "soort": "beleid",
+   "spoor": "leren",
+   "samenvatting": "Onderwijsbeleid voor AI van de dienst OO&I; de inhoudelijke invulling van koerslijn AI & Leren.",
+   "details": "Gerelateerd: NHL Stenden visie op Design Based Education (DBE), waarin studenten worden beoordeeld op proces en prestatie.",
+   "eigenaar": "OO&I",
+   "periode": "juli 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 6, public/ai-koers/paginas.json:pagina 16, src/pages/NVAO.jsx:40, src/pages/NVAO.jsx:55",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-competentieframework",
+   "naam": "NHL Stenden AI-competentieframework",
+   "soort": "beleid",
+   "spoor": "geletterdheid",
+   "samenvatting": "Overzicht van de AI-competenties die verwacht worden van studenten bij afstuderen, per opleidingsniveau.",
+   "eigenaar": "OO&I",
+   "periode": "15 mei 2026 (toegevoegd)",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Geletterdheid.jsx:69",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "basisprofiel-ai-geletterdheid",
+   "naam": "Instellingsbreed basisprofiel AI-geletterdheid",
+   "soort": "beleid",
+   "spoor": "geletterdheid",
+   "status": "gepland (2026)",
+   "samenvatting": "Vast te stellen basisprofiel op basis van AI-GO, met leerroutes per rol via CTL en MyAcademy.",
+   "details": "Indicator 2030: 80% van de medewerkers heeft het basisniveau bereikt.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 9, public/ai-koers/paginas.json:pagina 15, src/pages/WatLeverHetOp.jsx:76",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "afwegingskader-inkoop",
+   "naam": "Afwegingskader AI-inkoop",
+   "soort": "beleid",
+   "spoor": "werken",
+   "status": "gepland (2026)",
+   "samenvatting": "Expliciet afwegingskader voor inkoop waarin digitale soevereiniteit en AI Act-compliance altijd meewegen.",
+   "details": "Elk AI-systeem doorloopt de soevereiniteitstoets via de Sandbox en het inkoopafwegingskader.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 7, public/ai-koers/paginas.json:pagina 15, src/pages/Governance.jsx:217",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "bespreeknotitie-ai-governance",
+   "naam": "Bespreeknotitie AI-Governance strategie NHL Stenden",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Interne notitie van FG/CISO over AI-governance.",
+   "mensen": [
+    {
+     "naam": "Floor May",
+     "rol": "auteur (FG/CISO)"
+    },
+    {
+     "naam": "Elske Posthuma",
+     "rol": "auteur (FG/CISO)"
+    }
+   ],
+   "eigenaar": "FG/CISO",
+   "periode": "22 juni 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "human-value-ai",
+   "naam": "Human Value AI: de professional als regisseur",
+   "soort": "beleid",
+   "spoor": "geletterdheid",
+   "samenvatting": "Visie van AMCE: de meerwaarde van studenten ligt in het sturen, beoordelen, contextualiseren en verantwoord toepassen van AI.",
+   "details": "De AMCE AI-proeftuin vertaalt deze visie naar onderwijspraktijk via vier werkpakketten.",
+   "eigenaar": "AMCE",
+   "periode": "juni 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:284",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "artikel-stability-learning-tasks",
+   "naam": "AI & the stability of learning tasks (CTL-artikel)",
+   "soort": "beleid",
+   "spoor": "leren",
+   "samenvatting": "CTL-artikel over de impact van AI op de stabiliteit van leeractiviteiten; vraagt docenten kritisch te kijken welke toetsvormen nog valide zijn.",
+   "mensen": [
+    {
+     "naam": "Patrick van Aalst",
+     "rol": "Docent (gedeeld door)"
+    }
+   ],
+   "eigenaar": "CTL",
+   "periode": "25 juni 2026",
+   "links": [
+    {
+     "label": "CTL artikel",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-&-the-stability-of-learning-tasks.aspx"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:288",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "nba-handreiking-ai-geletterdheid",
+   "naam": "NBA handreiking AI-geletterdheid",
+   "soort": "beleid",
+   "spoor": "geletterdheid",
+   "samenvatting": "Handreiking die samen met het AI-GO! raamwerk de inhoudelijke basis vormt voor curriculumherziening.",
+   "details": "Afkorting NBA niet uitgelegd; elders 'overzicht NBA programma' gekoppeld aan /geletterdheid.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:11, src/pages/NVAO.jsx:31",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "eu-ai-act",
+   "naam": "EU AI Act (Verordening 2024/1689)",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Eerste uitgebreide wet die AI-systemen reguleert; vertrekpunt van de roadmap van het AI-Netwerk met zeven geregistreerde verplichtingen.",
+   "details": "Fasering: feb 2025 verbod onacceptabele AI (art. 5); aug 2025 AI-geletterdheid (art. 4); aug 2026 hoog-risico verplichtingen (art. 9-26); aug 2027 overige bepalingen. Verplichtingen in het AI-Netwerk: art. 4, 5, 9&10, 13&14, 26, 50, 70.",
+   "links": [
+    {
+     "label": "EUR-Lex",
+     "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32024R1689"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data.js:146, src/data.js:147, src/data.js:153, src/pages/Initiatieven.jsx:577 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "wef-future-of-jobs-2025",
+   "naam": "WEF Future of Jobs Report 2025",
+   "soort": "beleid",
+   "spoor": "werkveld",
+   "samenvatting": "World Economic Forum-rapport over de toekomst van werk in het AI-tijdperk; AI-vaardigheden tot 2030 de snelst groeiende vraag.",
+   "eigenaar": "World Economic Forum",
+   "periode": "januari 2025",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/WEF_Future_of_Jobs_Report_2025.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:213, public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "kennisnet-digitale-geletterdheid",
+   "naam": "Kennisnet: Aan de slag met digitale geletterdheid",
+   "soort": "beleid",
+   "spoor": "geletterdheid",
+   "samenvatting": "Praktische gids van Kennisnet voor het werken aan digitale geletterdheid in het onderwijs.",
+   "eigenaar": "Kennisnet",
+   "periode": "maart 2025",
+   "links": [
+    {
+     "label": "PDF",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Kennisnet-ICILS-Aan-de-slag-met-digitale-geletterdheid.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:214",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "gartner-hype-cycle-2025",
+   "naam": "Gartner Hype Cycle for AI 2025",
+   "soort": "beleid",
+   "samenvatting": "Gartner Hype Cycle voor AI 2025: Sovereign AI en AI Agents bovenaan de piek van verwachtingen.",
+   "eigenaar": "Gartner",
+   "periode": "juni 2025",
+   "links": [
+    {
+     "label": "Afbeelding",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Hype_Cycle_for_Artificial_Intelligence_2025.jpeg"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:223",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "rathenau-ai-act-onderwijs",
+   "naam": "Rathenau Instituut: AI Act voor onderwijsinstellingen",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Rapport van het Rathenau Instituut over de implicaties van de AI Act voor het hoger onderwijs.",
+   "eigenaar": "Rathenau Instituut",
+   "links": [
+    {
+     "label": "Rathenau",
+     "url": "https://rathenau.nl"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Geletterdheid.jsx:67, src/pages/Inspiratie.jsx:18",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "unesco-ai-frameworks",
+   "naam": "UNESCO AI Competency Frameworks en Guidance for GenAI",
+   "soort": "beleid",
+   "spoor": "geletterdheid",
+   "samenvatting": "UNESCO-competentieframeworks (2024) zetten mensgerichte AI als wereldwijde norm; plus Guidance for Generative AI in Education and Research (2023).",
+   "eigenaar": "UNESCO",
+   "periode": "2023-2024",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "era-living-guidelines",
+   "naam": "ERA Living Guidelines on Responsible Use of GenAI in Research",
+   "soort": "beleid",
+   "spoor": "onderzoek",
+   "samenvatting": "Richtlijnen (European Research Area Forum, 2024) waaraan AI-ondersteund onderzoek bij NHL Stenden transparant moet voldoen.",
+   "eigenaar": "European Research Area Forum",
+   "periode": "2024",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 11, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "surf-model-verwerkersovereenkomst",
+   "naam": "SURF Model Verwerkersovereenkomst 4.0",
+   "soort": "beleid",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Model-verwerkersovereenkomst van SURF (november 2024), bron bij de pilot AI-feedback ChatGPT op scripties.",
+   "eigenaar": "SURF",
+   "periode": "november 2024",
+   "links": [
+    {
+     "label": "SURF",
+     "url": "https://pec.surf.nl/vernieuwde-surf-modelverwerkersovereenkomst-beschikbaar/"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:75, src/initialData.js:76",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "agentic-ai-framework",
+   "naam": "Agentic AI Framework (Luis Rodrigues)",
+   "soort": "beleid",
+   "spoor": "geletterdheid",
+   "samenvatting": "Vierlagen-model (ML, Deep Learning, Generatieve AI, AI Agents & Agentic AI) waarop de kennispagina Agentic AI is gebaseerd.",
+   "details": "Eigen visualisatie en onderwijsvoorbeelden toegevoegd door het AI-Netwerk.",
+   "mensen": [
+    {
+     "naam": "Luis Rodrigues",
+     "rol": "Portugese AI-specialist en educator, bedenker framework"
+    }
+   ],
+   "links": [
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/luisrodriguesengineer/"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/AgenticAI.jsx:174, src/pages/AgenticAI.jsx:350",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "pwc-ai-jobs-barometer",
+   "naam": "PwC Global AI Jobs Barometer 2025",
+   "soort": "beleid",
+   "spoor": "werkveld",
+   "samenvatting": "Rapport: 56% hogere beloning voor medewerkers met aantoonbare AI-vaardigheden.",
+   "eigenaar": "PwC",
+   "periode": "2025",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-netwerk-kick-off",
+   "naam": "AI-Netwerk Kick-off Bijeenkomst",
+   "soort": "evenement",
+   "samenvatting": "Officiële lancering van het AI-Netwerk; kennismaking met het kernteam en netwerken.",
+   "details": "Locatie: NHL Stenden Leeuwarden, Rengerslaan 8, 13:00-16:00.",
+   "eigenaar": "Kernteam AI-Netwerk",
+   "periode": "10 september 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:229",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "surf-summit-2026",
+   "naam": "SURF Summit 2026: Richting geven aan groei",
+   "soort": "evenement",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Jaarlijkse bijeenkomst voor bestuurders en directeuren van SURF-leden waar de actieagenda van de Denktank Digitale Transitie 2026 wordt gepresenteerd.",
+   "details": "Leerhotel Het Klooster, Amersfoort, 16:00-20:00.",
+   "eigenaar": "SURF",
+   "periode": "7 oktober 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:241, src/pages/Beheer.jsx:1577",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "surf-denktank-ai-onderwijs-2026",
+   "naam": "SURF Denktank: AI in Onderwijs",
+   "soort": "evenement",
+   "spoor": "leren",
+   "samenvatting": "Strategische sessie over AI in het Nederlandse hoger onderwijs.",
+   "details": "SURF Utrecht, 10:00-15:00.",
+   "eigenaar": "SURF",
+   "periode": "24 september 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:253",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "stuurgroep-sessie-10-sept-2026",
+   "naam": "Stuurgroep bijgepraat over AI-Koers en Programma AI",
+   "soort": "evenement",
+   "status": "afgerond",
+   "samenvatting": "De Stuurgroep Transitieprogramma is op 10 september 2026 bijgepraat over de lijn, de route en het opzetten van het Programma AI.",
+   "details": "Eerste stap in de route naar vaststelling van de AI-Koers.",
+   "periode": "10 september 2026",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:117, src/pages/Governance.jsx:139",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "werksessie-friese-ai-behoeften",
+   "naam": "Werksessie Friese AI-behoeften",
+   "soort": "evenement",
+   "spoor": "werkveld",
+   "samenvatting": "Werksessie voor de Friese AI-propositie met Frisius MC, NHL Stenden en Firda; uitgewerkt in een terugkoppelingsdocument.",
+   "periode": "19 januari (2026, documentdatum januari 2026)",
+   "links": [
+    {
+     "label": "Terugkoppeling (PDF)",
+     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Terugkoppeling werksessie 19 januari.pdf"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:222",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "ai-fryslan-event-2026",
+   "naam": "AI Fryslân Event 2026",
+   "soort": "evenement",
+   "spoor": "werkveld",
+   "samenvatting": "Regionaal evenement rond AI-samenwerking en leerresultaten.",
+   "periode": "2026",
+   "links": [
+    {
+     "label": "Evenement",
+     "url": "https://www.nhlstenden.com/evenementen/ai-fryslan-event-2026"
+    }
+   ],
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:58",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "chatgpt",
+   "naam": "ChatGPT / OpenAI",
+   "soort": "tool",
+   "samenvatting": "Generatieve AI-tool gebruikt in pilots (AI-feedback schrijfonderwijs; ChatGPT zakelijke versie op scripties).",
+   "details": "Bij gebruik gelden altijd een verwerkersovereenkomst, privacytoets en transparantie. Niet gebruiken voor persoonsgegevens; bij voorkeur SURF-alternatieven.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:40, src/initialData.js:63, src/data/themas.js:53, src/pages/Beleid.jsx:191 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "microsoft-copilot",
+   "naam": "Microsoft Copilot",
+   "soort": "tool",
+   "samenvatting": "AI-tool sterk verbonden met Microsoft 365 en dagelijkse productiviteit; vergeleken met Claude in WP4.",
+   "details": "Ook voor Copilot gelden verwerkersovereenkomst, privacytoets en openheid.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:53, src/initialData.js:191, src/initialData.js:189, src/App.jsx:135 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "claude",
+   "naam": "Claude (Anthropic)",
+   "soort": "tool",
+   "samenvatting": "AI-model gebruikt als aanvullende experimenteeromgeving voor agentic workflows in de AMCE-pilot, en in het AI-Netwerk-platform zelf.",
+   "details": "Platform: nieuws-ophalen beoordeelt berichten met Claude Haiku 5.5; het AI-Koers-feedbackrapport wordt geschreven met Claude Opus 5.5. Het AI-Netwerk wordt onderhouden in Claude Code.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:105, src/initialData.js:189, src/initialData.js:191, src/pages/Beleid.jsx:191 e.a.",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "google-gemini",
+   "naam": "Google Gemini / Gemini CLI",
+   "soort": "tool",
+   "spoor": "werken",
+   "samenvatting": "Gemini CLI wordt met MCP-servers ingezet in WP1 van de AMCE-pilot; Google Gemini genoemd in richtlijnen voor eigen gebruik.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:126, src/initialData.js:128, src/pages/Beleid.jsx:191, src/pages/Pilots.jsx:7",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "mistral",
+   "naam": "Mistral AI",
+   "soort": "tool",
+   "samenvatting": "Platform in de AMCE AI-proeftuin.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:105, src/pages/Pilots.jsx:7",
+   "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "proctorexam",
+   "naam": "ProctorExam",
+   "soort": "tool",
+   "spoor": "verantwoordelijkheid",
+   "samenvatting": "Toetssurveillance-tool waarvan de AI Act-conformiteit (menselijk toezicht, transparantie, dataminimalisatie) moet worden getoetst; als eerste te onderzoeken bij inventarisatie hoog-risico.",
+   "herkomst": "ai-netwerk",
+   "bronLabel": "AI Netwerk-site, broncode src/App.jsx:80, src/App.jsx:100, src/App.jsx:101",
+   "bijgewerkt": "2026-11-05"
+  }
+ ],
+ "relaties": [
+  {
+   "van": "ai-netwerk",
+   "naar": "transitieprogramma-digitalisering",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:350"
+  },
+  {
+   "van": "stuurgroep-transitieprogramma",
+   "naar": "programma-ai",
+   "soort": "is opdrachtgever van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:226"
+  },
+  {
+   "van": "programma-ai",
+   "naar": "transitieprogramma-digitalisering",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:226"
+  },
+  {
+   "van": "kwartiermaker-digitale-samenhang",
+   "naar": "programma-ai",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:226"
+  },
+  {
+   "van": "kwartiermaker-digitale-samenhang",
+   "naar": "ai-koers",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 16"
+  },
+  {
+   "van": "kwartiermaker-digitale-samenhang",
+   "naar": "kernteam-ai-netwerk",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:580"
+  },
+  {
+   "van": "kwartiermaker-digitale-samenhang",
+   "naar": "stuurgroep-transitieprogramma",
+   "soort": "rapporteert aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:579"
+  },
+  {
+   "van": "kernteam-ai-netwerk",
+   "naar": "ai-netwerk",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:575"
+  },
+  {
+   "van": "solution-partners",
+   "naar": "kernteam-ai-netwerk",
+   "soort": "ondersteunt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:575"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "stuurgroep-transitieprogramma",
+   "soort": "rapporteert aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:247"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "college-van-bestuur",
+   "soort": "rapporteert aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:247"
+  },
+  {
+   "van": "stuurgroep-transitieprogramma",
+   "naar": "college-van-bestuur",
+   "soort": "rapporteert aan",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 13"
+  },
+  {
+   "van": "ai-koers",
+   "naar": "digitale-koers-2030",
+   "soort": "is uitvoeringslijn van",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 3"
+  },
+  {
+   "van": "digitale-koers-2030",
+   "naar": "strategisch-instellingsplan",
+   "soort": "valt onder",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 3"
+  },
+  {
+   "van": "ai-koers",
+   "naar": "transitieprogramma-digitalisering",
+   "soort": "valt onder",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 1"
+  },
+  {
+   "van": "programmaplan-ai",
+   "naar": "ai-koers",
+   "soort": "werkt uit",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 1"
+  },
+  {
+   "van": "programma-ai",
+   "naar": "ai-koers",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:226"
+  },
+  {
+   "van": "programma-ai",
+   "naar": "iv-organisatie",
+   "soort": "wordt overgedragen aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:251"
+  },
+  {
+   "van": "college-van-bestuur",
+   "naar": "ai-koers",
+   "soort": "stelt vast",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:120"
+  },
+  {
+   "van": "stuurgroep-transitieprogramma",
+   "naar": "ai-koers",
+   "soort": "stelt vast",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 1",
+   "toelichting": "v1.0"
+  },
+  {
+   "van": "ai-coalitie",
+   "naar": "ai-koers",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:118"
+  },
+  {
+   "van": "hsb",
+   "naar": "ai-koers",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:119"
+  },
+  {
+   "van": "hmr",
+   "naar": "ai-koers",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 13"
+  },
+  {
+   "van": "ai-koers-consultatie",
+   "naar": "ai-koers",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/AIKoers.jsx:159"
+  },
+  {
+   "van": "stuurgroep-sessie-10-sept-2026",
+   "naar": "stuurgroep-transitieprogramma",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:117"
+  },
+  {
+   "van": "ai-governancestructuur",
+   "naar": "ai-koers",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:139"
+  },
+  {
+   "van": "fg-ciso",
+   "naar": "ai-governancestructuur",
+   "soort": "adviseert",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:217"
+  },
+  {
+   "van": "fg-ciso",
+   "naar": "bespreeknotitie-ai-governance",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 16"
+  },
+  {
+   "van": "thema-overleg-leren",
+   "naar": "ai-netwerk",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:163"
+  },
+  {
+   "van": "oo-i",
+   "naar": "thema-overleg-leren",
+   "soort": "trekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:5"
+  },
+  {
+   "van": "thema-overleg-werken",
+   "naar": "ai-netwerk",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:163"
+  },
+  {
+   "van": "dlwo",
+   "naar": "thema-overleg-werken",
+   "soort": "trekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:6"
+  },
+  {
+   "van": "thema-overleg-verantwoordelijkheid",
+   "naar": "ai-netwerk",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:163"
+  },
+  {
+   "van": "concernstaf",
+   "naar": "thema-overleg-verantwoordelijkheid",
+   "soort": "trekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:7"
+  },
+  {
+   "van": "thema-overleg-geletterdheid",
+   "naar": "ai-netwerk",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:163"
+  },
+  {
+   "van": "oo-i",
+   "naar": "thema-overleg-geletterdheid",
+   "soort": "trekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:8"
+  },
+  {
+   "van": "thema-overleg-werkveld",
+   "naar": "ai-netwerk",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:163"
+  },
+  {
+   "van": "thema-overleg-onderzoek",
+   "naar": "ai-netwerk",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:163"
+  },
+  {
+   "van": "oo-i",
+   "naar": "thema-overleg-onderzoek",
+   "soort": "trekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:10"
+  },
+  {
+   "van": "hrm",
+   "naar": "thema-overleg-geletterdheid",
+   "soort": "trekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:8"
+  },
+  {
+   "van": "dlwo",
+   "naar": "thema-overleg-geletterdheid",
+   "soort": "trekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:8"
+  },
+  {
+   "van": "lectoraat-cv-ai",
+   "naar": "thema-overleg-onderzoek",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:10"
+  },
+  {
+   "van": "frisius-mc",
+   "naar": "thema-overleg-werkveld",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:9"
+  },
+  {
+   "van": "werkveldcommissies",
+   "naar": "thema-overleg-werkveld",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:9"
+  },
+  {
+   "van": "myacademy",
+   "naar": "thema-overleg-geletterdheid",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:8"
+  },
+  {
+   "van": "bibliotheek",
+   "naar": "thema-overleg-geletterdheid",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:8"
+  },
+  {
+   "van": "edugenai",
+   "naar": "thema-overleg-leren",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:5",
+   "toelichting": "gebruikers"
+  },
+  {
+   "van": "college-van-bestuur",
+   "naar": "ai-beleid-v2",
+   "soort": "heeft vastgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:77"
+  },
+  {
+   "van": "ai-compliance-team",
+   "naar": "ai-beleid-v2",
+   "soort": "valt onder",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:56"
+  },
+  {
+   "van": "ai-compliance-team",
+   "naar": "college-van-bestuur",
+   "soort": "adviseert",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:56"
+  },
+  {
+   "van": "ai-compliance-team",
+   "naar": "ai-compliance-voortgangsrapportage",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:219"
+  },
+  {
+   "van": "ai-compliance-voortgangsrapportage",
+   "naar": "college-van-bestuur",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:219"
+  },
+  {
+   "van": "ai-compliance-team",
+   "naar": "ai-risicoscan",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:46"
+  },
+  {
+   "van": "privacy-security-team",
+   "naar": "privacy-quickscan",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:47"
+  },
+  {
+   "van": "ai-risicoscan",
+   "naar": "ai-beleid-v2",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:46"
+  },
+  {
+   "van": "privacy-quickscan",
+   "naar": "ai-beleid-v2",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:47"
+  },
+  {
+   "van": "ai-beleid-v2",
+   "naar": "eu-ai-act",
+   "soort": "is gebaseerd op",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:157"
+  },
+  {
+   "van": "ai-compliance-team",
+   "naar": "inventarisatie-hoog-risico-ai",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:81"
+  },
+  {
+   "van": "inventarisatie-hoog-risico-ai",
+   "naar": "proctorexam",
+   "soort": "onderzoekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:80"
+  },
+  {
+   "van": "toetsen-toezicht-proctorexam",
+   "naar": "proctorexam",
+   "soort": "onderzoekt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:100"
+  },
+  {
+   "van": "dlwo",
+   "naar": "toetsen-toezicht-proctorexam",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:102"
+  },
+  {
+   "van": "oo-i",
+   "naar": "beleidskader-genai-studenten",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:88"
+  },
+  {
+   "van": "transitieprogramma-digitalisering",
+   "naar": "ai-desk",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:95"
+  },
+  {
+   "van": "kernteam-ai-netwerk",
+   "naar": "ai-desk",
+   "soort": "ondersteunt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Over.jsx:28"
+  },
+  {
+   "van": "ai-desk",
+   "naar": "eu-ai-act",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:95",
+   "toelichting": "art. 26"
+  },
+  {
+   "van": "ethisch-waardenkompas",
+   "naar": "ai-governancestructuur",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 8"
+  },
+  {
+   "van": "acceptable-ai-use-policy",
+   "naar": "ai-governancestructuur",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 8"
+  },
+  {
+   "van": "algoritmeregister",
+   "naar": "ai-beleid-v2",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Beleid.jsx:24"
+  },
+  {
+   "van": "ai-compliance-capaciteit",
+   "naar": "programma-ai",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 13"
+  },
+  {
+   "van": "afwegingskader-inkoop",
+   "naar": "ai-koers",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 7"
+  },
+  {
+   "van": "basisprofiel-ai-geletterdheid",
+   "naar": "ai-koers",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 9"
+  },
+  {
+   "van": "basisprofiel-ai-geletterdheid",
+   "naar": "ai-go-raamwerk",
+   "soort": "is gebaseerd op",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 9"
+  },
+  {
+   "van": "vijflagenmodel",
+   "naar": "ai-koers",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 5"
+  },
+  {
+   "van": "ai-kompas",
+   "naar": "vijflagenmodel",
+   "soort": "beschrijft",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:209"
+  },
+  {
+   "van": "facility-management",
+   "naar": "vijflagenmodel",
+   "soort": "is eigenaar van laag 1 in",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:109"
+  },
+  {
+   "van": "dlwo",
+   "naar": "vijflagenmodel",
+   "soort": "is eigenaar van laag 2 in",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:101"
+  },
+  {
+   "van": "oo-i",
+   "naar": "vijflagenmodel",
+   "soort": "is eigenaar van laag 3 in",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:93"
+  },
+  {
+   "van": "transitieprogramma-digitalisering",
+   "naar": "vijflagenmodel",
+   "soort": "is eigenaar van laag 4 in",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:84"
+  },
+  {
+   "van": "technische-sandbox",
+   "naar": "programma-ai",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:237",
+   "toelichting": "dragende lijn"
+  },
+  {
+   "van": "ai-regulatory-sandbox",
+   "naar": "programma-ai",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:237",
+   "toelichting": "dragende lijn"
+  },
+  {
+   "van": "dlwo",
+   "naar": "technische-sandbox",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:64"
+  },
+  {
+   "van": "surf",
+   "naar": "technische-sandbox",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:64"
+  },
+  {
+   "van": "rdi",
+   "naar": "ai-regulatory-sandbox",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:134"
+  },
+  {
+   "van": "autoriteit-persoonsgegevens",
+   "naar": "ai-regulatory-sandbox",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:269"
+  },
+  {
+   "van": "ai-regulatory-sandbox",
+   "naar": "eu-ai-act",
+   "soort": "valt onder",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:134"
+  },
+  {
+   "van": "sandbox-praktijkgids",
+   "naar": "ai-regulatory-sandbox",
+   "soort": "beschrijft",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:221"
+  },
+  {
+   "van": "studie-uitval-ai-dashboard",
+   "naar": "ai-regulatory-sandbox",
+   "soort": "wordt aanbevolen voor",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:138"
+  },
+  {
+   "van": "sandbox-van-nhl-stenden",
+   "naar": "technische-sandbox",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:345"
+  },
+  {
+   "van": "ai-coalitie",
+   "naar": "sandbox-van-nhl-stenden",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Governance.jsx:118"
+  },
+  {
+   "van": "ctl",
+   "naar": "ctl-richtlijnen-ai-toetsing",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:276"
+  },
+  {
+   "van": "examencommissies",
+   "naar": "ctl-richtlijnen-ai-toetsing",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data/themas.js:19"
+  },
+  {
+   "van": "ctl",
+   "naar": "npuls-ai-webinars",
+   "soort": "verspreidt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:280"
+  },
+  {
+   "van": "ctl",
+   "naar": "artikel-stability-learning-tasks",
+   "soort": "publiceert",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:288"
+  },
+  {
+   "van": "ctl",
+   "naar": "uva-ai-chat",
+   "soort": "publiceert over",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:287"
+  },
+  {
+   "van": "uva-ai-chat",
+   "naar": "gpt-nl",
+   "soort": "is referentie voor",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:287"
+  },
+  {
+   "van": "oo-i",
+   "naar": "ai-in-dbe-addendum",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 16"
+  },
+  {
+   "van": "oo-i",
+   "naar": "ai-competentieframework",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Geletterdheid.jsx:69"
+  },
+  {
+   "van": "nvao",
+   "naar": "nvao-startverkenning-genai",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/NVAO.jsx:118"
+  },
+  {
+   "van": "academie-educatie",
+   "naar": "pilot-ai-feedback-schrijfonderwijs",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:38"
+  },
+  {
+   "van": "academie-educatie",
+   "naar": "academie-educatie-mediawijsheid",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:117"
+  },
+  {
+   "van": "pilot-ai-feedback-schrijfonderwijs",
+   "naar": "chatgpt",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:40"
+  },
+  {
+   "van": "pilot-ai-feedback-scripties",
+   "naar": "chatgpt",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:63"
+  },
+  {
+   "van": "ai-compliance-team",
+   "naar": "pilot-ai-feedback-scripties",
+   "soort": "is contact voor",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:72"
+  },
+  {
+   "van": "pilot-ai-feedback-scripties",
+   "naar": "surf-model-verwerkersovereenkomst",
+   "soort": "valt onder",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:75"
+  },
+  {
+   "van": "minor-ai-in-practice",
+   "naar": "nvao-startverkenning-genai",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/NVAO.jsx:13",
+   "toelichting": "standaard 1"
+  },
+  {
+   "van": "minor-decision-making-genai",
+   "naar": "nvao-startverkenning-genai",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/NVAO.jsx:14",
+   "toelichting": "standaard 1"
+  },
+  {
+   "van": "amce",
+   "naar": "amce-ai-proeftuin",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:103"
+  },
+  {
+   "van": "amce",
+   "naar": "human-value-ai",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:284"
+  },
+  {
+   "van": "amce-ai-proeftuin",
+   "naar": "human-value-ai",
+   "soort": "is gebaseerd op",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:284"
+  },
+  {
+   "van": "amce-wp1",
+   "naar": "amce-ai-proeftuin",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:107"
+  },
+  {
+   "van": "amce-wp2",
+   "naar": "amce-ai-proeftuin",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:107"
+  },
+  {
+   "van": "amce-wp3",
+   "naar": "amce-ai-proeftuin",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:107"
+  },
+  {
+   "van": "amce-wp4",
+   "naar": "amce-ai-proeftuin",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:107"
+  },
+  {
+   "van": "amce-ai-proeftuin",
+   "naar": "edugenai",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:110"
+  },
+  {
+   "van": "amce-ai-proeftuin",
+   "naar": "mistral",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:105"
+  },
+  {
+   "van": "amce-ai-proeftuin",
+   "naar": "claude",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:105"
+  },
+  {
+   "van": "amce-wp1",
+   "naar": "google-gemini",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:126"
+  },
+  {
+   "van": "amce-wp4",
+   "naar": "claude",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:189"
+  },
+  {
+   "van": "amce-wp4",
+   "naar": "microsoft-copilot",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:189"
+  },
+  {
+   "van": "amce-ai-proeftuin",
+   "naar": "eu-ai-act",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:110",
+   "toelichting": "art. 4"
+  },
+  {
+   "van": "bdb-ai-verrijking",
+   "naar": "thema-overleg-geletterdheid",
+   "soort": "valt onder",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:119"
+  },
+  {
+   "van": "arda-ai-modules",
+   "naar": "eu-ai-act",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:132",
+   "toelichting": "art. 4"
+  },
+  {
+   "van": "arda-ai-modules",
+   "naar": "autoriteit-persoonsgegevens",
+   "soort": "volgt stappenplan van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:132"
+  },
+  {
+   "van": "bibliotheek",
+   "naar": "libguides-ai",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:133"
+  },
+  {
+   "van": "myacademy",
+   "naar": "myacademy-ai-op-je-werkplek",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Geletterdheid.jsx:71"
+  },
+  {
+   "van": "hrm",
+   "naar": "ai-basistraining-medewerkers",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:74"
+  },
+  {
+   "van": "oo-i",
+   "naar": "ai-basistraining-medewerkers",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:74"
+  },
+  {
+   "van": "ai-basistraining-medewerkers",
+   "naar": "eu-ai-act",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/App.jsx:74",
+   "toelichting": "art. 4"
+  },
+  {
+   "van": "npuls",
+   "naar": "ai-go-raamwerk",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Geletterdheid.jsx:70"
+  },
+  {
+   "van": "npuls",
+   "naar": "npuls-digitale-geletterdheid",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:121"
+  },
+  {
+   "van": "npuls",
+   "naar": "npuls-sectorbelofte-ai-data",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 4"
+  },
+  {
+   "van": "npuls",
+   "naar": "npuls-visie-toetsing",
+   "soort": "heeft opgesteld",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/NVAO.jsx:43"
+  },
+  {
+   "van": "npuls",
+   "naar": "npuls-ai-webinars",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:280"
+  },
+  {
+   "van": "ai-koers",
+   "naar": "npuls-sectorbelofte-ai-data",
+   "soort": "geeft invulling aan",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 4"
+  },
+  {
+   "van": "npuls-sectorbelofte-ai-data",
+   "naar": "edugenai",
+   "soort": "omvat",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 16"
+  },
+  {
+   "van": "npuls-sectorbelofte-ai-data",
+   "naar": "algoritmeregister",
+   "soort": "omvat",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 16"
+  },
+  {
+   "van": "nba-handreiking-ai-geletterdheid",
+   "naar": "ai-go-raamwerk",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/NVAO.jsx:11"
+  },
+  {
+   "van": "surf",
+   "naar": "surf-ai-hub",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:120"
+  },
+  {
+   "van": "surf",
+   "naar": "surf-denktank",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:120"
+  },
+  {
+   "van": "surf",
+   "naar": "edugenai",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 16"
+  },
+  {
+   "van": "surf",
+   "naar": "gpt-nl",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Netwerk.jsx:426"
+  },
+  {
+   "van": "surf",
+   "naar": "surf-summit-2026",
+   "soort": "organiseert",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:247"
+  },
+  {
+   "van": "surf",
+   "naar": "surf-denktank-ai-onderwijs-2026",
+   "soort": "organiseert",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:259"
+  },
+  {
+   "van": "surf-denktank",
+   "naar": "surf-summit-2026",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:246",
+   "toelichting": "actieagenda"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "surf-ai-hub",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:356"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "surf-denktank",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:120"
+  },
+  {
+   "van": "surf",
+   "naar": "npuls",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:270"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "npuls",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:356"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "gpt-nl",
+   "soort": "gebruikt",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:356"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "programma-bach",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:356"
+  },
+  {
+   "van": "universiteit-van-het-noorden",
+   "naar": "programma-bach",
+   "soort": "heeft geïnitieerd",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:135"
+  },
+  {
+   "van": "ai-fabriek-groningen",
+   "naar": "surf",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:100"
+  },
+  {
+   "van": "dlwo",
+   "naar": "ai-fabriek-groningen",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:100",
+   "toelichting": "sourcing laag 2"
+  },
+  {
+   "van": "kwartiermaker-digitale-samenhang",
+   "naar": "surf",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Over.jsx:13"
+  },
+  {
+   "van": "kwartiermaker-digitale-samenhang",
+   "naar": "npuls",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Over.jsx:13"
+  },
+  {
+   "van": "kwartiermaker-digitale-samenhang",
+   "naar": "vereniging-hogescholen",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Over.jsx:13"
+  },
+  {
+   "van": "frisius-mc",
+   "naar": "friese-ai-propositie",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:136"
+  },
+  {
+   "van": "firda",
+   "naar": "friese-ai-propositie",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:136"
+  },
+  {
+   "van": "rug",
+   "naar": "friese-ai-propositie",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:356"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "friese-ai-propositie",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/pages/Rapport.jsx:356"
+  },
+  {
+   "van": "pilot-frisius-ai-workshops",
+   "naar": "friese-ai-propositie",
+   "soort": "is onderdeel van",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:86"
+  },
+  {
+   "van": "academie-verpleegkunde-gezondheid",
+   "naar": "pilot-frisius-ai-workshops",
+   "soort": "voert uit",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:82"
+  },
+  {
+   "van": "frisius-mc",
+   "naar": "pilot-frisius-ai-workshops",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:86"
+  },
+  {
+   "van": "frisius-mc",
+   "naar": "frisiuslab",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:97"
+  },
+  {
+   "van": "werksessie-friese-ai-behoeften",
+   "naar": "friese-ai-propositie",
+   "soort": "levert input aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/initialData.js:222"
+  },
+  {
+   "van": "rug",
+   "naar": "vision-technology-opschaling",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:137"
+  },
+  {
+   "van": "lectoraat-cv-ai",
+   "naar": "imai",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 4"
+  },
+  {
+   "van": "lectoraat-cv-ai",
+   "naar": "applied-research-ai",
+   "soort": "neemt deel aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:128"
+  },
+  {
+   "van": "lectoraat-cv-ai",
+   "naar": "vision-technology-opschaling",
+   "soort": "levert expertise aan",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data.js:55"
+  },
+  {
+   "van": "innovatie-cluster-drachten",
+   "naar": "thema-overleg-werkveld",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "src/data/themas.js:92"
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "ai-fryslan-coalitie",
+   "soort": "werkt samen met",
+   "herkomst": "ai-netwerk",
+   "bron": "netlify/functions/rapport-genereren.js:420"
+  },
+  {
+   "van": "ai-koers",
+   "naar": "programma-bach",
+   "soort": "sluit aan bij",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 11"
+  },
+  {
+   "van": "ai-koers",
+   "naar": "era-living-guidelines",
+   "soort": "volgt",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 11"
+  },
+  {
+   "van": "ai-koers",
+   "naar": "eu-ai-act",
+   "soort": "valt onder",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 4"
+  },
+  {
+   "van": "edugenai",
+   "naar": "ai-koers",
+   "soort": "is gekozen platform in",
+   "herkomst": "ai-netwerk",
+   "bron": "public/ai-koers/paginas.json:pagina 6"
+  }
+ ],
+ "aanvullingen": [],
+ "logboek": [
+  {
+   "datum": "5 november 2026",
+   "tekst": "Eerste opbouw: 148 onderdelen en 175 verbindingen overgenomen uit de AI Netwerk-site, elk met bronverwijzing."
+  }
+ ],
+ "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam."
+}

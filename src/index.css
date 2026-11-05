@@ -22,3 +22,50 @@ g:hover > .knooppunt { transform: scale(1.25); }
 @keyframes pulse-ring { 0%,100% { opacity:.25 } 50% { opacity:.6 } }
 .pulse-ring { animation: pulse-ring 1.8s ease-in-out infinite; }
 @media (prefers-reduced-motion: reduce) { .knooppunt, .pulse-ring { transition: none; animation: none; } }
+
+/* --- Canvas (laag 1) en spoorblad (laag 2): ontworpen voor A4 liggend --- */
+.canvas-raster {
+  display: grid; gap: 12px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "kern" "leren" "werken" "verantwoordelijkheid" "geletterdheid" "werkveld" "onderzoek" "extern";
+}
+@media (min-width: 640px) {
+  .canvas-raster {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "kern kern" "leren werken" "verantwoordelijkheid geletterdheid" "werkveld onderzoek" "extern extern";
+  }
+}
+@media (min-width: 1100px) {
+  .canvas-raster {
+    grid-template-columns: 1fr 1fr 1fr 0.9fr;
+    grid-template-areas:
+      "leren werken verantwoordelijkheid extern"
+      "kern kern kern extern"
+      "geletterdheid werkveld onderzoek extern";
+  }
+}
+.vak-kern { background: linear-gradient(180deg, #FFF5FA 0%, #FFFFFF 70%); }
+.vak-extern { background: linear-gradient(180deg, #FFF8F1 0%, #FFFFFF 60%); }
+.spoor-kolommen { columns: 1; column-gap: 32px; }
+@media (min-width: 900px) { .spoor-kolommen { columns: 2; } }
+@media (min-width: 1300px) { .spoor-kolommen { columns: 3; } }
+.breakinside-avoid { break-inside: avoid; }
+
+@page { size: A4 landscape; margin: 10mm; }
+@media print {
+  html, body, #root { height: auto !important; overflow: visible !important; background: #fff !important; }
+  .h-\[100dvh\] { height: auto !important; }
+  .h-full { height: auto !important; overflow: visible !important; }
+  header.nhl-gradient-deep, .print\:hidden { display: none !important; }
+  .canvas-raster { grid-template-columns: 1fr 1fr 1fr 0.9fr !important; gap: 6px !important;
+    grid-template-areas: "leren werken verantwoordelijkheid extern" "kern kern kern extern" "geletterdheid werkveld onderzoek extern" !important; }
+  .a4 { zoom: 0.66; padding: 0 !important; box-shadow: none !important; border: 0 !important; }
+  .a4 .vak { break-inside: avoid; }
+  main { position: static !important; }
+  .spoor-kolommen { columns: auto !important; display: grid !important; grid-template-columns: repeat(3, 1fr); gap: 0 22px; align-items: start; }
+  .spoor-kolommen section { margin-bottom: 14px !important; break-inside: auto !important; }
+  .spoor-kolommen { display: block !important; columns: 3 !important; column-gap: 22px; }
+  .a4 { zoom: 1 !important; } .a4.canvas-a4 { zoom: 0.66 !important; }
+  .spoorblad-a4 { font-size: 0.8em; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

@@ -23,7 +23,7 @@ export default function Detailpaneel({ data, id, onKies, onSluit, onAanvullen })
   const aanvullingen = (data.aanvullingen || []).filter(a => a.op === id)
 
   return (
-    <aside className="absolute z-30 bg-white shadow-2xl flex flex-col
+    <aside className="print:hidden absolute z-40 bg-white shadow-2xl flex flex-col
                       inset-x-0 bottom-0 max-h-[78%] rounded-t-3xl animate-slide-up
                       md:inset-x-auto md:right-4 md:top-4 md:bottom-4 md:max-h-none md:w-[420px] md:rounded-3xl md:animate-slide-in"
            aria-label={`Details van ${e.naam}`}>

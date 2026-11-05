@@ -194,7 +194,7 @@ export default function Landkaart({ data, zichtbaar, geselecteerd, onKies, zoekT
               return (
                 <path key={i} d={pad(a, b)}
                   stroke={aan ? '#E91E8C' : '#ffffff'}
-                  strokeOpacity={aan ? 0.95 : buren ? 0.04 : 0.16}
+                  strokeOpacity={aan ? 0.95 : buren ? 0.02 : 0.07}
                   strokeWidth={aan ? 2.6 : 1.2}
                   strokeDasharray={r.herkomst === 'melding' ? '5 5' : undefined}
                   className="transition-all duration-200" />

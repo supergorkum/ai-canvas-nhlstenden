@@ -4,6 +4,8 @@ import Detailpaneel from './components/Detailpaneel.jsx'
 import Meldformulier from './components/Meldformulier.jsx'
 import Overzicht from './components/Overzicht.jsx'
 import Over from './components/Over.jsx'
+import Canvas from './components/Canvas.jsx'
+import Spoorblad from './components/Spoorblad.jsx'
 import { SOORTEN } from './model.js'
 
 const leesHash = () => new URLSearchParams(location.hash.slice(1))
@@ -11,7 +13,8 @@ const leesHash = () => new URLSearchParams(location.hash.slice(1))
 export default function App() {
   const [data, setData] = useState(null)
   const [fout, setFout] = useState(null)
-  const [weergave, setWeergave] = useState(() => leesHash().get('v') || 'kaart')
+  const [weergave, setWeergave] = useState(() => leesHash().get('v') || 'canvas')
+  const [vak, setVak] = useState(() => leesHash().get('s') || 'leren')
   const [gekozen, setGekozen] = useState(() => leesHash().get('id'))
   const [uit, setUit] = useState(new Set())
   const [zoek, setZoek] = useState('')
@@ -27,9 +30,9 @@ export default function App() {
 
   // Diepe links: #v=kaart&id=ai-koers
   useEffect(() => {
-    const p = new URLSearchParams(); p.set('v', weergave); if (gekozen) p.set('id', gekozen)
+    const p = new URLSearchParams(); p.set('v', weergave); if (weergave === 'spoor') p.set('s', vak); if (gekozen) p.set('id', gekozen)
     history.replaceState(null, '', '#' + p.toString())
-  }, [weergave, gekozen])
+  }, [weergave, gekozen, vak])
 
   const zichtbaar = useMemo(() => new Set((data?.entiteiten || []).filter(e => !uit.has(e.soort)).map(e => e.id)), [data, uit])
   const zoekTreffers = useMemo(() => {
@@ -51,13 +54,13 @@ export default function App() {
     <div className="h-[100dvh] flex flex-col bg-nhl-nacht">
       <header className="nhl-gradient-deep text-white relative z-40 shrink-0">
         <div className="px-4 sm:px-6 h-16 flex items-center gap-3 sm:gap-6">
-          <a href="#v=kaart" onClick={() => { setWeergave('kaart'); setGekozen(null) }} className="flex items-center gap-2.5 shrink-0">
+          <a href="#v=canvas" onClick={() => { setWeergave('canvas'); setGekozen(null) }} className="flex items-center gap-2.5 shrink-0">
             <span className="w-9 h-9 rounded-xl bg-white text-nhl-blauw font-extrabold grid place-items-center text-sm shadow">AI</span>
             <span className="leading-tight hidden sm:block"><span className="block font-extrabold">AI Canvas</span><span className="block text-[11px] text-blue-200 -mt-0.5">NHL Stenden</span></span>
           </a>
           <nav className="flex gap-1 bg-white/10 rounded-xl p-1 text-xs sm:text-sm font-semibold" aria-label="Weergave">
-            {[['kaart', '🗺️', 'Landkaart'], ['overzicht', '▦', 'Overzicht'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (
-              <button key={id} onClick={() => setWeergave(id)} className={`px-2.5 sm:px-3 py-1.5 rounded-lg transition-colors ${weergave === id ? 'bg-white text-nhl-blauw' : 'text-blue-100 hover:bg-white/10'}`}>
+            {[['canvas', '▦', 'Canvas'], ['kaart', '🕸️', 'Verbanden'], ['overzicht', '☰', 'Lijst'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (
+              <button key={id} onClick={() => setWeergave(id)} className={`px-2.5 sm:px-3 py-1.5 rounded-lg transition-colors ${weergave === id || (id === 'canvas' && weergave === 'spoor') ? 'bg-white text-nhl-blauw' : 'text-blue-100 hover:bg-white/10'}`}>
                 <span className="sm:mr-1.5">{i}</span><span className="hidden sm:inline">{t}</span>
               </button>
             ))}
@@ -73,7 +76,7 @@ export default function App() {
       </header>
 
       <main className="relative flex-1 min-h-0">
-        {weergave !== 'over' && (
+        {(weergave === 'kaart' || weergave === 'overzicht') && (
           <div className="absolute z-20 left-0 top-3 right-0 md:left-3 md:right-auto px-3 md:px-0 flex flex-nowrap md:flex-wrap overflow-x-auto gap-1.5 pointer-events-none [scrollbar-width:none]">
             {Object.entries(SOORTEN).filter(([s]) => tellingen[s]).map(([s, d]) => {
               const aan = !uit.has(s)
@@ -89,6 +92,13 @@ export default function App() {
           </div>
         )}
 
+        {weergave === 'canvas' && <Canvas data={data} onSpoor={id => { setVak(id); setWeergave('spoor'); setGekozen(null) }} onKies={setGekozen} />}
+        {weergave === 'spoor' && <Spoorblad data={data} vakId={vak} onKies={setGekozen} onTerug={() => setWeergave('canvas')} onSpoor={id => { setVak(id); setGekozen(null) }} />}
+        {(weergave === 'canvas' || weergave === 'spoor') && (
+          <button onClick={() => window.print()} className="print:hidden hidden sm:block absolute z-20 right-4 bottom-4 bg-white text-nhl-blauw shadow-lg rounded-xl px-4 py-2.5 text-sm font-semibold hover:bg-nhl-grijs" title="Afdrukken of opslaan als PDF (A4 liggend)">
+            🖨️ Print op A4
+          </button>
+        )}
         {weergave === 'kaart' && <Landkaart data={data} zichtbaar={zichtbaar} geselecteerd={gekozen} onKies={setGekozen} zoekTreffers={zoekTreffers} />}
         {weergave === 'overzicht' && <div className="absolute inset-0 pt-14 bg-nhl-grijs"><Overzicht data={data} zichtbaar={zichtbaar} zoekTreffers={zoekTreffers} onKies={setGekozen} /></div>}
         {weergave === 'over' && <Over data={data} onMeld={() => setMeld({})} />}
@@ -97,10 +107,10 @@ export default function App() {
           <Detailpaneel data={data} id={gekozen} onKies={setGekozen} onSluit={() => setGekozen(null)} onAanvullen={e => setMeld({ aanvullingOp: e })} />
         )}
 
-        {weergave === 'kaart' && welkom && !gekozen && (
-          <div className="absolute z-20 left-3 bottom-3 max-w-sm bg-white rounded-3xl shadow-2xl p-5 animate-slide-up">
+        {weergave === 'canvas' && welkom && !gekozen && (
+          <div className="print:hidden absolute z-30 left-3 bottom-3 max-w-sm bg-white rounded-3xl shadow-2xl p-5 animate-slide-up">
             <div className="section-label">Welkom op het AI Canvas</div>
-            <p className="text-sm text-gray-600 mt-2">Dit is de landkaart van AI binnen NHL Stenden. In het midden <b>Koers & Kaders</b>, daaromheen de zes sporen als eilanden, en op de buitenbaan onze <b>externe samenwerkingen</b>. Klik op een bolletje voor het verhaal erachter; de lijnen laten zien wat met wat verbonden is.</p>
+            <p className="text-sm text-gray-600 mt-2">Dit canvas laat in één oogopslag zien waar AI gebeurt binnen NHL Stenden: per spoor, in <b>Koers & Kaders</b> en bij onze <b>externe samenwerkingen</b>. Klik een vak voor alle details, een naam voor het verhaal erachter. Onder <b>Verbanden</b> zie je hoe alles samenhangt.</p>
             <div className="flex gap-2 mt-4">
               <button onClick={sluitWelkom} className="btn-primary">Op ontdekking</button>
               <button onClick={() => { sluitWelkom(); setMeld({}) }} className="btn-ghost">Iets melden</button>

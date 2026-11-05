@@ -3,7 +3,8 @@
 De landkaart van alle AI-activiteiten binnen NHL Stenden: teams, projecten, pilots,
 initiatieven, beleid en externe samenwerkingen, en hoe ze met elkaar verbonden zijn.
 
-- **Landkaart**: in het midden *Koers & Kaders*, daaromheen de zes sporen van het AI Netwerk als eilanden,
+- **Canvas** (startpagina, past op één A4): zes sporen, Koers & Kaders en Extern als vakken met aantallen en de dragende onderdelen. Klik een vak voor laag 2: alle onderdelen van dat spoor met hun verbanden in tekst.
+- **Verbanden**: in het midden *Koers & Kaders*, daaromheen de zes sporen van het AI Netwerk als eilanden,
   op de buitenbaan de externe samenwerkingen. Klik voor details, verbindingen en een plusknop om aan te vullen.
 - **Meld activiteit**: formulier in vier stappen (Netlify Forms, `meld-activiteit`).
 - **Zuiver**: elk onderdeel heeft een herkomst en bron; meldingen staan tot bevestiging met een stippellijn.

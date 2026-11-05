@@ -9,7 +9,8 @@ maar noteren in het logboek als "te controleren".
 
 | Wat | Waarde |
 |---|---|
-| Code en data | GitHub `supergorkum/ai-netwerk-nhlstenden`, branch `ai-canvas` (tijdelijk, zie README) |
+| Code en data | GitHub `supergorkum/ai-canvas-nhlstenden`, branch `main` |
+| Bron AI Netwerk | GitHub `supergorkum/ai-netwerk-nhlstenden`, branch `main` (alleen lezen) |
 | Gegevensbestand | `public/data/canvas.json` |
 | Netlify-project | `ai-canvas-nhlstenden` (site-id `90626f00-a6df-4085-bff5-6e5deb500269`) |
 | Formulier | Netlify Forms, naam `meld-activiteit` |
@@ -33,7 +34,7 @@ binnen de passende map een submap met de naam van dat onderdeel.
 
 ## Stappen
 
-1. **Ophalen.** Clone de repo, checkout `ai-canvas`, `npm ci`.
+1. **Ophalen.** Clone `supergorkum/ai-canvas-nhlstenden` (branch `main`), `npm ci`.
 2. **Drive-inbox.** Lees elk bestand in de inbox. Per bestand:
    - Bepaal welke onderdelen (teams, pilots, beleid, partners, evenementen) erin genoemd worden
      en welke verbindingen er expliciet staan.
@@ -48,13 +49,13 @@ binnen de passende map een submap met de naam van dat onderdeel.
    - `aanvulling_op` gevuld → item in `aanvullingen` bij dat onderdeel.
    - Contactpersoon alleen tonen als `naam_tonen = ja`. E-mailadressen **nooit** in canvas.json.
    - Melding die door een document of de AI Netwerk-site wordt bevestigd: herkomst ophogen naar die bron.
-4. **AI Netwerk-site.** `git fetch` op `supergorkum/ai-netwerk-nhlstenden` main; bekijk de diff sinds
+4. **AI Netwerk-site.** Clone `supergorkum/ai-netwerk-nhlstenden` (branch `main`, alleen lezen, nooit naar pushen); bekijk de diff sinds
    `meta.aiNetwerkCommit` in `src/` en verwerk nieuwe of gewijzigde initiatieven, pilots, teams en beleid.
 5. **Websites.** Probeer `www.nhlstenden.com` (nieuws, onderzoek/lectoraten) en `intranet.nhlstenden.com`.
    Lukt dat niet (netwerk of inloggen), noteer dat in `meta.bronnen` en ga door.
 6. **Controleren.** `npm run build` (draait `scripts/valideer.mjs`). Bij fouten: herstellen, nooit forceren.
 7. **Vastleggen.** Werk `meta.bijgewerkt` bij, voeg één regel toe aan `logboek`
-   (wat is toegevoegd, aangevuld, verplaatst, en wat te controleren is). Commit en push naar `ai-canvas`.
+   (wat is toegevoegd, aangevuld, verplaatst, en wat te controleren is). Commit en push naar `main` van `ai-canvas-nhlstenden`.
 8. **Live zetten.** Netlify bouwt automatisch na de push (zodra de repo is gekoppeld).
 9. **Rapport.** Sluit af met een korte samenvatting voor Edgar: nieuw, aangevuld, te controleren.
 

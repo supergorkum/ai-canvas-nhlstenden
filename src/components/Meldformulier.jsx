@@ -31,6 +31,8 @@ export default function Meldformulier({ data, aanvullingOp, onSluit }) {
 
   async function verstuur(ev) {
     ev.preventDefault()
+    // Buiten Netlify (preview of SharePoint-test) is er geen formulierontvanger.
+    if (!/netlify\.app$|^localhost$/.test(location.hostname)) { setVerzonden('voorbeeld'); return }
     const velden = {
       'form-name': 'meld-activiteit', 'bot-field': '',
       ...v,
@@ -71,10 +73,11 @@ export default function Meldformulier({ data, aanvullingOp, onSluit }) {
 
         {verzonden ? (
           <div className="p-8 text-center space-y-4">
-            <div className="text-5xl">{verzonden === 'ok' ? '🎉' : '⚠️'}</div>
-            <h3 className="text-xl font-bold text-nhl-blauw">{verzonden === 'ok' ? 'Dank je wel, je melding is binnen!' : 'Versturen lukte niet'}</h3>
+            <div className="text-5xl">{verzonden === 'ok' ? '🎉' : verzonden === 'voorbeeld' ? '👀' : '⚠️'}</div>
+            <h3 className="text-xl font-bold text-nhl-blauw">{verzonden === 'ok' ? 'Dank je wel, je melding is binnen!' : verzonden === 'voorbeeld' ? 'Dit is een preview' : 'Versturen lukte niet'}</h3>
             <p className="text-gray-600 max-w-md mx-auto">{verzonden === 'ok'
               ? 'De redactie van het AI Canvas bekijkt je melding bij de volgende ronde en plaatst hem op de landkaart. Tot die tijd is hij herkenbaar als "nog niet bevestigd".'
+              : verzonden === 'voorbeeld' ? 'In deze preview wordt niets verstuurd. Op de live site gaat je melding naar de redactie van het AI Canvas.'
               : 'Probeer het later opnieuw, of mail je melding naar de kwartiermaker Digitale Samenhang.'}</p>
             <button type="button" onClick={onSluit} className="btn-primary">Terug naar de landkaart</button>
           </div>

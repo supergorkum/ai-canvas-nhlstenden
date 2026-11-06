@@ -66,6 +66,13 @@ Komt er een nieuwe koersversie in de inbox: werk `public/data/koers.json` bij (k
 indicatoren) en breng `canvas.json` in lijn met de nieuwe terminologie. Waar de AI Netwerk-site afwijkt van de koers,
 volgt het canvas de koers en staat het verschil in het logboek.
 
+## AI Act-overzicht
+
+`public/data/aiact.json` koppelt de verplichtingen uit de AI Act aan onderdelen op het canvas. Komt er een nieuw
+onderdeel bij dat een verplichting invult (bijvoorbeeld een meldprocedure voor AI-incidenten of een aangewezen
+AI-officer), voeg het id toe aan `bij` en werk `stand` en `standToelichting` bij. De stand blijft een duiding van de
+redactie; bevestiging door het AI Compliance Team gaat in het logboek.
+
 ## Regels voor zuiverheid
 
 - Niets verzinnen: geen namen, rollen, data of verbindingen die niet in de bron staan.

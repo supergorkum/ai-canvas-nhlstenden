@@ -53,7 +53,9 @@
    ],
    "herkomst": "drive",
    "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/pages/Over.jsx:92, src/pages/Over.jsx:101, src/pages/Over.jsx:112, src/pages/Over.jsx:115 e.a.)",
-   "bijgewerkt": "2026-11-06"
+   "bijgewerkt": "2026-11-06",
+   "doel": "De plek waar het gesprek over AI wordt gevoerd: verbindt per koerslijn het gesprek, deelt kennis, faciliteert pilots en signaleert knelpunten aan de Stuurgroep.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "kernteam-ai-netwerk",
@@ -72,23 +74,27 @@
    "naam": "Kwartiermaker Digitale Samenhang",
    "soort": "organisatie",
    "status": "actief",
-   "samenvatting": "Initiator, strateeg en bestuurlijk aanspreekpunt van het AI-Netwerk; programmaleiding van het Programma AI en opsteller van de AI-Koers.",
+   "samenvatting": "Opsteller van de AI-Koers, als onderdeel van het Transitieprogramma Digitalisering; initiator en bestuurlijk aanspreekpunt van het AI-Netwerk.",
    "details": "Bewaakt de koers en samenhang van het AI-Netwerk, is bestuurlijk aanspreekpunt richting Stuurgroep Transitieprogramma en directie, en verbindt het AI-Netwerk met het externe netwerk: SURF, NPULS, Vereniging Hogescholen. Verzorgt de dagelijkse aansturing en rapporteert aan de stuurgroep. Verbindende schakel in het hybride governancemodel. (Functie, geen persoonsnaam in de bron.)",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/pages/Over.jsx:7, src/pages/Over.jsx:9, src/pages/Over.jsx:13, src/pages/Governance.jsx:166 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-06",
+   "doel": "Stelt de AI-Koers op en bewaakt de samenhang.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "stuurgroep-transitieprogramma",
    "naam": "Stuurgroep Transitieprogramma",
    "soort": "organisatie",
    "status": "actief",
-   "samenvatting": "Bestuurlijke opdrachtgever: stelt kaders, bewaakt voortgang en neemt besluiten over richting en middelen; opdrachtgever van het Programma AI.",
-   "details": "Overlegt per kwartaal; bewaakt de globale kernambitie. Werd op 10 september 2026 bijgepraat over de lijn, de route en het opzetten van het Programma AI. Versie 1.0 van de AI-Koers gaat ter vaststelling naar de Stuurgroep (en daarna CvB). Elders ook 'Stuurgroep Digitalisering' genoemd (naam is gelijkgetrokken).",
+   "samenvatting": "Bestuurlijke opdrachtgever voor de uitvoering van de AI-Koers: stelt kaders, bewaakt de voortgang en prioriteert de middelen.",
+   "details": "Overlegt per kwartaal; bewaakt de globale kernambitie. Werd op 10 september 2026 bijgepraat over de lijn, de route en het opzetten van wat toen het Programma AI heette. In de AI-Koers v0.55d is geen sprake meer van een apart Programma AI: de uitvoering loopt binnen het Transitieprogramma Digitalisering. Versie 1.0 van de AI-Koers gaat ter vaststelling naar de Stuurgroep (en daarna CvB). Elders ook 'Stuurgroep Digitalisering' genoemd (naam is gelijkgetrokken).",
    "periode": "per kwartaal",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/data.js:164, src/pages/Governance.jsx:117, src/pages/Governance.jsx:139, src/pages/Governance.jsx:153 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-06",
+   "doel": "Opdrachtgever voor de uitvoering van de AI-Koers; bewaakt de voortgang en prioriteert de middelen.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "transitieprogramma-digitalisering",
@@ -96,10 +102,10 @@
    "soort": "organisatie",
    "status": "actief",
    "samenvatting": "Programma waarbinnen de AI-Koers en het AI-Netwerk zijn belegd; bestuurlijk kader van het AI-Netwerk.",
-   "details": "Het AI-Netwerk is een initiatief van het Transitieprogramma Digitalisering. Binnen dit programma wordt het Programma AI ingericht. In het vijflagenmodel staat 'Prog. Digitale Transitie' als primaire eigenaar van laag 4 (Platforms & Applicaties); ook verantwoordelijke voor het roadmap-item AI-desk operationeel.",
+   "details": "Het AI-Netwerk is een initiatief van het Transitieprogramma Digitalisering. Binnen dit programma is de AI-Koers belegd en wordt zij uitgevoerd (AI-Koers v0.55d); eerder was sprake van een apart Programma AI. In het vijflagenmodel staat 'Prog. Digitale Transitie' als primaire eigenaar van laag 4 (Platforms & Applicaties); ook verantwoordelijke voor het roadmap-item AI-desk operationeel.",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/pages/Rapport.jsx:254, src/pages/Rapport.jsx:350, src/pages/Governance.jsx:226, src/pages/Fundament.jsx:87 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-06"
   },
   {
    "id": "college-van-bestuur",
@@ -109,7 +115,9 @@
    "details": "Stelde het AI Compliance Beleid v2.0 vast op 16 december 2025. Stelt de AI-Koers vast na definitieve steun van de Stuurgroep, ontvangt de jaarrapportage en beslist over significante investeringen en risicoacceptatie.",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:55, src/pages/Beleid.jsx:77, src/pages/Governance.jsx:94, src/pages/Governance.jsx:120 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-05",
+   "doel": "Stelt de koers vast en beslist over significante investeringen en risicoacceptatie.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "thema-overleg-leren",
@@ -227,7 +235,9 @@
    "details": "Adviseurs in het hybride governancemodel; auteurs (FG/CISO) van de Bespreeknotitie AI-Governance strategie NHL Stenden (juni 2026).",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:217, public/ai-koers/paginas.json:pagina 13, public/ai-koers/paginas.json:pagina 16",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-05",
+   "doel": "Adviseurs bij de sturing op AI (privacy en informatiebeveiliging).",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "ctl",
@@ -256,7 +266,9 @@
    ],
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:19, src/data/themas.js:23, src/data/themas.js:75, src/data/themas.js:109 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-05",
+   "doel": "Professionele thuisbasis voor digitale didactiek, AI-geletterdheid en ontwerpkracht; vakeigenaar voor toetsing, didactiek en professionalisering.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "examencommissies",
@@ -267,7 +279,9 @@
    "details": "AI-bestendige toetsvormen ontstaan onder regie van CTL en examencommissies; het CTL heeft adviezen voor examencommissies en een stappenplan bij fraude.",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:19, src/initialData.js:276, src/pages/NVAO.jsx:40, public/ai-koers/paginas.json:pagina 5 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-05",
+   "doel": "Samen met het CTL eigenaar van de regels voor AI bij toetsing.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "oo-i",
@@ -278,7 +292,9 @@
    "details": "Stuurt op de inhoudelijke en onderwijskundige kant van AI: integratie in curriculum en didactiek, passende AI-modellen, kwaliteit en privacy in data-architectuur. Afdeling bij thema's AI & Leren, AI & Geletterdheid en AI & Onderzoek. Opsteller van 'AI in DBE' (addendum OO&I-beleid) en het NHL Stenden AI-competentieframework.",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/data.js:92, src/data.js:93, src/initialData.js:293, src/pages/Governance.jsx:5 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-05",
+   "doel": "Vakeigenaar van de onderwijs- en onderzoekskaders, waaronder AI in DBE.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "dlwo",
@@ -359,7 +375,9 @@
    ],
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:76, src/pages/Geletterdheid.jsx:71, src/pages/Governance.jsx:8, public/ai-koers/paginas.json:pagina 9",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-05",
+   "doel": "Biedt leerroutes AI-geletterdheid per rol, samen met het CTL.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "academie-educatie",
@@ -479,7 +497,9 @@
      "label": "AI-Koers v0.55d (concept, Drive)",
      "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
     }
-   ]
+   ],
+   "doel": "Draagt de uitvoering van de AI-Koers, zodat sturing op AI onderdeel is van de reguliere sturing.",
+   "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   },
   {
    "id": "solution-partners",
@@ -2148,12 +2168,12 @@
    "naam": "Stuurgroep bijgepraat over AI-Koers en Programma AI",
    "soort": "evenement",
    "status": "afgerond",
-   "samenvatting": "De Stuurgroep Transitieprogramma is op 10 september 2026 bijgepraat over de lijn, de route en het opzetten van het Programma AI.",
+   "samenvatting": "De Stuurgroep Transitieprogramma is op 10 september 2026 bijgepraat over de lijn, de route en het opzetten van het Programma AI. In de AI-Koers v0.55d is geen sprake meer van een apart Programma AI: de uitvoering loopt binnen het Transitieprogramma Digitalisering.",
    "details": "Eerste stap in de route naar vaststelling van de AI-Koers.",
    "periode": "10 september 2026",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:117, src/pages/Governance.jsx:139",
-   "bijgewerkt": "2026-11-05"
+   "bijgewerkt": "2026-11-06"
   },
   {
    "id": "werksessie-friese-ai-behoeften",
@@ -2338,6 +2358,62 @@
    "status": "gepland",
    "samenvatting": "Leeromgevingen waar studenten met regionale partners aan echte AI-vraagstukken werken.",
    "details": "Koerslijn AI & Werkveld: wij investeren in living labs."
+  },
+  {
+   "id": "ai-community-of-practice",
+   "naam": "AI Community of Practice",
+   "soort": "organisatie",
+   "spoor": "leren",
+   "status": "actief",
+   "samenvatting": "Community van docenten en onderwijsprofessionals die in sessies samenkomt om het AI-beleid van NHL Stenden te vertalen naar onderwijs en toetsing, en om de realisatie daarvan te ondersteunen.",
+   "details": "De CoP is thuis bij het CTL (\"where our CoP lives\"). Ze plaatst zich tussen de Digitale Koers 2030 (\"the umbrella: it sets the digital direction\") en het addendum AI in DBE (\"the anchor: it governs AI in teaching and assessment\"). Werkwijze in sessie 3: updates uit examencommissies, opleidingscommissies en medezeggenschapsraden; in teams van vier de AI-richting lezen met de vragen \"wat zijn de belangrijkste lessen voor de CoP?\" en \"hoe kunnen we de realisatie van deze plannen ondersteunen?\"; ideeën clusteren, prioriteren en acties tot de volgende bijeenkomst; een gastspreker. De presentatie is Engelstalig. Deelnemers, trekker en formele opdracht staan niet in de bron.",
+   "doel": "Het AI-beleid vertalen naar de onderwijspraktijk en de realisatie ervan ondersteunen (vraag 2 van sessie 3).",
+   "eigenaar": "Centre for Teaching and Learning (CTL)",
+   "herkomst": "redactie",
+   "bronLabel": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+   "bijgewerkt": "2026-11-06"
+  },
+  {
+   "id": "cop-sessie-3",
+   "naam": "AI Community of Practice, sessie 3: Finding our place in the Digitale Koers",
+   "soort": "evenement",
+   "spoor": "leren",
+   "status": "afgerond",
+   "samenvatting": "Derde sessie van de AI Community of Practice over de plek van de CoP in de Digitale Koers 2030 en AI in DBE, met gastspreker Josien Boetje.",
+   "details": "Agenda: Updates & News (15 min); NHL Stenden Digitale Koers + AI in DBE: where do we fit? (50 min); pauze; gast Josien Boetje: A human-centred look at AI (45 min). Afsluiting: van belangrijkste lessen naar volgende stappen.",
+   "periode": "29 oktober 2026, NHL Stenden Leeuwarden",
+   "mensen": [
+    {
+     "naam": "Josien Boetje",
+     "rol": "gastspreker; onderwijswetenschapper en hoofdauteur van het DIPS-model"
+    }
+   ],
+   "herkomst": "redactie",
+   "bronLabel": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+   "bijgewerkt": "2026-11-06"
+  },
+  {
+   "id": "dips-model",
+   "naam": "DIPS-model: generatieve AI in digitale informatieprobleemoplossing",
+   "soort": "extern",
+   "spoor": "geletterdheid",
+   "samenvatting": "Competentiemodel (Boetje e.a., 2026) dat laat zien hoe experts en beginners generatieve AI inzetten bij informatieprobleemoplossing, met regulatie als kern.",
+   "details": "Conclusies voor de praktijk: leerdoelen richten op probleemdefinitie, prompten, kritisch evalueren, verifiëren en verantwoord AI-gebruik; leeractiviteiten die expertstrategieën voordoen en AI-gebruik begeleiden; toetsing gericht op het proces in plaats van het product. Gepresenteerd in CoP-sessie 3.",
+   "links": [
+    {
+     "label": "Computers & Education (2026), 105677",
+     "url": "https://doi.org/10.1016/j.compedu.2026.105677"
+    }
+   ],
+   "mensen": [
+    {
+     "naam": "Josien Boetje",
+     "rol": "hoofdauteur"
+    }
+   ],
+   "herkomst": "redactie",
+   "bronLabel": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+   "bijgewerkt": "2026-11-06"
   }
  ],
  "relaties": [
@@ -3649,6 +3725,44 @@
    "soort": "is onderdeel van",
    "herkomst": "drive",
    "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+  },
+  {
+   "van": "ai-community-of-practice",
+   "naar": "ctl",
+   "soort": "valt onder",
+   "herkomst": "redactie",
+   "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+   "toelichting": "\"It sends programmes to the CTL, where our CoP lives.\""
+  },
+  {
+   "van": "ai-community-of-practice",
+   "naar": "ai-in-dbe-addendum",
+   "soort": "is verbonden met",
+   "herkomst": "redactie",
+   "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+   "toelichting": "AI in DBE als \"the anchor\" voor AI in onderwijs en toetsing."
+  },
+  {
+   "van": "ai-community-of-practice",
+   "naar": "digitale-koers-2030",
+   "soort": "is verbonden met",
+   "herkomst": "redactie",
+   "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+   "toelichting": "De Digitale Koers als \"the umbrella\" die de digitale richting zet."
+  },
+  {
+   "van": "ai-community-of-practice",
+   "naar": "cop-sessie-3",
+   "soort": "organiseert",
+   "herkomst": "redactie",
+   "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)"
+  },
+  {
+   "van": "dips-model",
+   "naar": "cop-sessie-3",
+   "soort": "levert input aan",
+   "herkomst": "redactie",
+   "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)"
   }
  ],
  "aanvullingen": [],
@@ -3664,6 +3778,10 @@
   {
    "datum": "6 november 2026",
    "tekst": "In lijn gebracht met de AI-Koers v0.55d (leidend). Programma AI vervalt: de uitvoering loopt binnen het Transitieprogramma Digitalisering met de Stuurgroep als opdrachtgever. Programmaplan heet projectplan, het AI-Netwerk is onderdeel van de toekomstbestendige IV-organisatie, EduGenAI heet SURF AI en we spreken van digitale autonomie. Nieuw: afwegingskader voor digitalisering, Bedrijfsfunctiemodel, Richting verantwoorde inzet van AI, centraal dataplatform en living labs."
+  },
+  {
+   "datum": "6 november 2026",
+   "tekst": "Toegevoegd uit de presentatie van CoP-sessie 3 (29 oktober 2026): AI Community of Practice (thuis bij het CTL), sessie 3 en het DIPS-model. Doel vastgelegd bij tien organisatieonderdelen, waar de AI-Koers v0.55d dat noemt. Nieuw onderdeel \"Organisatie & AI Act\"."
   }
  ],
  "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam."

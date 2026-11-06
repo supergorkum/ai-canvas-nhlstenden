@@ -7,6 +7,7 @@ import Canvas from './components/Canvas.jsx'
 import Spoorblad from './components/Spoorblad.jsx'
 import Samenhang from './components/Samenhang.jsx'
 import Treinnetwerk from './components/Treinnetwerk.jsx'
+import AIAct from './components/AIAct.jsx'
 import { SOORTEN } from './model.js'
 
 const leesHash = () => new URLSearchParams(location.hash.slice(1))
@@ -60,7 +61,7 @@ export default function App() {
             <span className="leading-tight hidden sm:block"><span className="block font-extrabold">AI Canvas</span><span className="block text-[11px] text-blue-200 -mt-0.5">NHL Stenden</span></span>
           </a>
           <nav className="flex gap-1 bg-white/10 rounded-xl p-1 text-xs sm:text-sm font-semibold" aria-label="Weergave">
-            {[['canvas', '▦', 'Canvas'], ['samenhang', '◎', 'Samenhang'], ['trein', '🚆', 'Treinnetwerk'], ['overzicht', '☰', 'Lijst'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (
+            {[['canvas', '▦', 'Canvas'], ['samenhang', '◎', 'Samenhang'], ['trein', '🚆', 'Treinnetwerk'], ['aiact', '⚖️', 'Organisatie & AI Act'], ['overzicht', '☰', 'Lijst'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (
               <button key={id} onClick={() => setWeergave(id)} className={`px-2.5 sm:px-3 py-1.5 rounded-lg transition-colors ${weergave === id || (id === 'canvas' && weergave === 'spoor') ? 'bg-white text-nhl-blauw' : 'text-blue-100 hover:bg-white/10'}`}>
                 <span className="sm:mr-1.5">{i}</span><span className="hidden sm:inline">{t}</span>
               </button>
@@ -96,8 +97,9 @@ export default function App() {
         {weergave === 'canvas' && <Canvas data={data} onSpoor={id => { setVak(id); setWeergave('spoor'); setGekozen(null) }} onKies={setGekozen} />}
         {weergave === 'spoor' && <Spoorblad data={data} vakId={vak} onKies={setGekozen} onTerug={() => setWeergave('canvas')} onSpoor={id => { setVak(id); setGekozen(null) }} />}
         {weergave === 'samenhang' && <Samenhang data={data} onKies={setGekozen} />}
+        {weergave === 'aiact' && <AIAct data={data} onKies={setGekozen} />}
         {weergave === 'trein' && <Treinnetwerk data={data} onKies={setGekozen} onSpoor={id => { setVak(id); setWeergave('spoor'); setGekozen(null) }} />}
-        {['canvas', 'spoor', 'samenhang', 'trein'].includes(weergave) && (
+        {['canvas', 'spoor', 'samenhang', 'trein', 'aiact'].includes(weergave) && (
           <button onClick={() => window.print()} className="print:hidden hidden sm:block absolute z-20 right-4 bottom-4 bg-white text-nhl-blauw shadow-lg rounded-xl px-4 py-2.5 text-sm font-semibold hover:bg-nhl-grijs" title="Afdrukken of opslaan als PDF (A4 liggend)">
             🖨️ Print op {weergave === 'samenhang' || weergave === 'trein' ? 'A3' : 'A4'}
           </button>

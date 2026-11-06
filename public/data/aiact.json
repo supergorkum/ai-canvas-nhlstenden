@@ -1,0 +1,356 @@
+{
+ "bijgewerkt": "6 november 2026",
+ "duiding": "Stand per verplichting: duiding door de redactie van het AI Canvas op basis van wat op het canvas staat. Te bevestigen door het AI Compliance Team.",
+ "uitleg": {
+  "watHetIs": "De AI Act (Verordening (EU) 2024/1689) is een Europese wet die rechtstreeks geldt in alle lidstaten. Je kunt hem zien als productveiligheidswetgeving voor AI: hoe groter het risico van een toepassing voor mensen, hoe zwaarder de eisen. De wet regelt niet óf je AI mag gebruiken, maar hoe je dat verantwoord doet.",
+  "risico": [
+   {
+    "niveau": "Onaanvaardbaar risico",
+    "kleur": "#991B1B",
+    "wat": "Verboden.",
+    "voorbeeld": "Emotieherkenning bij studenten of medewerkers, manipulatie, social scoring (art. 5)."
+   },
+   {
+    "niveau": "Hoog risico",
+    "kleur": "#E91E8C",
+    "wat": "Toegestaan onder strenge eisen.",
+    "voorbeeld": "AI voor toelating, het beoordelen van leerresultaten, niveaubepaling en toezicht op toetsen; AI bij werving en beoordeling van medewerkers (Bijlage III). Bij ons: de inzet van ProctorExam wordt hierop onderzocht."
+   },
+   {
+    "niveau": "Beperkt risico",
+    "kleur": "#B45309",
+    "wat": "Transparantieplicht.",
+    "voorbeeld": "Chatbots, gegenereerde beelden en teksten: mensen moeten weten dat het AI is (art. 50)."
+   },
+   {
+    "niveau": "Minimaal risico",
+    "kleur": "#0F766E",
+    "wat": "Geen extra eisen, wel AI-geletterdheid.",
+    "voorbeeld": "Vertaal- en spellinghulp, zoekfuncties, spamfilters."
+   }
+  ],
+  "gpai": "Daarnaast gelden aparte regels voor AI-modellen voor algemene doeleinden, zoals de modellen achter ChatGPT, Copilot, Claude en Mistral. Die plichten liggen bij de makers van die modellen, niet bij de hogeschool.",
+  "rollen": [
+   {
+    "rol": "Gebruiksverantwoordelijke",
+    "engels": "deployer",
+    "wat": "Gebruikt een AI-systeem onder eigen verantwoordelijkheid. Dit is NHL Stenden in de meeste gevallen: bij SURF AI, Copilot of een toetstool."
+   },
+   {
+    "rol": "Aanbieder",
+    "engels": "provider",
+    "wat": "Ontwikkelt een AI-systeem of brengt het onder eigen naam in gebruik. NHL Stenden wordt aanbieder zodra het zelf een hoog-risico-systeem bouwt, bijvoorbeeld voor beslissingen over studenten, of een bestaand systeem wezenlijk wijzigt (art. 25). De AI-Koers noemt dit uitdrukkelijk."
+   }
+  ],
+  "tijdlijn": [
+   {
+    "datum": "1 augustus 2024",
+    "wat": "De AI Act treedt in werking."
+   },
+   {
+    "datum": "2 februari 2025",
+    "wat": "Verboden praktijken en de plicht tot AI-geletterdheid gelden."
+   },
+   {
+    "datum": "2 augustus 2025",
+    "wat": "Regels voor AI-modellen voor algemene doeleinden, toezicht en sancties gelden."
+   },
+   {
+    "datum": "27 juli 2026",
+    "wat": "De Digital Omnibus (Verordening (EU) 2026/1744) treedt in werking. Artikel 4 wordt herschreven: organisaties moeten maatregelen nemen die AI-geletterdheid bevorderen, zonder een gegarandeerd niveau per persoon."
+   },
+   {
+    "datum": "2 augustus 2026",
+    "wat": "Transparantieplichten (art. 50) gelden."
+   },
+   {
+    "datum": "2 december 2027",
+    "wat": "Hoog-risicoverplichtingen voor Bijlage III gelden, waaronder onderwijs en werk (oorspronkelijk 2 augustus 2026, uitgesteld door de Digital Omnibus).",
+    "nu": true
+   },
+   {
+    "datum": "2 augustus 2028",
+    "wat": "Hoog-risicoverplichtingen voor AI in gereguleerde producten (Bijlage I)."
+   }
+  ],
+  "bronnoot": "De datums na juli 2026 komen uit secundaire bronnen over Verordening (EU) 2026/1744 (onder meer Gibson Dunn, Future of Privacy Forum, nicfab.eu). Controleer ze in de officiële tekst op EUR-Lex voordat je erop stuurt.",
+  "nhl": "Voor NHL Stenden betekent dit: de tijd tot december 2027 is voorbereidingstijd. Weten welke AI er draait, per systeem het risico bepalen, eigenaarschap en toezicht beleggen, en de route van intake tot uitrol zo inrichten dat compliance er vanzelf in zit. De AI-Koers kiest daarbij voor \"risicogebaseerd, zoals de AI-verordening het bedoelt: licht waar het kan, grondig waar het moet\" (koerslijn 03)."
+ },
+ "verplichtingen": [
+  {
+   "id": "geletterdheid",
+   "titel": "AI-geletterdheid",
+   "artikel": "Art. 4",
+   "rol": "iedereen",
+   "vanaf": "2 februari 2025 (tekst aangepast per 27 juli 2026)",
+   "taak": "Maatregelen nemen die de AI-geletterdheid bevorderen van medewerkers en anderen die namens de hogeschool met AI werken, passend bij hun rol en de context waarin AI wordt gebruikt.",
+   "doen": "Een basisprofiel per rol vaststellen, scholing aanbieden (basis en verdieping), het aanbod koppelen aan onboarding en professionalisering, en bijhouden wie wat heeft gevolgd.",
+   "verantwoording": "Aantoonbaar maken welke maatregelen zijn genomen: aanbod, bereik en ontwikkeling van het niveau. Na de Digital Omnibus hoeft geen gegarandeerd niveau per persoon te worden aangetoond.",
+   "bij": [
+    "ctl",
+    "myacademy",
+    "hrm",
+    "oo-i",
+    "basisprofiel-ai-geletterdheid",
+    "arda-ai-modules"
+   ],
+   "stand": "deels",
+   "standToelichting": "Aanbod is er (ARDA AI-modules, workshops via MyAcademy). Het instellingsbrede basisprofiel staat gepland voor 2026 en de meting voor 2027-28 (AI-Koers, koerslijn 04).",
+   "kort": "AI-geletterdheid"
+  },
+  {
+   "id": "verboden",
+   "titel": "Geen verboden AI-praktijken",
+   "artikel": "Art. 5",
+   "rol": "iedereen",
+   "vanaf": "2 februari 2025",
+   "taak": "Zorgen dat de hogeschool geen verboden AI gebruikt. Voor het onderwijs het meest relevant: emotieherkenning op de werkplek en in onderwijsinstellingen (behalve om medische of veiligheidsredenen), manipulatieve technieken en het categoriseren van mensen op gevoelige kenmerken via biometrie.",
+   "doen": "Bij elke intake en aanschaf expliciet toetsen op verboden praktijken, en bestaande toepassingen nalopen, bijvoorbeeld toetssurveillance met gedrags- of emotieanalyse.",
+   "verantwoording": "Per systeem vastleggen dat de toets is gedaan en met welke uitkomst.",
+   "bij": [
+    "ai-compliance-team",
+    "ai-risicoscan",
+    "afwegingskader-inkoop"
+   ],
+   "stand": "deels",
+   "standToelichting": "De AI-risicoscan valideert aanschaf en gebruik vooraf. Of daarin expliciet op verboden praktijken wordt getoetst, staat niet in de bronnen op het canvas.",
+   "kort": "Verboden praktijken"
+  },
+  {
+   "id": "inventarisatie",
+   "titel": "Overzicht en risicoclassificatie van alle AI-systemen",
+   "artikel": "Art. 6 en Bijlage III",
+   "rol": "gebruiksverantwoordelijke",
+   "vanaf": "nu voorbereiden; hoog-risicoverplichtingen vanaf 2 december 2027",
+   "taak": "Weten welke AI-systemen in gebruik zijn en per systeem bepalen in welke risicoklasse het valt. In het onderwijs is hoog risico onder meer AI voor toelating, het beoordelen van leerresultaten, het bepalen van het passende onderwijsniveau en het toezicht op toetsen (Bijlage III, punt 3); bij werk onder meer werving en beoordeling van medewerkers (punt 4).",
+   "doen": "Een register bijhouden met per systeem: doel, leverancier, eigenaar, gebruikers, risicoklasse en datum van de toets. Nieuwe toepassingen komen er via de intake in.",
+   "verantwoording": "Een actueel register en een periodieke rapportage aan het bestuur.",
+   "bij": [
+    "ai-compliance-team",
+    "inventarisatie-hoog-risico-ai",
+    "algoritmeregister",
+    "ai-compliance-voortgangsrapportage",
+    "college-van-bestuur"
+   ],
+   "stand": "deels",
+   "standToelichting": "De inventarisatie van hoog-risico-systemen loopt, met ProctorExam als eerste. AI Act-classificatie staat in de tijdlijn van de koers voor 2026.",
+   "kort": "Register en classificatie"
+  },
+  {
+   "id": "toezicht",
+   "titel": "Eigenaar en menselijk toezicht per hoog-risico-systeem",
+   "artikel": "Art. 26 lid 2 (met art. 14)",
+   "rol": "gebruiksverantwoordelijke",
+   "vanaf": "2 december 2027",
+   "taak": "Per hoog-risico-systeem mensen aanwijzen die toezicht houden. Zij moeten bekwaam zijn, opgeleid en bevoegd om in te grijpen of het gebruik te stoppen.",
+   "doen": "Per systeem een eigenaar aanwijzen (aansluitend op het Bedrijfsfunctiemodel) en toezichthouders benoemen, trainen en mandateren.",
+   "verantwoording": "De aanwijzing per systeem vastleggen, met bevoegdheden en gevolgde training.",
+   "bij": [
+    "bedrijfsfunctiemodel",
+    "toetsen-toezicht-proctorexam"
+   ],
+   "stand": "open",
+   "standToelichting": "Het principe staat in de koers (menselijk toezicht en stoprecht als waarborg). Aangewezen toezichthouders per systeem zijn nog niet zichtbaar.",
+   "nogInTevullen": "Systeemeigenaar en toezichthouders per hoog-risico-systeem",
+   "kort": "Menselijk toezicht"
+  },
+  {
+   "id": "monitoring",
+   "titel": "Gebruik volgens instructies, monitoring en incidenten",
+   "artikel": "Art. 26 lid 1, 4 en 5; art. 73",
+   "rol": "gebruiksverantwoordelijke",
+   "vanaf": "2 december 2027",
+   "taak": "Het systeem gebruiken volgens de gebruiksinstructies van de aanbieder, zorgen dat de invoerdata passend zijn, de werking volgen, bij risico het gebruik opschorten en ernstige incidenten melden aan de aanbieder en de toezichthouder.",
+   "doen": "Monitoringsafspraken per systeem maken, een meldroute voor AI-incidenten inrichten en het contact met de leverancier beleggen.",
+   "verantwoording": "Een incidentenlog en vastgelegde meldingen.",
+   "bij": [
+    "iv-organisatie",
+    "privacy-security-team"
+   ],
+   "stand": "open",
+   "standToelichting": "Een meldprocedure voor AI-incidenten is in de bronnen op het canvas niet zichtbaar.",
+   "nogInTevullen": "Meldpunt en procedure voor ernstige AI-incidenten",
+   "kort": "Monitoring en incidenten"
+  },
+  {
+   "id": "logs",
+   "titel": "Logbestanden bewaren",
+   "artikel": "Art. 26 lid 6",
+   "rol": "gebruiksverantwoordelijke",
+   "vanaf": "2 december 2027",
+   "taak": "De automatisch gegenereerde logs van hoog-risico-systemen minimaal zes maanden bewaren, voor zover die onder eigen beheer vallen.",
+   "doen": "Per systeem afspreken waar de logs staan en hoe lang ze bewaard worden, en dat opnemen in contract en beheer.",
+   "verantwoording": "Bewaarafspraken per systeem, aantoonbaar bij controle.",
+   "bij": [
+    "iv-organisatie",
+    "fg-ciso"
+   ],
+   "stand": "open",
+   "standToelichting": "Niet zichtbaar in de bronnen op het canvas.",
+   "nogInTevullen": "Afspraken over logbewaring per hoog-risico-systeem",
+   "kort": "Logbewaring"
+  },
+  {
+   "id": "medewerkers",
+   "titel": "Medewerkers en medezeggenschap informeren",
+   "artikel": "Art. 26 lid 7",
+   "rol": "gebruiksverantwoordelijke (als werkgever)",
+   "vanaf": "2 december 2027",
+   "taak": "Vóór ingebruikname van een hoog-risico-systeem op de werkplek de werknemersvertegenwoordiging en de betrokken medewerkers informeren.",
+   "doen": "De informatie aan de medezeggenschap opnemen in de intakeroute, voordat een systeem live gaat.",
+   "verantwoording": "Vastleggen wanneer en hoe is geïnformeerd.",
+   "bij": [
+    "hmr",
+    "hrm"
+   ],
+   "stand": "deels",
+   "standToelichting": "De HMR ontvangt jaarlijks een samenvattende rapportage en is betrokken bij vaststelling. Informeren per systeem vóór ingebruikname is niet zichtbaar.",
+   "kort": "Medewerkers informeren"
+  },
+  {
+   "id": "studenten",
+   "titel": "Studenten informeren en recht op uitleg",
+   "artikel": "Art. 26 lid 11; art. 86",
+   "rol": "gebruiksverantwoordelijke",
+   "vanaf": "2 december 2027",
+   "taak": "Mensen over wie met een hoog-risico-systeem besluiten worden genomen of ondersteund (zoals studenten bij beoordeling of toelating) daarover informeren. Zij hebben recht op een duidelijke uitleg van de rol van AI in het besluit.",
+   "doen": "Informatie aan studenten opnemen in OER en communicatie, en een route inrichten voor vragen en uitlegverzoeken, bijvoorbeeld via examencommissie of klachtenloket.",
+   "verantwoording": "Vastgelegde informatie en afgehandelde uitlegverzoeken.",
+   "bij": [
+    "examencommissies",
+    "ai-beleid-v2"
+   ],
+   "stand": "deels",
+   "standToelichting": "Transparantie is een waarborg in de koers (\"geen verborgen algoritmen\"). Een route voor uitlegverzoeken is niet zichtbaar.",
+   "nogInTevullen": "Route voor informeren van studenten en voor uitlegverzoeken",
+   "kort": "Studenten en uitleg"
+  },
+  {
+   "id": "grondrechten",
+   "titel": "Grondrechteneffectbeoordeling (FRIA)",
+   "artikel": "Art. 27",
+   "rol": "gebruiksverantwoordelijke met publieke taak",
+   "vanaf": "2 december 2027",
+   "taak": "Vóór ingebruikname van een hoog-risico-systeem uit Bijlage III beoordelen wat de gevolgen zijn voor de grondrechten van de mensen die het raakt. Dit geldt voor publiekrechtelijke organisaties en private organisaties die publieke diensten verlenen; voor een publiek bekostigde hogeschool ligt dat voor de hand, maar dat moet juridisch worden bevestigd.",
+   "doen": "Een vaste methode kiezen (in Nederland bijvoorbeeld het IAMA) en die laten aansluiten op de DPIA; de uitkomst melden aan de markttoezichthouder.",
+   "verantwoording": "Een vastgelegde beoordeling per systeem, gemeld aan de toezichthouder.",
+   "bij": [
+    "fg-ciso",
+    "ethisch-waardenkompas",
+    "privacy-quickscan"
+   ],
+   "stand": "open",
+   "standToelichting": "Het DPIA-proces staat in de koers (2026), en het ethisch waardenkompas is in ontwikkeling. Een grondrechtentoets is niet zichtbaar.",
+   "nogInTevullen": "Methode en eigenaar voor de grondrechteneffectbeoordeling",
+   "kort": "Grondrechtentoets"
+  },
+  {
+   "id": "dpia",
+   "titel": "Gegevensbeschermingseffectbeoordeling (DPIA)",
+   "artikel": "AVG art. 35; AI Act art. 26 lid 9",
+   "rol": "gebruiksverantwoordelijke",
+   "vanaf": "geldt al (AVG)",
+   "taak": "Bij verwerking van persoonsgegevens met een hoog risico vooraf een DPIA doen, gebruikmakend van de informatie die de aanbieder van het AI-systeem moet leveren.",
+   "doen": "Het DPIA-proces koppelen aan de AI-intake en de AI Act-classificatie.",
+   "verantwoording": "Een DPIA per systeem, met advies van de FG.",
+   "bij": [
+    "fg-ciso",
+    "privacy-security-team",
+    "privacy-quickscan"
+   ],
+   "stand": "deels",
+   "standToelichting": "De Privacy QuickScan bestaat. Het DPIA-proces staat in de tijdlijn van de koers voor 2026.",
+   "kort": "DPIA"
+  },
+  {
+   "id": "transparantie",
+   "titel": "Transparantie bij generatieve AI",
+   "artikel": "Art. 50",
+   "rol": "gebruiksverantwoordelijke en aanbieder",
+   "vanaf": "2 augustus 2026",
+   "taak": "Melden wanneer beeld, geluid of video kunstmatig is gemaakt of bewerkt (deepfakes), en wanneer AI-tekst wordt gepubliceerd om het publiek te informeren, tenzij er menselijke redactie op zit. Wie zelf een chatbot aanbiedt, meldt dat mensen met AI praten.",
+   "doen": "Een richtlijn voor communicatie en afdelingen over labelen, opgenomen in de Acceptable AI Use Policy.",
+   "verantwoording": "De richtlijn en de toepassing ervan in publicaties.",
+   "bij": [
+    "acceptable-ai-use-policy",
+    "beleidskader-genai-studenten",
+    "ai-beleid-v2"
+   ],
+   "stand": "deels",
+   "standToelichting": "De Acceptable AI Use Policy staat gepland. Een specifieke richtlijn voor labelen is niet zichtbaar.",
+   "kort": "Transparantie"
+  },
+  {
+   "id": "inkoop",
+   "titel": "Inkoop en leveranciers",
+   "artikel": "Art. 26 en art. 13 (gebruiksinformatie van de aanbieder)",
+   "rol": "gebruiksverantwoordelijke",
+   "vanaf": "2 december 2027",
+   "taak": "Alleen hoog-risico-systemen gebruiken die aan de eisen voldoen (CE-markering, registratie, gebruiksinformatie), en in contracten afspraken maken over logs, incidenten en het leveren van informatie.",
+   "doen": "AI Act-eisen opnemen in het afwegingskader en in de contractvoorwaarden.",
+   "verantwoording": "Vastgelegde afweging per aanschaf.",
+   "bij": [
+    "afwegingskader-inkoop",
+    "afwegingskader-digitalisering",
+    "surf-model-verwerkersovereenkomst",
+    "fcp"
+   ],
+   "stand": "deels",
+   "standToelichting": "Het afwegingskader voor digitalisering is in ontwikkeling; AI-toetspunten worden er in 2026 in opgenomen (AI-Koers).",
+   "kort": "Inkoop"
+  },
+  {
+   "id": "registratie",
+   "titel": "Registratie van gebruik",
+   "artikel": "Art. 26 lid 8 en art. 49",
+   "rol": "gebruiksverantwoordelijke die overheidsinstantie is",
+   "vanaf": "2 december 2027",
+   "taak": "Overheidsinstanties registreren hun gebruik van hoog-risico-systemen in de EU-databank. Of NHL Stenden (een stichting met een publieke taak) daaronder valt, moet juridisch worden nagegaan.",
+   "doen": "Juridisch duiden, en los daarvan het Nederlandse algoritmeregister gebruiken voor transparantie.",
+   "verantwoording": "Registraties in de EU-databank of het algoritmeregister.",
+   "bij": [
+    "algoritmeregister"
+   ],
+   "stand": "deels",
+   "standToelichting": "Het algoritmeregister staat op het canvas. De juridische duiding van de registratieplicht is niet zichtbaar.",
+   "kort": "Registratie"
+  },
+  {
+   "id": "aanbieder",
+   "titel": "Zelf AI ontwikkelen: de rol van aanbieder",
+   "artikel": "Art. 25; art. 9 t/m 17, 43, 49 en 72",
+   "rol": "aanbieder",
+   "vanaf": "2 december 2027 (Bijlage III)",
+   "taak": "Wie zelf een hoog-risico-systeem bouwt, een systeem wezenlijk wijzigt of voor een hoog-risico-doel inzet, wordt aanbieder. Dan gelden zware eisen: risicobeheer, datagovernance, technische documentatie, logging, ontwerp voor menselijk toezicht, nauwkeurigheid en beveiliging, een kwaliteitsmanagementsysteem, een conformiteitsbeoordeling, registratie en monitoring na ingebruikname.",
+   "doen": "Vooraf bepalen wanneer een eigen ontwikkeling (bijvoorbeeld voor vroegsignalering) de aanbiedersrol oproept, en zo ja een volledig ontwikkelproces met documentatie inrichten; juridisch complexe gevallen via de Regulatory Sandbox.",
+   "verantwoording": "Technische documentatie, conformiteitsverklaring en registratie per systeem.",
+   "bij": [
+    "technische-sandbox",
+    "ai-regulatory-sandbox"
+   ],
+   "stand": "open",
+   "standToelichting": "De koers kiest \"proven technology eerst\" en noemt de zware verplichtingen als aanbieder. Een proces voor de aanbiedersrol is niet belegd.",
+   "nogInTevullen": "Proces en eigenaar voor eigen ontwikkeling (aanbiedersrol)",
+   "kort": "Aanbiedersrol"
+  },
+  {
+   "id": "toezichthouder",
+   "titel": "Aanspreekpunt en samenwerking met toezichthouders",
+   "artikel": "Art. 26 lid 12",
+   "rol": "gebruiksverantwoordelijke",
+   "vanaf": "2 december 2027",
+   "taak": "Samenwerken met de toezichthouders en de gevraagde informatie en documentatie kunnen leveren.",
+   "doen": "Een vast aanspreekpunt aanwijzen dat de documentatie (register, toetsen, logs, aanwijzingen) paraat heeft.",
+   "verantwoording": "Bestuurlijke eindverantwoordelijkheid bij het CvB, met periodieke rapportage.",
+   "bij": [
+    "ai-compliance-team",
+    "fg-ciso",
+    "college-van-bestuur",
+    "ai-compliance-capaciteit"
+   ],
+   "stand": "deels",
+   "standToelichting": "Het AI Compliance Team rapporteert aan het CvB. Capaciteit voor AI-compliance (AI-officer en datamanager) is gepland. Een vast aanspreekpunt richting toezichthouder is niet expliciet.",
+   "kort": "Aanspreekpunt toezicht"
+  }
+ ]
+}

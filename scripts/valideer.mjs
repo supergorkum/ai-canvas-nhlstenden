@@ -35,3 +35,8 @@ const koersFouten = []
 koers.koerslijnen.forEach(l => Object.values(l.golven).flat().forEach(s => { if (s.op && !ids.has(s.op)) koersFouten.push(`koers.json: ${l.id} "${s.t}" wijst naar onbekend onderdeel ${s.op}`) }))
 if (koersFouten.length) { koersFouten.forEach(f => console.error('✖', f)); process.exit(1) }
 console.log(`✔ koers.json in orde: ${koers.koerslijnen.length} lijnen.`)
+
+const act = JSON.parse(readFileSync(new URL('../public/data/aiact.json', import.meta.url), 'utf8'))
+const actFouten = act.verplichtingen.flatMap(v => v.bij.filter(id => !ids.has(id)).map(id => `aiact.json: ${v.id} wijst naar onbekend onderdeel ${id}`))
+if (actFouten.length) { actFouten.forEach(f => console.error('✖', f)); process.exit(1) }
+console.log(`✔ aiact.json in orde: ${act.verplichtingen.length} verplichtingen.`)

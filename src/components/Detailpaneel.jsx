@@ -41,6 +41,7 @@ export default function Detailpaneel({ data, id, onKies, onSluit, onAanvullen })
       </div>
 
       <div className="overflow-y-auto px-6 py-5 space-y-6 text-sm text-gray-700">
+        {e.doel && <Blok titel="Doel"><p className="leading-relaxed">{e.doel}</p></Blok>}
         {e.details && <Blok titel="Wat doet het?"><p className="leading-relaxed whitespace-pre-line">{e.details}</p></Blok>}
 
         {(e.eigenaar || e.periode) && (

@@ -47,6 +47,7 @@ export default function AIAct({ data, onKies }) {
             <h1 className="text-2xl sm:text-4xl font-extrabold text-nhl-blauw leading-tight mt-1" style={{ textWrap: 'balance' }}>Wat vraagt de AI Act van ons, en wat hebben we al?</h1>
             <p className="text-gray-600 mt-3 max-w-3xl leading-relaxed">Een van de opdrachten bij de realisatie van de AI-Koers is compliant zijn met de AI Act. Deze pagina legt uit hoe je de wet kunt lezen, zet de verplichtingen naast wat er in onze organisatie al staat, en laat zien welke onderdelen nog moeten worden ingevuld.</p>
             <nav className="flex flex-wrap gap-2 mt-4 text-sm font-semibold print:hidden">
+              <a href="./downloads/Organisatie-en-AI-Act-NHL-Stenden.pptx" download className="rounded-full bg-nhl-roze text-white px-3 py-1.5 hover:bg-nhl-roze-dark">⬇ Download als PowerPoint</a>
               {[['uitleg', '1 · Hoe zie je de AI Act'], ['verplichtingen', '2 · Wat vraagt hij van ons'], ['organisatie', '3 · Onze organisatieonderdelen']].map(([id, t]) => (
                 <a key={id} href={`#${id}`} onClick={e => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }) }}
                   className="rounded-full border border-nhl-blauw/20 px-3 py-1.5 text-nhl-blauw hover:bg-blue-50">{t}</a>

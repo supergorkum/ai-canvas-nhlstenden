@@ -27,6 +27,7 @@ npm run build     # valideert public/data/canvas.json en bouwt naar dist/
 | `public/data/aiact.json` | AI Act-uitleg en verplichtingen, gekoppeld aan onderdelen op het canvas |
 | `public/data/koers.json` | koerslijnen, mijlpalen per golf en indicatoren uit de AI-Koers (leidend: v0.55d) |
 | `src/components/` | Canvas, Spoorblad, Samenhang, Treinnetwerk, Detailpaneel, Meldformulier, Overzicht, Over |
+| `scripts/maak-aiact-pptx.cjs` | bouwt de PowerPoint van de AI Act-pagina uit dezelfde gegevens (`public/downloads/`); vraagt `pptxgenjs` |
 | `scripts/valideer.mjs` | controle op de gegevens, draait bij elke build |
 | `docs/REDACTIERONDE.md` | werkinstructie van de terugkerende ronde |
 | `docs/SHAREPOINT.md` | vertaling naar SharePoint-lijsten en een SPFx-webpart |

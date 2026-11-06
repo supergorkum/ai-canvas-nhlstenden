@@ -37,6 +37,27 @@ export default function Over({ data, onMeld }) {
               <dd><ul className="list-disc ml-5 mt-1">{(m.bronnen || []).map(b => <li key={b.naam}><b>{b.naam}</b>{b.stand ? `: ${b.stand}` : ''}</li>)}</ul></dd></div>
           </dl>
         </section>
+        {data.bronnenlijst?.length > 0 && (
+          <section id="bronnen">
+            <h3 className="text-lg font-bold text-nhl-blauw">Bronnen</h3>
+            <p className="text-sm text-gray-500 mt-1">Bij elk onderdeel staat de eigen bron in het detailpaneel. Dit zijn de hoofdbronnen van het canvas.</p>
+            <div className="mt-3 grid sm:grid-cols-2 gap-x-8 gap-y-4 text-sm">
+              {data.bronnenlijst.map(g => (
+                <div key={g.groep}>
+                  <div className="section-label mb-1.5">{g.groep}</div>
+                  <ul className="space-y-1">
+                    {g.items.map(b => (
+                      <li key={b.t} className="leading-snug">
+                        {b.url ? <a href={b.url} target="_blank" rel="noreferrer" className="text-nhl-blauw-light hover:underline">{b.t} ↗</a> : <span className="text-gray-700">{b.t}</span>}
+                        {b.noot && <span className="text-gray-400"> · {b.noot}</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
         {data.logboek?.length > 0 && (
           <section>
             <h3 className="text-lg font-bold text-nhl-blauw">Logboek</h3>

@@ -58,7 +58,10 @@ function Vak({ vak, lijst, breed, extern, onSpoor, onKies }) {
       <button onClick={() => onSpoor(vak.id)} className="text-left px-4 pt-4 pb-2 group">
         <div className="flex items-center gap-2.5">
           <span className="w-8 h-8 rounded-lg grid place-items-center text-base shrink-0" style={{ background: vak.kleur + '18' }} aria-hidden="true">{vak.icon}</span>
-          <h2 className="font-extrabold text-[15px] leading-tight group-hover:underline" style={{ color: vak.kleur }}>{vak.titel}</h2>
+          <div className="min-w-0">
+            {vak.nr && <div className="text-[10px] font-bold tracking-widest text-gray-400 leading-none mb-0.5">KOERSLIJN {vak.nr}</div>}
+            <h2 className="font-extrabold text-[15px] leading-tight group-hover:underline" style={{ color: vak.kleur }}>{vak.titel}</h2>
+          </div>
           <span className="ml-auto text-xl font-extrabold tabular-nums text-gray-800">{lijst.length}</span>
         </div>
         {vak.kort && !breed && !extern && VAKKEN[vak.id] && <p className="sr-only">{vak.kort}</p>}

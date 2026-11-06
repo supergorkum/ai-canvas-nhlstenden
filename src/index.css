@@ -64,7 +64,8 @@ g:hover > .knooppunt { transform: scale(1.25); }
   .a4 { zoom: 0.66; padding: 0 !important; box-shadow: none !important; border: 0 !important; }
   .a4 .vak { break-inside: avoid; }
   .a3 { padding: 0 !important; zoom: 0.83; }
-  .a3.samenhang-a3 { zoom: 0.86; }
+  .a3.samenhang-a3 { zoom: 0.7; }
+  .a3.trein-a3 { zoom: 0.72; }
   .a3.samenhang-a3 svg { max-width: 100% !important; }
   .a3 .lg\:grid-cols-\[minmax\(0\2c 1\.05fr\)_minmax\(0\2c 1fr\)\] { grid-template-columns: 1.05fr 1fr !important; }
   .a3 .min-w-\[900px\] { min-width: 0 !important; }

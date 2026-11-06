@@ -28,3 +28,10 @@ for (const a of d.aanvullingen || []) if (!ids.has(a.op)) fouten.push(`aanvullin
 waarschuwingen.forEach(w => console.warn('⚠', w))
 if (fouten.length) { fouten.forEach(f => console.error('✖', f)); process.exit(1) }
 console.log(`✔ canvas.json in orde: ${d.entiteiten.length} onderdelen, ${d.relaties.length} verbindingen.`)
+
+// Koers: elke koppeling van een mijlpaal moet naar een bestaand onderdeel wijzen.
+const koers = JSON.parse(readFileSync(new URL('../public/data/koers.json', import.meta.url), 'utf8'))
+const koersFouten = []
+koers.koerslijnen.forEach(l => Object.values(l.golven).flat().forEach(s => { if (s.op && !ids.has(s.op)) koersFouten.push(`koers.json: ${l.id} "${s.t}" wijst naar onbekend onderdeel ${s.op}`) }))
+if (koersFouten.length) { koersFouten.forEach(f => console.error('✖', f)); process.exit(1) }
+console.log(`✔ koers.json in orde: ${koers.koerslijnen.length} lijnen.`)

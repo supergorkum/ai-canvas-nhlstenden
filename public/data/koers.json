@@ -1,0 +1,302 @@
+{
+ "bron": {
+  "titel": "NHL Stenden AI-Koers 2026 tot 2030, versie 0.55d (concept)",
+  "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+  "hoofdstukken": "5 t/m 11 en 14 (tijdlijn)"
+ },
+ "golven": [
+  {
+   "id": "funderen",
+   "titel": "Funderen",
+   "jaren": "2026"
+  },
+  {
+   "id": "uitbouwen",
+   "titel": "Uitbouwen",
+   "jaren": "2027-28"
+  },
+  {
+   "id": "verankeren",
+   "titel": "Verankeren",
+   "jaren": "2029-30"
+  }
+ ],
+ "route": [
+  "Idee",
+  "Intake",
+  "Classificatie",
+  "Sandbox",
+  "Evaluatie",
+  "Uitrol"
+ ],
+ "koerslijnen": [
+  {
+   "id": "leren",
+   "nr": "01",
+   "titel": "AI & Leren",
+   "kernambitie": "AI versterkt leren: meer succes, minder uitval.",
+   "komtVoortUit": "Ambitie Kwalitatief hoogwaardig: generatieve AI via SURF AI, kaders per opleiding, de menselijke maat.",
+   "vakeigenaren": "OO&I en CTL",
+   "golven": {
+    "funderen": [
+     {
+      "t": "AI-positie per domein formuleren"
+     },
+     {
+      "t": "Start SURF AI-pilot",
+      "op": "edugenai"
+     }
+    ],
+    "uitbouwen": [
+     {
+      "t": "AI-bestendige toetsvormen uitrollen",
+      "op": "ctl"
+     },
+     {
+      "t": "Kennisdeling via Netwerk",
+      "op": "ai-netwerk"
+     }
+    ],
+    "verankeren": [
+     {
+      "t": "Alle OER's bevatten AI-positie"
+     }
+    ]
+   },
+   "bestemming": "Elke opleiding heeft een gedocumenteerde en zichtbare positie op AI in het leerproces, opgenomen in OER en opleidingsgids."
+  },
+  {
+   "id": "werken",
+   "nr": "02",
+   "titel": "AI & Werken",
+   "kernambitie": "AI neemt werk uit handen, zodat mensen het verschil maken.",
+   "komtVoortUit": "Actiethema Applicatie- en dienstenportfolio: alleen toevoegen wat aantoonbaar meerwaarde levert.",
+   "vakeigenaren": "per bedrijfsfunctie (Bedrijfsfunctiemodel)",
+   "golven": {
+    "funderen": [
+     {
+      "t": "Kansprocessen in kaart"
+     },
+     {
+      "t": "AI-toetspunten in het afwegingskader voor digitalisering",
+      "op": "afwegingskader-digitalisering"
+     },
+     {
+      "t": "Eerste proven-technology-invoeringen"
+     }
+    ],
+    "uitbouwen": [
+     {
+      "t": "AI-aanvragen via het afwegingskader",
+      "op": "afwegingskader-digitalisering"
+     },
+     {
+      "t": "Eerste processen aantoonbaar verbeterd (2027)"
+     },
+     {
+      "t": "Pilots evalueren, schaalbare cases selecteren"
+     }
+    ],
+    "verankeren": [
+     {
+      "t": "AI vast uitgangspunt in procesontwerp"
+     },
+     {
+      "t": "5+ processen verbeterd en gedocumenteerd"
+     }
+    ]
+   },
+   "bestemming": "AI is een vanzelfsprekend onderdeel van de bedrijfsvoering. Minimaal vijf processen zijn duurzaam vernieuwd, gedocumenteerd en beschikbaar voor leeruitwisseling."
+  },
+  {
+   "id": "verantwoordelijkheid",
+   "nr": "03",
+   "titel": "AI & Verantwoordelijkheid",
+   "kernambitie": "AI met transparantie, controle en vertrouwen.",
+   "komtVoortUit": "Actiethema's Verantwoorde AI, Digitale veiligheid en privacy en Digitale autonomie.",
+   "vakeigenaren": "CTL",
+   "golven": {
+    "funderen": [
+     {
+      "t": "AI-beleid v2.0 live",
+      "op": "ai-beleid-v2"
+     },
+     {
+      "t": "AI-Netwerk binnen de IV-organisatie in werking",
+      "op": "ai-netwerk"
+     },
+     {
+      "t": "AI Act-classificatie",
+      "op": "eu-ai-act"
+     },
+     {
+      "t": "DPIA-proces"
+     }
+    ],
+    "uitbouwen": [
+     {
+      "t": "Compliance per toepassing"
+     },
+     {
+      "t": "Regulatory sandbox operationeel",
+      "op": "ai-regulatory-sandbox"
+     }
+    ],
+    "verankeren": [
+     {
+      "t": "Jaarrapportage"
+     },
+     {
+      "t": "Sturing op AI ingebed in de IV-organisatie",
+      "op": "iv-organisatie"
+     }
+    ]
+   },
+   "bestemming": "Het AI-Netwerk functioneert binnen de toekomstbestendige IV-organisatie, met jaarlijkse rapportage over AI-risico's, compliance en afwegingen rond digitale autonomie."
+  },
+  {
+   "id": "geletterdheid",
+   "nr": "04",
+   "titel": "AI & Geletterdheid",
+   "kernambitie": "Iedereen AI-vaardig, niemand afhankelijk.",
+   "komtVoortUit": "Actiethema's AI en data geletterdheid en Digitale geletterdheid, met AI-GO als landelijk raamwerk.",
+   "vakeigenaren": "OO&I en CTL",
+   "golven": {
+    "funderen": [
+     {
+      "t": "Basisprofiel op basis van AI-GO!",
+      "op": "basisprofiel-ai-geletterdheid"
+     },
+     {
+      "t": "ARDA AI-modules live",
+      "op": "arda-ai-modules"
+     },
+     {
+      "t": "Start scholing docententeams (basis, toetsbekwaamheid)"
+     }
+    ],
+    "uitbouwen": [
+     {
+      "t": "AI-geletterdheid in beoogde leerresultaten"
+     },
+     {
+      "t": "Verdiepingspaden per rol"
+     },
+     {
+      "t": "Meting uitvoeren"
+     }
+    ],
+    "verankeren": [
+     {
+      "t": "80% medewerkers basisniveau bereikt (als ondergrens)"
+     }
+    ]
+   },
+   "bestemming": "In 2030 heeft minimaal 80% van de medewerkers het vastgestelde basisniveau AI-geletterdheid bereikt, als ondergrens en niet als plafond."
+  },
+  {
+   "id": "werkveld",
+   "nr": "05",
+   "titel": "AI & Werkveld",
+   "kernambitie": "Samen met het werkveld versnellen we innovatie.",
+   "komtVoortUit": "Actiethema Landelijke voorzieningen met SURF en Npuls: een knooppunt in een sterk landelijk netwerk.",
+   "vakeigenaren": "opleidingen met werkveldcommissies; SURF en Npuls",
+   "golven": {
+    "funderen": [
+     {
+      "t": "AI-competenties per domein"
+     },
+     {
+      "t": "Werkveldconsultatie"
+     }
+    ],
+    "uitbouwen": [
+     {
+      "t": "Eerste opleidingen verankeren AI in curriculum"
+     }
+    ],
+    "verankeren": [
+     {
+      "t": "Elke opleiding: AI in kernonderdeel"
+     }
+    ]
+   },
+   "bestemming": "Elke opleiding heeft AI-competenties verankerd in ten minste één kernonderdeel van het curriculum, in aantoonbare afstemming met het beroepenveld."
+  },
+  {
+   "id": "onderzoek",
+   "nr": "06",
+   "titel": "AI & Onderzoek",
+   "kernambitie": "AI-onderzoek met impact: praktisch, relevant en toekomstgericht.",
+   "komtVoortUit": "Actiethema Data centraal: dataplatform, data governance en data ethics.",
+   "vakeigenaren": "OO&I en lectoraten",
+   "golven": {
+    "funderen": [
+     {
+      "t": "Lectoraten verbinden",
+      "op": "ai-netwerk"
+     },
+     {
+      "t": "Kennisagenda"
+     },
+     {
+      "t": "Dataplatform",
+      "op": "dataplatform"
+     }
+    ],
+    "uitbouwen": [
+     {
+      "t": "Regionale positionering"
+     },
+     {
+      "t": "AI in onderzoeksproces"
+     }
+    ],
+    "verankeren": [
+     {
+      "t": "2+ lectoraten actief"
+     },
+     {
+      "t": "Regionale rol zichtbaar"
+     }
+    ]
+   },
+   "bestemming": "De lectoraten die met AI werken zijn verbonden in het AI-Netwerk; minimaal twee trekken actief mee. NHL Stenden heeft een zichtbare rol als AI-kennispartner in de regio."
+  },
+  {
+   "id": "sandbox",
+   "nr": "⚑",
+   "titel": "Sandbox",
+   "kernambitie": "Veilig experimenteren onder toezicht: faciliteren in plaats van remmen.",
+   "komtVoortUit": "Hoofdstuk 11: zes vaste waarborgen, volgens de EU AI-verordening en het sandboxmodel van AP en RDI.",
+   "vakeigenaren": "AI-Netwerk (kennisbank pilotresultaten)",
+   "golven": {
+    "funderen": [
+     {
+      "t": "Technische sandbox inrichten",
+      "op": "technische-sandbox"
+     },
+     {
+      "t": "Interne werkwijze conform het landelijke model",
+      "op": "ai-regulatory-sandbox"
+     }
+    ],
+    "uitbouwen": [
+     {
+      "t": "Intake-procedure live"
+     },
+     {
+      "t": "Eerste pilots door beide sandboxes"
+     }
+    ],
+    "verankeren": [
+     {
+      "t": "Kennisbank pilotresultaten actief en gedeeld",
+      "op": "ai-netwerk"
+     }
+    ]
+   },
+   "bestemming": "Elke pilot volgt de route idee, intake, classificatie, sandbox, evaluatie, uitrol. Nationale sandbox open uiterlijk augustus 2027."
+  }
+ ]
+}

@@ -21,7 +21,7 @@ export default function Over({ data, onMeld }) {
         </section>
         <section>
           <h3 className="text-lg font-bold text-nhl-blauw">Zuiver: je ziet altijd waar iets vandaan komt</h3>
-          <p className="mt-2">Elk onderdeel heeft een herkomst. Meldingen die nog niet zijn bevestigd, staan met een stippellijn op de kaart.</p>
+          <p className="mt-2">Elk onderdeel heeft een herkomst. Meldingen die nog niet zijn bevestigd, zijn gemarkeerd als "onbevestigd".</p>
           <ul className="mt-3 space-y-2">
             {Object.values(HERKOMST).map(h => (
               <li key={h.label} className="flex gap-3 items-start"><span className="w-3 h-3 rounded-full mt-1.5 shrink-0" style={{ background: h.kleur }} /><span><b>{h.label}</b>: {h.uitleg}</span></li>

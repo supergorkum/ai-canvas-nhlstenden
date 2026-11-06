@@ -10,14 +10,18 @@ const AANTAL_DRAGERS = 10
 export default function Samenhang({ data, onKies }) {
   const [focus, setFocus] = useState(null) // vak-id
   const [dragerFocus, setDragerFocus] = useState(null)
+  const [band, setBand] = useState(null) // [v, w] of null = sterkste band
 
-  const { matrix, binnen, totaal, dragers, burenVan } = useMemo(() => {
+  const { matrix, binnen, totaal, dragers, burenVan, perBand } = useMemo(() => {
     const m = {}; const bin = {}; const tot = {}
     VOLGORDE.forEach(a => { m[a] = {}; bin[a] = 0; tot[a] = 0; VOLGORDE.forEach(b => (m[a][b] = 0)) })
     const buren = {}
+    const perBand = {}
     data.relaties.forEach(r => {
       const A = data.index[r.van], B = data.index[r.naar]; if (!A || !B) return
       const a = vakVan(A), b = vakVan(B)
+      const sleutel = [a, b].sort((x, y) => VOLGORDE.indexOf(x) - VOLGORDE.indexOf(y)).join('|')
+      ;(perBand[sleutel] ||= []).push({ r, A, B })
       tot[a]++; tot[b]++
       if (a === b) bin[a]++
       else { m[a][b]++; m[b][a]++ }
@@ -25,7 +29,7 @@ export default function Samenhang({ data, onKies }) {
     })
     const g = graadMap(data.relaties)
     const dr = Object.keys(g).sort((x, y) => g[y] - g[x]).slice(0, AANTAL_DRAGERS).map(id => data.index[id]).filter(Boolean)
-    return { matrix: m, binnen: bin, totaal: tot, dragers: dr, burenVan: buren }
+    return { matrix: m, binnen: bin, totaal: tot, dragers: dr, burenVan: buren, perBand }
   }, [data])
 
   // Vakken die een drager raakt: die lichten op in het diagram.
@@ -76,6 +80,19 @@ export default function Samenhang({ data, onKies }) {
   const iets = focus || dragerVakken
 
   const sterkste = linten.slice().sort((a, b) => b[2] - a[2]).slice(0, 3)
+  const gekozenBand = band || (sterkste[0] ? [sterkste[0][0], sterkste[0][1]] : null)
+  const bandRelaties = gekozenBand ? (perBand[gekozenBand.join('|')] || []) : []
+  const isGekozen = (v, w) => gekozenBand && gekozenBand[0] === v && gekozenBand[1] === w
+  // Dragers als genummerde stippen op hun eigen boog.
+  const stippen = []
+  VOLGORDE.forEach(v => {
+    const hier = dragers.map((e, i) => ({ e, i })).filter(({ e }) => vakVan(e) === v)
+    hier.forEach(({ e, i }, k) => {
+      const b = bogen[v]
+      const a = b.start + ((k + 1) * (b.eind - b.start)) / (hier.length + 1)
+      stippen.push({ e, i, a })
+    })
+  })
 
   return (
     <div className="h-full overflow-y-auto bg-[#E9EDF5] print:bg-white">
@@ -85,21 +102,35 @@ export default function Samenhang({ data, onKies }) {
             <div>
               <div className="section-label">NHL Stenden · AI Canvas · Samenhang</div>
               <h1 className="text-2xl sm:text-3xl font-extrabold text-nhl-blauw leading-tight">Hoe hangt AI in onze organisatie samen?</h1>
-              <p className="text-sm text-gray-500 mt-1">Links: verbindingen tussen de sporen. Rechts: de {AANTAL_DRAGERS} onderdelen waar het meeste aan vastzit.</p>
+              <p className="text-sm text-gray-500 mt-1">De zes koerslijnen van de AI-Koers (v0.55d), Koers & Kaders en Extern: hoe ze met elkaar verbonden zijn, en wie die verbinding draagt.</p>
             </div>
           </header>
 
+          <section className="mb-5 grid sm:grid-cols-3 print:grid-cols-3 gap-3 text-[12.5px] text-gray-600" aria-label="Zo lees je deze plaat">
+            {[
+              ['1', 'De cirkel', 'Elke gekleurde boog is een koerslijn uit de AI-Koers, plus Koers & Kaders en Extern. Hoe langer de boog, hoe meer verbindingen.'],
+              ['2', 'De banden', 'Een band laat zien hoeveel onderdelen van twee koerslijnen met elkaar verbonden zijn. Klik een band: onder de cirkel zie je welke verbindingen het zijn.'],
+              ['3', 'De dragers', 'De tien onderdelen met de meeste verbindingen. Hun nummer staat op hun eigen boog. Wijs er een aan: de koerslijnen die hij raakt lichten op.'],
+            ].map(([n, t, x]) => (
+              <div key={n} className="flex gap-2.5">
+                <span className="w-6 h-6 rounded-full bg-nhl-blauw text-white grid place-items-center text-xs font-bold shrink-0">{n}</span>
+                <div><b className="text-gray-800">{t}.</b> {x}</div>
+              </div>
+            ))}
+          </section>
+
           <div className="grid lg:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)] gap-6 lg:gap-8 items-start">
             <figure className="min-w-0">
-              <svg viewBox="-120 -6 900 676" className="w-full max-w-[680px] mx-auto block" role="img" aria-label="Koordendiagram van verbindingen tussen de sporen">
+              <svg viewBox="-120 -6 900 676" className="w-full max-w-[680px] mx-auto block" role="img" aria-label="Koordendiagram van verbindingen tussen de koerslijnen">
                 {/* linten */}
                 <g>
                   {linten.map(([v, w, n]) => {
                     const aan = actief(v, w)
                     return (
                       <path key={v + w} d={lint(segmenten[v][w], segmenten[w][v])}
-                        fill={`url(#grad-${v}-${w})`} stroke="#fff" strokeWidth="0.6"
-                        opacity={aan ? (iets ? 0.9 : 0.62) : 0.07} className="transition-opacity duration-200">
+                        fill={`url(#grad-${v}-${w})`} stroke={isGekozen(v, w) ? '#0F1E52' : '#fff'} strokeWidth={isGekozen(v, w) ? 2.2 : 0.6}
+                        opacity={aan ? (iets ? 0.9 : isGekozen(v, w) ? 0.92 : 0.55) : 0.07} className="transition-opacity duration-200 cursor-pointer"
+                        onClick={() => setBand([v, w])}>
                         <title>{`${VAKKEN[v].titel} ↔ ${VAKKEN[w].titel}: ${n} verbindingen`}</title>
                       </path>
                     )
@@ -119,24 +150,55 @@ export default function Samenhang({ data, onKies }) {
                 {/* bogen */}
                 {VOLGORDE.map(v => {
                   const b = bogen[v], mid = (b.start + b.eind) / 2
-                  const [lx, ly] = pt(mid, R + DIK + 22)
+                  const [lx, ly] = pt(mid, R + DIK + 22 + (Math.sin(mid) > 0.6 ? 22 : 0))
                   const rechts = Math.cos(mid) >= 0
                   const dim = iets && !(focus === v || dragerVakken?.has(v))
                   return (
                     <g key={v} className="cursor-pointer" onMouseEnter={() => setFocus(v)} onMouseLeave={() => setFocus(null)} opacity={dim ? 0.35 : 1}>
                       <path d={boogPad(b.start, b.eind, R, R + DIK)} fill={VAKKEN[v].kleur} />
                       {binnen[v] > 0 && <path d={boogPad(segmenten[v].binnen[0], segmenten[v].binnen[1], R - 10, R - 2)} fill={VAKKEN[v].kleur} opacity="0.35" />}
+                      {VAKKEN[v].nr && <text x={lx} y={ly - 24} textAnchor={Math.abs(Math.cos(mid)) < 0.25 ? 'middle' : rechts ? 'start' : 'end'} fontSize="10.5" fontWeight="700" letterSpacing="1.5" fill="#94A3B8">KOERSLIJN {VAKKEN[v].nr}</text>}
                       <text x={lx} y={ly - 6} textAnchor={Math.abs(Math.cos(mid)) < 0.25 ? 'middle' : rechts ? 'start' : 'end'} fontSize="15" fontWeight="800" fill={VAKKEN[v].kleur}>{VAKKEN[v].kort}</text>
                       <text x={lx} y={ly + 12} textAnchor={Math.abs(Math.cos(mid)) < 0.25 ? 'middle' : rechts ? 'start' : 'end'} fontSize="12" fill="#64748B">{totaal[v]} verbindingen</text>
                     </g>
                   )
                 })}
+                {stippen.map(({ e, i, a }) => {
+                  const [x, y] = pt(a, R + DIK / 2)
+                  const aan = !dragerFocus || dragerFocus === e.id
+                  return (
+                    <g key={e.id} className="cursor-pointer" onMouseEnter={() => setDragerFocus(e.id)} onMouseLeave={() => setDragerFocus(null)} onClick={() => onKies(e.id)} opacity={aan ? 1 : 0.4}>
+                      <circle cx={x} cy={y} r={dragerFocus === e.id ? 13 : 11} fill="#fff" stroke="#0F1E52" strokeWidth="2.5" />
+                      <text x={x} y={y + 4} textAnchor="middle" fontSize="11.5" fontWeight="800" fill="#0F1E52">{i + 1}</text>
+                      <title>{`${i + 1}. ${e.naam}`}</title>
+                    </g>
+                  )
+                })}
               </svg>
-              <figcaption className="mt-3 text-xs text-gray-500 grid sm:grid-cols-2 gap-x-6 gap-y-1">
-                <span><b className="text-gray-700">Dikte van een band</b> = aantal verbindingen tussen twee vakken.</span>
-                <span><b className="text-gray-700">Lichte rand binnen een boog</b> = verbindingen binnen hetzelfde vak.</span>
-                <span className="sm:col-span-2">Sterkste banden: {sterkste.map(([v, w, n]) => `${VAKKEN[v].kort} ↔ ${VAKKEN[w].kort} (${n})`).join(' · ')}.</span>
+              <figcaption className="mt-3 text-xs text-gray-500">
+                <b className="text-gray-700">Dikte van een band</b> = aantal verbindingen tussen twee koerslijnen. <b className="text-gray-700">Lichte rand binnen een boog</b> = verbindingen binnen dezelfde koerslijn. <b className="text-gray-700">Genummerde stip</b> = drager (zie rechts).
               </figcaption>
+              {gekozenBand && (
+                <div className="mt-4 rounded-2xl border border-gray-200 p-4">
+                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
+                    <h3 className="font-extrabold text-[15px] text-gray-900">
+                      <span style={{ color: VAKKEN[gekozenBand[0]].kleur }}>{VAKKEN[gekozenBand[0]].kort}</span>
+                      <span className="text-gray-400"> ↔ </span>
+                      <span style={{ color: VAKKEN[gekozenBand[1]].kleur }}>{VAKKEN[gekozenBand[1]].kort}</span>
+                    </h3>
+                    <span className="text-xs text-gray-500">{bandRelaties.length} verbindingen{!band && ' · de sterkste band; klik een andere band in de cirkel'}</span>
+                  </div>
+                  <ul className="grid sm:grid-cols-2 print:grid-cols-2 gap-x-5 gap-y-1.5 text-[12px] leading-snug max-h-72 overflow-y-auto print:max-h-none">
+                    {bandRelaties.map(({ r, A, B }, i) => (
+                      <li key={i} className="min-w-0">
+                        <button onClick={() => onKies(A.id)} className="font-semibold text-gray-800 hover:text-nhl-roze">{A.naam}</button>
+                        <span className="text-gray-400"> {r.soort} </span>
+                        <button onClick={() => onKies(B.id)} className="font-semibold text-gray-800 hover:text-nhl-roze">{B.naam}</button>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </figure>
 
             <section className="min-w-0">

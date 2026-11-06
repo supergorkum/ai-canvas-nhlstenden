@@ -1,181 +1,191 @@
-import { useMemo, useState } from 'react'
-import { VAKKEN, vakVan } from '../groepen.js'
+import { useEffect, useMemo, useState } from 'react'
+import { SPOREN } from '../model.js'
 
-// A3-plaat 'Treinnetwerk': de grote doorlopende lijnen van de AI-koers als treinlijnen.
-// Een lijn is een drager; de stations zijn de onderdelen die er (volgens de bron) mee verbonden zijn.
-// Elk station heeft een vaste kolom, gegroepeerd per zone (vak). Zo staat een overstapstation
-// op elke lijn op dezelfde plek en lopen er geen lijnen of namen door elkaar.
-const LIJNEN = [
-  { id: 'ai-koers', naam: 'AI-Koers', kleur: '#E91E8C' },
-  { id: 'ai-netwerk', naam: 'AI-Netwerk', kleur: '#1E3A8A' },
-  { id: 'eu-ai-act', naam: 'AI Act', kleur: '#BE185D' },
-  { id: 'programma-ai', naam: 'Programma AI', kleur: '#7C3AED' },
-  { id: 'amce-ai-proeftuin', naam: 'AMCE Proeftuin', kleur: '#0E7490' },
-  { id: 'surf', naam: 'SURF', kleur: '#B45309' },
-  { id: 'npuls', naam: 'Npuls', kleur: '#0F766E' },
-]
-const ZONES = ['kern', 'verantwoordelijkheid', 'leren', 'geletterdheid', 'werken', 'werkveld', 'onderzoek', 'extern']
+// A3-plaat 'Treinnetwerk': de realisatie van de AI-Koers (v0.55d) als spoorkaart.
+// Elke koerslijn is een treinlijn die van 2026 naar 2030 rijdt, door de drie golven van de koers.
+// De stations zijn de mijlpalen uit de tijdlijn van de koers; het eindstation is de indicator voor 2030.
+// Een overstapstation is een mijlpaal die bij hetzelfde onderdeel hoort als een mijlpaal op een andere lijn.
+const KLEUR_SANDBOX = '#475569'
+const LINKS = 300, GOLF = 430, BESTEMMING = 330, BOVEN = 120, RIJ = 138
 
-const LINKS = 220, KOLOM = 30, BOVEN = 270, RIJ = 80
+function breek(t, n = 22) {
+  const woorden = t.split(' '); const regels = ['']
+  woorden.forEach(w => {
+    const r = regels[regels.length - 1]
+    if ((r + ' ' + w).trim().length > n && r) regels.push(w)
+    else regels[regels.length - 1] = (r + ' ' + w).trim()
+  })
+  return regels
+}
 
-export default function Treinnetwerk({ data, onKies }) {
+export default function Treinnetwerk({ data, onKies, onSpoor }) {
+  const [koers, setKoers] = useState(null)
+  const [focus, setFocus] = useState(null) // canvas-id van een overstap
   const [lijnFocus, setLijnFocus] = useState(null)
-  const [stationFocus, setStationFocus] = useState(null)
+  useEffect(() => { fetch('./data/koers.json', { cache: 'no-cache' }).then(r => r.json()).then(setKoers).catch(() => setKoers(false)) }, [])
 
   const net = useMemo(() => {
-    const lijnen = LIJNEN.filter(l => data.index[l.id])
-    const stops = {} // lijn-id -> Set(station-id)
-    lijnen.forEach(l => (stops[l.id] = new Set([l.id])))
-    data.relaties.forEach(r => {
-      lijnen.forEach(l => {
-        if (r.van === l.id && data.index[r.naar]) stops[l.id].add(r.naar)
-        if (r.naar === l.id && data.index[r.van]) stops[l.id].add(r.van)
+    if (!koers) return null
+    const golfX = {}; koers.golven.forEach((g, i) => (golfX[g.id] = LINKS + i * GOLF))
+    const lijnen = koers.koerslijnen.map((l, i) => {
+      const kleur = SPOREN[l.id]?.kleur || KLEUR_SANDBOX
+      const y = BOVEN + 70 + i * RIJ
+      const stations = []
+      koers.golven.forEach(g => {
+        const lijst = l.golven[g.id] || []
+        lijst.forEach((s, k) => stations.push({ ...s, golf: g.id, x: golfX[g.id] + ((k + 1) * GOLF) / (lijst.length + 1), y, boven: k % 2 === 0 }))
       })
+      return { ...l, kleur, y, stations }
     })
-    const lijnenVan = {}
-    lijnen.forEach(l => stops[l.id].forEach(s => (lijnenVan[s] ||= []).push(l.id)))
-    const stations = Object.keys(lijnenVan).map(id => data.index[id])
-    stations.sort((a, b) =>
-      ZONES.indexOf(vakVan(a)) - ZONES.indexOf(vakVan(b)) ||
-      lijnenVan[b.id].length - lijnenVan[a.id].length ||
-      a.naam.localeCompare(b.naam))
-    const x = {}; stations.forEach((s, i) => (x[s.id] = LINKS + 30 + i * KOLOM))
-    const zones = []
-    stations.forEach((s, i) => {
-      const z = vakVan(s); const laatste = zones[zones.length - 1]
-      if (laatste && laatste.id === z) laatste.tot = i
-      else zones.push({ id: z, van: i, tot: i })
-    })
-    return { lijnen, stops, lijnenVan, stations, x, zones }
-  }, [data])
+    const lijnenPerOnderdeel = {}
+    lijnen.forEach(l => l.stations.forEach(s => s.op && (lijnenPerOnderdeel[s.op] ||= new Set()).add(l.id)))
+    return { lijnen, lijnenPerOnderdeel }
+  }, [koers])
 
-  const { lijnen, stops, lijnenVan, stations, x, zones } = net
-  const B = LINKS + 60 + stations.length * KOLOM + 150
-  const yLijn = i => BOVEN + 30 + i * RIJ
-  const H = yLijn(lijnen.length - 1) + 110
-  const kort = (t, n = 34) => (t.length > n ? t.slice(0, n - 1) + '…' : t)
-  const lijnAan = id => !lijnFocus || lijnFocus === id
-  const stationAan = id => (!stationFocus || stationFocus === id) && (!lijnFocus || stops[lijnFocus].has(id))
-  const overstap = stations.filter(s => lijnenVan[s.id].length > 1).length
+  if (koers === false) return <p className="p-10 text-center text-gray-500">De gegevens van de koers konden niet worden geladen.</p>
+  if (!net) return <div className="p-10 text-center text-gray-400">Treinnetwerk wordt geladen…</div>
+
+  const { lijnen, lijnenPerOnderdeel } = net
+  const B = LINKS + GOLF * 3 + BESTEMMING + 20
+  const H = BOVEN + 70 + (lijnen.length - 1) * RIJ + 90
+  const isOverstap = s => s.op && lijnenPerOnderdeel[s.op]?.size > 1
+  const aanLijn = id => !lijnFocus || lijnFocus === id
+  const aanStation = s => (!focus || s.op === focus)
+  const overstappen = Object.entries(lijnenPerOnderdeel).filter(([, v]) => v.size > 1)
+  const telPerSpoor = id => data.entiteiten.filter(e => e.spoor === id).length
 
   return (
     <div className="h-full overflow-y-auto bg-[#E9EDF5] print:bg-white">
-      <div className="mx-auto max-w-[1700px] px-3 sm:px-6 py-5 sm:py-8 print:p-0">
-        <article className="a3 bg-white rounded-3xl shadow-xl print:shadow-none print:rounded-none p-4 sm:p-6 lg:p-8">
-          <header className="flex flex-wrap items-end justify-between gap-3 pb-4 mb-4 border-b-2 border-nhl-blauw">
-            <div>
+      <div className="mx-auto max-w-[1760px] px-3 sm:px-6 py-5 sm:py-8 print:p-0">
+        <article className="a3 trein-a3 bg-white rounded-3xl shadow-xl print:shadow-none print:rounded-none p-4 sm:p-6 lg:p-8">
+          <header className="flex flex-wrap items-end justify-between gap-4 pb-4 mb-4 border-b-2 border-nhl-blauw">
+            <div className="min-w-0">
               <div className="section-label">NHL Stenden · AI Canvas · Treinnetwerk</div>
-              <h1 className="text-2xl sm:text-3xl font-extrabold text-nhl-blauw leading-tight">De rails van de AI-koers</h1>
-              <p className="text-sm text-gray-500 mt-1">{lijnen.length} lijnen · {stations.length} stations · {overstap} overstapstations. Een lijn is een drager; de stations zijn de onderdelen die ermee verbonden zijn.</p>
+              <h1 className="text-2xl sm:text-3xl font-extrabold text-nhl-blauw leading-tight">De rails van de AI-Koers, 2026 tot 2030</h1>
+              <p className="text-sm text-gray-500 mt-1">Zes koerslijnen en de sandbox rijden in drie golven naar hun bestemming in 2030. Bron: {koers.bron.titel}, tijdlijn en koerslijnen.</p>
             </div>
           </header>
 
+          <section className="mb-4 grid sm:grid-cols-2 lg:grid-cols-4 print:grid-cols-4 gap-3 text-[12.5px] text-gray-600" aria-label="Zo lees je deze kaart">
+            {[
+              ['1', 'Elke lijn is een koerslijn', 'Van links (2026) naar rechts (2030). Het lijnbord noemt de kernambitie.'],
+              ['2', 'Stations zijn mijlpalen', 'Letterlijk uit de tijdlijn van de koers, per golf: funderen, uitbouwen, verankeren.'],
+              ['3', 'Het eindstation is de bestemming', 'De indicator die de koerslijn in 2030 wil halen.'],
+              ['4', 'Overstappen', `Een omrande stip hoort bij hetzelfde onderdeel als een stip op een andere lijn, zoals het AI-Netwerk. Wijs hem aan om de verbinding te zien.`],
+            ].map(([n, t, x]) => (
+              <div key={n} className="flex gap-2.5">
+                <span className="w-6 h-6 rounded-full bg-nhl-blauw text-white grid place-items-center text-xs font-bold shrink-0">{n}</span>
+                <div><b className="text-gray-800">{t}.</b> {x}</div>
+              </div>
+            ))}
+          </section>
+
           <div className="overflow-x-auto -mx-2 px-2">
-            <svg viewBox={`0 0 ${B} ${H}`} className="block min-w-[900px] w-full" role="img" aria-label="Treinnetwerk van AI-onderdelen">
-              {/* Zones als gekleurde stroken */}
-              {zones.map((z, i) => {
-                const x0 = LINKS + 30 + z.van * KOLOM - KOLOM / 2, x1 = LINKS + 30 + z.tot * KOLOM + KOLOM / 2
-                const v = VAKKEN[z.id]
+            <svg viewBox={`0 0 ${B} ${H}`} className="block min-w-[1000px] w-full" role="img" aria-label="Treinnetwerk van de AI-Koers">
+              {/* Golven als zones */}
+              {koers.golven.map((g, i) => {
+                const x0 = LINKS + i * GOLF
                 return (
-                  <g key={z.id + i}>
-                    <rect x={x0} y={BOVEN - 6} width={x1 - x0} height={H - BOVEN - 34} fill={v.kleur} opacity={i % 2 ? 0.05 : 0.09} rx="8" />
-                    <rect x={x0 + 2} y={H - 34} width={x1 - x0 - 4} height="5" rx="2.5" fill={v.kleur} />
-                    <text x={(x0 + x1) / 2} y={H - 10} textAnchor="middle" fontSize="13" fontWeight="800" fill={v.kleur}>{x1 - x0 > 60 ? v.kort : v.kort.slice(0, 5) + '.'}</text>
+                  <g key={g.id}>
+                    <rect x={x0 + 4} y={BOVEN - 8} width={GOLF - 8} height={H - BOVEN} rx="14" fill="#1E3A8A" opacity={[0.035, 0.06, 0.09][i]} />
+                    <text x={x0 + GOLF / 2} y={BOVEN - 40} textAnchor="middle" fontSize="13" fontWeight="700" fill="#E91E8C" letterSpacing="3">{g.jaren}</text>
+                    <text x={x0 + GOLF / 2} y={BOVEN - 16} textAnchor="middle" fontSize="20" fontWeight="800" fill="#1E3A8A">{g.titel.toUpperCase()}</text>
                   </g>
                 )
               })}
+              <text x={LINKS + GOLF * 3 + BESTEMMING / 2} y={BOVEN - 40} textAnchor="middle" fontSize="13" fontWeight="700" fill="#E91E8C" letterSpacing="3">2030</text>
+              <text x={LINKS + GOLF * 3 + BESTEMMING / 2} y={BOVEN - 16} textAnchor="middle" fontSize="20" fontWeight="800" fill="#1E3A8A">BESTEMMING</text>
 
-              {/* Stationsnamen, schuin boven de kolom */}
-              {stations.map(s => (
-                <g key={s.id} transform={`translate(${x[s.id] + 4},${BOVEN - 14}) rotate(-55)`} className="cursor-pointer"
-                  onClick={() => onKies(s.id)} onMouseEnter={() => setStationFocus(s.id)} onMouseLeave={() => setStationFocus(null)}
-                  opacity={stationAan(s.id) ? 1 : 0.25}>
-                  <text fontSize="13.5" fontWeight={lijnenVan[s.id].length > 1 ? 700 : 500} fill="#0F1E52">{kort(s.naam)}</text>
-                </g>
-              ))}
+              {/* Overstapverbindingen: alleen zichtbaar bij aanwijzen */}
+              {focus && lijnen.flatMap(l => l.stations.filter(s => s.op === focus).map(s => ({ ...s, l }))).map((s, i, alle) =>
+                i === 0 ? null : (
+                  <path key={i} d={`M${alle[i - 1].x},${alle[i - 1].y} C${alle[i - 1].x + 60},${(alle[i - 1].y + s.y) / 2} ${s.x - 60},${(alle[i - 1].y + s.y) / 2} ${s.x},${s.y}`}
+                    fill="none" stroke="#0F1E52" strokeWidth="3" strokeDasharray="6 6" opacity="0.7" />
+                ))}
 
-              {/* Verticale overstaplijnen */}
-              {stations.filter(s => lijnenVan[s.id].length > 1).map(s => {
-                const rijen = lijnen.map((l, i) => (stops[l.id].has(s.id) ? i : -1)).filter(i => i >= 0)
-                return <line key={s.id} x1={x[s.id]} x2={x[s.id]} y1={yLijn(rijen[0])} y2={yLijn(rijen[rijen.length - 1])}
-                  stroke="#0F1E52" strokeWidth="2" strokeDasharray="2 4" opacity={stationAan(s.id) ? 0.55 : 0.1} />
-              })}
-              {/* Hulplijn van de naam naar de bovenste stop */}
-              {stations.map(s => {
-                const eerste = lijnen.findIndex(l => stops[l.id].has(s.id))
-                return <line key={s.id} x1={x[s.id]} x2={x[s.id]} y1={BOVEN - 8} y2={yLijn(eerste) - 9} stroke="#CBD5E1" strokeWidth="1" opacity={stationAan(s.id) ? 1 : 0.3} />
-              })}
-
-              {/* De lijnen */}
-              {lijnen.map((l, i) => {
-                const xs = [...stops[l.id]].map(id => x[id])
-                const y = yLijn(i), aan = lijnAan(l.id)
+              {lijnen.map(l => {
+                const eind = LINKS + GOLF * 3 + 14
+                const aan = aanLijn(l.id)
                 return (
                   <g key={l.id} opacity={aan ? 1 : 0.15} className="transition-opacity">
-                    <g className="cursor-pointer" onMouseEnter={() => setLijnFocus(l.id)} onMouseLeave={() => setLijnFocus(null)} onClick={() => onKies(l.id)}>
-                      <rect x="6" y={y - 20} width={LINKS - 20} height="40" rx="20" fill={l.kleur} />
-                      <text x="26" y={y + 6} fontSize="17" fontWeight="800" fill="#fff">{l.naam}</text>
-                      <text x={LINKS - 28} y={y + 5} textAnchor="end" fontSize="12" fill="#fff" opacity="0.85">{stops[l.id].size}</text>
+                    {/* lijnbord */}
+                    <g className="cursor-pointer" onMouseEnter={() => setLijnFocus(l.id)} onMouseLeave={() => setLijnFocus(null)} onClick={() => onSpoor?.(l.id === 'sandbox' ? 'kern' : l.id)}>
+                      <rect x="6" y={l.y - 34} width={LINKS - 26} height="68" rx="16" fill={l.kleur} />
+                      <text x="22" y={l.y - 10} fontSize="12" fontWeight="700" fill="#fff" opacity="0.8">{l.id === 'sandbox' ? 'VEILIG EXPERIMENTEREN' : `KOERSLIJN ${l.nr}`}</text>
+                      <text x="22" y={l.y + 10} fontSize={l.titel.length > 18 ? 15.5 : 18} fontWeight="800" fill="#fff">{l.titel}</text>
+                      {breek(l.kernambitie, 38).slice(0, 1).map((r, i) => (
+                        <text key={i} x="22" y={l.y + 27} fontSize="10.5" fill="#fff" opacity="0.85">{r}{breek(l.kernambitie, 38).length > 1 ? '…' : ''}</text>
+                      ))}
                     </g>
-                    <line x1={LINKS - 14} x2={Math.min(...xs)} y1={y} y2={y} stroke={l.kleur} strokeWidth="3" strokeDasharray="1 5" strokeLinecap="round" />
-                    <line x1={Math.min(...xs)} x2={Math.max(...xs)} y1={y} y2={y} stroke={l.kleur} strokeWidth="11" strokeLinecap="round" />
-                    {[...stops[l.id]].map(id => {
-                      const knoop = id === l.id
-                      const over = lijnenVan[id].length > 1
+                    {/* rails */}
+                    <line x1={LINKS - 20} x2={eind} y1={l.y} y2={l.y} stroke={l.kleur} strokeWidth="12" strokeLinecap="round" strokeDasharray={l.id === 'sandbox' ? '22 10' : undefined} />
+                    {/* stations */}
+                    {l.stations.map((s, k) => {
+                      const over = isOverstap(s)
+                      const regels = breek(s.t, 21)
+                      const dim = !aanStation(s)
+                      const ty = s.boven ? s.y - 24 - (regels.length - 1) * 15 : s.y + 34
                       return (
-                        <g key={id} className="cursor-pointer" onClick={() => onKies(id)}
-                          onMouseEnter={() => setStationFocus(id)} onMouseLeave={() => setStationFocus(null)} opacity={stationAan(id) ? 1 : 0.35}>
-                          {knoop
-                            ? <rect x={x[id] - 11} y={y - 11} width="22" height="22" rx="5" fill="#fff" stroke="#0F1E52" strokeWidth="3.5" />
-                            : <circle cx={x[id]} cy={y} r={over ? 9 : 6} fill="#fff" stroke={over ? '#0F1E52' : l.kleur} strokeWidth={over ? 3.5 : 2.5} />}
-                          <title>{data.index[id].naam}{over ? ` · overstap: ${lijnenVan[id].map(k => LIJNEN.find(q => q.id === k).naam).join(', ')}` : ''}</title>
+                        <g key={k} opacity={dim ? 0.25 : 1} className={s.op ? 'cursor-pointer' : ''}
+                          onMouseEnter={() => over && setFocus(s.op)} onMouseLeave={() => setFocus(null)}
+                          onClick={() => s.op && onKies(s.op)}>
+                          <circle cx={s.x} cy={s.y} r={over ? 12 : 8} fill="#fff" stroke={over ? '#0F1E52' : l.kleur} strokeWidth={over ? 5 : 4} />
+                          {regels.map((r, i) => (
+                            <text key={i} x={s.x} y={ty + i * 15} textAnchor="middle" fontSize="13" fontWeight={over ? 800 : 600}
+                              fill="#0F1E52" stroke="#fff" strokeWidth="4" paintOrder="stroke" strokeLinejoin="round">{r}</text>
+                          ))}
+                          {s.op && <title>{`${s.t} · onderdeel op het canvas: ${data.index[s.op]?.naam || s.op}`}</title>}
                         </g>
                       )
                     })}
+                    {/* eindstation */}
+                    <g>
+                      <rect x={eind + 18} y={l.y - 44} width={BESTEMMING - 30} height="88" rx="14" fill="#fff" stroke={l.kleur} strokeWidth="3" />
+                      <rect x={eind - 10} y={l.y - 14} width="28" height="28" rx="6" fill={l.kleur} />
+                      {breek(l.bestemming, 44).slice(0, 5).map((r, i, a) => (
+                        <text key={i} x={eind + 32} y={l.y - (a.length - 1) * 7.5 + i * 15 + 4} fontSize="11.5" fill="#0F1E52">{r}</text>
+                      ))}
+                    </g>
                   </g>
                 )
               })}
             </svg>
           </div>
 
-          <section className="mt-5">
-            <h2 className="section-label mb-3">Dienstregeling</h2>
+          <section className="mt-6 print:break-before-page print:mt-0">
+            <h2 className="section-label mb-3">Dienstregeling <span className="hidden print:inline text-gray-400">· De rails van de AI-Koers, 2026 tot 2030</span></h2>
             <ol className="grid sm:grid-cols-2 lg:grid-cols-4 print:grid-cols-4 gap-3">
-              {lijnen.map(l => {
-                const d = data.index[l.id]
-                const over = new Set()
-                stops[l.id].forEach(st => lijnenVan[st].forEach(k => k !== l.id && over.add(k)))
-                const perZone = {}
-                stops[l.id].forEach(st => { const z = vakVan(data.index[st]); perZone[z] = (perZone[z] || 0) + 1 })
-                return (
-                  <li key={l.id}>
-                    <button onClick={() => onKies(l.id)} onMouseEnter={() => setLijnFocus(l.id)} onMouseLeave={() => setLijnFocus(null)}
-                      className="w-full text-left rounded-2xl border border-gray-200 p-3.5 hover:shadow-md transition-shadow h-full">
-                      <div className="flex items-center gap-2">
-                        <span className="h-3 w-8 rounded-full shrink-0" style={{ background: l.kleur }} />
-                        <span className="font-extrabold text-[14px] text-gray-900">Lijn {l.naam}</span>
-                        <span className="ml-auto text-xs text-gray-400 tabular-nums">{stops[l.id].size} stations</span>
-                      </div>
-                      <p className="text-[12px] text-gray-600 mt-1.5 leading-snug line-clamp-2">{d.samenvatting}</p>
-                      <p className="text-[11px] text-gray-500 mt-1.5">
-                        Rijdt door: {ZONES.filter(z => perZone[z]).map(z => `${VAKKEN[z].kort} (${perZone[z]})`).join(' · ')}
-                      </p>
-                      {over.size > 0 && <p className="text-[11px] text-gray-500 mt-0.5">Overstap op: {[...over].map(k => LIJNEN.find(q => q.id === k).naam).join(', ')}</p>}
-                    </button>
-                  </li>
-                )
-              })}
+              {lijnen.map(l => (
+                <li key={l.id}>
+                  <button onMouseEnter={() => setLijnFocus(l.id)} onMouseLeave={() => setLijnFocus(null)} onClick={() => onSpoor?.(l.id === 'sandbox' ? 'kern' : l.id)}
+                    className="w-full h-full text-left rounded-2xl border border-gray-200 p-3.5 hover:shadow-md transition-shadow">
+                    <div className="flex items-center gap-2">
+                      <span className="h-3 w-8 rounded-full shrink-0" style={{ background: l.kleur }} />
+                      <span className="font-extrabold text-[14px] text-gray-900">{l.id === 'sandbox' ? 'Sandbox' : `Koerslijn ${l.nr} · ${l.titel}`}</span>
+                    </div>
+                    <p className="text-[12.5px] text-gray-800 mt-1.5 italic">“{l.kernambitie}”</p>
+                    <p className="text-[11.5px] text-gray-500 mt-1.5 leading-snug"><b className="text-gray-600">Komt voort uit:</b> {l.komtVoortUit}</p>
+                    <p className="text-[11.5px] text-gray-500 mt-1"><b className="text-gray-600">Vakeigenaar:</b> {l.vakeigenaren}</p>
+                    {l.id !== 'sandbox' && <p className="text-[11.5px] mt-1 font-semibold" style={{ color: l.kleur }}>{telPerSpoor(l.id)} onderdelen op het canvas →</p>}
+                  </button>
+                </li>
+              ))}
+              <li className="rounded-2xl bg-nhl-grijs p-3.5 text-[11.5px] text-gray-600">
+                <div className="font-extrabold text-[14px] text-gray-900 mb-1.5">Overstapstations</div>
+                <ul className="space-y-1">
+                  {overstappen.map(([id, s]) => (
+                    <li key={id}><button onClick={() => onKies(id)} onMouseEnter={() => setFocus(id)} onMouseLeave={() => setFocus(null)} className="text-left hover:underline">
+                      <b>{data.index[id]?.naam}</b> · {s.size} lijnen</button></li>
+                  ))}
+                </ul>
+                <p className="mt-2">Route van elk experiment: {koers.route.join(' → ')}.</p>
+              </li>
             </ol>
           </section>
 
-          <footer className="mt-4 pt-3 border-t border-gray-100 flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-[11px] text-gray-500">
-            <span className="flex flex-wrap items-center gap-x-5 gap-y-1">
-              <span className="inline-flex items-center gap-1.5"><svg width="16" height="16"><rect x="2" y="2" width="12" height="12" rx="3" fill="#fff" stroke="#0F1E52" strokeWidth="2.5" /></svg> knooppunt (de drager zelf)</span>
-              <span className="inline-flex items-center gap-1.5"><svg width="16" height="16"><circle cx="8" cy="8" r="5.5" fill="#fff" stroke="#0F1E52" strokeWidth="2.5" /></svg> overstapstation (op meer lijnen)</span>
-              <span className="inline-flex items-center gap-1.5"><svg width="16" height="16"><circle cx="8" cy="8" r="4" fill="#fff" stroke="#E91E8C" strokeWidth="2" /></svg> station</span>
-              <span>Wijs een lijn of station aan om het te volgen; klik voor details.</span>
-            </span>
-            <span className="text-gray-400">Bijgewerkt {data.meta?.bijgewerkt} · ai-canvas-nhlstenden.netlify.app</span>
+          <footer className="mt-4 pt-3 border-t border-gray-100 flex flex-wrap justify-between gap-2 text-[11px] text-gray-400">
+            <span>Bron: {koers.bron.titel}, hoofdstukken {koers.bron.hoofdstukken}. De tijdlijn is richtinggevend, niet lineair, en wordt jaarlijks herijkt.</span>
+            <span>ai-canvas-nhlstenden.netlify.app</span>
           </footer>
         </article>
       </div>

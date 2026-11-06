@@ -59,6 +59,13 @@ binnen de passende map een submap met de naam van dat onderdeel.
 8. **Live zetten.** Netlify bouwt automatisch na de push (zodra de repo is gekoppeld).
 9. **Rapport.** Sluit af met een korte samenvatting voor Edgar: nieuw, aangevuld, te controleren.
 
+## Leidende bron
+
+De AI-Koers is leidend voor taal en inhoud (nu versie 0.55d, Drive-bestand `CONCEPT NHL Stenden AI-Koers v0.55d.pdf`).
+Komt er een nieuwe koersversie in de inbox: werk `public/data/koers.json` bij (koerslijnen, mijlpalen per golf,
+indicatoren) en breng `canvas.json` in lijn met de nieuwe terminologie. Waar de AI Netwerk-site afwijkt van de koers,
+volgt het canvas de koers en staat het verschil in het logboek.
+
 ## Regels voor zuiverheid
 
 - Niets verzinnen: geen namen, rollen, data of verbindingen die niet in de bron staan.

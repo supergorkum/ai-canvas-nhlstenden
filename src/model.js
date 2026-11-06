@@ -15,12 +15,12 @@ export const SOORTEN = {
 
 // De zes sporen uit het AI Netwerk (src/data.js), met dezelfde kleuren.
 export const SPOREN = {
-  leren:                { titel: 'AI & Leren',               kort: 'Leren',        icon: '🎓', kleur: '#1E3A8A' },
-  werken:               { titel: 'AI & Werken',              kort: 'Werken',       icon: '⚙️', kleur: '#0F766E' },
-  verantwoordelijkheid: { titel: 'AI & Verantwoordelijkheid', kort: 'Verantwoord.', icon: '⚖️', kleur: '#E91E8C' },
-  geletterdheid:        { titel: 'AI & Geletterdheid',       kort: 'Geletterdheid', icon: '📖', kleur: '#7C3AED' },
-  werkveld:             { titel: 'AI & Werkveld',            kort: 'Werkveld',     icon: '🏭', kleur: '#B45309' },
-  onderzoek:            { titel: 'AI & Onderzoek',           kort: 'Onderzoek',    icon: '🔬', kleur: '#0E7490' },
+  leren:                { nr: '01', titel: 'AI & Leren',               kort: 'Leren',        icon: '🎓', kleur: '#1E3A8A' },
+  werken:               { nr: '02', titel: 'AI & Werken',              kort: 'Werken',       icon: '⚙️', kleur: '#0F766E' },
+  verantwoordelijkheid: { nr: '03', titel: 'AI & Verantwoordelijkheid', kort: 'Verantwoord.', icon: '⚖️', kleur: '#E91E8C' },
+  geletterdheid:        { nr: '04', titel: 'AI & Geletterdheid',       kort: 'Geletterdheid', icon: '📖', kleur: '#7C3AED' },
+  werkveld:             { nr: '05', titel: 'AI & Werkveld',            kort: 'Werkveld',     icon: '🏭', kleur: '#B45309' },
+  onderzoek:            { nr: '06', titel: 'AI & Onderzoek',           kort: 'Onderzoek',    icon: '🔬', kleur: '#0E7490' },
 }
 
 // Herkomst van een gegeven: hiermee blijft het canvas 'zuiver'.

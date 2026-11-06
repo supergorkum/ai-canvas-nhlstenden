@@ -1,13 +1,17 @@
 {
  "meta": {
-  "bijgewerkt": "5 november 2026",
+  "bijgewerkt": "6 november 2026",
   "ritme": "elke werkdag om 07:40 (redactieronde)",
   "aiNetwerkCommit": "497649c7e9ca9aa8b60e6b66fdf2d6b47cea0c07",
   "laatsteMelding": null,
   "bronnen": [
    {
+    "naam": "AI-Koers v0.55d (Drive)",
+    "stand": "leidend voor taal en inhoud: koerslijnen, tijdlijn, sturing en realisatie"
+   },
+   {
     "naam": "AI Netwerk NHL Stenden",
-    "stand": "volledig verwerkt (broncode t/m v2.55); gegevens die alleen in de opslag van de site staan (zelf toegevoegde initiatieven, pilotupdates) nog niet"
+    "stand": "verwerkt (broncode t/m v2.55); waar de AI-Koers v0.55d afwijkt, is de koers leidend"
    },
    {
     "naam": "Drive-map AI Canvas NHL Stenden",
@@ -25,7 +29,8 @@
     "naam": "intranet.nhlstenden.com",
     "stand": "verwijst door naar SharePoint (newuniversity.sharepoint.com) en vraagt een NHL Stenden-login; stukken via de Drive-inbox aanleveren"
    }
-  ]
+  ],
+  "koersversie": "0.55d"
  },
  "entiteiten": [
   {
@@ -33,18 +38,22 @@
    "naam": "AI-Netwerk NHL Stenden",
    "soort": "organisatie",
    "status": "actief",
-   "samenvatting": "Het AI-Netwerk brengt alle AI-initiatieven, pilots, thema's, kennis en mensen bij NHL Stenden samen op één plek. Het is een verbinder die overzicht en samenhang biedt, geen tweede inhoudelijke eigenaar.",
-   "details": "Initiatief van het Transitieprogramma Digitalisering. Verbindt de zes spreektafels, deelt kennis, faciliteert pilots en signaleert knelpunten aan de Stuurgroep. Bewaakt de verplichtingen uit de EU AI Act met een signaalsystematiek en genereert de voortgangsrapportage: per kwartaal aan de Stuurgroep, jaarlijks samenvattend aan het College van Bestuur. In oudere code/teksten 'AI-HUB' genoemd. Het AI-Netwerk blijft het verbindings- en uitvoeringsinstrument van de AI-Koers.",
+   "samenvatting": "De plek waar het gesprek over AI wordt gevoerd, binnen de toekomstbestendige IV-organisatie. Het verbindt en verwijst; de inhoud blijft bij de vakeigenaren. Zes spreektafels dragen de zes koerslijnen.",
+   "details": "Volgens de AI-Koers v0.55d: verbindt per koerslijn het gesprek, deelt kennis, faciliteert pilots en signaleert knelpunten aan de Stuurgroep Transitieprogramma. Beheert een centrale kennisbank van pilotresultaten. \"Het AI-Netwerk is het instrument van samenhang\" (manifest, uitgangspunt 3). Het AI-Netwerk en de AI Netwerk-site bestonden al voor deze koersversie en zijn gebaseerd op eerdere versies van de koers.",
    "eigenaar": "Transitieprogramma Digitalisering",
    "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    },
     {
      "label": "AI-Netwerk platform",
      "url": "https://ai-netwerk-nhlstenden.netlify.app"
     }
    ],
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/pages/Over.jsx:92, src/pages/Over.jsx:101, src/pages/Over.jsx:112, src/pages/Over.jsx:115 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/pages/Over.jsx:92, src/pages/Over.jsx:101, src/pages/Over.jsx:112, src/pages/Over.jsx:115 e.a.)",
+   "bijgewerkt": "2026-11-06"
   },
   {
    "id": "kernteam-ai-netwerk",
@@ -400,7 +409,7 @@
   },
   {
    "id": "lectoraat-cv-ai",
-   "naam": "Lectoraat Computer Vision & AI (ook: Computer Vision & Data Science)",
+   "naam": "Lectoraat Computer Vision & Artificial Intelligence",
    "soort": "organisatie",
    "spoor": "werkveld",
    "status": "actief",
@@ -408,13 +417,17 @@
    "details": "Loopt voorop in toegepast AI-onderzoek bij NHL Stenden; meer dan twee decennia ervaring in het integreren van AI in organisaties. Met het I'M A.I.-initiatief maakt het NHL Stenden tot een erkend regionaal AI-kenniscentrum.",
    "links": [
     {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    },
+    {
      "label": "Lectoraat CV&AI",
      "url": "https://www.nhlstenden.com/onderzoek/lectoraten/computer-vision-artificial-intelligence"
     }
    ],
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/data.js:126, src/data.js:55, src/initialData.js:273, src/pages/Netwerk.jsx:21 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/data.js:126, src/data.js:55, src/initialData.js:273, src/pages/Netwerk.jsx:21 e.a.)",
+   "bijgewerkt": "2026-11-06"
   },
   {
    "id": "ai-coalitie",
@@ -452,15 +465,21 @@
   },
   {
    "id": "iv-organisatie",
-   "naam": "IV-organisatie (nieuw)",
+   "naam": "Toekomstbestendige IV-organisatie",
    "soort": "organisatie",
    "spoor": "werken",
-   "samenvatting": "Nieuwe IV-organisatie waarnaar het Programma AI na een geplande landing wordt overgedragen.",
-   "details": "Draagt samen met CvB, onderwijs, onderzoek en bedrijfsvoering verantwoordelijkheid voor keuzes over AI-toepassingen.",
+   "samenvatting": "Staat centraal in de uitvoering van de AI-Koers. Het AI-Netwerk komt eruit voort als de plek waar het gesprek over AI wordt gevoerd en waar richting en praktijk elkaar vinden.",
+   "details": "Sturing op AI is onderdeel van de reguliere sturing: centrale richting en kaders vanuit de Stuurgroep, decentraal eigenaarschap bij academies en diensten, met de FG en de CISO als adviseurs. Indicator 2030: het AI-Netwerk functioneert binnen de toekomstbestendige IV-organisatie, met jaarlijkse rapportage over AI-risico's, compliance en afwegingen rond digitale autonomie.",
    "periode": "overdracht 2029-30",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:6, src/pages/Governance.jsx:251, src/pages/Governance.jsx:391, public/ai-koers/paginas.json:pagina 13",
-   "bijgewerkt": "2026-11-05"
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/pages/Governance.jsx:6, src/pages/Governance.jsx:251, src/pages/Governance.jsx:391, public/ai-koers/paginas.json:pagina 13)",
+   "bijgewerkt": "2026-11-06",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ]
   },
   {
    "id": "solution-partners",
@@ -687,17 +706,23 @@
   },
   {
    "id": "edugenai",
-   "naam": "SURF EduGenAI",
+   "naam": "SURF AI (voorheen EduGenAI)",
    "soort": "extern",
    "spoor": "leren",
    "status": "pilot / verkenning",
-   "samenvatting": "Veilig nationaal platform voor generatieve AI in het onderwijs, verwacht breed beschikbaar eind 2026; NHL Stenden kiest het als veilig platform voor generatieve AI, ingericht per opleiding.",
-   "details": "Pilot 2025-2026. Tijdlijn AI-Koers 2026: 'Start EduGenAI pilot'. Wordt in de AMCE AI-proeftuin verkend als onderwijsplatform. EduGenAI-gebruikers nemen deel aan thema AI & Leren.",
+   "samenvatting": "Veilig nationaal platform voor generatieve AI in het onderwijs, sectorbreed beschikbaar vanaf januari 2027 na een pilot tot december 2026.",
+   "details": "Koerslijn AI & Leren: wij zetten generatieve AI verstandig in via SURF AI, ons veilige platform, met kaders per opleiding. Tijdlijn 2026: start SURF AI-pilot.",
    "eigenaar": "SURF",
    "periode": "pilot 2025-2026; breed beschikbaar eind 2026",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:105, src/initialData.js:110, src/pages/Governance.jsx:5, public/ai-koers/paginas.json:pagina 4 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/initialData.js:105, src/initialData.js:110, src/pages/Governance.jsx:5, public/ai-koers/paginas.json:pagina 4 e.a.)",
+   "bijgewerkt": "2026-11-06",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ]
   },
   {
    "id": "rdi",
@@ -916,19 +941,6 @@
    "periode": "2024",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
-   "bijgewerkt": "2026-11-05"
-  },
-  {
-   "id": "programma-ai",
-   "naam": "Programma AI",
-   "soort": "initiatief",
-   "status": "in ontwikkeling",
-   "samenvatting": "Uitvoeringsvorm van de AI-Koers binnen het Transitieprogramma Digitalisering, met de Stuurgroep als opdrachtgever en de programmaleiding bij de Kwartiermaker Digitale Samenhang.",
-   "details": "De zes koerslijnen vormen de programmalijnen; governance, compliance en de sandboxes vormen de dragende zevende lijn. Het programma voegt opdracht, financiering en verantwoording toe. Een tijdelijke motor met een geplande overdracht naar de nieuwe IV-organisatie. Invulling van het actiethema Verantwoorde AI uit de Digitale Koers 2030.",
-   "eigenaar": "Transitieprogramma Digitalisering",
-   "periode": "2026-2030",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:117, src/pages/Governance.jsx:226, src/pages/Governance.jsx:229, src/pages/Governance.jsx:237 e.a.",
    "bijgewerkt": "2026-11-05"
   },
   {
@@ -1452,14 +1464,18 @@
   },
   {
    "id": "ai-koers",
-   "naam": "NHL Stenden AI-Koers 2026 tot 2030 (v0.4d)",
+   "naam": "NHL Stenden AI-Koers 2026 tot 2030 (v0.55d)",
    "soort": "beleid",
    "status": "consultatieversie",
-   "samenvatting": "De consultatieversie van de AI-Koers: manifest, omgevingsanalyse, vertrekpunt, zes koerslijnen met keuzes en indicatoren, experimenteerruimte, governance en tijdlijn.",
-   "details": "Directe uitvoeringslijn van de vastgestelde Digitale Koers 2030, belegd binnen het Transitieprogramma Digitalisering; opgesteld door de Kwartiermaker Digitale Samenhang. Reacties worden verwerkt richting versie 1.0, ter vaststelling door de Stuurgroep Transitieprogramma en daarna het CvB. Volgende herijking januari 2027. Uitvoering in het Programmaplan AI.",
+   "samenvatting": "De directe uitvoeringslijn van de vastgestelde Digitale Koers 2030, belegd binnen het Transitieprogramma Digitalisering. De kern bestaat uit zes koerslijnen, elk met een kernambitie, doelen en een indicator voor 2030.",
+   "details": "Consultatieversie voor het brede gesprek binnen de instelling, opgesteld door de Kwartiermaker Digitale Samenhang. Reacties worden verwerkt richting versie 1.0, ter vaststelling door de Stuurgroep Transitieprogramma. Bestuurlijke behandeling in het Hogeschoolberaad najaar 2026, daarna vaststelling door het bestuur. Volgende herijking januari 2027. Drie golven: funderen (2026), uitbouwen (2027-28) en verankeren (2029-30). De uitvoering wordt uitgewerkt in een apart projectplan.",
    "eigenaar": "Kwartiermaker Digitale Samenhang",
-   "periode": "2026-2030; versie september 2026",
+   "periode": "2026 tot 2030",
    "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    },
     {
      "label": "PDF",
      "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers.pdf"
@@ -1485,9 +1501,9 @@
      "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/paginas.json"
     }
    ],
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:208, src/pages/Fundament.jsx:312, src/pages/Fundament.jsx:338, src/pages/Governance.jsx:139 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/initialData.js:208, src/pages/Fundament.jsx:312, src/pages/Fundament.jsx:338, src/pages/Governance.jsx:139 e.a.)",
+   "bijgewerkt": "2026-11-06"
   },
   {
    "id": "digitale-koers-2030",
@@ -1513,13 +1529,20 @@
   },
   {
    "id": "programmaplan-ai",
-   "naam": "Programmaplan AI",
+   "naam": "Projectplan AI-Koers",
    "soort": "beleid",
-   "status": "aanzet, werkdocument",
-   "samenvatting": "Apart document waarin de uitvoering van de AI-Koers wordt uitgewerkt: inrichting, capaciteit en middelen per koerslijn, werkwijze, overlegritme en eigenaarschap per thema.",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 1, public/ai-koers/paginas.json:pagina 3, public/ai-koers/paginas.json:pagina 12, public/ai-koers/paginas.json:pagina 13 e.a.",
-   "bijgewerkt": "2026-11-05"
+   "status": "in ontwikkeling",
+   "samenvatting": "Apart projectplan waarin de uitvoering van de AI-Koers wordt uitgewerkt, met capaciteit en middelen per koerslijn en de volledige werkwijze van de route van idee tot uitrol.",
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 1, public/ai-koers/paginas.json:pagina 3, public/ai-koers/paginas.json:pagina 12, public/ai-koers/paginas.json:pagina 13 e.a.)",
+   "bijgewerkt": "2026-11-06",
+   "details": "In eerdere versies van de koers en op de AI Netwerk-site heette dit document het Programmaplan AI. Versie 0.55d spreekt van een projectplan en beschrijft de uitvoering binnen het Transitieprogramma Digitalisering zonder een aparte projectvorm in te vullen.",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ]
   },
   {
    "id": "ai-beleid-v2",
@@ -1836,11 +1859,17 @@
    "soort": "beleid",
    "spoor": "werken",
    "status": "gepland (2026)",
-   "samenvatting": "Expliciet afwegingskader voor inkoop waarin digitale soevereiniteit en AI Act-compliance altijd meewegen.",
-   "details": "Elk AI-systeem doorloopt de soevereiniteitstoets via de Sandbox en het inkoopafwegingskader.",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 7, public/ai-koers/paginas.json:pagina 15, src/pages/Governance.jsx:217",
-   "bijgewerkt": "2026-11-05"
+   "samenvatting": "Afwegingskader voor inkoop waarin digitale autonomie en AI Act-compliance altijd meewegen.",
+   "details": "Elk AI-systeem doorloopt de autonomietoets uit het eigen assessment; bij inkoop wegen AI Act-compliance en digitale autonomie altijd mee (AI-Koers v0.55d, koerslijn AI & Verantwoordelijkheid).",
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 7, public/ai-koers/paginas.json:pagina 15, src/pages/Governance.jsx:217)",
+   "bijgewerkt": "2026-11-06",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ]
   },
   {
    "id": "bespreeknotitie-ai-governance",
@@ -2218,6 +2247,97 @@
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/App.jsx:80, src/App.jsx:100, src/App.jsx:101",
    "bijgewerkt": "2026-11-05"
+  },
+  {
+   "id": "afwegingskader-digitalisering",
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "bijgewerkt": "2026-11-06",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ],
+   "naam": "Afwegingskader voor digitalisering",
+   "soort": "beleid",
+   "spoor": "werken",
+   "status": "in ontwikkeling",
+   "samenvatting": "Afwegingskader van het Transitieprogramma Digitalisering waarmee inkoop en aanvragen worden beoordeeld; voor AI wegen digitale autonomie en AI Act-compliance altijd mee.",
+   "details": "Tijdlijn: 2026 AI-toetspunten inbrengen in het afwegingskader; 2027-28 AI-aanvragen via het afwegingskader.",
+   "eigenaar": "Transitieprogramma Digitalisering"
+  },
+  {
+   "id": "bedrijfsfunctiemodel",
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "bijgewerkt": "2026-11-06",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ],
+   "naam": "Bedrijfsfunctiemodel",
+   "soort": "beleid",
+   "spoor": null,
+   "samenvatting": "Model van het Transitieprogramma Digitalisering waarin per bedrijfsfunctie duidelijk is wie waarvoor verantwoordelijk is; AI-vraagstukken volgen die eigenaren.",
+   "eigenaar": "Transitieprogramma Digitalisering"
+  },
+  {
+   "id": "richting-verantwoorde-inzet-ai",
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "bijgewerkt": "2026-11-06",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ],
+   "naam": "Richting verantwoorde inzet van AI (SURF, Npuls, MSG)",
+   "soort": "extern",
+   "spoor": "verantwoordelijkheid",
+   "status": "concept",
+   "samenvatting": "Sectorstuk achter de SURF Denktank Digitale Transitie met negen overkoepelende richtingen voor de bestuurlijke actieagenda.",
+   "details": "Concept juni 2026, met verslagen van de themasessies onderwijs (2 juni), onderzoek (16 juni) en bedrijfsvoering (24 juni 2026). De lijnen komen terug in de koerslijnen AI & Verantwoordelijkheid en AI & Werkveld.",
+   "periode": "juni 2026"
+  },
+  {
+   "id": "dataplatform",
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "bijgewerkt": "2026-11-06",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ],
+   "naam": "Centraal dataplatform",
+   "soort": "initiatief",
+   "spoor": "onderzoek",
+   "status": "gepland",
+   "samenvatting": "Centraal dataplatform dat AI-ondersteund onderzoek draagt, vanuit het actiethema Data centraal (dataplatform, data governance en data ethics) van de Digitale Koers 2030.",
+   "details": "Tijdlijn 2026 (funderen): dataplatform. Koerslijn AI & Onderzoek: wij doen AI-ondersteund onderzoek transparant en conform de ERA Living Guidelines, gedragen door een centraal dataplatform."
+  },
+  {
+   "id": "living-labs",
+   "herkomst": "drive",
+   "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "bijgewerkt": "2026-11-06",
+   "links": [
+    {
+     "label": "AI-Koers v0.55d (concept, Drive)",
+     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+    }
+   ],
+   "naam": "Living labs met regionale partners",
+   "soort": "initiatief",
+   "spoor": "werkveld",
+   "status": "gepland",
+   "samenvatting": "Leeromgevingen waar studenten met regionale partners aan echte AI-vraagstukken werken.",
+   "details": "Koerslijn AI & Werkveld: wij investeren in living labs."
   }
  ],
  "relaties": [
@@ -2227,27 +2347,6 @@
    "soort": "is onderdeel van",
    "herkomst": "ai-netwerk",
    "bron": "src/pages/Rapport.jsx:350"
-  },
-  {
-   "van": "stuurgroep-transitieprogramma",
-   "naar": "programma-ai",
-   "soort": "is opdrachtgever van",
-   "herkomst": "ai-netwerk",
-   "bron": "src/pages/Governance.jsx:226"
-  },
-  {
-   "van": "programma-ai",
-   "naar": "transitieprogramma-digitalisering",
-   "soort": "is onderdeel van",
-   "herkomst": "ai-netwerk",
-   "bron": "src/pages/Governance.jsx:226"
-  },
-  {
-   "van": "kwartiermaker-digitale-samenhang",
-   "naar": "programma-ai",
-   "soort": "voert uit",
-   "herkomst": "ai-netwerk",
-   "bron": "src/pages/Governance.jsx:226"
   },
   {
    "van": "kwartiermaker-digitale-samenhang",
@@ -2332,20 +2431,6 @@
    "soort": "werkt uit",
    "herkomst": "ai-netwerk",
    "bron": "public/ai-koers/paginas.json:pagina 1"
-  },
-  {
-   "van": "programma-ai",
-   "naar": "ai-koers",
-   "soort": "voert uit",
-   "herkomst": "ai-netwerk",
-   "bron": "src/pages/Governance.jsx:226"
-  },
-  {
-   "van": "programma-ai",
-   "naar": "iv-organisatie",
-   "soort": "wordt overgedragen aan",
-   "herkomst": "ai-netwerk",
-   "bron": "src/pages/Governance.jsx:251"
   },
   {
    "van": "college-van-bestuur",
@@ -2701,13 +2786,6 @@
    "bron": "src/pages/Beleid.jsx:24"
   },
   {
-   "van": "ai-compliance-capaciteit",
-   "naar": "programma-ai",
-   "soort": "is onderdeel van",
-   "herkomst": "ai-netwerk",
-   "bron": "public/ai-koers/paginas.json:pagina 13"
-  },
-  {
    "van": "afwegingskader-inkoop",
    "naar": "ai-koers",
    "soort": "is onderdeel van",
@@ -2769,22 +2847,6 @@
    "soort": "is eigenaar van laag 4 in",
    "herkomst": "ai-netwerk",
    "bron": "src/data.js:84"
-  },
-  {
-   "van": "technische-sandbox",
-   "naar": "programma-ai",
-   "soort": "is onderdeel van",
-   "herkomst": "ai-netwerk",
-   "bron": "src/pages/Governance.jsx:237",
-   "toelichting": "dragende lijn"
-  },
-  {
-   "van": "ai-regulatory-sandbox",
-   "naar": "programma-ai",
-   "soort": "is onderdeel van",
-   "herkomst": "ai-netwerk",
-   "bron": "src/pages/Governance.jsx:237",
-   "toelichting": "dragende lijn"
   },
   {
    "van": "dlwo",
@@ -3457,6 +3519,136 @@
    "soort": "is gekozen platform in",
    "herkomst": "ai-netwerk",
    "bron": "public/ai-koers/paginas.json:pagina 6"
+  },
+  {
+   "van": "stuurgroep-transitieprogramma",
+   "naar": "ai-koers",
+   "soort": "is opdrachtgever van",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Opdrachtgever voor de uitvoering van deze koers; bewaakt de voortgang en prioriteert de middelen."
+  },
+  {
+   "van": "ai-koers",
+   "naar": "digitale-koers-2030",
+   "soort": "is gebaseerd op",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Directe uitvoeringslijn van de vastgestelde Digitale Koers 2030."
+  },
+  {
+   "van": "technische-sandbox",
+   "naar": "ai-koers",
+   "soort": "is onderdeel van",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Hoofdstuk 11: veilig experimenteren onder toezicht."
+  },
+  {
+   "van": "ai-regulatory-sandbox",
+   "naar": "ai-koers",
+   "soort": "is onderdeel van",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Hoofdstuk 11: juridisch begeleidingstraject voor hoog-risico toepassingen."
+  },
+  {
+   "van": "ai-compliance-capaciteit",
+   "naar": "transitieprogramma-digitalisering",
+   "soort": "valt onder",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "De uitvoering vraagt een bewuste investering in capaciteit voor AI-compliance."
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "iv-organisatie",
+   "soort": "is onderdeel van",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Komt voort uit de toekomstbestendige IV-organisatie (AI-Koers v0.55d)."
+  },
+  {
+   "van": "ai-netwerk",
+   "naar": "stuurgroep-transitieprogramma",
+   "soort": "levert input aan",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Signaleert knelpunten aan de Stuurgroep."
+  },
+  {
+   "van": "afwegingskader-digitalisering",
+   "naar": "transitieprogramma-digitalisering",
+   "soort": "valt onder",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+  },
+  {
+   "van": "afwegingskader-inkoop",
+   "naar": "afwegingskader-digitalisering",
+   "soort": "levert input aan",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Voor AI wegen digitale autonomie en AI Act-compliance mee."
+  },
+  {
+   "van": "bedrijfsfunctiemodel",
+   "naar": "transitieprogramma-digitalisering",
+   "soort": "valt onder",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+  },
+  {
+   "van": "ai-koers",
+   "naar": "bedrijfsfunctiemodel",
+   "soort": "is gebaseerd op",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Het eigenaarschap sluit aan op het Bedrijfsfunctiemodel."
+  },
+  {
+   "van": "richting-verantwoorde-inzet-ai",
+   "naar": "ai-koers",
+   "soort": "levert input aan",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+  },
+  {
+   "van": "richting-verantwoorde-inzet-ai",
+   "naar": "surf-denktank",
+   "soort": "is verbonden met",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Sectorstuk achter de SURF Denktank Digitale Transitie."
+  },
+  {
+   "van": "surf",
+   "naar": "npuls",
+   "soort": "werkt samen met",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+   "toelichting": "Samen trekkers van het traject Richting verantwoorde inzet van AI."
+  },
+  {
+   "van": "dataplatform",
+   "naar": "ai-koers",
+   "soort": "is onderdeel van",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+  },
+  {
+   "van": "era-living-guidelines",
+   "naar": "dataplatform",
+   "soort": "levert input aan",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+  },
+  {
+   "van": "living-labs",
+   "naar": "ai-koers",
+   "soort": "is onderdeel van",
+   "herkomst": "drive",
+   "bron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
   }
  ],
  "aanvullingen": [],
@@ -3468,6 +3660,10 @@
   {
    "datum": "5 november 2026",
    "tekst": "Netwerktoegang tot nhlstenden.com geregeld. De website weigert automatische bezoeken en het intranet vraagt een login; beide lopen voorlopig via de Drive-inbox."
+  },
+  {
+   "datum": "6 november 2026",
+   "tekst": "In lijn gebracht met de AI-Koers v0.55d (leidend). Programma AI vervalt: de uitvoering loopt binnen het Transitieprogramma Digitalisering met de Stuurgroep als opdrachtgever. Programmaplan heet projectplan, het AI-Netwerk is onderdeel van de toekomstbestendige IV-organisatie, EduGenAI heet SURF AI en we spreken van digitale autonomie. Nieuw: afwegingskader voor digitalisering, Bedrijfsfunctiemodel, Richting verantwoorde inzet van AI, centraal dataplatform en living labs."
   }
  ],
  "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam."

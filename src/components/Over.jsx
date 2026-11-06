@@ -1,4 +1,7 @@
 import { HERKOMST } from '../model.js'
+import InstallKaart from './InstallKaart.jsx'
+import { VERSIE } from '../data/versie.js'
+import { ONDERHOUD_REGEL } from '../data/onderhoudsregel.js'
 
 export default function Over({ data, onMeld }) {
   const m = data.meta || {}
@@ -68,7 +71,9 @@ export default function Over({ data, onMeld }) {
             </ol>
           </section>
         )}
+        <InstallKaart />
         <div className="text-center pt-2"><button onClick={onMeld} className="btn-roze">Meld een activiteit</button></div>
+        <p className="text-center text-[11px] text-gray-400">versie {VERSIE}<br /><span className="text-[10px]">{ONDERHOUD_REGEL}</span></p>
       </div>
     </div>
   )

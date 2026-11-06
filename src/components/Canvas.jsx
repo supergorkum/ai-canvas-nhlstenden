@@ -1,6 +1,8 @@
 import { useMemo } from 'react'
 import { SOORTEN } from '../model.js'
 import { VAKKEN, perVak } from '../groepen.js'
+import { VERSIE } from '../data/versie.js'
+import { ONDERHOUD_REGEL } from '../data/onderhoudsregel.js'
 
 // Laag 1: het canvas op één A4. Geen lijnen, wel overzicht:
 // per vak hoeveel er gebeurt en wat de dragende onderdelen zijn.
@@ -38,7 +40,7 @@ export default function Canvas({ data, onSpoor, onKies }) {
 
           <footer className="mt-5 pt-3 border-t border-gray-100 flex flex-wrap justify-between gap-2 text-[11px] text-gray-400">
             <span>Bijgewerkt {m.bijgewerkt} · elk onderdeel heeft een bron · klik een vak voor alle details</span>
-            <span>ai-canvas-nhlstenden.netlify.app</span>
+            <span>ai-canvas-nhlstenden.netlify.app · versie {VERSIE} · <span className="text-[10px]">{ONDERHOUD_REGEL}</span></span>
           </footer>
         </article>
       </div>

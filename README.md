@@ -10,6 +10,13 @@ initiatieven, beleid en externe samenwerkingen, en hoe ze met elkaar verbonden z
 - **Meld activiteit**: formulier in vier stappen (Netlify Forms, `meld-activiteit`).
 - **Zuiver**: elk onderdeel heeft een herkomst en bron; meldingen staan tot bevestiging met een stippellijn.
 
+## Op de telefoon en als app
+
+- Op een telefoon (of een smal venster) een eigen weergave: compacte kop met zoeken en melden, en een duimbalk met Canvas, Samenhang, Trein, AI Act en Meer. Dezelfde meting als Sepupu (`src/toestel.js`).
+- Installeerbaar als app (PWA): `public/manifest.webmanifest`, iconen in `public/icons/`, en `public/sw.js`. De service worker haalt alles eerst van het net en valt alleen zonder verbinding terug op de laatst opgehaalde versie, zodat het canvas ook offline opent.
+- De installatiekaart (`src/components/InstallKaart.jsx`) staat onder Meer en op de pagina Over: een knop waar de browser die aanbiedt, anders uitleg per browser.
+- Versie in `src/data/versie.js`; onder het canvas en op Over staat de onderhoudsregel uit `src/data/onderhoudsregel.js`.
+
 ## Werken
 
 ```bash

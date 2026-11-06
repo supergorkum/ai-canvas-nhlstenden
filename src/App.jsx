@@ -9,6 +9,10 @@ import Samenhang from './components/Samenhang.jsx'
 import Treinnetwerk from './components/Treinnetwerk.jsx'
 import AIAct from './components/AIAct.jsx'
 import { SOORTEN } from './model.js'
+import InstallKaart from './components/InstallKaart.jsx'
+import { useTelefoon } from './toestel.js'
+
+const DUIMBALK = [['canvas', '▦', 'Canvas'], ['samenhang', '◎', 'Samenhang'], ['trein', '🚆', 'Trein'], ['aiact', '⚖️', 'AI Act'], ['meer', '☰', 'Meer']]
 
 const leesHash = () => new URLSearchParams(location.hash.slice(1))
 
@@ -21,6 +25,9 @@ export default function App() {
   const [uit, setUit] = useState(new Set())
   const [zoek, setZoek] = useState('')
   const [meld, setMeld] = useState(null) // null | {aanvullingOp?}
+  const telefoon = useTelefoon()
+  const [meer, setMeer] = useState(false)
+  const [zoekOpen, setZoekOpen] = useState(false)
   const [welkom, setWelkom] = useState(() => { try { return !localStorage.getItem('canvas-welkom') } catch { return true } })
 
   useEffect(() => {
@@ -54,7 +61,29 @@ export default function App() {
 
   return (
     <div className="h-[100dvh] flex flex-col bg-nhl-nacht print:bg-white">
-      <header className="nhl-gradient-deep text-white relative z-40 shrink-0">
+      <header className="nhl-gradient-deep text-white relative z-40 shrink-0 print:hidden" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
+        {telefoon ? (
+          <div className="h-14 flex items-center gap-2" style={{ paddingLeft: 'max(16px, env(safe-area-inset-left))', paddingRight: 'max(16px, env(safe-area-inset-right))' }}>
+            {zoekOpen ? (
+              <>
+                <input autoFocus value={zoek} onChange={e => { setZoek(e.target.value); if (e.target.value.trim()) setWeergave('overzicht') }} placeholder="Zoek team, pilot, persoon…"
+                  className="flex-1 min-w-0 bg-white/15 placeholder:text-blue-200 text-white rounded-xl px-3.5 py-2.5 text-[15px] outline-none border border-white/10" aria-label="Zoeken" />
+                <button onClick={() => { setZoekOpen(false); setZoek('') }} className="w-11 h-11 rounded-xl bg-white/10 text-sm font-semibold" aria-label="Zoeken sluiten">Klaar</button>
+              </>
+            ) : (
+              <>
+                <button onClick={() => { setWeergave('canvas'); setGekozen(null) }} className="flex items-center gap-2.5 min-w-0 flex-1 text-left">
+                  <span className="w-9 h-9 rounded-xl bg-white text-nhl-blauw font-extrabold grid place-items-center text-sm shadow shrink-0">AI</span>
+                  <span className="leading-tight min-w-0"><span className="block font-extrabold">AI Canvas</span><span className="block text-[11px] text-blue-200 -mt-0.5">NHL Stenden</span></span>
+                </button>
+                <button onClick={() => setZoekOpen(true)} className="w-11 h-11 rounded-xl bg-white/10 grid place-items-center" aria-label="Zoeken">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M20 20l-4-4" /></svg>
+                </button>
+                <button onClick={() => setMeld({})} className="w-11 h-11 rounded-xl bg-nhl-roze grid place-items-center text-2xl leading-none shadow" aria-label="Meld activiteit">+</button>
+              </>
+            )}
+          </div>
+        ) : (
         <div className="px-4 sm:px-6 h-16 flex items-center gap-3 sm:gap-6">
           <a href="#v=canvas" onClick={() => { setWeergave('canvas'); setGekozen(null) }} className="flex items-center gap-2.5 shrink-0">
             <span className="w-9 h-9 rounded-xl bg-white text-nhl-blauw font-extrabold grid place-items-center text-sm shadow">AI</span>
@@ -68,13 +97,14 @@ export default function App() {
             ))}
           </nav>
           <div className="flex-1 min-w-0">
-            <input value={zoek} onChange={e => setZoek(e.target.value)} placeholder="Zoek team, pilot, persoon…"
+            <input value={zoek} onChange={e => { setZoek(e.target.value); if (e.target.value.trim()) setWeergave('overzicht') }} placeholder="Zoek team, pilot, persoon…"
               className="w-full max-w-sm bg-white/10 placeholder:text-blue-200 text-white rounded-xl px-3.5 py-2 text-sm outline-none focus:bg-white/20 border border-white/10" aria-label="Zoeken" />
           </div>
           <button onClick={() => setMeld({})} className="btn-roze shrink-0 shadow-lg flex items-center gap-1.5">
             <span className="text-lg leading-none">+</span><span className="hidden sm:inline">Meld activiteit</span>
           </button>
         </div>
+        )}
       </header>
 
       <main className="relative flex-1 min-h-0">
@@ -112,7 +142,7 @@ export default function App() {
         )}
 
         {weergave === 'canvas' && welkom && !gekozen && (
-          <div className="print:hidden absolute z-30 left-3 bottom-3 max-w-sm bg-white rounded-3xl shadow-2xl p-5 animate-slide-up">
+          <div className="print:hidden absolute z-30 left-3 right-3 sm:right-auto bottom-3 max-w-sm bg-white rounded-3xl shadow-2xl p-5 animate-slide-up">
             <div className="section-label">Welkom op het AI Canvas</div>
             <p className="text-sm text-gray-600 mt-2">Dit canvas laat in één oogopslag zien waar AI gebeurt binnen NHL Stenden: per spoor, in <b>Koers & Kaders</b> en bij onze <b>externe samenwerkingen</b>. Klik een vak voor alle details, een naam voor het verhaal erachter. Onder <b>Samenhang</b> en <b>Treinnetwerk</b> zie je hoe alles samenhangt en waar de koers naartoe rijdt.</p>
             <div className="flex gap-2 mt-4">
@@ -123,6 +153,40 @@ export default function App() {
         )}
 
       </main>
+
+      {telefoon && (
+        <nav className="shrink-0 bg-white border-t border-gray-200 print:hidden z-40" aria-label="Weergave"
+          style={{ paddingBottom: 'env(safe-area-inset-bottom)', paddingLeft: 'env(safe-area-inset-left)', paddingRight: 'env(safe-area-inset-right)' }}>
+          <div className="grid grid-cols-5">
+            {DUIMBALK.map(([id, i, t]) => {
+              const actief = id === 'meer' ? meer || ['overzicht', 'over'].includes(weergave) : !meer && (weergave === id || (id === 'canvas' && weergave === 'spoor'))
+              return (
+                <button key={id} onClick={() => { if (id === 'meer') setMeer(m => !m); else { setMeer(false); setGekozen(null); setWeergave(id) } }}
+                  className={`h-[58px] flex flex-col items-center justify-center gap-0.5 text-[11px] font-semibold ${actief ? 'text-nhl-roze' : 'text-gray-500'}`} aria-current={actief ? 'page' : undefined}>
+                  <span className="text-[19px] leading-none" aria-hidden="true">{i}</span>{t}
+                </button>
+              )
+            })}
+          </div>
+        </nav>
+      )}
+
+      {telefoon && meer && (
+        <div className="fixed inset-0 z-50 bg-nhl-nacht/50 animate-fade-in" onClick={() => setMeer(false)}>
+          <div className="absolute inset-x-0 bottom-0 bg-white rounded-t-3xl p-5 space-y-3 animate-slide-up" onClick={e => e.stopPropagation()}
+            style={{ paddingBottom: 'calc(20px + env(safe-area-inset-bottom))' }}>
+            <div className="w-10 h-1.5 rounded-full bg-gray-200 mx-auto" />
+            {[['overzicht', '☰', 'Lijst van alle onderdelen', 'Zoeken en filteren per soort'], ['over', 'ℹ️', 'Over het canvas', 'Hoe het werkt, bronnen en logboek']].map(([id, i, t, x]) => (
+              <button key={id} onClick={() => { setWeergave(id); setGekozen(null); setMeer(false) }} className="w-full flex items-center gap-3 rounded-2xl bg-nhl-grijs p-3.5 text-left">
+                <span className="w-10 h-10 rounded-xl bg-white grid place-items-center text-lg" aria-hidden="true">{i}</span>
+                <span><span className="block font-bold text-nhl-blauw">{t}</span><span className="block text-xs text-gray-500">{x}</span></span>
+              </button>
+            ))}
+            <button onClick={() => { setMeer(false); setMeld({}) }} className="w-full btn-roze py-3">+ Meld een activiteit</button>
+            <InstallKaart />
+          </div>
+        </div>
+      )}
 
       {meld && <Meldformulier data={data} aanvullingOp={meld.aanvullingOp} onSluit={() => setMeld(null)} />}
     </div>

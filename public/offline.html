@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0F1E52">
+<title>AI Canvas NHL Stenden</title>
+<style>
+  :root { --nacht: #0F1E52; --blauw: #1E3A8A; --roze: #E91E8C; --tekst: #DBEAFE; }
+  html, body { height: 100%; margin: 0; }
+  body { background: linear-gradient(160deg, #0F1E52 0%, #162D6E 45%, #1E3A8A 100%); color: #fff;
+         font-family: Inter, Arial, sans-serif; display: grid; place-items: center;
+         padding-left: max(24px, env(safe-area-inset-left)); padding-right: max(24px, env(safe-area-inset-right)); }
+  main { max-width: 26rem; text-align: left; }
+  .logo { width: 56px; height: 56px; border-radius: 14px; background: #fff; color: var(--blauw); font-weight: 800;
+          display: grid; place-items: center; font-size: 20px; }
+  h1 { font-size: 26px; line-height: 1.2; margin: 20px 0 8px; }
+  p { color: var(--tekst); line-height: 1.55; margin: 0 0 20px; }
+  button { background: var(--roze); color: #fff; border: 0; border-radius: 12px; padding: 12px 18px;
+           font: 600 15px Inter, Arial, sans-serif; cursor: pointer; }
+  button:focus-visible { outline: 3px solid #F9A8D4; outline-offset: 2px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo" aria-hidden="true">AI</div>
+  <h1>Even geen verbinding</h1>
+  <p>Het AI Canvas kan deze pagina nu niet ophalen. Zodra je weer verbinding hebt, laadt het canvas gewoon verder.</p>
+  <button type="button" onclick="location.reload()">Opnieuw proberen</button>
+</main>
+</body>
+</html>

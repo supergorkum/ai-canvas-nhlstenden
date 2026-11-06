@@ -80,7 +80,8 @@ export default function Treinnetwerk({ data, onKies, onSpoor }) {
             ))}
           </section>
 
-          <div className="overflow-x-auto -mx-2 px-2">
+          <p className="sm:hidden text-xs font-semibold text-nhl-roze mb-2">Veeg opzij om de lijnen te volgen →</p>
+          <div className="overflow-x-auto -mx-2 px-2 overscroll-x-contain">
             <svg viewBox={`0 0 ${B} ${H}`} className="block min-w-[1000px] w-full" role="img" aria-label="Treinnetwerk van de AI-Koers">
               {/* Golven als zones */}
               {koers.golven.map((g, i) => {

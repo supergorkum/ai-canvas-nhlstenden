@@ -52,6 +52,8 @@ g:hover > .knooppunt { transform: scale(1.25); }
 .breakinside-avoid { break-inside: avoid; }
 
 @page { size: A4 landscape; margin: 10mm; }
+@page a3 { size: A3 landscape; margin: 10mm; }
+.a3 { page: a3; }
 @media print {
   html, body, #root { height: auto !important; overflow: visible !important; background: #fff !important; }
   .h-\[100dvh\] { height: auto !important; }
@@ -61,6 +63,11 @@ g:hover > .knooppunt { transform: scale(1.25); }
     grid-template-areas: "leren werken verantwoordelijkheid extern" "kern kern kern extern" "geletterdheid werkveld onderzoek extern" !important; }
   .a4 { zoom: 0.66; padding: 0 !important; box-shadow: none !important; border: 0 !important; }
   .a4 .vak { break-inside: avoid; }
+  .a3 { padding: 0 !important; zoom: 0.83; }
+  .a3.samenhang-a3 { zoom: 0.86; }
+  .a3.samenhang-a3 svg { max-width: 100% !important; }
+  .a3 .lg\:grid-cols-\[minmax\(0\2c 1\.05fr\)_minmax\(0\2c 1fr\)\] { grid-template-columns: 1.05fr 1fr !important; }
+  .a3 .min-w-\[900px\] { min-width: 0 !important; }
   main { position: static !important; }
   .spoor-kolommen { columns: auto !important; display: grid !important; grid-template-columns: repeat(3, 1fr); gap: 0 22px; align-items: start; }
   .spoor-kolommen section { margin-bottom: 14px !important; break-inside: auto !important; }

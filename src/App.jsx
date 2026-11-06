@@ -6,6 +6,8 @@ import Overzicht from './components/Overzicht.jsx'
 import Over from './components/Over.jsx'
 import Canvas from './components/Canvas.jsx'
 import Spoorblad from './components/Spoorblad.jsx'
+import Samenhang from './components/Samenhang.jsx'
+import Treinnetwerk from './components/Treinnetwerk.jsx'
 import { SOORTEN } from './model.js'
 
 const leesHash = () => new URLSearchParams(location.hash.slice(1))
@@ -51,7 +53,7 @@ export default function App() {
   const sluitWelkom = () => { setWelkom(false); try { localStorage.setItem('canvas-welkom', '1') } catch { /* privémodus */ } }
 
   return (
-    <div className="h-[100dvh] flex flex-col bg-nhl-nacht">
+    <div className="h-[100dvh] flex flex-col bg-nhl-nacht print:bg-white">
       <header className="nhl-gradient-deep text-white relative z-40 shrink-0">
         <div className="px-4 sm:px-6 h-16 flex items-center gap-3 sm:gap-6">
           <a href="#v=canvas" onClick={() => { setWeergave('canvas'); setGekozen(null) }} className="flex items-center gap-2.5 shrink-0">
@@ -59,7 +61,7 @@ export default function App() {
             <span className="leading-tight hidden sm:block"><span className="block font-extrabold">AI Canvas</span><span className="block text-[11px] text-blue-200 -mt-0.5">NHL Stenden</span></span>
           </a>
           <nav className="flex gap-1 bg-white/10 rounded-xl p-1 text-xs sm:text-sm font-semibold" aria-label="Weergave">
-            {[['canvas', '▦', 'Canvas'], ['kaart', '🕸️', 'Verbanden'], ['overzicht', '☰', 'Lijst'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (
+            {[['canvas', '▦', 'Canvas'], ['samenhang', '◎', 'Samenhang'], ['trein', '🚆', 'Treinnetwerk'], ['kaart', '🕸️', 'Verbanden'], ['overzicht', '☰', 'Lijst'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (
               <button key={id} onClick={() => setWeergave(id)} className={`px-2.5 sm:px-3 py-1.5 rounded-lg transition-colors ${weergave === id || (id === 'canvas' && weergave === 'spoor') ? 'bg-white text-nhl-blauw' : 'text-blue-100 hover:bg-white/10'}`}>
                 <span className="sm:mr-1.5">{i}</span><span className="hidden sm:inline">{t}</span>
               </button>
@@ -94,9 +96,11 @@ export default function App() {
 
         {weergave === 'canvas' && <Canvas data={data} onSpoor={id => { setVak(id); setWeergave('spoor'); setGekozen(null) }} onKies={setGekozen} />}
         {weergave === 'spoor' && <Spoorblad data={data} vakId={vak} onKies={setGekozen} onTerug={() => setWeergave('canvas')} onSpoor={id => { setVak(id); setGekozen(null) }} />}
-        {(weergave === 'canvas' || weergave === 'spoor') && (
+        {weergave === 'samenhang' && <Samenhang data={data} onKies={setGekozen} />}
+        {weergave === 'trein' && <Treinnetwerk data={data} onKies={setGekozen} />}
+        {['canvas', 'spoor', 'samenhang', 'trein'].includes(weergave) && (
           <button onClick={() => window.print()} className="print:hidden hidden sm:block absolute z-20 right-4 bottom-4 bg-white text-nhl-blauw shadow-lg rounded-xl px-4 py-2.5 text-sm font-semibold hover:bg-nhl-grijs" title="Afdrukken of opslaan als PDF (A4 liggend)">
-            🖨️ Print op A4
+            🖨️ Print op {weergave === 'samenhang' || weergave === 'trein' ? 'A3' : 'A4'}
           </button>
         )}
         {weergave === 'kaart' && <Landkaart data={data} zichtbaar={zichtbaar} geselecteerd={gekozen} onKies={setGekozen} zoekTreffers={zoekTreffers} />}

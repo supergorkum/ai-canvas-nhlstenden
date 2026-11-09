@@ -27,7 +27,7 @@
       },
       {
         "naam": "intranet.nhlstenden.com",
-        "stand": "gescand op 9 november 2026 (Edgar logde in; zoek-API over alle sites, AI-gerelateerde pagina's gelezen). Standaard AI-pagina's stonden al in het canvas; nieuw: Kerngroep Digitale Soevereiniteit, AI-richtlijnen CE/MM, Media Investigation Lab, Copilot-pilot DLWO. Privé-OneDrive en vertrouwelijke notulen niet overgenomen"
+        "stand": "grondig gescand op 9 november 2026 (Edgar ingelogd): 3.038 AI-gerelateerde items op 147 sites gevonden, 281 intranetpagina's volledig gelezen. Nieuw in het canvas: 11 onderdelen. Privé-OneDrive en vertrouwelijke notulen niet overgenomen. Rapportage: PDF in Edgars mailbox"
       }
     ],
     "koersversie": "0.55d"
@@ -2486,6 +2486,132 @@
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site Group-DLWOProjectmanagersBusinessconsultants, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09"
+    },
+    {
+      "id": "maritime-ai-innovation-lab",
+      "naam": "Maritime AI Innovation Lab",
+      "soort": "initiatief",
+      "spoor": "werkveld",
+      "samenvatting": "Lab van de onderzoeksgroep Maritiem dat de Nederlandse maritieme industrie een platform biedt om sectorbrede AI-prototypes te ontwikkelen, valideren en demonstreren.",
+      "details": "Doel: veiligere en duurzamere scheepvaart door digitalisering, onder meer slimmere ontwerp- en exploitatiesystemen voor emissievrije schepen. Pagina laatst gewijzigd 22 september 2025.",
+      "links": [
+        {
+          "label": "Lab-pagina (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/Onderzoeksgroep-maritiem/SitePages/Maritiem-AI-Innovation-lab.aspx"
+        }
+      ],
+      "herkomst": "website",
+      "bronLabel": "Intranet (SharePoint), site Onderzoeksgroep-maritiem, gelezen 9 november 2026",
+      "bijgewerkt": "2026-11-09",
+      "status": "actief"
+    },
+    {
+      "id": "otter-ai-niet-meer-beschikbaar",
+      "naam": "Otter.ai niet langer beschikbaar (AI-risicoscan)",
+      "soort": "beleid",
+      "spoor": "verantwoordelijkheid",
+      "samenvatting": "Besluit na een AI-complianceronde: Otter.ai wordt per 4 februari 2026 niet meer toegestaan met een NHL Stenden-account.",
+      "details": "In november 2025 kwam het advies te stoppen met Otter.ai; de risicoscan gaf een hoog risico voor bestaande systemen en misbruik van persoonsgegevens. Alternatief: opnemen en transcriberen met Microsoft Teams, gedekt door de bestaande privacyafspraken. Bericht van 30 januari 2026 op de DLWO-site. Voorbeeld van de risicoscan in de praktijk.",
+      "links": [
+        {
+          "label": "Bericht (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/DLWO/SitePages/en/Otter.ai-niet-langer-beschikbaar-via-NHL-Stenden-account.aspx"
+        }
+      ],
+      "herkomst": "website",
+      "bronLabel": "Intranet (SharePoint), site DLWO, gelezen 9 november 2026",
+      "bijgewerkt": "2026-11-09",
+      "status": "vastgesteld"
+    },
+    {
+      "id": "ai-afrekenen-foodcourt",
+      "naam": "AI-afrekenen bij de Foodcourt",
+      "soort": "pilot",
+      "spoor": "werkveld",
+      "samenvatting": "Sinds de week van 11 maart 2026 herkent AI producten op het dienblad bij het afrekenen op de Foodcourt van Leisure, Tourism & Hospitality.",
+      "details": "Praktijkvoorbeeld van AI in een echte operationele omgeving: dienblad onder de scanner, producten worden herkend, daarna betalen bij de terminal. Bericht van 11-12 maart 2026.",
+      "links": [
+        {
+          "label": "Bericht (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/academy-leisure-tourism-and-hospitality/SitePages/nl/New-at-the-Foodcourt--AI-in-practical-use-from-the-week-of-11-March.aspx"
+        }
+      ],
+      "herkomst": "website",
+      "bronLabel": "Intranet (SharePoint), site academy-leisure-tourism-and-hospitality, gelezen 9 november 2026",
+      "bijgewerkt": "2026-11-09",
+      "status": "lopend"
+    },
+    {
+      "id": "olb-richtlijnen-toetsen-genai",
+      "naam": "Richtlijnen Toetsen OLB en generatieve AI",
+      "soort": "beleid",
+      "spoor": "leren",
+      "samenvatting": "Richtlijnen van de OLB-opleidingen (Pabo-cluster) over GenAI bij opdrachten en toetsing, gebaseerd op de hogeschoolbrede AI-afspraken.",
+      "details": "De student blijft volledig verantwoordelijk voor inhoud en bronnenlijst van het ingeleverde product en geeft kritisch en ethisch aan hoe AI is gebruikt. Pagina laatst gewijzigd 3 november 2026. Naast de richtlijnen voor Commerciële Economie en Marketing Management een tweede voorbeeld van opleidingsspecifieke richtlijnen.",
+      "links": [
+        {
+          "label": "Richtlijn (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/academie-educatie-cluster-a-olb/SitePages/AIenToetsenOLB.aspx"
+        }
+      ],
+      "herkomst": "website",
+      "bronLabel": "Intranet (SharePoint), site academie-educatie-cluster-a-olb, gelezen 9 november 2026",
+      "bijgewerkt": "2026-11-09",
+      "status": "actief"
+    },
+    {
+      "id": "examencommissie-thorbecke-ai-fraude",
+      "naam": "Examencommissie Thorbecke Academie: vermoeden van ongeoorloofd AI-gebruik",
+      "soort": "beleid",
+      "spoor": "verantwoordelijkheid",
+      "samenvatting": "Handreiking van een examencommissie: ongeoorloofd gebruik van GenAI valt onder fraude (OER art. 6.17); een duidelijke toetsinstructie (art. 6.5) is de voorwaarde om fraude vast te stellen.",
+      "details": "Advies: neem in elke toetsinstructie expliciet op of AI is toegestaan en hoe, en wijs studenten er tijdig op. Pagina's van 12 februari 2026, ook Engelstalig. Sluit aan bij de CTL-richtlijnen voor AI en toetsing.",
+      "links": [
+        {
+          "label": "Handreiking (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/examencommissie-thorbecke-academie/SitePages/Een vermoeden van ongeoorloofd gebruik van AI.aspx"
+        }
+      ],
+      "herkomst": "website",
+      "bronLabel": "Intranet (SharePoint), site examencommissie-thorbecke-academie, gelezen 9 november 2026",
+      "bijgewerkt": "2026-11-09",
+      "status": "actief"
+    },
+    {
+      "id": "run-eu-ai-prompting-mooc",
+      "naam": "RUN-EU MOOC over prompten en AI-gebruik",
+      "soort": "initiatief",
+      "spoor": "geletterdheid",
+      "samenvatting": "Open online cursus van het RUN-EU-netwerk voor studenten en medewerkers: AI leren aansturen met goede prompts, van basis tot gevorderd.",
+      "details": "Bericht van 17 maart 2025 op de RUN-EU-site; ook een Research Challenge Artificial Intelligence (2e editie, 2024) staat daar. Internationale component van AI-geletterdheid.",
+      "links": [
+        {
+          "label": "Bericht (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/RUN-EU-/SitePages/RUN-EU-MOOC--Are-you-ready-to-UNLOCK-the-true-power-of-AI--Open-for-students-and-staff.aspx"
+        }
+      ],
+      "herkomst": "website",
+      "bronLabel": "Intranet (SharePoint), site RUN-EU-, gelezen 9 november 2026",
+      "bijgewerkt": "2026-11-09",
+      "status": "afgerond"
+    },
+    {
+      "id": "hr-chatgpt-werving-selectie",
+      "naam": "ChatGPT & AI bij werving en selectie (HRM)",
+      "soort": "initiatief",
+      "spoor": "werken",
+      "samenvatting": "HRM-pagina over AI, zoals ChatGPT, bij sollicitaties: cv's screenen, interviewvragen opstellen, met een videocursus ChatGPT voor HR en recruitment.",
+      "details": "Pagina van 28 mei 2024 op de HRM-site. Te controleren of dit nog actueel is en hoe het zich verhoudt tot de AI-risicoscan en de AI Act (werving en selectie is een hoog-risicotoepassing).",
+      "links": [
+        {
+          "label": "Pagina (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/hrmnhlstenden/SitePages/w-en-s-ChatGPT-&-AI.aspx"
+        }
+      ],
+      "herkomst": "website",
+      "bronLabel": "Intranet (SharePoint), site hrmnhlstenden, gelezen 9 november 2026",
+      "bijgewerkt": "2026-11-09",
+      "status": "te controleren"
     }
   ],
   "relaties": [
@@ -3856,6 +3982,55 @@
       "soort": "onderzoekt",
       "herkomst": "website",
       "bron": "Intranet, DLWO Pilots en experimenten"
+    },
+    {
+      "van": "otter-ai-niet-meer-beschikbaar",
+      "naar": "ai-compliance-team",
+      "soort": "is gebaseerd op",
+      "herkomst": "website",
+      "bron": "Intranet, bericht Otter.ai (risicoscan)"
+    },
+    {
+      "van": "otter-ai-niet-meer-beschikbaar",
+      "naar": "ai-compliance-team",
+      "soort": "is verbonden met",
+      "herkomst": "website",
+      "bron": "Intranet, bericht Otter.ai"
+    },
+    {
+      "van": "examencommissie-thorbecke-ai-fraude",
+      "naar": "examencommissies",
+      "soort": "is onderdeel van",
+      "herkomst": "website",
+      "bron": "Intranet, site examencommissie-thorbecke-academie"
+    },
+    {
+      "van": "olb-richtlijnen-toetsen-genai",
+      "naar": "ctl-richtlijnen-ai-toetsing",
+      "soort": "is gebaseerd op",
+      "herkomst": "website",
+      "bron": "Intranet, richtlijnen OLB (hogeschoolbrede AI-afspraken)"
+    },
+    {
+      "van": "ai-richtlijnen-ce-mm",
+      "naar": "ctl-richtlijnen-ai-toetsing",
+      "soort": "is gebaseerd op",
+      "herkomst": "website",
+      "bron": "Intranet, richtlijnen CE/MM (verband te controleren)"
+    },
+    {
+      "van": "hr-chatgpt-werving-selectie",
+      "naar": "hrm",
+      "soort": "is onderdeel van",
+      "herkomst": "website",
+      "bron": "Intranet, site hrmnhlstenden"
+    },
+    {
+      "van": "hr-chatgpt-werving-selectie",
+      "naar": "chatgpt",
+      "soort": "gebruikt",
+      "herkomst": "website",
+      "bron": "Intranet, pagina ChatGPT & AI"
     }
   ],
   "aanvullingen": [],
@@ -3879,6 +4054,10 @@
     {
       "datum": "9 november 2026",
       "tekst": "Intranetscan (Edgar ingelogd): vier onderdelen toegevoegd (Kerngroep Digitale Soevereiniteit, AI-richtlijnen CE/MM, Media Investigation Lab, Copilot-pilot DLWO), Sandbox aangevuld. Te controleren: academie achter site ac-ccb, welke opleidingen eigen AI-richtlijnen hebben, inhoud notulen AI-complianceteam 22 september (niet overgenomen)."
+    },
+    {
+      "datum": "9 november 2026",
+      "tekst": "Tweede, grondige intranetronde: 281 pagina's gelezen. Zeven onderdelen erbij (Maritime AI Innovation Lab, Otter.ai-besluit, AI-afrekenen Foodcourt, richtlijnen Toetsen OLB, handreiking examencommissie Thorbecke, RUN-EU MOOC, HRM ChatGPT & AI). Te controleren: actualiteit HRM-pagina uit 2024 (hoog-risico werving en selectie)."
     }
   ],
   "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

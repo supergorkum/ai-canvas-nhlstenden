@@ -1,7 +1,7 @@
 // Controleert public/data/canvas.json voordat er gebouwd wordt.
 // Breekt de build af bij fouten, zodat een kapotte update nooit live gaat.
 import { readFileSync } from 'node:fs'
-import { SOORTEN, SPOREN, HERKOMST, RELATIESOORTEN } from '../src/model.js'
+import { SOORTEN, SPOREN, HERKOMST, RELATIESOORTEN, BRONSOORT, UITKOMST } from '../src/model.js'
 
 const pad = new URL('../public/data/canvas.json', import.meta.url)
 const d = JSON.parse(readFileSync(pad, 'utf8'))
@@ -16,6 +16,14 @@ for (const e of d.entiteiten) {
   if (e.spoor && !SPOREN[e.spoor]) fouten.push(`${e.id}: onbekend spoor "${e.spoor}"`)
   if (!HERKOMST[e.herkomst]) fouten.push(`${e.id}: onbekende herkomst "${e.herkomst}"`)
   if (!e.bronLabel) waarschuwingen.push(`${e.id}: geen bronLabel`)
+  if (!Array.isArray(e.bronnen) || e.bronnen.length === 0) waarschuwingen.push(`${e.id}: geen bronnen (blok Bronnen)`)
+  for (const b of e.bronnen || []) {
+    if (!b.label) fouten.push(`${e.id}: bron zonder label`)
+    if (!BRONSOORT[b.soort]) fouten.push(`${e.id}: bron "${b.label}" heeft onbekende soort "${b.soort}"`)
+    if (!UITKOMST[b.uitkomst]) fouten.push(`${e.id}: bron "${b.label}" heeft onbekende uitkomst "${b.uitkomst}"`)
+    if (b.uitkomst === 'bevestigd' && !b.gecontroleerd) fouten.push(`${e.id}: bevestigde bron "${b.label}" zonder datum van controle`)
+    if (b.uitkomst === 'bevestigd' && b.soort !== 'intern' && !/^https?:/.test(b.url || '')) fouten.push(`${e.id}: bevestigde bron "${b.label}" zonder link`)
+  }
 }
 for (const r of d.relaties) {
   if (!ids.has(r.van)) fouten.push(`relatie naar onbekend 'van': ${r.van}`)

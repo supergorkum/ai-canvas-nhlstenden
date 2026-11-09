@@ -84,3 +84,18 @@ export const OMGEKEERD = {
 
 // Leesbaar vanaf de andere kant, ook voor relatiesoorten die (nog) niet in de tabel staan.
 export const omgekeerd = soort => OMGEKEERD[soort] || `← ${soort}`
+
+// Bronnen per onderdeel: waar komt het vandaan en is het nagelopen?
+export const BRONSOORT = {
+  openbaar:    { label: 'Openbare bron',                kleur: '#0F766E' },
+  document:    { label: 'Document',                      kleur: '#0F766E' },
+  concept:     { label: 'Concept, alleen met toegang',   kleur: '#B45309' },
+  intern:      { label: 'Intern, inloggen vereist',      kleur: '#475569' },
+  netwerksite: { label: 'Eigen AI Netwerk-site',         kleur: '#1E3A8A' },
+}
+export const UITKOMST = {
+  'bevestigd':               { label: 'Nagelopen en bevestigd',  kleur: '#0F766E', icoon: '✓' },
+  'afwijkend':               { label: 'Wijkt af van de bron',    kleur: '#B91C1C', icoon: '!' },
+  'niet te controleren':     { label: 'Niet te controleren',     kleur: '#B45309', icoon: '?' },
+  'nog niet gecontroleerd':  { label: 'Nog niet nagelopen',      kleur: '#6B7280', icoon: '·' },
+}

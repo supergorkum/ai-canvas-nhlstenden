@@ -8,7 +8,7 @@ export default function Meldformulier({ data, aanvullingOp, onSluit }) {
   const [stap, setStap] = useState(aanvullingOp ? 1 : 0)
   const [v, setV] = useState({
     soort: aanvullingOp ? 'aanvulling' : '', naam: '', omschrijving: '', onderdeel: '', sporen: [],
-    status: '', periode: '', link: '', verbonden_met: aanvullingOp ? [aanvullingOp.id] : [], relatie: 'is verbonden met',
+    status: '', periode: '', link: '', bron_hoe: '', bron_ontbreekt: false, verbonden_met: aanvullingOp ? [aanvullingOp.id] : [], relatie: 'is verbonden met',
     melder_naam: '', melder_email: '', melder_rol: '', naam_tonen: true,
   })
   const [zoek, setZoek] = useState('')
@@ -22,9 +22,14 @@ export default function Meldformulier({ data, aanvullingOp, onSluit }) {
     return data.entiteiten.filter(e => !v.verbonden_met.includes(e.id) && (!q || e.naam.toLowerCase().includes(q))).slice(0, 8)
   }, [zoek, data, v.verbonden_met])
 
+  // Een melding heeft een bron nodig: een link, of een toelichting hoe je het weet (document, bericht, persoon die het kan bevestigen),
+  // of een uitdrukkelijk vinkje dat de redactie het eerst moet nagaan. Zonder bron blijft het 'nog niet bevestigd'.
+  const linkOk = v.link.trim() === '' || /^https?:\/\/.+\..+/.test(v.link.trim())
+  const bronOk = linkOk && (v.link.trim() !== '' || v.bron_hoe.trim().length >= 10 || v.bron_ontbreekt)
+
   const kanVerder = [
     !!v.soort,
-    aanvullingOp ? v.omschrijving.trim().length > 5 : v.naam.trim().length > 2 && v.omschrijving.trim().length > 10,
+    (aanvullingOp ? v.omschrijving.trim().length > 5 : v.naam.trim().length > 2 && v.omschrijving.trim().length > 10) && bronOk,
     true,
     v.melder_naam.trim().length > 1 && /.+@.+\..+/.test(v.melder_email),
   ][stap]
@@ -41,6 +46,7 @@ export default function Meldformulier({ data, aanvullingOp, onSluit }) {
       sporen: v.sporen.join(', '),
       verbonden_met: v.verbonden_met.join(', '),
       naam_tonen: v.naam_tonen ? 'ja' : 'nee',
+      bron_ontbreekt: v.bron_ontbreekt ? 'ja' : 'nee',
     }
     try {
       const res = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(velden).toString() })
@@ -76,7 +82,7 @@ export default function Meldformulier({ data, aanvullingOp, onSluit }) {
             <div className="text-5xl">{verzonden === 'ok' ? '🎉' : verzonden === 'voorbeeld' ? '👀' : '⚠️'}</div>
             <h3 className="text-xl font-bold text-nhl-blauw">{verzonden === 'ok' ? 'Dank je wel, je melding is binnen!' : verzonden === 'voorbeeld' ? 'Dit is een preview' : 'Versturen lukte niet'}</h3>
             <p className="text-gray-600 max-w-md mx-auto">{verzonden === 'ok'
-              ? 'De redactie van het AI Canvas bekijkt je melding bij de volgende ronde en plaatst hem op de landkaart. Tot die tijd is hij herkenbaar als "nog niet bevestigd".'
+              ? 'De redactie van het AI Canvas bekijkt je melding bij de volgende ronde en gaat de bron na. Pas als die klopt, staat hij als bevestigd op de landkaart. Tot die tijd is hij herkenbaar als "nog niet bevestigd".'
               : verzonden === 'voorbeeld' ? 'In deze preview wordt niets verstuurd. Op de live site gaat je melding naar de redactie van het AI Canvas.'
               : 'Probeer het later opnieuw, of mail je melding naar de kwartiermaker Digitale Samenhang.'}</p>
             <button type="button" onClick={onSluit} className="btn-primary">Terug naar de landkaart</button>
@@ -139,7 +145,21 @@ export default function Meldformulier({ data, aanvullingOp, onSluit }) {
                       </div>
                     </>
                   )}
-                  <Veld label="Link (optioneel)" hint="Naar een document, pagina of Teams-kanaal."><input className="invoer" type="url" value={v.link} onChange={e => zet('link', e.target.value)} placeholder="https://" /></Veld>
+                  <div className="rounded-2xl border-2 border-pink-100 bg-pink-50/40 p-4 space-y-3">
+                    <div className="text-sm font-bold text-nhl-blauw">Waar komt dit vandaan? <span className="text-nhl-roze">Bron nodig</span></div>
+                    <p className="text-xs text-gray-600 leading-snug">Het AI Canvas toont alleen wat te controleren is. Geef daarom een bron: een link naar een document, webpagina of nieuwsbericht, of de naam van iemand die het kan bevestigen. Zonder bron blijft je melding "nog niet bevestigd" en nemen we hem niet als zeker over.</p>
+                    <Veld label="Link naar de bron" hint="Document, pagina, nieuwsbericht of Teams-kanaal. Interne links zijn goed, ze staan dan als 'intern' op het canvas.">
+                      <input className="invoer" type="url" value={v.link} onChange={e => zet('link', e.target.value)} placeholder="https://" />
+                    </Veld>
+                    {!linkOk && <p className="text-xs text-red-700">Deze link begint niet met https:// of is niet compleet.</p>}
+                    <Veld label="Hoe weet je dit?" hint="Bijvoorbeeld: 'staat in het projectplan van maart 2026' of 'Anna de Vries (projectleider) kan het bevestigen'.">
+                      <textarea className="invoer min-h-16" value={v.bron_hoe} onChange={e => zet('bron_hoe', e.target.value)} />
+                    </Veld>
+                    <label className="flex gap-3 items-start text-xs text-gray-600 cursor-pointer">
+                      <input type="checkbox" className="mt-0.5 accent-pink-600" checked={v.bron_ontbreekt} onChange={e => zet('bron_ontbreekt', e.target.checked)} />
+                      <span>Ik heb geen bron bij de hand. De redactie mag dit eerst nagaan; tot die tijd blijft het "nog niet bevestigd".</span>
+                    </label>
+                  </div>
                 </>
               )}
 

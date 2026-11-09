@@ -1,4 +1,4 @@
-import { SOORTEN, SPOREN, HERKOMST, STATUS, omgekeerd } from '../model.js'
+import { SOORTEN, SPOREN, HERKOMST, STATUS, BRONSOORT, UITKOMST, omgekeerd } from '../model.js'
 
 // Zijpaneel met alles wat we van één onderdeel weten, plus de verbindingen.
 export default function Detailpaneel({ data, id, onKies, onSluit, onAanvullen }) {
@@ -97,6 +97,8 @@ export default function Detailpaneel({ data, id, onKies, onSluit, onAanvullen })
           </Blok>
         )}
 
+        <Bronnen bronnen={e.bronnen} onMelding={() => onAanvullen(e)} />
+
         {aanvullingen.length > 0 && (
           <Blok titel="Aanvullingen uit het netwerk">
             <ul className="space-y-2">
@@ -137,3 +139,42 @@ function Feit({ label, waarde }) {
   return <div className="rounded-xl bg-nhl-grijs p-3"><dt className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold">{label}</dt><dd className="font-semibold text-gray-800 mt-0.5">{waarde}</dd></div>
 }
 const initialen = n => n.split(/\s+/).filter(w => /^[A-Z]/.test(w)).slice(0, 2).map(w => w[0]).join('') || n[0]
+
+
+// Uitklapbaar bronnenblok: bij elk onderdeel zichtbaar waar het vandaan komt en of het is nagelopen.
+function Bronnen({ bronnen = [], onMelding }) {
+  const gecontroleerd = bronnen.some(b => b.uitkomst === 'bevestigd')
+  const stand = gecontroleerd ? UITKOMST['bevestigd'] : (bronnen.some(b => b.uitkomst === 'niet te controleren') ? UITKOMST['niet te controleren'] : UITKOMST['nog niet gecontroleerd'])
+  return (
+    <details className="rounded-2xl border border-gray-100 bg-white group" open={bronnen.some(b => b.uitkomst === 'afwijkend')}>
+      <summary className="cursor-pointer list-none px-4 py-3 flex items-center gap-2 text-sm">
+        <span className="w-5 h-5 rounded-full grid place-items-center text-white text-xs font-bold shrink-0" style={{ background: stand.kleur }} aria-hidden="true">{stand.icoon}</span>
+        <span className="font-semibold text-nhl-blauw">Bronnen ({bronnen.length})</span>
+        <span className="text-xs text-gray-500">{stand.label}</span>
+        <span className="ml-auto text-gray-400 group-open:rotate-90 transition-transform" aria-hidden="true">›</span>
+      </summary>
+      <div className="px-4 pb-4 space-y-2.5">
+        {bronnen.length === 0 && <p className="text-xs text-gray-500">Bij dit onderdeel staat nog geen bron. Weet je er een? Gebruik de plusknop.</p>}
+        {bronnen.map((b, i) => {
+          const s = BRONSOORT[b.soort] || BRONSOORT.document
+          const u = UITKOMST[b.uitkomst] || UITKOMST['nog niet gecontroleerd']
+          return (
+            <div key={i} className="rounded-xl bg-nhl-grijs p-3 text-xs text-gray-600">
+              <div className="flex items-start gap-2">
+                <span className="mt-0.5 w-4 h-4 rounded-full grid place-items-center text-white text-[10px] font-bold shrink-0" style={{ background: u.kleur }} aria-label={u.label}>{u.icoon}</span>
+                <div className="min-w-0">
+                  {b.url && /^https?:/.test(b.url)
+                    ? <a href={b.url} target="_blank" rel="noreferrer" className="font-semibold text-nhl-blauw-light hover:underline break-words">↗ {b.label}</a>
+                    : <span className="font-semibold text-gray-800 break-words">{b.label}</span>}
+                  <div className="mt-0.5"><span style={{ color: s.kleur }} className="font-semibold">{s.label}</span> · {u.label}{b.gecontroleerd ? ` (${b.gecontroleerd})` : ''}</div>
+                  {b.noot && <p className="mt-1 leading-snug">{b.noot}</p>}
+                </div>
+              </div>
+            </div>
+          )
+        })}
+        <p className="text-[11px] text-gray-400 leading-snug">Nagelopen betekent: de bron is op de genoemde datum geopend of gezien en met de inhoud vergeleken. Klopt er iets niet, of ken je een betere bron? <button type="button" onClick={onMelding} className="underline text-nhl-blauw-light">Meld het hier</button>.</p>
+      </div>
+    </details>
+  )
+}

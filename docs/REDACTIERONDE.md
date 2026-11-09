@@ -49,6 +49,10 @@ binnen de passende map een submap met de naam van dat onderdeel.
    - `aanvulling_op` gevuld → item in `aanvullingen` bij dat onderdeel.
    - Contactpersoon alleen tonen als `naam_tonen = ja`. E-mailadressen **nooit** in canvas.json.
    - Melding die door een document of de AI Netwerk-site wordt bevestigd: herkomst ophogen naar die bron.
+   - **Bron eerst.** Het formulier vraagt om een link, een toelichting ("Hoe weet je dit?") of het vinkje dat er geen bron is
+     (velden `link`, `bron_hoe`, `bron_ontbreekt`). Per mail vraag je met `docs/MELDEN-PER-MAIL.md` om een bron. Open de bron zelf
+     en vergelijk. Klopt het: noteer in `bronnen` van het onderdeel (uitkomst `bevestigd`, datum van controle) en verhoog de herkomst.
+     Geen of niet te controleren bron: laat de melding op `herkomst: "melding"` staan en zet de uitkomst op `niet te controleren`.
 4. **AI Netwerk-site.** Clone `supergorkum/ai-netwerk-nhlstenden` (branch `main`, alleen lezen, nooit naar pushen); bekijk de diff sinds
    `meta.aiNetwerkCommit` in `src/` en verwerk nieuwe of gewijzigde initiatieven, pilots, teams en beleid.
 5. **Websites.** Probeer `www.nhlstenden.com` (nieuws, onderzoek/lectoraten) en `intranet.nhlstenden.com`.
@@ -72,6 +76,13 @@ volgt het canvas de koers en staat het verschil in het logboek.
 onderdeel bij dat een verplichting invult (bijvoorbeeld een meldprocedure voor AI-incidenten of een aangewezen
 AI-officer), voeg het id toe aan `bij` en werk `stand` en `standToelichting` bij. De stand blijft een duiding van de
 redactie; bevestiging door het AI Compliance Team gaat in het logboek.
+
+## Bronnen en controle per onderdeel
+
+Elk onderdeel heeft een lijst `bronnen` (label, url, soort, gecontroleerd, uitkomst, noot). In het canvas staat dit uitklapbaar in het
+detailpaneel. Uitkomst `bevestigd` mag alleen met een datum en, bij niet-interne bronnen, een link die je zelf hebt geopend of in een zoekresultaat
+hebt gezien. Per ronde ga je een aantal onderdelen met `nog niet gecontroleerd` na, te beginnen bij de externe en die met cijfers of data.
+Verandert de bron? Pas de inhoud aan en noteer oud en nieuw in het logboek.
 
 ## Regels voor zuiverheid
 

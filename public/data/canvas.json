@@ -30,7 +30,24 @@
         "stand": "grondig gescand op 9 november 2026 via de zoek-API en de pagina-API: 2.861 AI-gerelateerde items op 145 sites, 260 intranetpagina's volledig gelezen. Proefpagina's van de redactie (Sandbox-registratiesite, AI-Netwerk-pagina's op het intranet, persoonlijke OneDrive) zijn bewust niet meegenomen. Privé-OneDrive van anderen en vertrouwelijke notulen niet overgenomen. Rapportage: PDF in Edgars mailbox"
       }
     ],
-    "koersversie": "0.55d"
+    "koersversie": "0.55d",
+    "verificatie": {
+      "datum": "9 november 2026",
+      "onderdelen": 167,
+      "bevestigd": 8,
+      "niet_te_controleren": 2,
+      "nog_niet_gecontroleerd": 157,
+      "gecorrigeerd": [
+        "ai-fabriek-groningen",
+        "eu-ai-act",
+        "nvao-startverkenning-genai",
+        "gpt-nl",
+        "universiteit-van-het-noorden",
+        "edugenai",
+        "programma-bach"
+      ],
+      "toelichting": "Onderdelen met status bevestigd hebben minstens één bron die op de genoemde datum is geopend of in zoekresultaten gezien en met de inhoud is vergeleken. De overige onderdelen zijn overgenomen uit hun eigen bron (AI Netwerk-site, AI-Koers, intranet) en worden stap voor stap nagelopen."
+    }
   },
   "entiteiten": [
     {
@@ -55,7 +72,33 @@
       "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/pages/Over.jsx:92, src/pages/Over.jsx:101, src/pages/Over.jsx:112, src/pages/Over.jsx:115 e.a.)",
       "bijgewerkt": "2026-11-06",
       "doel": "De plek waar het gesprek over AI wordt gevoerd: verbindt per koerslijn het gesprek, deelt kennis, faciliteert pilots en signaleert knelpunten aan de Stuurgroep.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI-Netwerk platform",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Over.jsx:92, src/pages/Over.jsx:101, src/pages/Over.jsx:112, src/pages/Over.jsx:115. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "kernteam-ai-netwerk",
@@ -67,7 +110,17 @@
       "periode": "maandelijks overleg",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:165, src/pages/Over.jsx:5, src/pages/Over.jsx:35, src/pages/Over.jsx:120 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:165, src/pages/Over.jsx:5, src/pages/Over.jsx:35, src/pages/Over.jsx:120. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "kwartiermaker-digitale-samenhang",
@@ -80,7 +133,17 @@
       "bronLabel": "AI Netwerk-site, broncode src/pages/Over.jsx:7, src/pages/Over.jsx:9, src/pages/Over.jsx:13, src/pages/Governance.jsx:166 e.a.",
       "bijgewerkt": "2026-11-06",
       "doel": "Stelt de AI-Koers op en bewaakt de samenhang.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Over.jsx:7, src/pages/Over.jsx:9, src/pages/Over.jsx:13, src/pages/Governance.jsx:166. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "stuurgroep-transitieprogramma",
@@ -94,7 +157,17 @@
       "bronLabel": "AI Netwerk-site, broncode src/data.js:164, src/pages/Governance.jsx:117, src/pages/Governance.jsx:139, src/pages/Governance.jsx:153 e.a.",
       "bijgewerkt": "2026-11-06",
       "doel": "Opdrachtgever voor de uitvoering van de AI-Koers; bewaakt de voortgang en prioriteert de middelen.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:164, src/pages/Governance.jsx:117, src/pages/Governance.jsx:139, src/pages/Governance.jsx:153. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "transitieprogramma-digitalisering",
@@ -105,7 +178,17 @@
       "details": "Het AI-Netwerk is een initiatief van het Transitieprogramma Digitalisering. Binnen dit programma is de AI-Koers belegd en wordt zij uitgevoerd (AI-Koers v0.55d); eerder was sprake van een apart Programma AI. In het vijflagenmodel staat 'Prog. Digitale Transitie' als primaire eigenaar van laag 4 (Platforms & Applicaties); ook verantwoordelijke voor het roadmap-item AI-desk operationeel.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Rapport.jsx:254, src/pages/Rapport.jsx:350, src/pages/Governance.jsx:226, src/pages/Fundament.jsx:87 e.a.",
-      "bijgewerkt": "2026-11-06"
+      "bijgewerkt": "2026-11-06",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Rapport.jsx:254, src/pages/Rapport.jsx:350, src/pages/Governance.jsx:226, src/pages/Fundament.jsx:87. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "college-van-bestuur",
@@ -117,7 +200,17 @@
       "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:55, src/pages/Beleid.jsx:77, src/pages/Governance.jsx:94, src/pages/Governance.jsx:120 e.a.",
       "bijgewerkt": "2026-11-05",
       "doel": "Stelt de koers vast en beslist over significante investeringen en risicoacceptatie.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Beleid.jsx:55, src/pages/Beleid.jsx:77, src/pages/Governance.jsx:94, src/pages/Governance.jsx:120. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "thema-overleg-leren",
@@ -130,7 +223,17 @@
       "periode": "maandelijks",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:166, src/pages/Governance.jsx:5, src/pages/Over.jsx:78, src/pages/Governance.jsx:14 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:166, src/pages/Governance.jsx:5, src/pages/Over.jsx:78, src/pages/Governance.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "thema-overleg-werken",
@@ -143,7 +246,17 @@
       "periode": "maandelijks",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:167, src/pages/Governance.jsx:6, src/pages/Over.jsx:79, src/pages/Governance.jsx:14 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:167, src/pages/Governance.jsx:6, src/pages/Over.jsx:79, src/pages/Governance.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "thema-overleg-verantwoordelijkheid",
@@ -156,7 +269,17 @@
       "periode": "maandelijks",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:168, src/pages/Governance.jsx:7, src/pages/Over.jsx:80, src/pages/Governance.jsx:14 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:168, src/pages/Governance.jsx:7, src/pages/Over.jsx:80, src/pages/Governance.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "thema-overleg-geletterdheid",
@@ -169,7 +292,17 @@
       "periode": "maandelijks",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:169, src/pages/Governance.jsx:8, src/pages/Over.jsx:81, src/pages/Governance.jsx:14 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:169, src/pages/Governance.jsx:8, src/pages/Over.jsx:81, src/pages/Governance.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "thema-overleg-werkveld",
@@ -182,7 +315,17 @@
       "periode": "maandelijks",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:170, src/pages/Governance.jsx:9, src/pages/Over.jsx:82, src/pages/Governance.jsx:14 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:170, src/pages/Governance.jsx:9, src/pages/Over.jsx:82, src/pages/Governance.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "thema-overleg-onderzoek",
@@ -195,7 +338,17 @@
       "periode": "maandelijks",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:171, src/pages/Governance.jsx:10, src/pages/Over.jsx:83, src/pages/Governance.jsx:14 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:171, src/pages/Governance.jsx:10, src/pages/Over.jsx:83, src/pages/Governance.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-compliance-team",
@@ -213,7 +366,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:115, src/pages/Beleid.jsx:46, src/pages/Beleid.jsx:56, src/pages/Beleid.jsx:90 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "E-mail",
+          "url": "mailto:aicompliance@nhlstenden.com",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:115, src/pages/Beleid.jsx:46, src/pages/Beleid.jsx:56, src/pages/Beleid.jsx:90. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "privacy-security-team",
@@ -224,7 +395,17 @@
       "details": "Bij gebruik van AI voor diagnostische doeleinden, studentenbeoordelingen of bijzondere persoonsgegevens is voorafgaande validatie via de privacy QuickScan vereist.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:47, src/pages/Beleid.jsx:57, src/pages/Beleid.jsx:231",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Beleid.jsx:47, src/pages/Beleid.jsx:57, src/pages/Beleid.jsx:231. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "fg-ciso",
@@ -237,7 +418,33 @@
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:217, public/ai-koers/paginas.json:pagina 13, public/ai-koers/paginas.json:pagina 16",
       "bijgewerkt": "2026-11-05",
       "doel": "Adviseurs bij de sturing op AI (privacy en informatiebeveiliging).",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:217. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 13",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ctl",
@@ -268,7 +475,49 @@
       "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:19, src/data/themas.js:23, src/data/themas.js:75, src/data/themas.js:109 e.a.",
       "bijgewerkt": "2026-11-05",
       "doel": "Professionele thuisbasis voor digitale didactiek, AI-geletterdheid en ontwerpkracht; vakeigenaar voor toetsing, didactiek en professionalisering.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "CTL: AI & Toetsing",
+          "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI---toetsing,-richtlijnen-en-beoordeling.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "CTL: AI in het onderwijs",
+          "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "CTL: AI in je studie",
+          "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-in-je-studie.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "CTL",
+          "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data/themas.js:19, src/data/themas.js:23, src/data/themas.js:75, src/data/themas.js:109. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "examencommissies",
@@ -281,7 +530,25 @@
       "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:19, src/initialData.js:276, src/pages/NVAO.jsx:40, public/ai-koers/paginas.json:pagina 5 e.a.",
       "bijgewerkt": "2026-11-05",
       "doel": "Samen met het CTL eigenaar van de regels voor AI bij toetsing.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data/themas.js:19, src/initialData.js:276, src/pages/NVAO.jsx:40. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 5",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "oo-i",
@@ -294,7 +561,17 @@
       "bronLabel": "AI Netwerk-site, broncode src/data.js:92, src/data.js:93, src/initialData.js:293, src/pages/Governance.jsx:5 e.a.",
       "bijgewerkt": "2026-11-05",
       "doel": "Vakeigenaar van de onderwijs- en onderzoekskaders, waaronder AI in DBE.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:92, src/data.js:93, src/initialData.js:293, src/pages/Governance.jsx:5. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "dlwo",
@@ -305,7 +582,17 @@
       "details": "Afdeling bij thema AI & Werken. Inrichting van de technische sandbox via DLWO in samenwerking met SURF. Medeverantwoordelijk voor het toetsen van menselijk toezicht bij ProctorExam.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:101, src/initialData.js:298, src/pages/Governance.jsx:6, src/pages/Governance.jsx:64 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:101, src/initialData.js:298, src/pages/Governance.jsx:6, src/pages/Governance.jsx:64. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "facility-management",
@@ -315,7 +602,17 @@
       "details": "Bewaakt of de fysieke infrastructuur klaar is voor de exponentiële AI-groei; ook genoemd als Fysieke Leer- en Werkomgeving (FM).",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:109, src/initialData.js:299, src/pages/Fundament.jsx:11",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:109, src/initialData.js:299, src/pages/Fundament.jsx:11. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "hrm",
@@ -325,7 +622,17 @@
       "samenvatting": "Dienst; samen met OO&I verantwoordelijk voor de AI-basistraining voor medewerkers en betrokken bij het thema AI & Geletterdheid.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:295, src/App.jsx:74, src/pages/Governance.jsx:8, src/pages/Geletterdheid.jsx:68",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:295, src/App.jsx:74, src/pages/Governance.jsx:8, src/pages/Geletterdheid.jsx:68. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "fcp",
@@ -336,7 +643,17 @@
       "details": "In data.js aangeduid als 'Financiën, Control & Planning', in de organisatielijst als 'Finance, Control & Procurement'.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:296, src/data.js:118",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:296, src/data.js:118. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "concernstaf",
@@ -347,7 +664,17 @@
       "details": "Deelnemers: AI officer, data manager, informatiemanager.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:7, src/pages/Over.jsx:80",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:7, src/pages/Over.jsx:80. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "bibliotheek",
@@ -358,7 +685,17 @@
       "details": "Deelnemer aan thema's AI & Geletterdheid en AI & Onderzoek.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:133, src/pages/Governance.jsx:8, src/pages/Governance.jsx:10",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:133, src/pages/Governance.jsx:8, src/pages/Governance.jsx:10. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "myacademy",
@@ -377,7 +714,33 @@
       "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:76, src/pages/Geletterdheid.jsx:71, src/pages/Governance.jsx:8, public/ai-koers/paginas.json:pagina 9",
       "bijgewerkt": "2026-11-05",
       "doel": "Biedt leerroutes AI-geletterdheid per rol, samen met het CTL.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "MyAcademy",
+          "url": "https://newuniversity.sharepoint.com/sites/MyAcademy",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data/themas.js:76, src/pages/Geletterdheid.jsx:71, src/pages/Governance.jsx:8. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 9",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "academie-educatie",
@@ -387,7 +750,17 @@
       "samenvatting": "Academie met de pilot AI-Feedback in Schrijfonderwijs en het initiatief Digitalisering & Mediawijsheid binnen de lerarenopleiding.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:38, src/initialData.js:303, src/data.js:117",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:38, src/initialData.js:303, src/data.js:117. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "amce",
@@ -412,7 +785,17 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:103, src/initialData.js:284, src/initialData.js:307, src/App.jsx:107",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:103, src/initialData.js:284, src/initialData.js:307, src/App.jsx:107. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "academie-verpleegkunde-gezondheid",
@@ -423,7 +806,17 @@
       "details": "Naam komt niet voor in de academielijst (daar: 'Academie Gezondheid & Welzijn').",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:82, src/initialData.js:305",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:82, src/initialData.js:305. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "lectoraat-cv-ai",
@@ -445,7 +838,33 @@
       ],
       "herkomst": "drive",
       "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/data.js:126, src/data.js:55, src/initialData.js:273, src/pages/Netwerk.jsx:21 e.a.)",
-      "bijgewerkt": "2026-11-06"
+      "bijgewerkt": "2026-11-06",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "Lectoraat CV&AI",
+          "url": "https://www.nhlstenden.com/onderzoek/lectoraten/computer-vision-artificial-intelligence",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:126, src/data.js:55, src/initialData.js:273, src/pages/Netwerk.jsx:21. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-coalitie",
@@ -458,7 +877,17 @@
       "periode": "sept-okt 2026 (consultatie)",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:116, src/pages/Governance.jsx:118, src/pages/Netwerk.jsx:38",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:116, src/pages/Governance.jsx:118, src/pages/Netwerk.jsx:38. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "hsb",
@@ -469,7 +898,17 @@
       "periode": "sept-okt 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:119",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:119. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "hmr",
@@ -479,7 +918,25 @@
       "samenvatting": "Medezeggenschap die jaarlijks een samenvattende rapportage ontvangt en betrokken wordt bij vaststelling en jaarlijkse herijking van de AI-Koers.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 8, public/ai-koers/paginas.json:pagina 13",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 8",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 13",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "iv-organisatie",
@@ -499,7 +956,33 @@
         }
       ],
       "doel": "Draagt de uitvoering van de AI-Koers, zodat sturing op AI onderdeel is van de reguliere sturing.",
-      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf"
+      "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:6, src/pages/Governance.jsx:251, src/pages/Governance.jsx:391. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 13",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "solution-partners",
@@ -509,7 +992,17 @@
       "details": "Expertise op Veiligheid & AVG, Integratie & API, Solution Partnership en actuele kennis van het AI-landschap.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Over.jsx:50, src/pages/Over.jsx:159, src/pages/Over.jsx:163, src/pages/Rapport.jsx:581",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Over.jsx:50, src/pages/Over.jsx:159, src/pages/Over.jsx:163, src/pages/Rapport.jsx:581. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "werkveldcommissies",
@@ -519,7 +1012,25 @@
       "samenvatting": "Deelnemers aan thema AI & Werkveld; AI-competenties worden met hen afgestemd.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:9, public/ai-koers/paginas.json:pagina 10",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:9. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 10",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "surf",
@@ -539,7 +1050,33 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:313, src/pages/Rapport.jsx:356, src/components/Footer.jsx:52, src/pages/Inspiratie.jsx:347 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "SURF",
+          "url": "https://www.surf.nl",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "SURF AI Act",
+          "url": "https://www.surf.nl/ai-act",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:313, src/pages/Rapport.jsx:356, src/components/Footer.jsx:52, src/pages/Inspiratie.jsx:347. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "surf-ai-hub",
@@ -562,7 +1099,33 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:120, src/data.js:122, src/pages/Netwerk.jsx:23, src/pages/Netwerk.jsx:424 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "SURF AI-Hub",
+          "url": "https://www.surf.nl/en/themes/artificial-intelligence/projects-and-collaborations/ai-hub",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "SURF AI in het onderwijs",
+          "url": "https://www.surf.nl/themas/artificial-intelligence/ai-in-het-onderwijs",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:120, src/data.js:122, src/pages/Netwerk.jsx:23, src/pages/Netwerk.jsx:424. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "surf-denktank",
@@ -575,7 +1138,17 @@
       "eigenaar": "SURF",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:120, src/initialData.js:246, src/initialData.js:253, src/pages/Rapport.jsx:356 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:120, src/initialData.js:246, src/initialData.js:253, src/pages/Rapport.jsx:356. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "gpt-nl",
@@ -583,20 +1156,34 @@
       "soort": "extern",
       "spoor": "verantwoordelijkheid",
       "status": "actief",
-      "samenvatting": "Soeverein Nederlands taalmodel, AVG-compliant en transparant, in samenwerking met SURF en kennisinstellingen; alternatief voor commerciële aanbieders.",
+      "samenvatting": "Nederlands taalmodel van TNO, SURF en het NFI, gefinancierd door RVO namens het ministerie van EZK (13,5 miljoen euro, volgens TNO); bedoeld om de digitale autonomie van Nederland en Europa te versterken.",
       "links": [
         {
-          "label": "GPT-NL",
-          "url": "https://gptnl.nl"
-        },
-        {
-          "label": "GPT-NL (data.js)",
-          "url": "https://gpt-nl.nl/"
+          "label": "GPT-NL bij TNO",
+          "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/"
         }
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:122, src/pages/Netwerk.jsx:25, src/pages/Netwerk.jsx:426, src/components/Footer.jsx:53 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "TNO: GPT-NL",
+          "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Partners TNO, SURF en NFI; 13,5 miljoen euro via RVO. Eerder genoemde domeinen gptnl.nl en gpt-nl.nl zijn niet bevestigd en verwijderd."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:122, src/pages/Netwerk.jsx:25, src/pages/Netwerk.jsx:426, src/components/Footer.jsx:53. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-fabriek-groningen",
@@ -605,7 +1192,7 @@
       "spoor": "verantwoordelijkheid",
       "status": "actief",
       "samenvatting": "Regionale soevereine rekenkracht en datafaciliteit; strategisch alternatief voor Big Tech rekenkracht.",
-      "details": "200 miljoen euro uit het Nationaal Groeifonds (2025). Relevant voor laag 2 (Chips & Hardware): NHL Stenden kiest een sourcingstrategie in samenwerking met SURF en de AI-Fabriek Groningen.",
+      "details": "200 miljoen euro in totaal: 70 miljoen EU (EuroHPC), 70 miljoen kabinet en 60 miljoen regio (Nij Begun), volgens IO+ van 10 oktober 2025. Het kabinet meldde op 27 juni 2025 dat het inzet op de 200 miljoen. Relevant voor laag 2 (Chips & Hardware): NHL Stenden kiest een sourcingstrategie in samenwerking met SURF en de AI-Fabriek Groningen.",
       "links": [
         {
           "label": "AI-Fabriek (nijbegun.nl)",
@@ -622,7 +1209,49 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:123, src/data.js:100, src/pages/Netwerk.jsx:26, src/pages/Netwerk.jsx:425 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "IO+, 10 oktober 2025",
+          "url": "https://ioplus.nl/en/posts/its-official-groningen-to-receive-millions-for-ai-factory-",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Totaal 200 miljoen: EU 70, kabinet 70, regio 60. Nationaal Groeifonds wordt niet genoemd; eerdere tekst op het canvas was onjuist."
+        },
+        {
+          "label": "Rijksoverheid, 27 juni 2025",
+          "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/nederland-zet-in-op-200-miljoen-euro-voor-aifabriek-in-groningen",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Titel en datum gezien in zoekresultaten; pagina zelf niet geopend."
+        },
+        {
+          "label": "AI-Fabriek (nijbegun.nl)",
+          "url": "https://www.nijbegun.nl/projecten/ai-fabriek/",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "SURF AI-Fabriek",
+          "url": "https://www.surf.nl/themas/artificial-intelligence/ai-fabriek",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:123, src/data.js:100, src/pages/Netwerk.jsx:26, src/pages/Netwerk.jsx:425. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "npuls",
@@ -639,7 +1268,33 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:270, src/initialData.js:314, src/pages/Netwerk.jsx:427, src/pages/Rapport.jsx:356 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "TU Delft Delta, 19 april 2022",
+          "url": "https://delta.tudelft.nl/en/article/half-billion-euro-digitalisation-education",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "560 miljoen euro Nationaal Groeifonds voor digitalisering van hoger en beroepsonderwijs. De bron noemt de naam Npuls niet."
+        },
+        {
+          "label": "Npuls",
+          "url": "https://npuls.nl",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:270, src/initialData.js:314, src/pages/Netwerk.jsx:427, src/pages/Rapport.jsx:356. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "npuls-digitale-geletterdheid",
@@ -657,7 +1312,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:121, src/pages/Netwerk.jsx:49, src/pages/Sporen.jsx:88",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Npuls digitale geletterdheid",
+          "url": "https://npuls.nl/onderwerpen/digitale-geletterdheid",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:121, src/pages/Netwerk.jsx:49, src/pages/Sporen.jsx:88. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "npuls-sectorbelofte-ai-data",
@@ -669,7 +1342,33 @@
       "eigenaar": "Npuls",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 5, public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 4",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 5",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ai-go-raamwerk",
@@ -688,7 +1387,33 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:77, src/pages/Geletterdheid.jsx:70, src/pages/NVAO.jsx:11, src/pages/NVAO.jsx:15 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Universiteit Twente: AI-GO! Een raamwerk voor AI-geletterdheid in het onderwijs",
+          "url": "https://research.utwente.nl/en/publications/ai-go-een-raamwerk-voor-ai-geletterdheid-in-het-onderwijs-ai-go-r/",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Uitgave van Npuls, Utrecht, 2025; auteurs Renkema, Van den Boom-Muilenburg, Friso-van den Bos, Theelen, Wopereis en Schildkamp."
+        },
+        {
+          "label": "AI-GO",
+          "url": "https://npuls.nl/kennisbank/ai-go-een-raamwerk-voor-ai-geletterdheid-in-het-onderwijs",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data/themas.js:77, src/pages/Geletterdheid.jsx:70, src/pages/NVAO.jsx:11, src/pages/NVAO.jsx:15. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "npuls-ai-webinars",
@@ -705,7 +1430,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:280, src/pages/NVAO.jsx:28",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "CTL: AI-webinars van Npuls",
+          "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-webinars-van-Npuls.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:280, src/pages/NVAO.jsx:28. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "npuls-visie-toetsing",
@@ -722,7 +1465,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:43",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Npuls visie toetsing",
+          "url": "https://npuls.nl/kennisbank/visie-op-toetsing-examinering-en-ai-handreikingen",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/NVAO.jsx:43. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "edugenai",
@@ -730,7 +1491,7 @@
       "soort": "extern",
       "spoor": "leren",
       "status": "pilot / verkenning",
-      "samenvatting": "Veilig nationaal platform voor generatieve AI in het onderwijs, sectorbreed beschikbaar vanaf januari 2027 na een pilot tot december 2026.",
+      "samenvatting": "Veilig nationaal platform voor generatieve AI in het onderwijs, volgens de AI-Koers v0.55d sectorbreed beschikbaar vanaf januari 2027 na een pilot tot december 2026. Extern nog niet bevestigd: SURF-pilot loopt (Universiteit Utrecht, juli 2026), zonder einddatum.",
       "details": "Koerslijn AI & Leren: wij zetten generatieve AI verstandig in via SURF AI, ons veilige platform, met kaders per opleiding. Tijdlijn 2026: start SURF AI-pilot.",
       "eigenaar": "SURF",
       "periode": "pilot 2025-2026; breed beschikbaar eind 2026",
@@ -741,6 +1502,40 @@
         {
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+        }
+      ],
+      "bronnen": [
+        {
+          "label": "Universiteit Utrecht: EduGenAI",
+          "url": "https://www.uu.nl/organisatie/ai-beleid/docenten/edugenai",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "niet te controleren",
+          "noot": "Bevestigt: SURF-platform voor het onderwijs, pilot loopt (juli 2026), geen einddatum. De planning (januari 2027 sectorbreed) staat alleen in de AI-Koers."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:105, src/initialData.js:110, src/pages/Governance.jsx:5. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 4",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
         }
       ]
     },
@@ -758,7 +1553,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:268, src/initialData.js:317, src/data.js:134",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "RDI",
+          "url": "https://www.rdi.nl",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:268, src/initialData.js:317, src/data.js:134. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "autoriteit-persoonsgegevens",
@@ -778,7 +1591,33 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:269, src/data.js:134, src/pages/Governance.jsx:79",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AP",
+          "url": "https://www.autoriteitpersoonsgegevens.nl",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AP/RDI toezicht AI",
+          "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:269, src/data.js:134, src/pages/Governance.jsx:79. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-regulatory-sandbox",
@@ -798,27 +1637,79 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:124, src/data.js:134, src/data.js:31, src/pages/Governance.jsx:69 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Lewis Silkin, 27 juli 2026",
+          "url": "https://www.lewissilkin.com/insights/2026/07/27/the-digital-omnibus-on-ai-enters-into-force-today",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Lidstaten hebben tot 2 augustus 2027 om minstens één AI-sandbox op te zetten."
+        },
+        {
+          "label": "AP/RDI",
+          "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:124, src/data.js:134, src/data.js:31, src/pages/Governance.jsx:69. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "universiteit-van-het-noorden",
       "naam": "Universiteit van het Noorden",
       "soort": "extern",
       "spoor": "onderzoek",
-      "samenvatting": "Initiatiefnemer van Programma Bach.",
+      "samenvatting": "Initiatiefnemer van Programma Bach. Samenwerking van RUG, UMCG, Hanze, NHL Stenden, Van Hall Larenstein en het Noordelijk mbo, volgens de RUG.",
       "links": [
         {
           "label": "UvhN programma's",
           "url": "https://universiteitvanhetnoorden.nl/programmas/"
         },
         {
-          "label": "uvan.nl",
-          "url": "https://www.uvan.nl"
+          "label": "Universiteit van het Noorden bij de RUG",
+          "url": "https://www.rug.nl/about-ug/profile/universiteit-van-het-noorden"
         }
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:135, src/initialData.js:271",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "RUG: Universiteit van het Noorden",
+          "url": "https://www.rug.nl/about-ug/profile/universiteit-van-het-noorden",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Partijen volgens de RUG: RUG, UMCG, Hanze, NHL Stenden, Van Hall Larenstein en het Noordelijk mbo. De link naar uvan.nl is verwijderd (niet bevestigd)."
+        },
+        {
+          "label": "UvhN programma's",
+          "url": "https://universiteitvanhetnoorden.nl/programmas/",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:135, src/initialData.js:271. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "programma-bach",
@@ -826,7 +1717,7 @@
       "soort": "extern",
       "spoor": "onderzoek",
       "status": "in ontwikkeling",
-      "samenvatting": "Nationaal onderwijsversterkingsprogramma voor digitale autonomie en soevereiniteit, geïnitieerd vanuit de Universiteit van het Noorden; vier programmalijnen, investering 94 miljoen euro in 5 jaar.",
+      "samenvatting": "Nationaal onderwijsversterkingsprogramma voor digitale autonomie en soevereiniteit, geïnitieerd vanuit de Universiteit van het Noorden; volgens het programmavoorstel (januari 2026) vier programmalijnen en een investering van 94 miljoen euro in 5 jaar. Die cijfers zijn niet extern bevestigd.",
       "details": "Maakt duidelijk dat de transitie naar soevereine infrastructuur ook het onderzoeksdomein raakt. NHL Stenden sluit aan bij Programma Bach (koerslijn AI & Onderzoek). Programmavoorstel (januari 2026) staat in Documentatie.",
       "eigenaar": "Universiteit van het Noorden",
       "periode": "5 jaar",
@@ -842,7 +1733,41 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:135, src/data.js:64, src/data/themas.js:105, src/initialData.js:220 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "RUG, 12 oktober 2026: digitale autonomie",
+          "url": "https://www.rug.nl/news/2026/10/1012-digitale-autonomie",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "niet te controleren",
+          "noot": "Bevestigt een nationale impuls voor talentontwikkeling digitale soevereiniteit, geleid door de RUG met noordelijke instellingen. Bedrag (94 miljoen), looptijd, programmalijnen en NHL Stenden worden daar niet genoemd; die cijfers staan alleen in het programmavoorstel."
+        },
+        {
+          "label": "UvhN",
+          "url": "https://universiteitvanhetnoorden.nl/programmas/",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "Programmavoorstel (PDF)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Programmavoorstel Bach - digitale autonomie en soevereiniteit.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:135, src/data.js:64, src/data/themas.js:105, src/initialData.js:220. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "frisius-mc",
@@ -853,7 +1778,17 @@
       "details": "Deelnemer aan het thema AI & Werkveld.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:54, src/data.js:136, src/initialData.js:86, src/pages/Governance.jsx:9 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:54, src/data.js:136, src/initialData.js:86, src/pages/Governance.jsx:9. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "firda",
@@ -863,7 +1798,17 @@
       "samenvatting": "Regionale partner (mbo) in de Friese AI-propositie met Frisius MC en NHL Stenden.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:136, src/initialData.js:222, src/pages/Rapport.jsx:356, src/pages/Rapport.jsx:362",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:136, src/initialData.js:222, src/pages/Rapport.jsx:356, src/pages/Rapport.jsx:362. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "rug",
@@ -873,7 +1818,17 @@
       "samenvatting": "Partner bij de opschaling van Vision Technology en in de Friese AI-propositie.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:137, src/pages/Rapport.jsx:356, src/pages/Rapport.jsx:362",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:137, src/pages/Rapport.jsx:356, src/pages/Rapport.jsx:362. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "innovatie-cluster-drachten",
@@ -883,7 +1838,25 @@
       "samenvatting": "Regionale partner voor samenwerking op AI in het werkveld.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:54, src/data/themas.js:92, src/pages/WatLeverHetOp.jsx:9, public/ai-koers/paginas.json:pagina 4",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:54, src/data/themas.js:92, src/pages/WatLeverHetOp.jsx:9. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 4",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ai-fryslan-coalitie",
@@ -894,7 +1867,17 @@
       "details": "Alleen genoemd in de rapport-generatiefunctie.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode netlify/functions/rapport-genereren.js:420, netlify/functions/rapport-genereren.js:442",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: netlify/functions/rapport-genereren.js:420, netlify/functions/rapport-genereren.js:442. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "vereniging-hogescholen",
@@ -909,7 +1892,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:316, src/pages/Over.jsx:13, src/components/Footer.jsx:55, src/pages/Rapport.jsx:361",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Vereniging Hogescholen",
+          "url": "https://www.vereniginghogescholen.nl",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:316, src/pages/Over.jsx:13, src/components/Footer.jsx:55, src/pages/Rapport.jsx:361. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "nvao",
@@ -926,7 +1927,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:116, src/pages/NVAO.jsx:118, src/pages/NVAO.jsx:121",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "NVAO",
+          "url": "https://www.nvao.net",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/NVAO.jsx:116, src/pages/NVAO.jsx:118, src/pages/NVAO.jsx:121. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "uva-ai-chat",
@@ -944,7 +1963,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:287",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "CTL artikel",
+          "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/UvA-lanceert-eigen-AI-chat--veilig-exp-.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:287. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ou-regieorgaan-genai-onderzoek",
@@ -961,7 +1998,25 @@
       "periode": "2024",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 4",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ai-desk",
@@ -975,7 +2030,17 @@
       "periode": "Q4 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:125, src/data.js:33, src/App.jsx:93, src/pages/Over.jsx:28 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:125, src/data.js:33, src/App.jsx:93, src/pages/Over.jsx:28. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "technische-sandbox",
@@ -989,7 +2054,17 @@
       "periode": "2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:55, src/pages/Governance.jsx:60, src/pages/Governance.jsx:64, src/pages/Governance.jsx:389 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:55, src/pages/Governance.jsx:60, src/pages/Governance.jsx:64, src/pages/Governance.jsx:389. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "sandbox-van-nhl-stenden",
@@ -1001,7 +2076,17 @@
       "details": "Registratie in acht stappen, risicoklasse via twaalf vragen, stoplicht per pilot (AI-verordening, risico, soevereiniteit, voortgang) en rapportage in één klik voor Stuurgroep, CvB, toezicht en audit. De Sandbox is zelf als eerste pilot geregistreerd; voor gebruik met echte namen volgt een privacytoets en verhuizing naar een beheerde NHL Stenden-omgeving.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:110, src/pages/Governance.jsx:113, src/pages/Governance.jsx:345, src/pages/Governance.jsx:347 e.a.",
-      "bijgewerkt": "2026-11-09"
+      "bijgewerkt": "2026-11-09",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:110, src/pages/Governance.jsx:113, src/pages/Governance.jsx:345, src/pages/Governance.jsx:347. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "academie-educatie-mediawijsheid",
@@ -1013,7 +2098,17 @@
       "eigenaar": "Academie Educatie",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:117, src/pages/Netwerk.jsx:39",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:117, src/pages/Netwerk.jsx:39. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "fcp-data-ai",
@@ -1025,7 +2120,17 @@
       "eigenaar": "FCP",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:118, src/pages/Netwerk.jsx:40",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:118, src/pages/Netwerk.jsx:40. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "bdb-ai-verrijking",
@@ -1036,7 +2141,17 @@
       "samenvatting": "De Basiskwalificatie Didactische Bekwaamheid wordt verrijkt met AI-componenten voor docenten.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:119, src/pages/Netwerk.jsx:41, src/pages/Evenementen.jsx:86",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:119, src/pages/Netwerk.jsx:41, src/pages/Evenementen.jsx:86. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "arda-ai-modules",
@@ -1049,7 +2164,17 @@
       "periode": "livegang begin 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:132, src/data.js:43, src/data/themas.js:73, src/pages/Governance.jsx:8 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:132, src/data.js:43, src/data/themas.js:73, src/pages/Governance.jsx:8. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "libguides-ai",
@@ -1061,7 +2186,17 @@
       "eigenaar": "Bibliotheek",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:133, src/pages/NVAO.jsx:25",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:133, src/pages/NVAO.jsx:25. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-in-de-zorg-werkveldproject",
@@ -1072,7 +2207,17 @@
       "samenvatting": "Samenwerking met regionale zorgpartners rond AI-toepassingen in de zorgpraktijk; studenten doen praktijkgericht onderzoek naar beelddiagnostiek en procesondersteuning.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:127",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:127. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "applied-research-ai",
@@ -1083,7 +2228,17 @@
       "samenvatting": "Overkoepelend programma waarbij meerdere lectoraten van NHL Stenden AI inzetten als onderzoeksinstrument én als onderzoeksonderwerp.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:128, src/pages/Netwerk.jsx:45, src/components/ImpactDashboard.jsx:222",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:128, src/pages/Netwerk.jsx:45, src/components/ImpactDashboard.jsx:222. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-ethiek-onderzoekslijn",
@@ -1094,7 +2249,17 @@
       "samenvatting": "Onderzoek naar de ethische dimensies van AI-inzet in hoger onderwijs en maatschappij; bijdrage aan nationale en Europese discussies over verantwoorde AI.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:129, src/components/ImpactDashboard.jsx:222",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:129, src/components/ImpactDashboard.jsx:222. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "friese-ai-propositie",
@@ -1106,7 +2271,17 @@
       "details": "Werksessie Friese AI-behoeften (19 januari 2026) uitgewerkt in een terugkoppeling. Rapport noemt ook de RUG als partner.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:136, src/initialData.js:86, src/initialData.js:222, src/pages/Rapport.jsx:356 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:136, src/initialData.js:86, src/initialData.js:222, src/pages/Rapport.jsx:356. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "frisiuslab",
@@ -1122,7 +2297,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:97, src/pages/NVAO.jsx:55, src/pages/NVAO.jsx:57, netlify/functions/rapport-genereren.js:442",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "FrisiusLab nieuws",
+          "url": "https://www.nhlstenden.com/nieuws-en-artikelen/met-het-frisiuslab-zetten-nhl-stenden-en-frisius-mc-vol-in-op-innovatie",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:97, src/pages/NVAO.jsx:55, src/pages/NVAO.jsx:57, netlify/functions/rapport-genereren.js:442. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "vision-technology-opschaling",
@@ -1133,7 +2326,25 @@
       "samenvatting": "Fryslân heeft meer dan 20 jaar expertise in Vision Technology; NHL Stenden zet in op opschaling naar maritiem, recycling, zorg en landbouw, samen met RUG en bedrijfsleven.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:137, public/ai-koers/paginas.json:pagina 10",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:137. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 10",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "studie-uitval-ai-dashboard",
@@ -1145,7 +2356,17 @@
       "details": "Als NHL Stenden dit zelf bouwt, is een AI Regulatory Sandbox-aanvraag aanbevolen vanwege hoog-risico classificatie.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:138",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:138. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "imai",
@@ -1162,7 +2383,33 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:272, src/pages/NVAO.jsx:25, src/pages/NVAO.jsx:29, public/ai-koers/paginas.json:pagina 4 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "I'M A.I.",
+          "url": "https://www.nhlstenden.com/onderzoek/lectoraten/computer-vision-data-science/IMAI",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:272, src/pages/NVAO.jsx:25, src/pages/NVAO.jsx:29. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 4",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "minor-ai-in-practice",
@@ -1178,7 +2425,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:274, src/pages/NVAO.jsx:13",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Minor",
+          "url": "https://www.nhlstenden.com/en/minors/ai-in-practice",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:274, src/pages/NVAO.jsx:13. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "minor-decision-making-genai",
@@ -1194,7 +2459,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:275, src/pages/NVAO.jsx:14",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Minor",
+          "url": "https://www.nhlstenden.com/en/minors/decision-making-and-generative-ai",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:275, src/pages/NVAO.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "pabo-ai-integratie",
@@ -1205,7 +2488,17 @@
       "periode": "12 juni 2026 (melding)",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:285, src/pages/Inspiratie.jsx:17",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:285, src/pages/Inspiratie.jsx:17. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "myacademy-ai-op-je-werkplek",
@@ -1222,7 +2515,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Geletterdheid.jsx:71",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "MyAcademy",
+          "url": "https://newuniversity.sharepoint.com/sites/MyAcademy",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Geletterdheid.jsx:71. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "algoritmeregister",
@@ -1233,7 +2544,25 @@
       "details": "Doel 2029-30: algoritmeregister volledig. NHL Stenden standaardiseert op wat landelijk komt, waaronder het algoritmeregister.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:24, src/pages/Governance.jsx:19, src/pages/Governance.jsx:391, public/ai-koers/paginas.json:pagina 5",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Beleid.jsx:24, src/pages/Governance.jsx:19, src/pages/Governance.jsx:391. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 5",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ai-koers-consultatie",
@@ -1244,7 +2573,17 @@
       "details": "Rol wordt gevraagd (docent/student/management/overig). Het feedbackrapport wordt met Claude (Opus 5.5) samengesteld; getallen worden in code berekend. Opslag in Netlify Blobs.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/AIKoers.jsx:158, src/pages/AIKoers.jsx:175, src/pages/AIKoersVerslag.jsx:197, src/pages/Start.jsx:275 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/AIKoers.jsx:158, src/pages/AIKoers.jsx:175, src/pages/AIKoersVerslag.jsx:197, src/pages/Start.jsx:275. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-compliance-capaciteit",
@@ -1256,7 +2595,25 @@
       "details": "Tijdlijn governance 2026: eerste compliance-capaciteit.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 13, src/pages/Governance.jsx:7, src/pages/Governance.jsx:389",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:7, src/pages/Governance.jsx:389. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 13",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ai-basistraining-medewerkers",
@@ -1270,7 +2627,17 @@
       "periode": "Q3 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/App.jsx:72, src/pages/Geletterdheid.jsx:68",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/App.jsx:72, src/pages/Geletterdheid.jsx:68. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "inventarisatie-hoog-risico-ai",
@@ -1284,7 +2651,17 @@
       "periode": "Q4 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/App.jsx:79",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/App.jsx:79. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "beleidskader-genai-studenten",
@@ -1298,7 +2675,17 @@
       "periode": "Q3 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/App.jsx:86",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/App.jsx:86. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "toetsen-toezicht-proctorexam",
@@ -1312,7 +2699,17 @@
       "periode": "Q1 2027",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/App.jsx:100",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/App.jsx:100. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "pilot-ai-feedback-schrijfonderwijs",
@@ -1332,7 +2729,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:37, src/pages/Pilots.jsx:22",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "SURF: AVG en AI-tools in het onderwijs",
+          "url": "https://www.surf.nl/online-onderwijs",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:37, src/pages/Pilots.jsx:22. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "pilot-ai-feedback-scripties",
@@ -1352,7 +2767,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:60",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "SURF Model Verwerkersovereenkomst 4.0",
+          "url": "https://pec.surf.nl/vernieuwde-surf-modelverwerkersovereenkomst-beschikbaar/",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:60. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "pilot-frisius-ai-workshops",
@@ -1372,7 +2805,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:81",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "FrisiusLab",
+          "url": "https://www.nhlstenden.com/nieuws-en-artikelen/met-het-frisiuslab-zetten-nhl-stenden-en-frisius-mc-vol-in-op-innovatie",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:81. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "amce-ai-proeftuin",
@@ -1400,7 +2851,17 @@
       "periode": "september 2026 tot 1 januari 2027",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:102, src/App.jsx:107, src/initialData.js:284, src/pages/Rapport.jsx:715",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:102, src/App.jsx:107, src/initialData.js:284, src/pages/Rapport.jsx:715. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "amce-wp1",
@@ -1420,7 +2881,17 @@
       "periode": "start 2026-09; roadmap Q3 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:123, src/App.jsx:114",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:123, src/App.jsx:114. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "amce-wp2",
@@ -1440,7 +2911,17 @@
       "periode": "start 2026-09; roadmap Q3 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:144, src/App.jsx:121",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:144, src/App.jsx:121. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "amce-wp3",
@@ -1460,7 +2941,17 @@
       "periode": "start 2026-09; roadmap Q3 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:165, src/App.jsx:128",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:165, src/App.jsx:128. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "amce-wp4",
@@ -1480,7 +2971,17 @@
       "periode": "start 2026-09; roadmap Q4 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:186, src/App.jsx:135",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:186, src/App.jsx:135. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-koers",
@@ -1523,7 +3024,73 @@
       ],
       "herkomst": "drive",
       "bronLabel": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf (eerder: AI Netwerk-site, broncode src/initialData.js:208, src/pages/Fundament.jsx:312, src/pages/Fundament.jsx:338, src/pages/Governance.jsx:139 e.a.)",
-      "bijgewerkt": "2026-11-06"
+      "bijgewerkt": "2026-11-06",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "HTML concept-restyle",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers-v0_4-concept-restyle.html",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "HTML v0.4d",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers-v0_4d.html",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "Presentatie",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers-presentatie.pptx",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "Poster A2",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/NHL-Stenden-AI-Koers-Poster-A2-preview.png",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "Paginadata",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/ai-koers/paginas.json",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:208, src/pages/Fundament.jsx:312, src/pages/Fundament.jsx:338, src/pages/Governance.jsx:139. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "digitale-koers-2030",
@@ -1535,7 +3102,33 @@
       "periode": "t/m 2030",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 3, public/ai-koers/paginas.json:pagina 13, public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 3",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 13",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "strategisch-instellingsplan",
@@ -1545,7 +3138,25 @@
       "periode": "2025-2030",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 3, public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 3",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "programmaplan-ai",
@@ -1562,6 +3173,48 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
         }
+      ],
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 1",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 3",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 12",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 13",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
       ]
     },
     {
@@ -1576,7 +3229,17 @@
       "periode": "vastgesteld 16 december 2025",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:130, src/pages/Beleid.jsx:76, src/pages/Beleid.jsx:77, src/pages/Beleid.jsx:209 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:130, src/pages/Beleid.jsx:76, src/pages/Beleid.jsx:77, src/pages/Beleid.jsx:209. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-risicoscan",
@@ -1588,7 +3251,17 @@
       "eigenaar": "AI Compliance Team",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:22, src/pages/Beleid.jsx:46, src/pages/Beleid.jsx:58, src/pages/Rapport.jsx:353",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Beleid.jsx:22, src/pages/Beleid.jsx:46, src/pages/Beleid.jsx:58, src/pages/Rapport.jsx:353. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "privacy-quickscan",
@@ -1599,7 +3272,17 @@
       "eigenaar": "Team Privacy & Security",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Beleid.jsx:47, src/pages/Beleid.jsx:230",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Beleid.jsx:47, src/pages/Beleid.jsx:230. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ethisch-waardenkompas",
@@ -1611,7 +3294,25 @@
       "details": "Samen met een Acceptable AI Use Policy wordt vastgelegd wat wel en niet gedaan wordt, inclusief verbod op ongecontroleerde besluitvorming over studenten.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:131, src/pages/Governance.jsx:75, src/data/themas.js:55, public/ai-koers/paginas.json:pagina 8",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:131, src/pages/Governance.jsx:75, src/data/themas.js:55. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 8",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "acceptable-ai-use-policy",
@@ -1623,7 +3324,25 @@
       "details": "Te onderscheiden van de bestaande ICT Acceptable Use Policy (AUP).",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 8, src/pages/Governance.jsx:37",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:37. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 8",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ai-governancestructuur",
@@ -1636,7 +3355,17 @@
       "periode": "2026-2030",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:131, src/pages/Governance.jsx:138, src/pages/Governance.jsx:146, src/pages/Governance.jsx:14 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:131, src/pages/Governance.jsx:138, src/pages/Governance.jsx:146, src/pages/Governance.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "vijflagenmodel",
@@ -1646,7 +3375,17 @@
       "details": "Laag 1 Energie & Fysieke Infrastructuur (FM), 2 Chips & Hardware (DLWO), 3 Onderwijs, Onderzoek & Data (OO&I), 4 Platforms & Applicaties (Prog. Digitale Transitie, meest urgent), 5 Gebruik & Toepassingen (alle academies & diensten). 'Eerst organiseren, dan automatiseren.'",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:70, src/pages/Fundament.jsx:29, src/pages/Fundament.jsx:236, src/components/Lagen.jsx:22 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:70, src/pages/Fundament.jsx:29, src/pages/Fundament.jsx:236, src/components/Lagen.jsx:22. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-kompas",
@@ -1667,7 +3406,33 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:209",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/NHL_Stenden_AI_Compass Definitief.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "PPTX",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/NHL_Stenden_AI_Compass Definitief.pptx",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:209. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-whitepaper-v9",
@@ -1683,7 +3448,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:210",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/whitepaper_AI_koers_NHL_Stenden_v09.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:210. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "analyse-ai-gebruik",
@@ -1699,7 +3482,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:211",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Analyse_AI_Gebruik_NHL_Stenden.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:211. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-en-werk",
@@ -1716,7 +3517,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:212",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/ai-en-werk.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:212. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "trai-document",
@@ -1733,7 +3552,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:215",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/TRAI-document.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:215. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "digital-sovereignty-radar",
@@ -1750,7 +3587,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:216",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Digital_Sovereignty_Radar.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:216. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "sandbox-praktijkgids",
@@ -1771,7 +3626,33 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:217, src/initialData.js:221",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Praktijkgids PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/regulatory_sandbox_ai_NHL_Stenden.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "Infoplaat",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/InfoPlaat-sandbox.png",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:217, src/initialData.js:221. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-compliance-voortgangsrapportage",
@@ -1788,14 +3669,32 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:219",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Voortgangsrapportage_AI_Compliance_v1.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:219. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "nvao-startverkenning-genai",
       "naam": "NVAO Startverkenning Generatieve Artificiële Intelligentie",
       "soort": "beleid",
       "spoor": "leren",
-      "samenvatting": "Thematische analyse kwaliteitszorg (januari 2026) van 509 opleidingsbeoordelingen; aandacht voor GenAI sterk gericht op toetsing (72%), integrale aanpak ontbreekt.",
+      "samenvatting": "Thematische analyse kwaliteitszorg (januari 2026): van 509 opleidingsbeoordelingen noemen er 310 generatieve AI; bij 72% daarvan (222) gaat de aandacht naar toetsing. Een integrale aanpak ontbreekt.",
       "details": "NHL Stenden gebruikt de startverkenning mede als basis voor de doorontwikkeling van het evaluatiebeleid.",
       "eigenaar": "NVAO",
       "periode": "januari 2026",
@@ -1815,7 +3714,49 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:218, src/pages/NVAO.jsx:118, src/pages/NVAO.jsx:217, src/pages/NVAO.jsx:55",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "NVAO: Startverkenning Generatieve Artificiële Intelligentie (PDF)",
+          "url": "https://www.nvao.net/files/attachments/.13866/Startverkenning_Generatieve_Artificiele_Intelligentie.pdf",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "509 beoordelingen (1 nov 2024 tot 14 aug 2025), 310 noemen GenAI, 72% daarvan (222) bij toetsing; januari 2026. Eerder stond 72% onduidelijk bij de 509; verduidelijkt."
+        },
+        {
+          "label": "Lokale PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Startverkenning_Generatieve_Artificiele_Intelligentie.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "NVAO PDF",
+          "url": "https://www.nvao.net/files/attachments/.14069/Initial_Exploration_of_Generative_Artificial_Intelligence.pdf",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "NVAO nieuws",
+          "url": "https://www.nvao.net/en/news/2026/2/nvao-netherlands-publishes-initial-exploration-of-generative-ai",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:218, src/pages/NVAO.jsx:118, src/pages/NVAO.jsx:217, src/pages/NVAO.jsx:55. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ctl-richtlijnen-ai-toetsing",
@@ -1834,7 +3775,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:276, src/initialData.js:286, src/pages/NVAO.jsx:40, src/pages/NVAO.jsx:42 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "CTL: AI & Toetsing",
+          "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI---toetsing,-richtlijnen-en-beoordeling.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:276, src/initialData.js:286, src/pages/NVAO.jsx:40, src/pages/NVAO.jsx:42. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-in-dbe-addendum",
@@ -1847,7 +3806,33 @@
       "periode": "juli 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 6, public/ai-koers/paginas.json:pagina 16, src/pages/NVAO.jsx:40, src/pages/NVAO.jsx:55",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/NVAO.jsx:40, src/pages/NVAO.jsx:55. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 6",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ai-competentieframework",
@@ -1859,7 +3844,17 @@
       "periode": "15 mei 2026 (toegevoegd)",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Geletterdheid.jsx:69",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Geletterdheid.jsx:69. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "basisprofiel-ai-geletterdheid",
@@ -1871,7 +3866,33 @@
       "details": "Indicator 2030: 80% van de medewerkers heeft het basisniveau bereikt.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 9, public/ai-koers/paginas.json:pagina 15, src/pages/WatLeverHetOp.jsx:76",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/WatLeverHetOp.jsx:76. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 9",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 15",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "afwegingskader-inkoop",
@@ -1888,6 +3909,40 @@
         {
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view"
+        }
+      ],
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:217. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 7",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 15",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
         }
       ]
     },
@@ -1911,7 +3966,17 @@
       "periode": "22 juni 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "human-value-ai",
@@ -1924,7 +3989,17 @@
       "periode": "juni 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:284",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:284. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "artikel-stability-learning-tasks",
@@ -1948,7 +4023,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:288",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "CTL artikel",
+          "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-&-the-stability-of-learning-tasks.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:288. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "nba-handreiking-ai-geletterdheid",
@@ -1959,7 +4052,17 @@
       "details": "Afkorting NBA niet uitgelegd; elders 'overzicht NBA programma' gekoppeld aan /geletterdheid.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:11, src/pages/NVAO.jsx:31",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/NVAO.jsx:11, src/pages/NVAO.jsx:31. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "eu-ai-act",
@@ -1967,7 +4070,7 @@
       "soort": "beleid",
       "spoor": "verantwoordelijkheid",
       "samenvatting": "Eerste uitgebreide wet die AI-systemen reguleert; vertrekpunt van de roadmap van het AI-Netwerk met zeven geregistreerde verplichtingen.",
-      "details": "Fasering: feb 2025 verbod onacceptabele AI (art. 5); aug 2025 AI-geletterdheid (art. 4); aug 2026 hoog-risico verplichtingen (art. 9-26); aug 2027 overige bepalingen. Verplichtingen in het AI-Netwerk: art. 4, 5, 9&10, 13&14, 26, 50, 70.",
+      "details": "Fasering, stand na de Digital Omnibus (Verordening (EU) 2026/1744, in werking sinds 27 juli 2026): 2 februari 2025 verbod onacceptabele AI (art. 5) en AI-geletterdheid (art. 4, sinds de Omnibus een inspanningsverplichting); 2 december 2027 hoog-risicoverplichtingen Bijlage III (art. 9-26; was 2 augustus 2026); 2 augustus 2028 hoog-risico via productveiligheid (Bijlage I); nationale sandboxes uiterlijk 2 augustus 2027. Verplichtingen in het AI-Netwerk: art. 4, 5, 9&10, 13&14, 26, 50, 70.",
       "links": [
         {
           "label": "EUR-Lex",
@@ -1976,7 +4079,41 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data.js:146, src/data.js:147, src/data.js:153, src/pages/Initiatieven.jsx:577 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Digital Omnibus op de AI Act, overzicht (euaiact.com)",
+          "url": "https://www.euaiact.com/digital-omnibus-ai",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Secundaire bron; bevestigt 2 dec 2027 (Bijlage III), 2 aug 2028 (Bijlage I), art. 4 als inspanningsverplichting en inwerkingtreding 27 juli 2026. Het Publicatieblad gaat bij verschil voor."
+        },
+        {
+          "label": "Lewis Silkin, 27 juli 2026",
+          "url": "https://www.lewissilkin.com/insights/2026/07/27/the-digital-omnibus-on-ai-enters-into-force-today",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Secundaire bron; nationale sandboxes uiterlijk 2 aug 2027."
+        },
+        {
+          "label": "EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32024R1689",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:146, src/data.js:147, src/data.js:153, src/pages/Initiatieven.jsx:577. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "wef-future-of-jobs-2025",
@@ -1994,7 +4131,41 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:213, public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:213. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 4",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "kennisnet-digitale-geletterdheid",
@@ -2012,7 +4183,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:214",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "PDF",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Kennisnet-ICILS-Aan-de-slag-met-digitale-geletterdheid.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:214. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "gartner-hype-cycle-2025",
@@ -2029,7 +4218,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:223",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Afbeelding",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Hype_Cycle_for_Artificial_Intelligence_2025.jpeg",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:223. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "rathenau-ai-act-onderwijs",
@@ -2046,7 +4253,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Geletterdheid.jsx:67, src/pages/Inspiratie.jsx:18",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Rathenau",
+          "url": "https://rathenau.nl",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Geletterdheid.jsx:67, src/pages/Inspiratie.jsx:18. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "unesco-ai-frameworks",
@@ -2058,7 +4283,25 @@
       "periode": "2023-2024",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 4",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "era-living-guidelines",
@@ -2070,7 +4313,25 @@
       "periode": "2024",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 11, public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 11",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "surf-model-verwerkersovereenkomst",
@@ -2088,7 +4349,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:75, src/initialData.js:76",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "SURF",
+          "url": "https://pec.surf.nl/vernieuwde-surf-modelverwerkersovereenkomst-beschikbaar/",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:75, src/initialData.js:76. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "agentic-ai-framework",
@@ -2111,7 +4390,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/AgenticAI.jsx:174, src/pages/AgenticAI.jsx:350",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/luisrodriguesengineer/",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/AgenticAI.jsx:174, src/pages/AgenticAI.jsx:350. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "pwc-ai-jobs-barometer",
@@ -2123,7 +4420,25 @@
       "periode": "2025",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d, pagina 4",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        },
+        {
+          "label": "AI-Koers v0.55d, pagina 16",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Conceptversie, alleen met toegang."
+        }
+      ]
     },
     {
       "id": "ai-netwerk-kick-off",
@@ -2135,7 +4450,17 @@
       "periode": "10 september 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:229",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:229. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "surf-summit-2026",
@@ -2148,7 +4473,17 @@
       "periode": "7 oktober 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:241, src/pages/Beheer.jsx:1577",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:241, src/pages/Beheer.jsx:1577. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "surf-denktank-ai-onderwijs-2026",
@@ -2161,7 +4496,17 @@
       "periode": "24 september 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:253",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:253. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "stuurgroep-sessie-10-sept-2026",
@@ -2173,7 +4518,17 @@
       "periode": "10 september 2026",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:117, src/pages/Governance.jsx:139",
-      "bijgewerkt": "2026-11-06"
+      "bijgewerkt": "2026-11-06",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:117, src/pages/Governance.jsx:139. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "werksessie-friese-ai-behoeften",
@@ -2190,7 +4545,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:222",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Terugkoppeling (PDF)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Terugkoppeling werksessie 19 januari.pdf",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:222. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "ai-fryslan-event-2026",
@@ -2207,7 +4580,25 @@
       ],
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:58",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "Evenement",
+          "url": "https://www.nhlstenden.com/evenementen/ai-fryslan-event-2026",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        },
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/pages/NVAO.jsx:58. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "chatgpt",
@@ -2217,7 +4608,17 @@
       "details": "Bij gebruik gelden altijd een verwerkersovereenkomst, privacytoets en transparantie. Niet gebruiken voor persoonsgegevens; bij voorkeur SURF-alternatieven.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:40, src/initialData.js:63, src/data/themas.js:53, src/pages/Beleid.jsx:191 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:40, src/initialData.js:63, src/data/themas.js:53, src/pages/Beleid.jsx:191. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "microsoft-copilot",
@@ -2227,7 +4628,17 @@
       "details": "Ook voor Copilot gelden verwerkersovereenkomst, privacytoets en openheid.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:53, src/initialData.js:191, src/initialData.js:189, src/App.jsx:135 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/data/themas.js:53, src/initialData.js:191, src/initialData.js:189, src/App.jsx:135. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "claude",
@@ -2237,7 +4648,17 @@
       "details": "Platform: nieuws-ophalen beoordeelt berichten met Claude Haiku 5.5; het AI-Koers-feedbackrapport wordt geschreven met Claude Opus 5.5. Het AI-Netwerk wordt onderhouden in Claude Code.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:105, src/initialData.js:189, src/initialData.js:191, src/pages/Beleid.jsx:191 e.a.",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:105, src/initialData.js:189, src/initialData.js:191, src/pages/Beleid.jsx:191. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "google-gemini",
@@ -2247,7 +4668,17 @@
       "samenvatting": "Gemini CLI wordt met MCP-servers ingezet in WP1 van de AMCE-pilot; Google Gemini genoemd in richtlijnen voor eigen gebruik.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:126, src/initialData.js:128, src/pages/Beleid.jsx:191, src/pages/Pilots.jsx:7",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:126, src/initialData.js:128, src/pages/Beleid.jsx:191, src/pages/Pilots.jsx:7. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "mistral",
@@ -2256,7 +4687,17 @@
       "samenvatting": "Platform in de AMCE AI-proeftuin.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:105, src/pages/Pilots.jsx:7",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/initialData.js:105, src/pages/Pilots.jsx:7. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "proctorexam",
@@ -2266,7 +4707,17 @@
       "samenvatting": "Toetssurveillance-tool waarvan de AI Act-conformiteit (menselijk toezicht, transparantie, dataminimalisatie) moet worden getoetst; als eerste te onderzoeken bij inventarisatie hoog-risico.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/App.jsx:80, src/App.jsx:100, src/App.jsx:101",
-      "bijgewerkt": "2026-11-05"
+      "bijgewerkt": "2026-11-05",
+      "bronnen": [
+        {
+          "label": "AI Netwerk-site (broncode)",
+          "url": "https://ai-netwerk-nhlstenden.netlify.app",
+          "soort": "netwerksite",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Overgenomen uit de AI Netwerk-site: src/App.jsx:80, src/App.jsx:100, src/App.jsx:101. De oorspronkelijke bron is nog niet nagelopen."
+        }
+      ]
     },
     {
       "id": "afwegingskader-digitalisering",
@@ -2285,7 +4736,17 @@
       "status": "in ontwikkeling",
       "samenvatting": "Afwegingskader van het Transitieprogramma Digitalisering waarmee inkoop en aanvragen worden beoordeeld; voor AI wegen digitale autonomie en AI Act-compliance altijd mee.",
       "details": "Tijdlijn: 2026 AI-toetspunten inbrengen in het afwegingskader; 2027-28 AI-aanvragen via het afwegingskader.",
-      "eigenaar": "Transitieprogramma Digitalisering"
+      "eigenaar": "Transitieprogramma Digitalisering",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        }
+      ]
     },
     {
       "id": "bedrijfsfunctiemodel",
@@ -2302,7 +4763,17 @@
       "soort": "beleid",
       "spoor": null,
       "samenvatting": "Model van het Transitieprogramma Digitalisering waarin per bedrijfsfunctie duidelijk is wie waarvoor verantwoordelijk is; AI-vraagstukken volgen die eigenaren.",
-      "eigenaar": "Transitieprogramma Digitalisering"
+      "eigenaar": "Transitieprogramma Digitalisering",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        }
+      ]
     },
     {
       "id": "richting-verantwoorde-inzet-ai",
@@ -2321,7 +4792,17 @@
       "status": "concept",
       "samenvatting": "Sectorstuk achter de SURF Denktank Digitale Transitie met negen overkoepelende richtingen voor de bestuurlijke actieagenda.",
       "details": "Concept juni 2026, met verslagen van de themasessies onderwijs (2 juni), onderzoek (16 juni) en bedrijfsvoering (24 juni 2026). De lijnen komen terug in de koerslijnen AI & Verantwoordelijkheid en AI & Werkveld.",
-      "periode": "juni 2026"
+      "periode": "juni 2026",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        }
+      ]
     },
     {
       "id": "dataplatform",
@@ -2339,7 +4820,17 @@
       "spoor": "onderzoek",
       "status": "gepland",
       "samenvatting": "Centraal dataplatform dat AI-ondersteund onderzoek draagt, vanuit het actiethema Data centraal (dataplatform, data governance en data ethics) van de Digitale Koers 2030.",
-      "details": "Tijdlijn 2026 (funderen): dataplatform. Koerslijn AI & Onderzoek: wij doen AI-ondersteund onderzoek transparant en conform de ERA Living Guidelines, gedragen door een centraal dataplatform."
+      "details": "Tijdlijn 2026 (funderen): dataplatform. Koerslijn AI & Onderzoek: wij doen AI-ondersteund onderzoek transparant en conform de ERA Living Guidelines, gedragen door een centraal dataplatform.",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        }
+      ]
     },
     {
       "id": "living-labs",
@@ -2357,7 +4848,17 @@
       "spoor": "werkveld",
       "status": "gepland",
       "samenvatting": "Leeromgevingen waar studenten met regionale partners aan echte AI-vraagstukken werken.",
-      "details": "Koerslijn AI & Werkveld: wij investeren in living labs."
+      "details": "Koerslijn AI & Werkveld: wij investeren in living labs.",
+      "bronnen": [
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        }
+      ]
     },
     {
       "id": "ai-community-of-practice",
@@ -2371,7 +4872,17 @@
       "eigenaar": "Centre for Teaching and Learning (CTL)",
       "herkomst": "redactie",
       "bronLabel": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
-      "bijgewerkt": "2026-11-06"
+      "bijgewerkt": "2026-11-06",
+      "bronnen": [
+        {
+          "label": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+          "url": "",
+          "soort": "document",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        }
+      ]
     },
     {
       "id": "cop-sessie-3",
@@ -2390,7 +4901,17 @@
       ],
       "herkomst": "redactie",
       "bronLabel": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
-      "bijgewerkt": "2026-11-06"
+      "bijgewerkt": "2026-11-06",
+      "bronnen": [
+        {
+          "label": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+          "url": "",
+          "soort": "document",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        }
+      ]
     },
     {
       "id": "dips-model",
@@ -2413,7 +4934,17 @@
       ],
       "herkomst": "redactie",
       "bronLabel": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
-      "bijgewerkt": "2026-11-06"
+      "bijgewerkt": "2026-11-06",
+      "bronnen": [
+        {
+          "label": "Computers & Education (2026), 105677",
+          "url": "https://doi.org/10.1016/j.compedu.2026.105677",
+          "soort": "openbaar",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": ""
+        }
+      ]
     },
     {
       "id": "kerngroep-digitale-soevereiniteit",
@@ -2431,7 +4962,17 @@
       ],
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site Group-KerngroepDigitalesoevereiniteit, gelezen 9 november 2026",
-      "bijgewerkt": "2026-11-09"
+      "bijgewerkt": "2026-11-09",
+      "bronnen": [
+        {
+          "label": "Teamsite (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/Group-KerngroepDigitalesoevereiniteit",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "ai-richtlijnen-ce-mm",
@@ -2449,7 +4990,17 @@
       ],
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site B-CE-VT-LWD, gelezen 9 november 2026",
-      "bijgewerkt": "2026-11-09"
+      "bijgewerkt": "2026-11-09",
+      "bronnen": [
+        {
+          "label": "Richtlijn (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/B-CE-VT-LWD/SiteAssets/SitePages/Home/AI-Richtlijnen---Commerciele-Economie---Marketing-Management.docx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "media-investigation-lab",
@@ -2467,7 +5018,17 @@
       ],
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site ac-ccb (Academy of Media, Commerce & Entrepreneurship), gelezen 9 november 2026",
-      "bijgewerkt": "2026-11-09"
+      "bijgewerkt": "2026-11-09",
+      "bronnen": [
+        {
+          "label": "Nieuwsbericht (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/ac-ccb/SitePages/nl/Media-Investigation-Lab-shows-how-students-develop-a-more-critical-approach-to-online-information.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "pilot-m365-copilot-dlwo",
@@ -2485,7 +5046,17 @@
       ],
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site Group-DLWOProjectmanagersBusinessconsultants, gelezen 9 november 2026",
-      "bijgewerkt": "2026-11-09"
+      "bijgewerkt": "2026-11-09",
+      "bronnen": [
+        {
+          "label": "Samenvatting (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/Group-DLWOProjectmanagersBusinessconsultants/Shared Documents/General/6. Pilots en experimenten/Pilot Microsoft 365 Copilot Samenvatting gebruikerservaringen.pdf",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "maritime-ai-innovation-lab",
@@ -2503,7 +5074,17 @@
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site Onderzoeksgroep-maritiem, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09",
-      "status": "actief"
+      "status": "actief",
+      "bronnen": [
+        {
+          "label": "Lab-pagina (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/Onderzoeksgroep-maritiem/SitePages/Maritiem-AI-Innovation-lab.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "otter-ai-niet-meer-beschikbaar",
@@ -2521,7 +5102,17 @@
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site DLWO, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09",
-      "status": "vastgesteld"
+      "status": "vastgesteld",
+      "bronnen": [
+        {
+          "label": "Bericht (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/DLWO/SitePages/en/Otter.ai-niet-langer-beschikbaar-via-NHL-Stenden-account.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "ai-afrekenen-foodcourt",
@@ -2539,7 +5130,17 @@
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site academy-leisure-tourism-and-hospitality, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09",
-      "status": "lopend"
+      "status": "lopend",
+      "bronnen": [
+        {
+          "label": "Bericht (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/academy-leisure-tourism-and-hospitality/SitePages/nl/New-at-the-Foodcourt--AI-in-practical-use-from-the-week-of-11-March.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "olb-richtlijnen-toetsen-genai",
@@ -2557,7 +5158,17 @@
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site academie-educatie-cluster-a-olb, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09",
-      "status": "actief"
+      "status": "actief",
+      "bronnen": [
+        {
+          "label": "Richtlijn (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/academie-educatie-cluster-a-olb/SitePages/AIenToetsenOLB.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "examencommissie-thorbecke-ai-fraude",
@@ -2575,7 +5186,17 @@
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site examencommissie-thorbecke-academie, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09",
-      "status": "actief"
+      "status": "actief",
+      "bronnen": [
+        {
+          "label": "Handreiking (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/examencommissie-thorbecke-academie/SitePages/Een vermoeden van ongeoorloofd gebruik van AI.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "run-eu-ai-prompting-mooc",
@@ -2593,7 +5214,17 @@
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site RUN-EU-, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09",
-      "status": "afgerond"
+      "status": "afgerond",
+      "bronnen": [
+        {
+          "label": "Bericht (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/RUN-EU-/SitePages/RUN-EU-MOOC--Are-you-ready-to-UNLOCK-the-true-power-of-AI--Open-for-students-and-staff.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "hr-chatgpt-werving-selectie",
@@ -2611,7 +5242,17 @@
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site hrmnhlstenden, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09",
-      "status": "te controleren"
+      "status": "te controleren",
+      "bronnen": [
+        {
+          "label": "Pagina (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/hrmnhlstenden/SitePages/w-en-s-ChatGPT-&-AI.aspx",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     },
     {
       "id": "fap-2-0",
@@ -2629,7 +5270,17 @@
       ],
       "herkomst": "website",
       "bronLabel": "Intranet (SharePoint), site Group-WerkgroepenTransitieprogrammadigitalisering, projectlijn Sturingsmodel, gelezen 9 november 2026",
-      "bijgewerkt": "2026-11-09"
+      "bijgewerkt": "2026-11-09",
+      "bronnen": [
+        {
+          "label": "Werksite Transitieprogramma (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/Group-WerkgroepenTransitieprogrammadigitalisering",
+          "soort": "intern",
+          "gecontroleerd": null,
+          "uitkomst": "nog niet gecontroleerd",
+          "noot": "Vraagt inloggen met een NHL Stenden-account."
+        }
+      ]
     }
   ],
   "relaties": [
@@ -4090,6 +6741,10 @@
     {
       "datum": "9 november 2026",
       "tekst": "Tweede, grondige intranetronde: 281 pagina's gelezen. Zeven onderdelen erbij (Maritime AI Innovation Lab, Otter.ai-besluit, AI-afrekenen Foodcourt, richtlijnen Toetsen OLB, handreiking examencommissie Thorbecke, RUN-EU MOOC, HRM ChatGPT & AI). Te controleren: actualiteit HRM-pagina uit 2024 (hoog-risico werving en selectie), en of de richtlijnen per opleiding onderling gelijk lopen. Proefpagina's van Edgar (Sandbox-site, AI-Netwerk-intranetpagina's) buiten beschouwing gelaten. Uitgezocht: de academie achter site ac-ccb is de Academy of Media, Commerce & Entrepreneurship; FAP 2.0 is toegevoegd als onderdeel van het Transitieprogramma."
+    },
+    {
+      "datum": "9 november 2026",
+      "tekst": "Inhoudelijke verificatie, eerste ronde, plus een bronnenblok bij elk onderdeel. Gecorrigeerd: AI-fabriek Groningen (200 miljoen is 70 EU, 70 kabinet, 60 regio; Nationaal Groeifonds werd ten onrechte genoemd); AI Act-fasering bij het onderdeel EU AI Act (was verouderd en week af van de AI Act-pagina: art. 4 geldt sinds 2 februari 2025, hoog-risico Bijlage III vanaf 2 december 2027, Bijlage I vanaf 2 augustus 2028); NVAO-startverkenning (72% geldt voor de 310 opleidingen die GenAI noemen, niet voor alle 509); GPT-NL (partners TNO, SURF, NFI; twee niet bevestigde websites vervangen door de TNO-pagina); Universiteit van het Noorden (uvan.nl verwijderd, partijen volgens de RUG); EduGenAI en Programma Bach (planning en bedragen nu als \"volgens AI-Koers\" en \"volgens programmavoorstel\", niet extern bevestigd). Niet te controleren gebleven: bedrag en looptijd Programma Bach. Intranetonderdelen en de rest van de externe bronnen volgen in de volgende ronde."
     }
   ],
   "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

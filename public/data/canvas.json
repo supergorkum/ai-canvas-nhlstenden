@@ -34,9 +34,9 @@
     "verificatie": {
       "datum": "9 november 2026",
       "onderdelen": 167,
-      "bevestigd": 14,
-      "niet_te_controleren": 5,
-      "nog_niet_gecontroleerd": 147,
+      "bevestigd": 18,
+      "niet_te_controleren": 6,
+      "nog_niet_gecontroleerd": 142,
       "gecorrigeerd": [
         "ai-fabriek-groningen",
         "eu-ai-act",
@@ -50,11 +50,11 @@
       ],
       "toelichting": "Onderdelen met status bevestigd hebben minstens één bron die op de genoemde datum is geopend of in zoekresultaten gezien en met de inhoud is vergeleken. De overige onderdelen zijn overgenomen uit hun eigen bron (AI Netwerk-site, AI-Koers, intranet) en worden stap voor stap nagelopen.",
       "bronnen_totaal": 295,
-      "bronnen_bevestigd": 20,
+      "bronnen_bevestigd": 24,
       "bronnen_afwijkend": 2,
-      "bronnen_niet_te_controleren": 7,
-      "bronnen_nog_niet_gecontroleerd": 266,
-      "onderdelen_met_bevestigde_bron": 14,
+      "bronnen_niet_te_controleren": 8,
+      "bronnen_nog_niet_gecontroleerd": 261,
+      "onderdelen_met_bevestigde_bron": 18,
       "afwijkend": 1
     }
   },
@@ -858,12 +858,12 @@
           "noot": ""
         },
         {
-          "label": "Lectoraat CV&AI",
+          "label": "NHL Stenden: lectoraat Computer Vision & Artificial Intelligence",
           "url": "https://www.nhlstenden.com/onderzoek/lectoraten/computer-vision-artificial-intelligence",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. Bevestigd: lectoraat (voorheen Computer Vision & Data Science), meer dan twee decennia ervaring met integratie van AI en beeldverwerking, toepassingen o.a. landbouw, röntgenbeelden en industrie; I'M A.I. is een NHL Stenden-initiatief gebouwd vanuit dit lectoraat. 'Erkend regionaal AI-kenniscentrum' staat niet op de pagina."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1912,12 +1912,12 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
-          "label": "Vereniging Hogescholen",
+          "label": "Vereniging Hogescholen (vereniginghogescholen.nl), startpagina",
           "url": "https://www.vereniginghogescholen.nl",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend op 9 november 2026. Bevestigd: Vereniging Hogescholen zet zich in voor onderwijs en onderzoek op 36 hogescholen (koepelorganisatie). Dat het 'onderdeel is van het nationale netwerk van het AI-Netwerk' staat niet op deze pagina."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -2445,12 +2445,12 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
-          "label": "Minor",
+          "label": "NHL Stenden: minor AI in practice",
           "url": "https://www.nhlstenden.com/en/minors/ai-in-practice",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. Bevestigd: 30 EC, start in februari, Leeuwarden, Engelstalig, twee tracks (AI for Everyone en AI for Image Data), gekoppeld aan het lectoraat Computer Vision & Artificial Intelligence."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -4259,7 +4259,7 @@
           "soort": "openbaar",
           "gecontroleerd": "2026-11-09",
           "uitkomst": "niet te controleren",
-          "noot": "Titel bevestigt dat Gartner in 2025 agents, ModelOps, synthetic data en AI-engineering op de Hype Cycle zet; andere zoekresultaten noemen agents en AI-ready data op de piek. Sovereign AI en de datum juni 2025 niet bevestigd; Gartner zelf was niet te openen."
+          "noot": "Secundaire bron (vakmedia), pagina geopend, 29 augustus 2025. Staat erin: AI-ready data en AI agents stijgen het snelst op de Hype Cycle; GenAI zit in het dal van de ontnuchtering. 'Bovenaan de piek van verwachtingen', Sovereign AI en de datum juni 2025 staan er niet in. Gartner zelf (primaire bron) niet geopend."
         },
         {
           "label": "Afbeelding",
@@ -4648,12 +4648,12 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
-          "label": "Evenement",
+          "label": "NHL Stenden: AI Fryslân Event 2026 (evenementenpagina)",
           "url": "https://www.nhlstenden.com/evenementen/ai-fryslan-event-2026",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. Bevestigd: event van het programma AI Fryslân op dinsdag 7 juli 2026, 14.30 tot 18.00 uur, I'M A.I. Centre Leeuwarden; partners NHL Stenden, Firda, RUG, Frisius MC en provincie Fryslân. Het event is inmiddels geweest. Het woord 'leerresultaten' in de samenvatting staat niet op de pagina."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -5005,9 +5005,9 @@
           "label": "Computers & Education (2026), 105677",
           "url": "https://doi.org/10.1016/j.compedu.2026.105677",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "niet te controleren",
+          "noot": "DOI leidt naar ScienceDirect (Computers & Education); de pagina gaf HTTP 403 in de browser van de HUB. Auteurs, jaar en inhoud van het DIPS-model niet gelezen. Open punt: abstract of PDF via de bibliotheek."
         }
       ]
     },
@@ -6818,6 +6818,10 @@
     {
       "datum": "9 november 2026",
       "tekst": "Verificatie ronde 3 (HUB): geen inhoudelijke wijzigingen in de tekst van onderdelen. Bronnen geopend en bevestigd: AP/RDI-toezicht en sandbox (AP, 20 april 2026), NVAO-nieuwsbericht (2 februari 2026), Npuls AI-GO (14 juli 2025), Npuls-startpagina, SURF AI-hub (fase 0.7, circa 85 instellingen), UvhN-programmapagina. Dode links (HTTP 404, afwijkend): surf.nl/ai-act (onderdeel SURF) en surf.nl/themas/artificial-intelligence/ai-in-het-onderwijs (onderdeel SURF AI-Hub). NVAO-cijfers 509, 310 en 72 procent nog niet bevestigd: PDF niet leesbaar in de browser. Programma Bach: bedrag, looptijd en lijnen nog onbevestigd; UvhN-pagina noemt alleen het programma. EUR-Lex 2024/1689 geopend (titel, datum 13 juni 2024, PB 12.7.2024, geconsolideerd 27/07/2026), maar tekst werd afgekapt: artikel 4 en 113 niet gelezen."
+    },
+    {
+      "datum": "9 november 2026",
+      "tekst": "Verificatie ronde 3, vervolg (HUB): geen inhoudelijke wijzigingen in teksten. Bevestigd met geopende pagina: Vereniging Hogescholen (36 hogescholen), AI Fryslân Event 2026 (7 juli 2026, inmiddels geweest), minor AI in practice, lectoraat CV&AI. Niet te controleren: DIPS-model (ScienceDirect gaf HTTP 403), Gartner (alleen secundaire bron HPCwire geopend; 'bovenaan de piek' en Sovereign AI niet gevonden)."
     }
   ],
   "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

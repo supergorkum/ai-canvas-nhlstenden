@@ -34,9 +34,9 @@
     "verificatie": {
       "datum": "9 november 2026",
       "onderdelen": 167,
-      "bevestigd": 8,
-      "niet_te_controleren": 2,
-      "nog_niet_gecontroleerd": 157,
+      "bevestigd": 11,
+      "niet_te_controleren": 5,
+      "nog_niet_gecontroleerd": 151,
       "gecorrigeerd": [
         "ai-fabriek-groningen",
         "eu-ai-act",
@@ -44,7 +44,9 @@
         "gpt-nl",
         "universiteit-van-het-noorden",
         "edugenai",
-        "programma-bach"
+        "programma-bach",
+        "gartner-hype-cycle-2025",
+        "rathenau-ai-act-onderwijs"
       ],
       "toelichting": "Onderdelen met status bevestigd hebben minstens één bron die op de genoemde datum is geopend of in zoekresultaten gezien en met de inhoud is vergeleken. De overige onderdelen zijn overgenomen uit hun eigen bron (AI Netwerk-site, AI-Koers, intranet) en worden stap voor stap nagelopen."
     }
@@ -4134,6 +4136,14 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
+          "label": "WEF: persbericht Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Gepubliceerd 7/8 januari 2025. Snelst groeiende vaardigheden: AI, big data, netwerken en cybersecurity."
+        },
+        {
           "label": "PDF",
           "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/WEF_Future_of_Jobs_Report_2025.pdf",
           "soort": "netwerksite",
@@ -4186,6 +4196,14 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
+          "label": "Kennisnet: ICILS, Aan de slag met digitale geletterdheid (PDF)",
+          "url": "https://www.kennisnet.nl/app/uploads/Kennisnet-ICILS-Aan-de-slag-met-digitale-geletterdheid.pdf",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "niet te controleren",
+          "noot": "Titel en bestaan zichtbaar in zoekresultaten; publicatiedatum (maart 2025) niet bevestigd."
+        },
+        {
           "label": "PDF",
           "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Kennisnet-ICILS-Aan-de-slag-met-digitale-geletterdheid.pdf",
           "soort": "netwerksite",
@@ -4207,7 +4225,7 @@
       "id": "gartner-hype-cycle-2025",
       "naam": "Gartner Hype Cycle for AI 2025",
       "soort": "beleid",
-      "samenvatting": "Gartner Hype Cycle voor AI 2025: Sovereign AI en AI Agents bovenaan de piek van verwachtingen.",
+      "samenvatting": "Gartner Hype Cycle voor AI 2025: AI Agents (en AI-ready data) bovenaan de piek van verwachtingen. Dat Sovereign AI daar ook staat, is extern niet bevestigd.",
       "eigenaar": "Gartner",
       "periode": "juni 2025",
       "links": [
@@ -4220,6 +4238,14 @@
       "bronLabel": "AI Netwerk-site, broncode src/initialData.js:223",
       "bijgewerkt": "2026-11-05",
       "bronnen": [
+        {
+          "label": "HPCwire, 29 augustus 2025: Gartner AI Hype Cycle",
+          "url": "https://www.hpcwire.com/bigdatawire/2025/08/29/ai-hype-cycle-gartner-charts-the-rise-of-agents-modelops-synthetic-data-and-ai-engineering/",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "niet te controleren",
+          "noot": "Titel bevestigt dat Gartner in 2025 agents, ModelOps, synthetic data en AI-engineering op de Hype Cycle zet; andere zoekresultaten noemen agents en AI-ready data op de piek. Sovereign AI en de datum juni 2025 niet bevestigd; Gartner zelf was niet te openen."
+        },
         {
           "label": "Afbeelding",
           "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Hype_Cycle_for_Artificial_Intelligence_2025.jpeg",
@@ -4243,7 +4269,7 @@
       "naam": "Rathenau Instituut: AI Act voor onderwijsinstellingen",
       "soort": "beleid",
       "spoor": "verantwoordelijkheid",
-      "samenvatting": "Rapport van het Rathenau Instituut over de implicaties van de AI Act voor het hoger onderwijs.",
+      "samenvatting": "Rapport van het Rathenau Instituut over de implicaties van de AI Act voor het hoger onderwijs, zoals het AI Netwerk het noemt. Extern niet teruggevonden: zie Bronnen.",
       "eigenaar": "Rathenau Instituut",
       "links": [
         {
@@ -4255,6 +4281,14 @@
       "bronLabel": "AI Netwerk-site, broncode src/pages/Geletterdheid.jsx:67, src/pages/Inspiratie.jsx:18",
       "bijgewerkt": "2026-11-05",
       "bronnen": [
+        {
+          "label": "Zoekpoging 9 november 2026",
+          "url": "",
+          "soort": "document",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "niet te controleren",
+          "noot": "Er is een Rathenau-waarschuwing over onverantwoord AI-gebruik in de wetenschap (mei 2026), maar geen rapport over de AI Act en het hoger onderwijs gevonden. Wie de titel kent, kan hem melden."
+        },
         {
           "label": "Rathenau",
           "url": "https://rathenau.nl",
@@ -4315,6 +4349,14 @@
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 11, public/ai-koers/paginas.json:pagina 16",
       "bijgewerkt": "2026-11-05",
       "bronnen": [
+        {
+          "label": "Europese Commissie: Living guidelines on the responsible use of generative AI in research (2024)",
+          "url": "https://research-and-innovation.ec.europa.eu/document/download/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Richtlijnen van het ERA Forum, maart 2024; EURAXESS-factsheet bevestigt de titel. Dat NHL Stenden eraan toetst, staat in de AI-Koers."
+        },
         {
           "label": "AI-Koers v0.55d, pagina 11",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
@@ -4422,6 +4464,14 @@
       "bronLabel": "AI Netwerk-site, broncode public/ai-koers/paginas.json:pagina 4, public/ai-koers/paginas.json:pagina 16",
       "bijgewerkt": "2026-11-05",
       "bronnen": [
+        {
+          "label": "PwC: 2025 Global AI Jobs Barometer (persbericht)",
+          "url": "https://pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Titel van het persbericht en meerdere PwC-landenpagina's noemen 56% loonpremie voor AI-vaardigheden. Pagina zelf niet geopend; titel gezien in zoekresultaten."
+        },
         {
           "label": "AI-Koers v0.55d, pagina 4",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
@@ -6745,6 +6795,10 @@
     {
       "datum": "9 november 2026",
       "tekst": "Inhoudelijke verificatie, eerste ronde, plus een bronnenblok bij elk onderdeel. Gecorrigeerd: AI-fabriek Groningen (200 miljoen is 70 EU, 70 kabinet, 60 regio; Nationaal Groeifonds werd ten onrechte genoemd); AI Act-fasering bij het onderdeel EU AI Act (was verouderd en week af van de AI Act-pagina: art. 4 geldt sinds 2 februari 2025, hoog-risico Bijlage III vanaf 2 december 2027, Bijlage I vanaf 2 augustus 2028); NVAO-startverkenning (72% geldt voor de 310 opleidingen die GenAI noemen, niet voor alle 509); GPT-NL (partners TNO, SURF, NFI; twee niet bevestigde websites vervangen door de TNO-pagina); Universiteit van het Noorden (uvan.nl verwijderd, partijen volgens de RUG); EduGenAI en Programma Bach (planning en bedragen nu als \"volgens AI-Koers\" en \"volgens programmavoorstel\", niet extern bevestigd). Niet te controleren gebleven: bedrag en looptijd Programma Bach. Intranetonderdelen en de rest van de externe bronnen volgen in de volgende ronde."
+    },
+    {
+      "datum": "9 november 2026",
+      "tekst": "Verificatie, tweede ronde. Bevestigd: WEF Future of Jobs 2025 (januari 2025, AI en big data snelst groeiende vaardigheden), PwC AI Jobs Barometer 2025 (56% loonpremie, titel van persbericht), ERA living guidelines (maart 2024). Aangepast: Gartner Hype Cycle (alleen AI Agents en AI-ready data bevestigd op de piek; Sovereign AI en de datum juni 2025 niet bevestigd) en Rathenau (rapport over de AI Act en het hoger onderwijs niet teruggevonden; staat nu als \"zoals het AI Netwerk het noemt\"). Kennisnet ICILS: titel bevestigd, datum niet."
     }
   ],
   "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

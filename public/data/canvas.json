@@ -27,7 +27,7 @@
       },
       {
         "naam": "intranet.nhlstenden.com",
-        "stand": "grondig gescand op 9 november 2026 (Edgar ingelogd): 3.038 AI-gerelateerde items op 147 sites gevonden, 281 intranetpagina's volledig gelezen. Nieuw in het canvas: 11 onderdelen. Privé-OneDrive en vertrouwelijke notulen niet overgenomen. Rapportage: PDF in Edgars mailbox"
+        "stand": "grondig gescand op 9 november 2026 via de zoek-API en de pagina-API: 2.861 AI-gerelateerde items op 145 sites, 260 intranetpagina's volledig gelezen. Proefpagina's van de redactie (Sandbox-registratiesite, AI-Netwerk-pagina's op het intranet, persoonlijke OneDrive) zijn bewust niet meegenomen. Privé-OneDrive van anderen en vertrouwelijke notulen niet overgenomen. Rapportage: PDF in Edgars mailbox"
       }
     ],
     "koersversie": "0.55d"
@@ -998,7 +998,7 @@
       "spoor": "verantwoordelijkheid",
       "status": "lopend (eerste pilot)",
       "samenvatting": "Een van de eerste ankers van de koers: borging en structuur voor AI-pilots met projectregistratie voor teams en aantoonbare borging voor beleid en toezicht.",
-      "details": "Registratie in acht stappen, risicoklasse via twaalf vragen, stoplicht per pilot (AI-verordening, risico, soevereiniteit, voortgang) en rapportage in één klik voor Stuurgroep, CvB, toezicht en audit. De Sandbox is zelf als eerste pilot geregistreerd; voor gebruik met echte namen volgt een privacytoets en verhuizing naar een beheerde NHL Stenden-omgeving. Op het intranet (site Sandbox Registratie en Monitoring, 23 september 2026) staan demo-registraties zoals een studiekeuzeassistent en een AI-assistent in Teams, met AI-compliance-opmerkingen en een journaal; dit zijn demo's, geen echte pilots.",
+      "details": "Registratie in acht stappen, risicoklasse via twaalf vragen, stoplicht per pilot (AI-verordening, risico, soevereiniteit, voortgang) en rapportage in één klik voor Stuurgroep, CvB, toezicht en audit. De Sandbox is zelf als eerste pilot geregistreerd; voor gebruik met echte namen volgt een privacytoets en verhuizing naar een beheerde NHL Stenden-omgeving.",
       "herkomst": "ai-netwerk",
       "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:110, src/pages/Governance.jsx:113, src/pages/Governance.jsx:345, src/pages/Governance.jsx:347 e.a.",
       "bijgewerkt": "2026-11-09"
@@ -2440,7 +2440,7 @@
       "spoor": "leren",
       "status": "actief",
       "samenvatting": "Opleidingsspecifieke richtlijnen voor studenten bij het gebruik van generatieve AI (zoals ChatGPT) in hun studie.",
-      "details": "Gepubliceerd op de opleidingssites van Commerciële Economie (o.a. Leeuwarden en Emmen), laatst gewijzigd 2-3 november 2026. Toont dat AI-richtlijnen ook per opleiding worden vastgelegd, naast de instellingsbrede richtlijnen. Inhoud van de richtlijn zelf niet overgenomen; te controleren welke andere opleidingen eigen richtlijnen hebben.",
+      "details": "Gepubliceerd op de opleidingssites van Commerciële Economie (o.a. Leeuwarden en Emmen, ook Ad Emmen; Marketing Management is mede genoemd), laatst gewijzigd 2-3 november 2026. Het intranet toont meer opleidingsspecifieke AI-regels: Toetsen OLB en generatieve AI, een fraude- en plagiaatprotocol van de academie Gezondheid en Welzijn (2025-2026) en de instellingsbrede pagina's van het CTL. Oudere voorlopers: een 'Voorstel AI richtlijnen' (DLWO, april 2024) en een inventarisatie onder directeuren voor het Hogeschoolberaad (juni 2024). Inhoud van de richtlijnen niet overgenomen; te controleren of ze onderling gelijk lopen.",
       "links": [
         {
           "label": "Richtlijn (NHL Stenden-login)",
@@ -2458,7 +2458,7 @@
       "spoor": "geletterdheid",
       "status": "lopend",
       "samenvatting": "Learning lab waarin studenten leren nepnieuws te herkennen en online informatie kritisch te onderzoeken, inclusief de invloed van AI op de informatie die je te zien krijgt.",
-      "details": "Nieuwsbericht van 9 november 2026 over wat studenten leerden; op 2 november 2026 volgde de oproep om weer mee te doen. Gepubliceerd op de site ac-ccb (academie niet bevestigd, te controleren).",
+      "details": "Nieuwsbericht van 9 november 2026 over wat studenten leerden; op 2 november 2026 volgde de oproep om weer mee te doen. Gepubliceerd op de site van de Academy of Media, Commerce & Entrepreneurship.",
       "links": [
         {
           "label": "Nieuwsbericht (NHL Stenden-login)",
@@ -2466,7 +2466,7 @@
         }
       ],
       "herkomst": "website",
-      "bronLabel": "Intranet (SharePoint), site ac-ccb, gelezen 9 november 2026",
+      "bronLabel": "Intranet (SharePoint), site ac-ccb (Academy of Media, Commerce & Entrepreneurship), gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09"
     },
     {
@@ -2612,6 +2612,24 @@
       "bronLabel": "Intranet (SharePoint), site hrmnhlstenden, gelezen 9 november 2026",
       "bijgewerkt": "2026-11-09",
       "status": "te controleren"
+    },
+    {
+      "id": "fap-2-0",
+      "naam": "FAP 2.0 (digitaal functionaliteiten aanvraagproces)",
+      "soort": "project",
+      "spoor": "verantwoordelijkheid",
+      "status": "in ontwikkeling",
+      "samenvatting": "Vernieuwd aanvraagproces voor digitale functionaliteiten, uitkomst van het Sturingsmodel voor digitaliseringsvraagstukken van het Transitieprogramma Digitalisering.",
+      "details": "Ook wie software wil gebruiken die nog niet is goedgekeurd, dient daar een aanvraag voor in. Het implementatieplan (v0.5) noemt gefaseerde invoering waarbij FAP 1.0 maximaal zes maanden als back-up blijft. De kick-off van FAP 2.0 staat gepland voor 30 november 2026; kaders en sjablonen (Formulier Digitaliseringsvraag en Digitaliseringsvraagstuk) zijn op 9 november 2026 nog bijgewerkt. Voor AI-tools is dit een aanknopingspunt met de AI-risicoscan en de Sandbox. Alleen titels en openingstekst gelezen.",
+      "links": [
+        {
+          "label": "Werksite Transitieprogramma (NHL Stenden-login)",
+          "url": "https://newuniversity.sharepoint.com/sites/Group-WerkgroepenTransitieprogrammadigitalisering"
+        }
+      ],
+      "herkomst": "website",
+      "bronLabel": "Intranet (SharePoint), site Group-WerkgroepenTransitieprogrammadigitalisering, projectlijn Sturingsmodel, gelezen 9 november 2026",
+      "bijgewerkt": "2026-11-09"
     }
   ],
   "relaties": [
@@ -4031,6 +4049,20 @@
       "soort": "gebruikt",
       "herkomst": "website",
       "bron": "Intranet, pagina ChatGPT & AI"
+    },
+    {
+      "van": "media-investigation-lab",
+      "naar": "amce",
+      "soort": "is onderdeel van",
+      "herkomst": "website",
+      "bron": "Intranet, site ac-ccb (titel: Academy of Media, Commerce & Entrepreneurship)"
+    },
+    {
+      "van": "fap-2-0",
+      "naar": "transitieprogramma-digitalisering",
+      "soort": "is onderdeel van",
+      "herkomst": "website",
+      "bron": "Intranet, werksite Transitieprogramma, projectlijn Sturingsmodel"
     }
   ],
   "aanvullingen": [],
@@ -4057,7 +4089,7 @@
     },
     {
       "datum": "9 november 2026",
-      "tekst": "Tweede, grondige intranetronde: 281 pagina's gelezen. Zeven onderdelen erbij (Maritime AI Innovation Lab, Otter.ai-besluit, AI-afrekenen Foodcourt, richtlijnen Toetsen OLB, handreiking examencommissie Thorbecke, RUN-EU MOOC, HRM ChatGPT & AI). Te controleren: actualiteit HRM-pagina uit 2024 (hoog-risico werving en selectie)."
+      "tekst": "Tweede, grondige intranetronde: 281 pagina's gelezen. Zeven onderdelen erbij (Maritime AI Innovation Lab, Otter.ai-besluit, AI-afrekenen Foodcourt, richtlijnen Toetsen OLB, handreiking examencommissie Thorbecke, RUN-EU MOOC, HRM ChatGPT & AI). Te controleren: actualiteit HRM-pagina uit 2024 (hoog-risico werving en selectie), en of de richtlijnen per opleiding onderling gelijk lopen. Proefpagina's van Edgar (Sandbox-site, AI-Netwerk-intranetpagina's) buiten beschouwing gelaten. Uitgezocht: de academie achter site ac-ccb is de Academy of Media, Commerce & Entrepreneurship; FAP 2.0 is toegevoegd als onderdeel van het Transitieprogramma."
     }
   ],
   "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

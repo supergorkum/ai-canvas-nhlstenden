@@ -34,9 +34,9 @@
     "verificatie": {
       "datum": "9 november 2026",
       "onderdelen": 167,
-      "bevestigd": 11,
+      "bevestigd": 14,
       "niet_te_controleren": 5,
-      "nog_niet_gecontroleerd": 151,
+      "nog_niet_gecontroleerd": 147,
       "gecorrigeerd": [
         "ai-fabriek-groningen",
         "eu-ai-act",
@@ -48,7 +48,14 @@
         "gartner-hype-cycle-2025",
         "rathenau-ai-act-onderwijs"
       ],
-      "toelichting": "Onderdelen met status bevestigd hebben minstens één bron die op de genoemde datum is geopend of in zoekresultaten gezien en met de inhoud is vergeleken. De overige onderdelen zijn overgenomen uit hun eigen bron (AI Netwerk-site, AI-Koers, intranet) en worden stap voor stap nagelopen."
+      "toelichting": "Onderdelen met status bevestigd hebben minstens één bron die op de genoemde datum is geopend of in zoekresultaten gezien en met de inhoud is vergeleken. De overige onderdelen zijn overgenomen uit hun eigen bron (AI Netwerk-site, AI-Koers, intranet) en worden stap voor stap nagelopen.",
+      "bronnen_totaal": 295,
+      "bronnen_bevestigd": 20,
+      "bronnen_afwijkend": 2,
+      "bronnen_niet_te_controleren": 7,
+      "bronnen_nog_niet_gecontroleerd": 266,
+      "onderdelen_met_bevestigde_bron": 14,
+      "afwijkend": 1
     }
   },
   "entiteiten": [
@@ -1066,9 +1073,9 @@
           "label": "SURF AI Act",
           "url": "https://www.surf.nl/ai-act",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "afwijkend",
+          "noot": "Link geeft HTTP 404 (Pagina niet gevonden) op 9 november 2026. Nieuwe locatie nog niet gevonden."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1104,20 +1111,20 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
-          "label": "SURF AI-Hub",
+          "label": "SURF: AI-hub (surf.nl, Engelstalige pagina)",
           "url": "https://www.surf.nl/en/themes/artificial-intelligence/projects-and-collaborations/ai-hub",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. Bevestigd: centraal toegangspunt voor open-source en commerciële taalmodellen, nog in ontwikkeling; fase 0.7 (pilot), soft launch begin 2026, circa 85 instellingen met een use case; eduGenAI gebruikt de AI-hub als technische basis. 'Kennisdeling' en de rol van NHL Stenden staan niet op de pagina."
         },
         {
           "label": "SURF AI in het onderwijs",
           "url": "https://www.surf.nl/themas/artificial-intelligence/ai-in-het-onderwijs",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "afwijkend",
+          "noot": "Link geeft HTTP 404 (Pagina niet gevonden) op 9 november 2026. Nieuwe locatie nog niet gevonden."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1281,12 +1288,12 @@
           "noot": "560 miljoen euro Nationaal Groeifonds voor digitalisering van hoger en beroepsonderwijs. De bron noemt de naam Npuls niet."
         },
         {
-          "label": "Npuls",
+          "label": "Npuls (npuls.nl), startpagina",
           "url": "https://npuls.nl",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend op 9 november 2026. Bevestigd: alle mbo-scholen, hogescholen en universiteiten werken samen in Npuls aan kwaliteit, toegankelijkheid en doelmatigheid van vervolgonderwijs; kennisbank en AI- en datageletterdheid-activiteiten zichtbaar. Dat SURF deelnemer is, de 560 miljoen en 'Expeditie AI' staan niet op deze pagina."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1322,7 +1329,7 @@
           "soort": "openbaar",
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "noot": "Nog niet geopend."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1400,12 +1407,12 @@
           "noot": "Uitgave van Npuls, Utrecht, 2025; auteurs Renkema, Van den Boom-Muilenburg, Friso-van den Bos, Theelen, Wopereis en Schildkamp."
         },
         {
-          "label": "AI-GO",
+          "label": "Npuls, 14 juli 2025: AI-GO! Een raamwerk voor AI-geletterdheid in het onderwijs",
           "url": "https://npuls.nl/kennisbank/ai-go-een-raamwerk-voor-ai-geletterdheid-in-het-onderwijs",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. Bevestigd: Npuls-kennisproduct, publicatiedatum 14 juli 2025, evidence-informed raamwerk voor mbo, hbo en wo, gebaseerd op een umbrella review en World Cafés. Auteurs staan niet op deze pagina (wel bij de Twente-bron)."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1558,6 +1565,14 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
+          "label": "Autoriteit Persoonsgegevens, 20 april 2026: Toezicht op AI wordt concreet",
+          "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend (AP-pagina, niet rdi.nl). AP en RDI krijgen een coördinerende rol in het toezichtstelsel en richten samen de AI regulatory sandbox in. rdi.nl zelf niet geopend."
+        },
+        {
           "label": "RDI",
           "url": "https://www.rdi.nl",
           "soort": "openbaar",
@@ -1604,12 +1619,12 @@
           "noot": ""
         },
         {
-          "label": "AP/RDI toezicht AI",
+          "label": "Autoriteit Persoonsgegevens, 20 april 2026: Toezicht op AI wordt concreet",
           "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. AP en RDI krijgen een centrale en coördinerende rol bij toezicht op de AI-verordening; AP ziet toezicht op verboden AI, transparantie en veel hoog-risico-toepassingen (waaronder onderwijs); vanaf 2026 richten AP en RDI een AI regulatory sandbox in. De uitvoeringswet was toen nog in internetconsultatie. Samenvatting 'co-beheerder sandbox' past hierbij."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1653,9 +1668,9 @@
           "label": "AP/RDI",
           "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/toezicht-op-ai-wordt-concreet-sleutelrol-voor-de-ap-en-de-rdi",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. Bevestigd: AP en RDI richten vanaf 2026 een AI regulatory sandbox in waar organisaties AI-systemen kunnen toetsen met begeleiding. De datum 'uiterlijk 2 augustus 2027' staat niet op deze pagina (die staat bij Lewis Silkin). Dat NHL Stenden zelf een traject doorloopt staat in geen van beide bronnen."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1696,12 +1711,12 @@
           "noot": "Partijen volgens de RUG: RUG, UMCG, Hanze, NHL Stenden, Van Hall Larenstein en het Noordelijk mbo. De link naar uvan.nl is verwijderd (niet bevestigd)."
         },
         {
-          "label": "UvhN programma's",
+          "label": "Universiteit van het Noorden: Programma's",
           "url": "https://universiteitvanhetnoorden.nl/programmas/",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. Bevestigd: UvhN bundelt praktijkgericht, toegepast en wetenschappelijk onderwijs; programma's Bach, KONNECT, Beethoven Noord en APLLONN. De partnerlijst staat niet op deze pagina (die komt van de RUG)."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1749,9 +1764,9 @@
           "label": "UvhN",
           "url": "https://universiteitvanhetnoorden.nl/programmas/",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "niet te controleren",
+          "noot": "Pagina geopend: Bach is een programma van de Universiteit van het Noorden. Bedrag (94 miljoen), looptijd, programmalijnen en rol van NHL Stenden staan niet op deze pagina. Alleen het programmavoorstel (januari 2026, intern) noemt ze."
         },
         {
           "label": "Programmavoorstel (PDF)",
@@ -3723,8 +3738,8 @@
           "url": "https://www.nvao.net/files/attachments/.13866/Startverkenning_Generatieve_Artificiele_Intelligentie.pdf",
           "soort": "openbaar",
           "gecontroleerd": "2026-11-09",
-          "uitkomst": "bevestigd",
-          "noot": "509 beoordelingen (1 nov 2024 tot 14 aug 2025), 310 noemen GenAI, 72% daarvan (222) bij toetsing; januari 2026. Eerder stond 72% onduidelijk bij de 509; verduidelijkt."
+          "uitkomst": "niet te controleren",
+          "noot": "PDF geopend in de browser van de HUB, maar de tekst was niet uit te lezen (viewer geeft geen tekst). Cijfers 509, 310 en 72 procent daarom niet bevestigd. Open punt voor een sessie of persoon die de PDF kan lezen."
         },
         {
           "label": "Lokale PDF",
@@ -3743,12 +3758,12 @@
           "noot": ""
         },
         {
-          "label": "NVAO nieuws",
+          "label": "NVAO, 2 februari 2026: nieuwsbericht Initial Exploration of Generative AI",
           "url": "https://www.nvao.net/en/news/2026/2/nvao-netherlands-publishes-initial-exploration-of-generative-ai",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-09",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend. Bevestigd: NVAO Nederland publiceerde de verkenning; aandacht voor GenAI in meer dan de helft van de opleidingsbeoordelingen (laatste periode 1 nov 2024 t/m 14 aug 2025); aandacht vooral voor toetsing; geen integrale aanpak. De cijfers 509, 310 en 72 procent staan NIET in het nieuwsbericht. Het bericht is van 2 februari 2026 (de tekst zegt januari 2026; dat is de datum van het rapport en is niet bevestigd)."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -6799,6 +6814,10 @@
     {
       "datum": "9 november 2026",
       "tekst": "Verificatie, tweede ronde. Bevestigd: WEF Future of Jobs 2025 (januari 2025, AI en big data snelst groeiende vaardigheden), PwC AI Jobs Barometer 2025 (56% loonpremie, titel van persbericht), ERA living guidelines (maart 2024). Aangepast: Gartner Hype Cycle (alleen AI Agents en AI-ready data bevestigd op de piek; Sovereign AI en de datum juni 2025 niet bevestigd) en Rathenau (rapport over de AI Act en het hoger onderwijs niet teruggevonden; staat nu als \"zoals het AI Netwerk het noemt\"). Kennisnet ICILS: titel bevestigd, datum niet."
+    },
+    {
+      "datum": "9 november 2026",
+      "tekst": "Verificatie ronde 3 (HUB): geen inhoudelijke wijzigingen in de tekst van onderdelen. Bronnen geopend en bevestigd: AP/RDI-toezicht en sandbox (AP, 20 april 2026), NVAO-nieuwsbericht (2 februari 2026), Npuls AI-GO (14 juli 2025), Npuls-startpagina, SURF AI-hub (fase 0.7, circa 85 instellingen), UvhN-programmapagina. Dode links (HTTP 404, afwijkend): surf.nl/ai-act (onderdeel SURF) en surf.nl/themas/artificial-intelligence/ai-in-het-onderwijs (onderdeel SURF AI-Hub). NVAO-cijfers 509, 310 en 72 procent nog niet bevestigd: PDF niet leesbaar in de browser. Programma Bach: bedrag, looptijd en lijnen nog onbevestigd; UvhN-pagina noemt alleen het programma. EUR-Lex 2024/1689 geopend (titel, datum 13 juni 2024, PB 12.7.2024, geconsolideerd 27/07/2026), maar tekst werd afgekapt: artikel 4 en 113 niet gelezen."
     }
   ],
   "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

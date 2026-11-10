@@ -58,16 +58,16 @@
       "afwijkend": 1
     },
     "datum": "10 november 2026",
-    "bevestigd": 25,
+    "bevestigd": 55,
     "afwijkend": 2,
-    "niet_te_controleren": 8,
-    "nog_niet_gecontroleerd": 132,
-    "bronnen_totaal": 299,
-    "bronnen_bevestigd": 35,
+    "niet_te_controleren": 10,
+    "nog_niet_gecontroleerd": 100,
+    "bronnen_totaal": 309,
+    "bronnen_bevestigd": 80,
     "bronnen_afwijkend": 3,
-    "bronnen_niet_te_controleren": 10,
-    "bronnen_nog_niet_gecontroleerd": 251,
-    "onderdelen_met_bevestigde_bron": 25
+    "bronnen_niet_te_controleren": 13,
+    "bronnen_nog_niet_gecontroleerd": 213,
+    "onderdelen_met_bevestigde_bron": 55
   },
   "entiteiten": [
     {
@@ -98,9 +98,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: AI-Netwerk als instrument van samenhang (manifest, uitgangspunt 3); zes spreektafels dragen de zes koerslijnen; komt voort uit de toekomstbestendige IV-organisatie als plek waar het gesprek over AI wordt gevoerd; centrale kennisbank van pilotresultaten; signaleert knelpunten aan de Stuurgroep. De zin dat het netwerk al voor deze koersversie bestond, staat er alleen als \"een netwerk dat al bestaat en werkt\"."
         },
         {
           "label": "AI-Netwerk platform",
@@ -162,6 +162,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Over.jsx:7, src/pages/Over.jsx:9, src/pages/Over.jsx:13, src/pages/Governance.jsx:166. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: de Koers is opgesteld door de Kwartiermaker Digitale Samenhang als onderdeel van het Transitieprogramma Digitalisering. Niet in de Koers: initiator en bestuurlijk aanspreekpunt van het AI-Netwerk."
         }
       ]
     },
@@ -186,6 +194,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:164, src/pages/Governance.jsx:117, src/pages/Governance.jsx:139, src/pages/Governance.jsx:153. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: de Stuurgroep Transitieprogramma is opdrachtgever, bewaakt de voortgang en prioriteert middelen, en stelt de AI-Koers vast. Niet in de Koers: het kwartaaloverleg en de sessie van 10 september 2026."
         }
       ]
     },
@@ -207,6 +223,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Rapport.jsx:254, src/pages/Rapport.jsx:350, src/pages/Governance.jsx:226, src/pages/Fundament.jsx:87. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: de uitvoering van de AI-Koers loopt binnen het Transitieprogramma Digitalisering waarin de Koers is belegd."
         }
       ]
     },
@@ -449,20 +473,20 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:217. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 13",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: FG en CISO worden in de sturing genoemd als adviseurs. Niet bevestigd: dat zij auteurs zijn van de Bespreeknotitie AI-Governance (juni 2026) en hun rol in het hybride governancemodel."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 16",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: FG en CISO worden in de sturing genoemd als adviseurs. Niet bevestigd: dat zij auteurs zijn van de Bespreeknotitie AI-Governance (juni 2026) en hun rol in het hybride governancemodel."
         }
       ]
     },
@@ -561,12 +585,12 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/data/themas.js:19, src/initialData.js:276, src/pages/NVAO.jsx:40. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 5",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: AI-bestendige toetsvormen ontstaan onder regie van CTL en examencommissies. Niet in de Koers: de adviezen voor examencommissies en het stappenplan bij fraude (CTL-intranet)."
         }
       ]
     },
@@ -941,20 +965,20 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
-          "label": "AI-Koers v0.55d, pagina 8",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "niet te controleren",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Niet teruggevonden: medezeggenschap en de jaarlijkse samenvattende rapportage staan niet in de leesbare tekst van v0.55d. Alleen aantoonbaar met een ander document."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 13",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "niet te controleren",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Niet teruggevonden: medezeggenschap en de jaarlijkse samenvattende rapportage staan niet in de leesbare tekst van v0.55d. Alleen aantoonbaar met een ander document."
         }
       ]
     },
@@ -982,9 +1006,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: IV-organisatie centraal in de uitvoering; AI-Netwerk komt eruit voort; FG en CISO als adviseurs; indicator 2030 jaarlijkse rapportage over AI-risico's, compliance en digitale autonomie."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -995,12 +1019,12 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:6, src/pages/Governance.jsx:251, src/pages/Governance.jsx:391. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 13",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: IV-organisatie centraal in de uitvoering; AI-Netwerk komt eruit voort; FG en CISO als adviseurs; indicator 2030 jaarlijkse rapportage over AI-risico's, compliance en digitale autonomie."
         }
       ]
     },
@@ -1043,12 +1067,12 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:9. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 10",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: werkveldcommissies doen mee aan koerslijn AI & Werkveld; AI-competenties worden afgestemd met regionale partners en het beroepenveld."
         }
       ]
     },
@@ -1365,28 +1389,28 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
-          "label": "AI-Koers v0.55d, pagina 4",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd uit de bronnenlijst en omgevingsanalyse: Npuls Sectorbelofte AI en data waarde(n)vol inzetten met vier onderwerpen (AI- en datageletterdheid, voorzieningen AI en data met EduGenAI/SURF AI en CEDA, verantwoord gebruik met referentiekader en algoritmeregister, inzicht en strategie); NHL Stenden is medeondertekenaar. Dit is een beschrijving in de Koers; de Npuls-pagina zelf is hiervoor niet geopend."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 5",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd uit de bronnenlijst en omgevingsanalyse: Npuls Sectorbelofte AI en data waarde(n)vol inzetten met vier onderwerpen (AI- en datageletterdheid, voorzieningen AI en data met EduGenAI/SURF AI en CEDA, verantwoord gebruik met referentiekader en algoritmeregister, inzicht en strategie); NHL Stenden is medeondertekenaar. Dit is een beschrijving in de Koers; de Npuls-pagina zelf is hiervoor niet geopend."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 16",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd uit de bronnenlijst en omgevingsanalyse: Npuls Sectorbelofte AI en data waarde(n)vol inzetten met vier onderwerpen (AI- en datageletterdheid, voorzieningen AI en data met EduGenAI/SURF AI en CEDA, verantwoord gebruik met referentiekader en algoritmeregister, inzicht en strategie); NHL Stenden is medeondertekenaar. Dit is een beschrijving in de Koers; de Npuls-pagina zelf is hiervoor niet geopend."
         }
       ]
     },
@@ -1815,6 +1839,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:54, src/data.js:136, src/initialData.js:86, src/pages/Governance.jsx:9. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: Frisius MC is partner in de Friese AI-propositie (met Firda). Het FrisiusLab is bevestigd in het NHL Stenden-nieuwsbericht van 31 maart 2026. De gezamenlijke AI-workshops zijn niet bevestigd."
         }
       ]
     },
@@ -1835,6 +1867,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:136, src/initialData.js:222, src/pages/Rapport.jsx:356, src/pages/Rapport.jsx:362. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: Firda staat genoemd in de Friese AI-propositie met Frisius MC. Dat Firda een mbo-instelling is, staat niet in de Koers."
         }
       ]
     },
@@ -1877,12 +1917,12 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:54, src/data/themas.js:92, src/pages/WatLeverHetOp.jsx:9. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 4",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: genoemd als partner voor institutioneel leiderschap op AI in de regio, naast Frisius MC en het MKB."
         }
       ]
     },
@@ -2099,6 +2139,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:55, src/pages/Governance.jsx:60, src/pages/Governance.jsx:64, src/pages/Governance.jsx:389. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: technische sandbox als afgeschermde omgeving voor testen op gesimuleerde of geanonimiseerde data; tijdlijn 2026 technische sandbox inrichten. Niet in de Koers: het kwaliteitslabel en de inrichting via DLWO met SURF."
         }
       ]
     },
@@ -2209,6 +2257,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:132, src/data.js:43, src/data/themas.js:73, src/pages/Governance.jsx:8. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: ARDA wordt genoemd voor professionalisering van docenten; tijdlijn 2026 \"ARDA AI-modules live\". \"Begin 2026\" en het AP-stappenplan staan niet in de Koers."
         }
       ]
     },
@@ -3066,9 +3122,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: directe uitvoeringslijn van de vastgestelde Digitale Koers 2030, belegd binnen het Transitieprogramma Digitalisering; zes koerslijnen; consultatieversie; vaststelling door Stuurgroep Transitieprogramma; Hogeschoolberaad najaar 2026, daarna bestuur; volgende herijking januari 2027; golven funderen, uitbouwen, verankeren; uitvoering in een apart projectplan."
         },
         {
           "label": "PDF",
@@ -3141,28 +3197,28 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
-          "label": "AI-Koers v0.55d, pagina 3",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd volgens de Koers: vastgestelde Digitale Koers 2030 met vier digitale ambities (leren zonder drempels, wendbaar onderwijs en onderzoek, kwalitatief hoogwaardig, digitaal sterk); AI als samenhangende veranderlijn; sturingsmodel en waardenkader; actiethema Verantwoorde AI (\"een AI programma dat voorziet in AI beleid, governance en tools\"). Het document zelf is niet gelezen; \"concept v8, 18 juni 2026\" staat niet in de Koers."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 13",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd volgens de Koers: vastgestelde Digitale Koers 2030 met vier digitale ambities (leren zonder drempels, wendbaar onderwijs en onderzoek, kwalitatief hoogwaardig, digitaal sterk); AI als samenhangende veranderlijn; sturingsmodel en waardenkader; actiethema Verantwoorde AI (\"een AI programma dat voorziet in AI beleid, governance en tools\"). Het document zelf is niet gelezen; \"concept v8, 18 juni 2026\" staat niet in de Koers."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 16",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd volgens de Koers: vastgestelde Digitale Koers 2030 met vier digitale ambities (leren zonder drempels, wendbaar onderwijs en onderzoek, kwalitatief hoogwaardig, digitaal sterk); AI als samenhangende veranderlijn; sturingsmodel en waardenkader; actiethema Verantwoorde AI (\"een AI programma dat voorziet in AI beleid, governance en tools\"). Het document zelf is niet gelezen; \"concept v8, 18 juni 2026\" staat niet in de Koers."
         }
       ]
     },
@@ -3177,20 +3233,20 @@
       "bijgewerkt": "2026-11-05",
       "bronnen": [
         {
-          "label": "AI-Koers v0.55d, pagina 3",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd volgens de Koers: Strategisch Instellingsplan 2025-2030, de strategische koers van NHL Stenden, bovenliggend aan de Digitale Koers. Het plan zelf is niet gelezen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 16",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd volgens de Koers: Strategisch Instellingsplan 2025-2030, de strategische koers van NHL Stenden, bovenliggend aan de Digitale Koers. Het plan zelf is niet gelezen."
         }
       ]
     },
@@ -3215,41 +3271,41 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: de Koers spreekt van een apart projectplan met capaciteit en middelen per koerslijn en de volledige werkwijze van de route van idee tot uitrol. Dat dit eerder Programmaplan AI heette, staat niet in de Koers (versieverschil 0.4d naar 0.55d wordt wel genoemd)."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 1",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: de Koers spreekt van een apart projectplan met capaciteit en middelen per koerslijn en de volledige werkwijze van de route van idee tot uitrol. Dat dit eerder Programmaplan AI heette, staat niet in de Koers (versieverschil 0.4d naar 0.55d wordt wel genoemd)."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 3",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: de Koers spreekt van een apart projectplan met capaciteit en middelen per koerslijn en de volledige werkwijze van de route van idee tot uitrol. Dat dit eerder Programmaplan AI heette, staat niet in de Koers (versieverschil 0.4d naar 0.55d wordt wel genoemd)."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 12",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: de Koers spreekt van een apart projectplan met capaciteit en middelen per koerslijn en de volledige werkwijze van de route van idee tot uitrol. Dat dit eerder Programmaplan AI heette, staat niet in de Koers (versieverschil 0.4d naar 0.55d wordt wel genoemd)."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 13",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: de Koers spreekt van een apart projectplan met capaciteit en middelen per koerslijn en de volledige werkwijze van de route van idee tot uitrol. Dat dit eerder Programmaplan AI heette, staat niet in de Koers (versieverschil 0.4d naar 0.55d wordt wel genoemd)."
         }
       ]
     },
@@ -3274,6 +3330,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:130, src/pages/Beleid.jsx:76, src/pages/Beleid.jsx:77, src/pages/Beleid.jsx:209. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "niet te controleren",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. De Koers noemt \"NHL Stenden AI-beleid v2.0 (2026), gepubliceerd in Nederlands en Engels, inclusief intakeproces en risicomatrix\". De vaststelling door het College van Bestuur op 16 december 2025 staat niet in de Koers (die dateert het beleid 2026). Open vraag voor de redactie: welke datum klopt?"
         }
       ]
     },
@@ -3341,12 +3405,12 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:131, src/pages/Governance.jsx:75, src/data/themas.js:55. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 8",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: ethisch waardenkompas en Acceptable AI Use Policy leggen vast wat wel en niet; publieke waarden voorop, inclusief het verbod op ongecontroleerde besluitvorming over studenten. \"Gereed voor bestuurlijke agendering\" staat niet in de Koers."
         }
       ]
     },
@@ -3371,12 +3435,12 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:37. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 8",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: Acceptable AI Use Policy genoemd samen met het ethisch waardenkompas. Niet in de Koers: het voorbeeld van de chatbot en het onderscheid met de ICT Acceptable Use Policy."
         }
       ]
     },
@@ -3400,6 +3464,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:131, src/pages/Governance.jsx:138, src/pages/Governance.jsx:146, src/pages/Governance.jsx:14. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: centrale richting vanuit de Stuurgroep, decentraal eigenaarschap bij academies en diensten, AI-Netwerk als plek van het gesprek; route Idee, Intake, Classificatie, Sandbox, Evaluatie, Uitrol (zes stappen) en zes waarborgen."
         }
       ]
     },
@@ -3420,6 +3492,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:70, src/pages/Fundament.jsx:29, src/pages/Fundament.jsx:236, src/components/Lagen.jsx:22. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "AI-Koers v0.55d (concept, Drive)",
+          "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+          "soort": "concept",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: digitale kracht geordend in vijf lagen (Energie en Infrastructuur, Chips en Hardware, Onderwijs, Onderzoek en Data, Platforms en Applicaties, Gebruik), elk met een eigen eigenaar. De exacte volgorde en eigenaren zijn in de tekstextract niet volledig leesbaar."
         }
       ]
     },
@@ -3853,20 +3933,20 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/NVAO.jsx:40, src/pages/NVAO.jsx:55. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 6",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: bronnenlijst noemt \"AI in DBE, addendum bij het OO&I-beleid 2025-2030 (dienst OO&I, juli 2026; bestuurlijk vastgesteld op 1 september 2026)\" als inhoudelijke invulling van koerslijn AI & Leren. Het addendum zelf is niet gelezen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 16",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: bronnenlijst noemt \"AI in DBE, addendum bij het OO&I-beleid 2025-2030 (dienst OO&I, juli 2026; bestuurlijk vastgesteld op 1 september 2026)\" als inhoudelijke invulling van koerslijn AI & Leren. Het addendum zelf is niet gelezen."
         }
       ]
     },
@@ -3913,20 +3993,20 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/WatLeverHetOp.jsx:76. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 9",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: instellingsbreed basisprofiel AI-geletterdheid op basis van AI-GO met leerroutes per rol via CTL en MyAcademy; in 2030 minimaal 80% van de medewerkers op het vastgestelde basisniveau."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 15",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: instellingsbreed basisprofiel AI-geletterdheid op basis van AI-GO met leerroutes per rol via CTL en MyAcademy; in 2030 minimaal 80% van de medewerkers op het vastgestelde basisniveau."
         }
       ]
     },
@@ -3952,9 +4032,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: elk AI-systeem doorloopt de autonomietoets uit het eigen assessment; bij inkoop wegen AI Act-compliance en digitale autonomie altijd mee."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -3965,20 +4045,20 @@
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/Governance.jsx:217. De oorspronkelijke bron is nog niet nagelopen."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 7",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: elk AI-systeem doorloopt de autonomietoets uit het eigen assessment; bij inkoop wegen AI Act-compliance en digitale autonomie altijd mee."
         },
         {
-          "label": "AI-Koers v0.55d, pagina 15",
+          "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Conceptversie, alleen met toegang."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: elk AI-systeem doorloopt de autonomietoets uit het eigen assessment; bij inkoop wegen AI Act-compliance en digitale autonomie altijd mee."
         }
       ]
     },
@@ -4842,9 +4922,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: aanvragen en inkoop worden beoordeeld met het afwegingskader voor digitalisering van het Transitieprogramma; tijdlijn 2026 AI-toetspunten inbrengen. Het kader zelf is niet gelezen."
         }
       ]
     },
@@ -4869,9 +4949,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: het eigenaarschap sluit aan op het Bedrijfsfunctiemodel van het Transitieprogramma Digitalisering. Het model zelf is niet gelezen."
         }
       ]
     },
@@ -4898,9 +4978,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd volgens de Koers: Npuls, SURF en MSG, concept juni 2026, sectorstuk achter de SURF Denktank Digitale Transitie, negen overkoepelende richtingen, themasessies onderwijs (2 juni), onderzoek (16 juni) en bedrijfsvoering (24 juni 2026). Het sectorstuk zelf is niet gelezen."
         }
       ]
     },
@@ -4926,9 +5006,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: actiethema Data centraal (dataplatform, data governance en data ethics); AI-ondersteund onderzoek conform de ERA Living Guidelines, gedragen door een centraal dataplatform; tijdlijn 2026 dataplatform."
         }
       ]
     },
@@ -4954,9 +5034,9 @@
           "label": "AI-Koers v0.55d (concept, Drive)",
           "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
           "soort": "concept",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Gelezen in de AI-Koers v0.55d (concept, oktober 2026, Drive-bestand; tekstextract met deels verspringende kolommen, daarom alleen op duidelijk leesbare passages bevestigd). Concept, nog niet vastgesteld. Bevestigd: \"Wij investeren in living labs: leeromgevingen waar studenten met regionale partners aan echte AI-vraagstukken werken.\""
         }
       ]
     },
@@ -6873,6 +6953,10 @@
     {
       "datum": "10 november 2026",
       "tekst": "Verificatie ronde 4 (HUB), batch 2. WIJZIGING: onderdeel surf-model-verwerkersovereenkomst: samenvatting en periode noemden 'november 2024'; de SURF-pagina (pec.surf.nl, gelezen) zegt: publicatie 15 januari 2025, model-verwerkersovereenkomst versie 4. Oud: 'Model-verwerkersovereenkomst van SURF (november 2024)' en periode 'november 2024'. Nieuw: 'Model-verwerkersovereenkomst van SURF (versie 4, 15 januari 2025)' en periode 'januari 2025'. Bevestigd met geopende pagina: NVAO (drie vervolgstappen en vier standaarden, uit de Startverkenning-PDF), Npuls digitale geletterdheid (onderwerppagina), Npuls visie op toetsing (publicatie 27 mei 2025, vier handreikingen), FrisiusLab (nieuwsbericht NHL Stenden 31 maart 2026), I'M A.I. (vier onderdelen). Afwijkend: minor Decision Making & Generative AI: de link leidt nu naar de minor Applied Business Analytics (15 ECTS, International Business, leerresultaten Decision Making, Scenario Analysis en Generative AI); 'kritisch denken' en 'ethische implicaties' staan niet op de pagina; tekst niet aangepast, wel gemarkeerd. Niet te controleren: pilot AI-feedback schrijfonderwijs (surf.nl/online-onderwijs verwijst door naar een AVG-pagina en ondersteunt de pilot niet), pilot AI-feedback scripties (SURF-pagina bevestigt alleen de verwerkersovereenkomst, niet de pilot of DPIA), pilot Frisius AI-workshops (nieuwsbericht noemt AI als thema maar geen workshops, ambient listening of virtual nursing). Open vraag: de zin 'maakt concrete leerresultaten in de zorg meetbaar' (FrisiusLab) en 'erkend regionaal AI-kenniscentrum' (I'M A.I.) staan niet in de bron."
+    },
+    {
+      "datum": "10 november 2026",
+      "tekst": "Verificatie ronde 4 (HUB), batch 3: geen wijzigingen in teksten. Het Drive-bestand \"CONCEPT NHL Stenden AI-Koers v0.55d.pdf\" is volledig gelezen via de Drive-connector (alleen lezen). Daarmee zijn 31 onderdelen die uit de AI-Koers komen gecontroleerd: bevestigd waar de bewering duidelijk in de tekst staat, met in de noot wat er niet in staat. Concept: de Koers is nog niet vastgesteld. Niet te controleren: HMR (niet teruggevonden) en AI-beleid v2.0 (Koers noemt 2026, canvas noemt vaststelling op 16 december 2025). Opmerking: bij Digitale Koers 2030, Strategisch Instellingsplan, addendum OO&I, Bedrijfsfunctiemodel, afwegingskader en Richting verantwoorde inzet van AI is alleen de beschrijving in de Koers gelezen, niet het onderliggende document."
     }
   ],
   "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

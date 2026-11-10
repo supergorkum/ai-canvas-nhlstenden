@@ -56,7 +56,18 @@
       "bronnen_nog_niet_gecontroleerd": 261,
       "onderdelen_met_bevestigde_bron": 18,
       "afwijkend": 1
-    }
+    },
+    "datum": "10 november 2026",
+    "bevestigd": 25,
+    "afwijkend": 2,
+    "niet_te_controleren": 8,
+    "nog_niet_gecontroleerd": 132,
+    "bronnen_totaal": 299,
+    "bronnen_bevestigd": 35,
+    "bronnen_afwijkend": 3,
+    "bronnen_niet_te_controleren": 10,
+    "bronnen_nog_niet_gecontroleerd": 251,
+    "onderdelen_met_bevestigde_bron": 25
   },
   "entiteiten": [
     {
@@ -1327,9 +1338,9 @@
           "label": "Npuls digitale geletterdheid",
           "url": "https://npuls.nl/onderwerpen/digitale-geletterdheid",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": "Nog niet geopend."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend: Npuls-onderwerp Digitale geletterdheid ('Wijs in data, vaardig met AI') met kennis, interviews, tools en een AI-GO-raamwerk. Of het een 'nationaal programma' heet, staat niet letterlijk op de pagina; het is een onderwerp binnen Npuls."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1480,9 +1491,9 @@
           "label": "Npuls visie toetsing",
           "url": "https://npuls.nl/kennisbank/visie-op-toetsing-examinering-en-ai-handreikingen",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina geopend: 'Visie op toetsing, examinering en AI + handreikingen', publicatiedatum 27 mei 2025, een visie met onderbouwing en vier handreikingen (PDF's). De koppeling aan NVAO-standaard 3 staat niet op de pagina."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1950,9 +1961,9 @@
           "label": "NVAO",
           "url": "https://www.nvao.net",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Startpagina geopend (nvao.net/en): NVAO beoordeelt nieuwe opleidingen in een initiële accreditatieprocedure. De inhoud van het onderdeel is gecontroleerd tegen de Startverkenning-PDF."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -1961,6 +1972,14 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/pages/NVAO.jsx:116, src/pages/NVAO.jsx:118, src/pages/NVAO.jsx:121. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "NVAO: Startverkenning Generatieve Artificiële Intelligentie (PDF, januari 2026)",
+          "url": "https://www.nvao.net/files/attachments/.13866/Startverkenning_Generatieve_Artificiele_Intelligentie.pdf",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "PDF zelf gelezen (pagina 5): drie vervolgstappen: (1) instellingsbrede richtlijnen voor GenAI in onderwijs en toetsing, (2) een expliciete en integrale benadering over leerdoelen, curriculum, AI-geletterdheid van docenten, toetsing en gerealiseerde leerresultaten, (3) GenAI expliciet onderdeel van kwaliteitszorgprocedures. Tabel 1 noemt standaard 1 tot en met 4. Omslag: januari 2026."
         }
       ]
     },
@@ -2320,9 +2339,9 @@
           "label": "FrisiusLab nieuws",
           "url": "https://www.nhlstenden.com/nieuws-en-artikelen/met-het-frisiuslab-zetten-nhl-stenden-en-frisius-mc-vol-in-op-innovatie",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Nieuwsbericht NHL Stenden van 31 maart 2026 gelezen: strategische, meerjarige samenwerking van NHL Stenden en Frisius MC; innovatielab binnen Frisius MC; AI genoemd onder het thema zorginnovatie en transformatie. De zin over meetbaar maken van concrete leerresultaten in de zorg staat niet in het bericht."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -2406,9 +2425,9 @@
           "label": "I'M A.I.",
           "url": "https://www.nhlstenden.com/onderzoek/lectoraten/computer-vision-data-science/IMAI",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina I'M A.I. geopend: initiatief van NHL Stenden om AI-technologie en toepassingen samen te brengen, met vier onderdelen: Research Community, Learning Community, Business Community en Experience Center. De zin over 'erkend regionaal AI-kenniscentrum' staat niet op de pagina."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -2482,9 +2501,9 @@
           "label": "Minor",
           "url": "https://www.nhlstenden.com/en/minors/decision-making-and-generative-ai",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "afwijkend",
+          "noot": "De link leidt op 10 november 2026 naar de minor Applied Business Analytics (15 ECTS, aangeboden door International Business, start in april, Engels) met leerresultaten Decision Making, Scenario Analysis en Generative AI. 'Kritisch denken' en 'ethische implicaties' staan niet op de pagina. Mogelijk is de minor hernoemd; de redactie moet bepalen of de naam of de tekst moet worden aangepast."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -2752,9 +2771,9 @@
           "label": "SURF: AVG en AI-tools in het onderwijs",
           "url": "https://www.surf.nl/online-onderwijs",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "niet te controleren",
+          "noot": "De link verwijst door naar een SURF-pagina over AVG en online onderwijs (pec.surf.nl, bijgewerkt 6 augustus 2026) die de pilot niet noemt. De pilot en de update van 15 juni 2026 zijn alleen intern aantoonbaar."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -2790,9 +2809,9 @@
           "label": "SURF Model Verwerkersovereenkomst 4.0",
           "url": "https://pec.surf.nl/vernieuwde-surf-modelverwerkersovereenkomst-beschikbaar/",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "niet te controleren",
+          "noot": "SURF-pagina gelezen: bevestigt de model-verwerkersovereenkomst versie 4 (15 januari 2025), maar noemt de pilot, ChatGPT en een DPIA niet. De pilot zelf is alleen intern aantoonbaar."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -2828,9 +2847,9 @@
           "label": "FrisiusLab",
           "url": "https://www.nhlstenden.com/nieuws-en-artikelen/met-het-frisiuslab-zetten-nhl-stenden-en-frisius-mc-vol-in-op-innovatie",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "niet te controleren",
+          "noot": "Nieuwsbericht van 31 maart 2026 gelezen: noemt het FrisiusLab en AI als onderdeel van het thema zorginnovatie, maar geen gezamenlijke AI-workshops en niet de thema's ambient listening, virtual nursing of datakoppeling. Aantonen kan alleen met een intern document of een Frisius MC-bron."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -3737,9 +3756,9 @@
           "label": "NVAO: Startverkenning Generatieve Artificiële Intelligentie (PDF)",
           "url": "https://www.nvao.net/files/attachments/.13866/Startverkenning_Generatieve_Artificiele_Intelligentie.pdf",
           "soort": "openbaar",
-          "gecontroleerd": "2026-11-09",
-          "uitkomst": "niet te controleren",
-          "noot": "PDF geopend in de browser van de HUB, maar de tekst was niet uit te lezen (viewer geeft geen tekst). Cijfers 509, 310 en 72 procent daarom niet bevestigd. Open punt voor een sessie of persoon die de PDF kan lezen."
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "PDF zelf gelezen via schermafbeeldingen (omslag: NVAO Nederland, Startverkenning Generatieve Artificiële Intelligentie, Thematische analyse kwaliteitszorg, januari 2026). Hoofdstuk 4: 'Voor 310 van de 509 nieuwe en bestaande opleidingen' (besluiten 1 nov 2024 t/m 14 aug 2025) komt GenAI of KI voor in het rapport. Tabel 1: standaard 3 Toetsing 222 opleidingen, 72%, 451 fragmenten. Let op: 72% is het aandeel van de 310 rapporten dat GenAI bij toetsing noemt, geen gebruikspercentage. Niet gelezen: de zin over de doorontwikkeling van het NHL Stenden-evaluatiebeleid (intern)."
         },
         {
           "label": "Lokale PDF",
@@ -4129,6 +4148,22 @@
           "gecontroleerd": null,
           "uitkomst": "nog niet gecontroleerd",
           "noot": "Overgenomen uit de AI Netwerk-site: src/data.js:146, src/data.js:147, src/data.js:153, src/pages/Initiatieven.jsx:577. De oorspronkelijke bron is nog niet nagelopen."
+        },
+        {
+          "label": "EUR-Lex: Verordening (EU) 2024/1689 van 13 juni 2024, PB 12.7.2024 (Engelse HTML, oorspronkelijke tekst)",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Zelf gelezen: artikel 4 AI literacy (oorspronkelijke tekst) en artikel 113: inwerkingtreding de twintigste dag na publicatie; toepassing vanaf 2 augustus 2026; hoofdstuk I en II vanaf 2 februari 2025; hoofdstuk III afdeling 4, V, VII, XII en artikel 78 vanaf 2 augustus 2025; artikel 6(1) vanaf 2 augustus 2027. Dit is de oorspronkelijke tekst; de wijzigingen staan in 2026/1744."
+        },
+        {
+          "label": "EUR-Lex: Verordening (EU) 2026/1744 van 8 juli 2026 (Digital Omnibus on AI), PB 24.7.2026",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Zelf gelezen: artikel 4 vervangen (maatregelen om AI-geletterdheid te ondersteunen; geen garantie op een specifiek niveau); artikel 113 gewijzigd: hoofdstuk III afdeling 1, 2 en 3 vanaf 2 december 2027 voor hoog-risico via artikel 6(2) en Bijlage III en vanaf 2 augustus 2028 via artikel 6(1) en Bijlage I; artikelen 102 tot 110 vanaf 27 juli 2026; inwerkingtreding de derde dag na publicatie. Niet zelf gelezen: nationale sandboxes uiterlijk 2 augustus 2027 en 'art. 9-26'."
         }
       ]
     },
@@ -4395,9 +4430,9 @@
       "naam": "SURF Model Verwerkersovereenkomst 4.0",
       "soort": "beleid",
       "spoor": "verantwoordelijkheid",
-      "samenvatting": "Model-verwerkersovereenkomst van SURF (november 2024), bron bij de pilot AI-feedback ChatGPT op scripties.",
+      "samenvatting": "Model-verwerkersovereenkomst van SURF (versie 4, 15 januari 2025), bron bij de pilot AI-feedback ChatGPT op scripties.",
       "eigenaar": "SURF",
-      "periode": "november 2024",
+      "periode": "januari 2025",
       "links": [
         {
           "label": "SURF",
@@ -4412,9 +4447,9 @@
           "label": "SURF",
           "url": "https://pec.surf.nl/vernieuwde-surf-modelverwerkersovereenkomst-beschikbaar/",
           "soort": "openbaar",
-          "gecontroleerd": null,
-          "uitkomst": "nog niet gecontroleerd",
-          "noot": ""
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "SURF Privacy Expertise Centrum, 15 januari 2025: 'SURF model-verwerkersovereenkomst versie 4 is klaar voor gebruik'. Datum in de tekst van het onderdeel aangepast van november 2024 naar 15 januari 2025."
         },
         {
           "label": "AI Netwerk-site (broncode)",
@@ -5008,6 +5043,14 @@
           "gecontroleerd": "2026-11-09",
           "uitkomst": "niet te controleren",
           "noot": "DOI leidt naar ScienceDirect (Computers & Education); de pagina gaf HTTP 403 in de browser van de HUB. Auteurs, jaar en inhoud van het DIPS-model niet gelezen. Open punt: abstract of PDF via de bibliotheek."
+        },
+        {
+          "label": "HU University of Applied Sciences Utrecht: publicatiepagina The DIPS model (Computers & Education, 2026)",
+          "url": "https://www.internationalhu.com/research/publications/the-dips-model-genai-integration-in-digital-information-problem-solving-by-experts-and-novices",
+          "soort": "openbaar",
+          "gecontroleerd": "2026-11-10",
+          "uitkomst": "bevestigd",
+          "noot": "Pagina zelf gelezen: auteurs Boetje e.a., 14 beginners en 12 experts, 25 activiteiten in zes fasen (Define, Search, Select, Process, Synthesize, Create), Regulation als kern, Computers & Education 253, artikel 105677, DOI 10.1016/j.compedu.2026.105677. Alleen de samenvatting is gelezen: de conclusies voor de praktijk en de presentatie in CoP-sessie 3 zijn niet bevestigd."
         }
       ]
     },
@@ -6822,6 +6865,14 @@
     {
       "datum": "9 november 2026",
       "tekst": "Verificatie ronde 3, vervolg (HUB): geen inhoudelijke wijzigingen in teksten. Bevestigd met geopende pagina: Vereniging Hogescholen (36 hogescholen), AI Fryslân Event 2026 (7 juli 2026, inmiddels geweest), minor AI in practice, lectoraat CV&AI. Niet te controleren: DIPS-model (ScienceDirect gaf HTTP 403), Gartner (alleen secundaire bron HPCwire geopend; 'bovenaan de piek' en Sovereign AI niet gevonden)."
+    },
+    {
+      "datum": "10 november 2026",
+      "tekst": "Verificatie ronde 4 (HUB), batch 1: geen wijzigingen in teksten. Bevestigd met zelf geopende bron: (1) NVAO Startverkenning Generatieve AI (PDF, januari 2026): pagina 'Ontwikkelingen in recente visitatierapporten' noemt 310 van de 509 beoordelingen tussen 1 november 2024 en 14 augustus 2025; Tabel 1: standaard 3 Toetsing 222 opleidingen, 72%, 451 fragmenten. Het is dus het aandeel van de 310 rapporten dat aandacht voor GenAI bij toetsing noemt, geen gebruikspercentage; de tekst van het onderdeel blijft ongewijzigd, deze nuance staat in de noot. De PDF was leesbaar via schermafbeeldingen in de HUB-browser. (2) EU AI Act: Verordening (EU) 2024/1689 artikel 4 (AI-geletterdheid) en artikel 113 (inwerkingtreding, toepassing vanaf 2 augustus 2026 met uitzonderingen) gelezen in de Engelse HTML op EUR-Lex. (3) Verordening (EU) 2026/1744 (Digital Omnibus on AI, 8 juli 2026, PB 24.7.2026): artikel 4 vervangen (ondersteunen van AI-geletterdheid, geen garantie op een niveau), artikel 113 gewijzigd naar 2 december 2027 (Bijlage III) en 2 augustus 2028 (Bijlage I), inwerkingtreding de derde dag na publicatie (27 juli 2026). Niet zelf gelezen: nationale sandboxes uiterlijk 2 augustus 2027 (alleen secundaire bron) en het bereik artikel 9 tot 26. (4) DIPS-model: samenvatting op de HU-publicatiepagina gelezen (14 beginners, 12 experts, 25 activiteiten, zes fasen, Computers & Education 253, 105677, DOI 10.1016/j.compedu.2026.105677); de volledige PDF is niet gelezen, dus de conclusies voor de praktijk en CoP-sessie 3 zijn niet bevestigd. Bevindingen kwamen eerst als tip van Charly (mail van 10 november); alleen wat ik zelf las is als bevestigd gemarkeerd."
+    },
+    {
+      "datum": "10 november 2026",
+      "tekst": "Verificatie ronde 4 (HUB), batch 2. WIJZIGING: onderdeel surf-model-verwerkersovereenkomst: samenvatting en periode noemden 'november 2024'; de SURF-pagina (pec.surf.nl, gelezen) zegt: publicatie 15 januari 2025, model-verwerkersovereenkomst versie 4. Oud: 'Model-verwerkersovereenkomst van SURF (november 2024)' en periode 'november 2024'. Nieuw: 'Model-verwerkersovereenkomst van SURF (versie 4, 15 januari 2025)' en periode 'januari 2025'. Bevestigd met geopende pagina: NVAO (drie vervolgstappen en vier standaarden, uit de Startverkenning-PDF), Npuls digitale geletterdheid (onderwerppagina), Npuls visie op toetsing (publicatie 27 mei 2025, vier handreikingen), FrisiusLab (nieuwsbericht NHL Stenden 31 maart 2026), I'M A.I. (vier onderdelen). Afwijkend: minor Decision Making & Generative AI: de link leidt nu naar de minor Applied Business Analytics (15 ECTS, International Business, leerresultaten Decision Making, Scenario Analysis en Generative AI); 'kritisch denken' en 'ethische implicaties' staan niet op de pagina; tekst niet aangepast, wel gemarkeerd. Niet te controleren: pilot AI-feedback schrijfonderwijs (surf.nl/online-onderwijs verwijst door naar een AVG-pagina en ondersteunt de pilot niet), pilot AI-feedback scripties (SURF-pagina bevestigt alleen de verwerkersovereenkomst, niet de pilot of DPIA), pilot Frisius AI-workshops (nieuwsbericht noemt AI als thema maar geen workshops, ambient listening of virtual nursing). Open vraag: de zin 'maakt concrete leerresultaten in de zorg meetbaar' (FrisiusLab) en 'erkend regionaal AI-kenniscentrum' (I'M A.I.) staan niet in de bron."
     }
   ],
   "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

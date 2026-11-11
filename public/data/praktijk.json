@@ -263,23 +263,6 @@
    "periode": "juni 2026"
   },
   {
-   "id": "afval-herkennen-met-ai",
-   "rol": "partner",
-   "wie": "Afvalverwerker met NHL Stenden",
-   "spoor": "werkveld",
-   "aard": "ontwikkelt",
-   "titel": "AI die afval herkent boven de bunker",
-   "kort": "NHL Stenden en een Friese afvalverwerker tekenden in januari 2026 een overeenkomst om AI-oplossingen voor recycling te ontwikkelen.",
-   "verhaal": [
-    "Het doel is verschillende soorten afval beter te herkennen. Boven de bunker van de scheidingsinstallatie hangt een camera die beelden van het afval maakt. De onderzoekspodcast van NHL Stenden heeft een aflevering over hoe AI afval recyclet."
-   ],
-   "tools": [
-    "computer vision"
-   ],
-   "kanaal": "LinkedIn en intranet",
-   "periode": "januari 2026"
-  },
-  {
    "id": "aardbeienrobot",
    "rol": "student",
    "wie": "Tweedejaars techniek en ICT",
@@ -363,12 +346,11 @@
    "kort": "Tijdens een internationale week over AI en gelijke kansen bij NHL Stenden in Groningen bouwde een student een prototype tegen het delen van gevoelige gegevens.",
    "verhaal": [
     "Zijn uitdaging was privacy in AI: hoe vaak plakken we namen, nummers of iemands gezondheid in een chatbot zonder erbij na te denken. Zijn eerlijke conclusie was dat hij het zelf ook doet. In die week begon hij aan een browserextensie die als een stoplicht je prompt controleert voordat je op verzenden drukt. De extensie staat in de testfase in de Chrome Web Store.",
-    "De week was een Erasmus-programma van het Europese netwerk waar NHL Stenden bij hoort. Studenten uit meerdere landen werkten aan de vraag hoe AI kloven dicht in plaats van groter maakt. Een deelnemer van een Belgische hogeschool ontwierp er AI-agents voor kleine ondernemers."
+    "De week was een Erasmus-programma van het Europese netwerk waar NHL Stenden bij hoort. Studenten uit meerdere landen werkten aan de vraag hoe AI kloven dicht in plaats van groter maakt."
    ],
    "tools": [
     "Chrome-extensie",
-    "prompts",
-    "AI-agents"
+    "prompts"
    ],
    "kanaal": "LinkedIn",
    "periode": "oktober 2026"
@@ -637,21 +619,6 @@
    "periode": "oktober 2026"
   },
   {
-   "id": "alumni-geven-ai-workshops",
-   "rol": "alumnus",
-   "wie": "Twee alumni als gastdocent",
-   "spoor": "werkveld",
-   "aard": "doet",
-   "titel": "Alumni komen terug met de nieuwste AI-ontwikkelingen",
-   "kort": "Twee alumni met een eigen bureau gaven interactieve workshops over AI aan studenten van een minor ondernemerschap.",
-   "verhaal": [
-    "Volgens de opleiding hingen de studenten aan hun lippen, en de docenten ook. Studenten van een andere ondernemersminor bezochten een marketingbureau in Leeuwarden dat met AI werkt."
-   ],
-   "tools": [],
-   "kanaal": "LinkedIn",
-   "periode": "april en oktober 2026"
-  },
-  {
    "id": "ict-bij-ondernemers-aan-tafel",
    "rol": "team",
    "wie": "Docenten en studenten HBO-ICT",
@@ -668,27 +635,6 @@
    ],
    "kanaal": "LinkedIn",
    "periode": "november 2025"
-  },
-  {
-   "id": "emmen-mkb-workshops",
-   "rol": "team",
-   "wie": "NHL Stenden Emmen met ondernemers en gemeente",
-   "spoor": "werkveld",
-   "aard": "doet",
-   "titel": "Een reeks AI-avonden voor het mkb in Emmen",
-   "kort": "NHL Stenden Emmen organiseert met de ondernemersvereniging en de gemeente workshops waarin ondernemers zelf met AI aan de slag gaan.",
-   "verhaal": [
-    "In januari ging het over online zoeken, van zoekmachine tot generatieve AI. In maart bouwden deelnemers op de campus een AI-gedreven workflow in de workshop \"Van ChatGPT naar bedrijfsprocesautomatisering met AI-agents\". In september volgde \"De kunst van het goede vragen stellen\": goede prompts schrijven en daarna een eigen AI-assistent maken. Er is een online AI-netwerk voor ondernemers in de regio gestart, en in oktober was er een AI-symposium bij NHL Stenden Emmen."
-   ],
-   "tools": [
-    "ChatGPT",
-    "AI-agents",
-    "Custom GPT",
-    "prompts",
-    "low-code"
-   ],
-   "kanaal": "LinkedIn",
-   "periode": "januari tot oktober 2026"
   },
   {
    "id": "ai-en-studiecoaching",

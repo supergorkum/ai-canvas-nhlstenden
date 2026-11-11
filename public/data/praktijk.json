@@ -1,0 +1,817 @@
+{
+ "inleiding": "Hier lees je wat docenten, studenten, onderzoekers en teams van NHL Stenden zelf vertellen over hun werk met AI: wat ze doen, wat ze ontwikkelen en wat ze erover zeggen. De verhalen komen uit openbare berichten op LinkedIn en van het intranet. Ze staan hier zonder naam; het gaat om wat er gebeurt.",
+ "verantwoording": "Elk verhaal is gelezen in de bron en zo getrouw mogelijk samengevat, zonder aanvullingen van de redactie. Deze rubriek staat los van de kaart: het zijn verhalen, geen vastgestelde onderdelen. Laatst bijgewerkt op 11 november 2026.",
+ "bijgewerkt": "2026-11-11",
+ "items": [
+  {
+   "id": "revit-in-gewone-taal",
+   "rol": "docent",
+   "wie": "Docent bouwkunde (BIM)",
+   "spoor": "leren",
+   "aard": "doet",
+   "titel": "Praten tegen het bouwmodel, en het model doet het",
+   "kort": "Een docent BIM koppelde Claude rechtstreeks aan Revit en test hoe ver je komt als je het model in gewone taal aanstuurt.",
+   "verhaal": [
+    "De docent verbond Claude met Revit via pyRevit en een MCP-koppeling. Het verschil met een chatbot om een Dynamo-script vragen is volgens hem groot: Claude kijkt live mee in het model, voert zelf scripts uit en controleert het resultaat.",
+    "Het model bevragen: vragen als \"welke deuren hebben nog geen brandwerendheid?\" of \"geef me het aantal vierkante meters metselwerk en zet dat om in een parametrisch Excel-blad met het aantal bakstenen\". Het antwoord staat er binnen een paar seconden en de elementen worden meteen geselecteerd in het model. Zo doet hij snel een modelaudit of een controle op de basis-ILS, zonder zelf een schedule te bouwen.",
+    "Modelleren: levels, wanden, vloeren, een dak, deuren en ramen komen uit één beschrijving in gewone taal, met kloppende wandopbouwen. Een 2D-tekening inladen en laten omzetten naar een model kan ook. Claude plaatst maatvoering volgens de NEN-normen en zet het model op koppenmaat.",
+    "Sheets en views: sheets aanmaken met titelblok, plattegronden en doorsneden plaatsen, alle deuren en ruimtes taggen en een kozijnstaat genereren. Het werk dat normaal uren kost.",
+    "Parameters en eigen knoppen: parameters in bulk vullen of hernoemen, families aanpassen, en een script dat goed werkt laat hij omzetten naar een eigen pyRevit-knop in het lint.",
+    "Wat hem opvalt: je hoeft geen programmeur te zijn, het werkt in je eigen model en niet in een losse chat, wijzigingen gaan via transacties zodat ongedaan maken blijft werken, en het blijft een assistent, dus controleren blijft nodig. Hij ziet het als de volgende stap na Dynamo: automatisering die bereikbaar wordt voor iedere BIM-modelleur."
+   ],
+   "tools": [
+    "Claude",
+    "Revit",
+    "pyRevit",
+    "MCP",
+    "Dynamo",
+    "Excel"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "november 2026"
+  },
+  {
+   "id": "demo-app-in-een-halfuur",
+   "rol": "onderzoeker",
+   "wie": "Onderzoeker toegepaste AI",
+   "spoor": "onderzoek",
+   "aard": "doet",
+   "titel": "Een demo-applicatie in een halfuur in plaats van drie weken",
+   "kort": "Een onderzoeker liet een taalmodel de code schrijven voor een demo van een framework waaraan hij binnen NHL Stenden werkt, en zag hoe snel het vak verandert.",
+   "verhaal": [
+    "Hij wilde een demo-applicatie voor een Agent Constitution Framework: een frontend in html, css en javascript met tien tabbladen, een Python-backend, een lokaal taalmodel via Ollama en een SQLite-database. Als ontwikkelaar had hij dat vroeger op twee tot drie weken geschat.",
+    "Om 8.00 uur begon hij met de specificatie, om 8.20 uur was die klaar. Daarna vroeg hij Claude Opus 4.5 om de code. Om 8.30 uur stond die er en werkte in één keer, met een prima interface. Ongeveer tweehonderd keer sneller dan zijn oude schatting.",
+    "Zijn kanttekening: het vak is meer dan code schrijven. Overeenstemming over wat er gebouwd moet worden blijft minstens zo belangrijk, en dit was een kleine applicatie die alleen lokaal draait, zonder hosting, beheer en beveiliging. Zijn conclusie is dat het onderwijs mee moet veranderen. In een ander bericht legt hij uit dat het vak van softwareontwikkelaar niet verdwijnt maar rijker wordt: klassieke code, neurale netwerken en taalmodellen als drie soorten software."
+   ],
+   "tools": [
+    "Claude Opus 4.5",
+    "Ollama",
+    "Python",
+    "SQLite",
+    "lokaal taalmodel"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "februari 2026"
+  },
+  {
+   "id": "fries-en-soevereine-data",
+   "rol": "onderzoeker",
+   "wie": "Onderzoeker toegepaste AI",
+   "spoor": "verantwoordelijkheid",
+   "aard": "zegt",
+   "titel": "Zeggenschap over data als basis voor het Fries",
+   "kort": "In een lezing voor het adviesorgaan voor de Friese taal benadrukte een onderzoeker van NHL Stenden het belang van soevereine datacollecties en regionale infrastructuur voor data en AI.",
+   "verhaal": [
+    "Een toehoorder beschrijft de boodschap: voor de ontwikkeling van Fryslân en het behoud van taal, identiteit en cultuur is zeggenschap over de digitale basis nodig. Het verhaal sloot aan bij de regionale, open source infrastructuur waar Friese partijen hun data soeverein kunnen opslaan."
+   ],
+   "tools": [
+    "soevereine data",
+    "open source"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "november 2026"
+  },
+  {
+   "id": "flipped-classroom-met-ai",
+   "rol": "docent",
+   "wie": "Docent-onderzoeker",
+   "spoor": "leren",
+   "aard": "ontwikkelt",
+   "titel": "Een flipped classroom met AI als steiger",
+   "kort": "Een docent-onderzoeker ontwierp een flipped classroom met AI-ondersteuning en presenteert die in december op een internationale onderwijsconferentie in Berlijn.",
+   "verhaal": [
+    "Hij spreekt in een panel over samenwerking tussen mens en AI bij het ontwerpen van leerervaringen. Zijn bijdrage: een flipped classroom waarin AI als steiger dient, voor docenten en studenten. Uitgangspunt is dat AI bewust wordt ingezet en het menselijk oordeel niet verdringt.",
+    "Op het onderwijsfestival van NHL Stenden gaf hij met een collega een workshop waarin docenten AI-tools verkenden voor een flipped classroom, met een eigen pdf uit hun vak als materiaal. Dezelfde twee docenten verzorgden daar de aftrap van een AI-community voor docenten."
+   ],
+   "tools": [
+    "generatieve AI",
+    "flipped classroom"
+   ],
+   "kanaal": "LinkedIn en intranet",
+   "periode": "mei en oktober 2026"
+  },
+  {
+   "id": "vibecoden-voor-docenten",
+   "rol": "docent",
+   "wie": "Docent",
+   "spoor": "leren",
+   "aard": "doet",
+   "titel": "Vibecoden voor docenten die niet kunnen programmeren",
+   "kort": "Op het onderwijsfestival gaf een docent een workshop waarin collega's zonder programmeerervaring met AI een app bouwden.",
+   "verhaal": [
+    "De workshop ging over sneller van idee naar werkende app komen met tools als Gemini, Claude Code en Codex, en over hoe je AI bruikbaar maakt in je eigen lesomgeving. Op hetzelfde festival stonden ook een workshop over het maken van beelden met AI en een workshop waarin docenten hun curriculum scanden op digitale en AI-geletterdheid."
+   ],
+   "tools": [
+    "Gemini",
+    "Claude Code",
+    "Codex"
+   ],
+   "kanaal": "Intranet",
+   "periode": "mei 2026"
+  },
+  {
+   "id": "ai-liedjes-en-games-in-de-les",
+   "rol": "medewerker",
+   "wie": "Medewerker InnovationLab",
+   "spoor": "geletterdheid",
+   "aard": "doet",
+   "titel": "Een educatief liedje en een game, samen gemaakt in één workshop",
+   "kort": "Een medewerker van het InnovationLab liet leraren Engels ervaren hoe je met AI lesmateriaal maakt.",
+   "verhaal": [
+    "Op een conferentie van de tweedegraads lerarenopleiding Engels leerden deelnemers hoe ze met AI educatieve liedjes maken en interactieve digitale oefeningen voor hun vak laten programmeren. De groep maakte ter plekke samen een educatief liedje en een educatieve game. Met promptvoorbeelden konden ze het meteen toepassen in hun eigen lessen.",
+    "Dezelfde medewerker gaf op een leiderschapsmiddag van een scholengroep in Zuidwest-Fryslân een workshop over onderwijs, AI en beleid: recente ontwikkelingen, de Europese AI Act, toetsing en ethiek, gevolgd door een gesprek over visie, pedagogiek, praktische toepassingen en teamontwikkeling."
+   ],
+   "tools": [
+    "prompts",
+    "AI-gegenereerde muziek",
+    "AI Act"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "juni 2026"
+  },
+  {
+   "id": "ai-als-bondgenoot-pabo",
+   "rol": "docent",
+   "wie": "Docent pabo en trainer",
+   "spoor": "leren",
+   "aard": "doet",
+   "titel": "AI als bondgenoot, de docent in de regie",
+   "kort": "Een docent van de pabo in Groningen zet AI op drie plekken in: bij leerlingen, bij studenten en bij collega's.",
+   "verhaal": [
+    "Leerlingen van een Challenge Class werkten aan het thema veilig en eerlijk vervoer voor iedereen. Met een speciaal ontwikkelde chatbot interviewden ze verzonnen personages, zoals een vrouw van 78 met een visuele beperking en een meisje van 12 in een rolstoel. Daarna ontwierpen ze oplossingen, waaronder een aangepaste rolstoel en een geleiderobothond.",
+    "Derdejaars pabostudenten kregen binnen het leergebied Mens, Natuur en Technologie inspiratiesessies, ook over AI, en ontwierpen onderwijsactiviteiten vanuit onderzoekend en ontwerpend leren.",
+    "Voor onderwijsprofessionals uit alle sectoren gaf hij in het Challenge Lab de tweedelige workshop \"AI als bondgenoot, docent in de regie\": wat zijn de kansen van AI voor activerend en betekenisvol onderwijs, en wat vraagt dat van de leerkracht en van leerlingen of studenten."
+   ],
+   "tools": [
+    "chatbot met persona's"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "eind 2025 tot februari 2026"
+  },
+  {
+   "id": "veertig-docenten-prompt-kritiek",
+   "rol": "docent",
+   "wie": "Docent-onderzoeker hotelmanagement",
+   "spoor": "leren",
+   "aard": "doet",
+   "titel": "Van \"mogen studenten AI gebruiken\" naar \"welk denkwerk laten ze zien\"",
+   "kort": "Twee docenten organiseerden workshops van vier uur voor veertig collega's over AI in lessen, casusanalyse en toetsontwerp, en publiceerden erover.",
+   "verhaal": [
+    "In de workshops werkten docenten met een methode voor casusanalyse, oefeningen in het bekritiseren van prompts en casussen uit de hospitality. Doel: laten zien hoe AI kritisch denken kan ondersteunen en niet vervangen. Opvallend was hoe het gesprek verschoof. Aan het begin ging het vooral over spieken en integriteit, aan het eind over didactiek en toetsontwerp. Het artikel is verschenen in de bundel van een internationale conferentie.",
+    "Dezelfde docent schreef een beschouwing over hoe Gen Z generatieve AI gebruikt en wat dat betekent voor leren en toetsen in het hotelonderwijs. In een nieuw discussiestuk stelt hij dat veel opleidingen studenten leren hoe ze AI gebruiken, maar weinig leren wanneer je AI niet moet volgen. Hij stelt drie vermogens voor om samen te ontwikkelen: relationeel oordeel, ethisch reageren en vooruitkijken naar welzijn."
+   ],
+   "tools": [
+    "generatieve AI",
+    "prompt-kritiek",
+    "PACADI 2.0"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "april tot november 2026"
+  },
+  {
+   "id": "eerstejaars-rechten-ai-regels",
+   "rol": "onderzoeker",
+   "wie": "Lector",
+   "spoor": "verantwoordelijkheid",
+   "aard": "doet",
+   "titel": "Eerstejaars rechten leren meteen wat AI wel en niet is",
+   "kort": "De opleiding HBO-Rechten bespreekt de AI-huisregels al in het eerste jaar; een lector gaf er een lezing over de achtergrond bij.",
+   "verhaal": [
+    "Studenten maakten kennis met de mogelijkheden en risico's van generatieve AI voor juridisch werk. AI kan helpen bij samenvatten en structureren, teksten verbeteren en argumenten verkennen. AI is geen juridische bron en kan overtuigend onjuiste informatie geven. Aan de hand van voorbeelden uit de rechtspraktijk, zoals niet-bestaande jurisprudentie, leerden ze bronnen die AI aandraagt zelf te controleren."
+   ],
+   "tools": [
+    "generatieve AI"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "september 2026"
+  },
+  {
+   "id": "leergang-ai-voor-ambtenaren",
+   "rol": "onderzoeker",
+   "wie": "Lector",
+   "spoor": "werkveld",
+   "aard": "ontwikkelt",
+   "titel": "Een leergang AI voor ambtenaren",
+   "kort": "Een lector zag dat ook binnen de overheid de vraag groeit naar kennis over verantwoord AI-gebruik en ontwikkelde met een noordelijke academie voor het openbaar bestuur een leergang.",
+   "verhaal": [
+    "Ambtenaren willen volgens hem niet alleen weten wat AI kan, maar vooral wat mag en moet en wat het betekent voor hun organisatie en voor publieke waarden. De collegereeks telt vijf modules en wordt gegeven door docenten van NHL Stenden, de Hanzehogeschool en de Rijksuniversiteit Groningen, die AI, recht, ethiek en governance samenbrengen. De eerste module behandelt kernbegrippen als machine learning en generatieve AI, het algoritmeregister en de AI-verordening; de tweede publieke waarden en wetgeving."
+   ],
+   "tools": [
+    "machine learning",
+    "generatieve AI",
+    "AI-verordening"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "januari 2026"
+  },
+  {
+   "id": "ai-in-de-ggz-verpleegkunde",
+   "rol": "onderzoeker",
+   "wie": "Lector in de zorg",
+   "spoor": "onderzoek",
+   "aard": "doet",
+   "titel": "Hoe gebruiken ggz-verpleegkundigen AI?",
+   "kort": "Een lectoraat van NHL Stenden nam het initiatief voor een landelijke vragenlijst over AI-gebruik door verpleegkundigen in de ggz.",
+   "verhaal": [
+    "Verpleegkundigen gebruiken steeds vaker hulpmiddelen als ChatGPT, EvidenceHunt, Microsoft Copilot en spraakgestuurd rapporteren. Het onderzoek wil in beeld brengen hoe AI in de verpleegkundige praktijk wordt toegepast en welke kansen en behoeften er zijn. Het gebeurt samen met andere hogescholen, ggz-instellingen en een universitaire leerstoel. Ook de ervaringen van mensen die AI niet gebruiken tellen mee."
+   ],
+   "tools": [
+    "ChatGPT",
+    "EvidenceHunt",
+    "Microsoft Copilot",
+    "spraakgestuurd rapporteren"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "september 2026"
+  },
+  {
+   "id": "textiel-sorteren-met-hyperspectraal",
+   "rol": "onderzoeker",
+   "wie": "Docent-onderzoeker AI",
+   "spoor": "onderzoek",
+   "aard": "ontwikkelt",
+   "titel": "Een camera die ziet waar kleding van gemaakt is",
+   "kort": "Onderzoekers werken aan een systeem met een hyperspectrale camera en een eigen AI-model dat de samenstelling van textiel bepaalt, voor hergebruik en recycling.",
+   "verhaal": [
+    "Het project is een samenwerking van het AI-lectoraat met het lectoraat voor circulaire kunststoffen en een groep partners uit de textielketen. Kennis over polymeren, textiel en toevoegingen gaat in het ontwerp van het model. Het doel is een systeem dat van een grote variatie aan textiel en kleding betrouwbaar de samenstelling vaststelt. Studenten werken mee en presenteerden hun deel op het symposium van het lectoraat."
+   ],
+   "tools": [
+    "hyperspectrale camera",
+    "eigen AI-model",
+    "computer vision"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "zomer 2026"
+  },
+  {
+   "id": "tina-transcriptie-fries",
+   "rol": "team",
+   "wie": "Lectoraat met twee gemeenten",
+   "spoor": "onderzoek",
+   "aard": "ontwikkelt",
+   "titel": "Een open source transcriptietool voor Nederlands en Fries",
+   "kort": "NHL Stenden bouwt met de gemeenten Leeuwarden en Groningen aan een tool die Nederlandse en Friese spraak omzet naar tekst: lokaal uitvoerbaar en privacyvriendelijk.",
+   "verhaal": [
+    "Na negen maanden ontwikkelen stond er een werkend proof of concept. Voor de volgende stap, een gebruiksvriendelijke interface, was er in juni een tweedaagse hackathon in het AI-centrum van NHL Stenden, met opdrachten rond de bediening en de gebruikservaring. De makers zien het als bouwen aan digitale autonomie en toegankelijke technologie voor de publieke sector."
+   ],
+   "tools": [
+    "spraak naar tekst",
+    "open source",
+    "lokaal draaien"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "juni 2026"
+  },
+  {
+   "id": "afval-herkennen-met-ai",
+   "rol": "partner",
+   "wie": "Afvalverwerker met NHL Stenden",
+   "spoor": "werkveld",
+   "aard": "ontwikkelt",
+   "titel": "AI die afval herkent boven de bunker",
+   "kort": "NHL Stenden en een Friese afvalverwerker tekenden in januari 2026 een overeenkomst om AI-oplossingen voor recycling te ontwikkelen.",
+   "verhaal": [
+    "Het doel is verschillende soorten afval beter te herkennen. Boven de bunker van de scheidingsinstallatie hangt een camera die beelden van het afval maakt. De onderzoekspodcast van NHL Stenden heeft een aflevering over hoe AI afval recyclet."
+   ],
+   "tools": [
+    "computer vision"
+   ],
+   "kanaal": "LinkedIn en intranet",
+   "periode": "januari 2026"
+  },
+  {
+   "id": "aardbeienrobot",
+   "rol": "student",
+   "wie": "Tweedejaars techniek en ICT",
+   "spoor": "leren",
+   "aard": "ontwikkelt",
+   "titel": "Een robot die rijpe aardbeien herkent en plukt",
+   "kort": "Studenten Elektrotechniek, Werktuigbouwkunde en HBO-ICT bouwden in acht weken een autonome oogstrobot.",
+   "verhaal": [
+    "De opdracht: een robot die zelfstandig rijpe aardbeien herkent, plukt en op de juiste plek neerlegt. Herkennen gaat met computer vision en AI, het bewegen van de arm met inverse kinematica. De grootste uitdaging was echte aardbeien niet fijn te knijpen. Een student vertelt dat zijn team met Scrum werkte en dat de arm op twee manieren te besturen is: met een zelf ontworpen controller of volledig autonoom met beeldherkenning. Een jury uit het bedrijfsleven koos de winnaar."
+   ],
+   "tools": [
+    "computer vision",
+    "beeldherkenning",
+    "robotica"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "juni 2026"
+  },
+  {
+   "id": "data-verkennen-met-embeddings",
+   "rol": "student",
+   "wie": "Afgestudeerde HBO-ICT",
+   "spoor": "onderzoek",
+   "aard": "ontwikkelt",
+   "titel": "Een applicatie om beelddata te verkennen met multimodale embeddings",
+   "kort": "Een student studeerde cum laude af bij het AI-lectoraat op een applicatie waarmee onderzoekers gelabelde en ongelabelde data verkennen.",
+   "verhaal": [
+    "Gebruikers kiezen zelf een embeddingmodel, zetten segmentatiemodellen in om delen van afbeeldingen te analyseren en vinden interessante objecten terug in andere datasets of via een zoekterm in tekst. Afbeeldingen worden bij het importeren als geheel en per tegel verwerkt, en automatisch gemaakte maskers helpen om de juiste regio's te koppelen. Door de modulaire opzet zijn nieuwe AI-modellen eenvoudig toe te voegen."
+   ],
+   "tools": [
+    "multimodale embeddings",
+    "segmentatiemodellen"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "eind 2025"
+  },
+  {
+   "id": "ai-als-medisch-hulpmiddel",
+   "rol": "student",
+   "wie": "Afgestudeerde HBO-Rechten",
+   "spoor": "verantwoordelijkheid",
+   "aard": "doet",
+   "titel": "Zelf ontwikkelde AI in het ziekenhuis: wat vragen de regels?",
+   "kort": "Een student deed haar afstudeeronderzoek bij een universitair ziekenhuis naar in huis ontwikkelde AI als medisch hulpmiddel.",
+   "verhaal": [
+    "De vraag was hoe een passend kwaliteitsmanagementsysteem helpt om te voldoen aan de Europese regels voor medische hulpmiddelen, de AI Act en de bijbehorende ISO-norm. Ze vertaalde de juridische en kwaliteitskaders naar de praktijk van onderzoekers die AI-toepassingen voor de zorg ontwikkelen. Ze analyseerde een beslisondersteunend model voor de keuze tussen twee vormen van bestraling en maakte een kruisverwijzingstabel als hulpmiddel."
+   ],
+   "tools": [
+    "AI Act",
+    "MDR",
+    "ISO 13485"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "juli 2026"
+  },
+  {
+   "id": "chatbot-voor-een-hulplijn",
+   "rol": "student",
+   "wie": "Afgestudeerde master Health Innovation",
+   "spoor": "verantwoordelijkheid",
+   "aard": "zegt",
+   "titel": "Een chatbot voor een hulplijn: indrukwekkend, maar niet zonder risico",
+   "kort": "Een masterstudent onderzocht of en hoe AI een chatbot voor een landelijke hulplijn voor mentale gezondheid mogelijk maakt.",
+   "verhaal": [
+    "Haar onderzoek ging over de randvoorwaarden, de risico's en vooral over hoe AI kan aansluiten bij wat de doelgroep nodig heeft. Haar belangrijkste les: AI kan indrukwekkend zijn, maar de inzet is niet zonder risico. Technologie wordt pas waardevol als die zorgvuldig, ethisch en met aandacht voor de mens wordt toegepast. Ze werkte met design thinking."
+   ],
+   "tools": [
+    "chatbot",
+    "design thinking"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "december 2025"
+  },
+  {
+   "id": "stoplicht-voor-je-prompt",
+   "rol": "student",
+   "wie": "Student International Business",
+   "spoor": "geletterdheid",
+   "aard": "ontwikkelt",
+   "titel": "Een stoplicht dat je prompt controleert voordat je hem verstuurt",
+   "kort": "Tijdens een internationale week over AI en gelijke kansen bij NHL Stenden in Groningen bouwde een student een prototype tegen het delen van gevoelige gegevens.",
+   "verhaal": [
+    "Zijn uitdaging was privacy in AI: hoe vaak plakken we namen, nummers of iemands gezondheid in een chatbot zonder erbij na te denken. Zijn eerlijke conclusie was dat hij het zelf ook doet. In die week begon hij aan een browserextensie die als een stoplicht je prompt controleert voordat je op verzenden drukt. De extensie staat in de testfase in de Chrome Web Store.",
+    "De week was een Erasmus-programma van het Europese netwerk waar NHL Stenden bij hoort. Studenten uit meerdere landen werkten aan de vraag hoe AI kloven dicht in plaats van groter maakt. Een deelnemer van een Belgische hogeschool ontwierp er AI-agents voor kleine ondernemers."
+   ],
+   "tools": [
+    "Chrome-extensie",
+    "prompts",
+    "AI-agents"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "oktober 2026"
+  },
+  {
+   "id": "chatbot-voor-kleine-horeca",
+   "rol": "student",
+   "wie": "Studenten hotelmanagement",
+   "spoor": "werkveld",
+   "aard": "ontwikkelt",
+   "titel": "Een eigen chatbot voor kleine horecabedrijven",
+   "kort": "Een groep studenten werkte een semester aan een bedrijfsidee voor kleine hospitalitybedrijven die moeite hebben met marketing.",
+   "verhaal": [
+    "Uit hun onderzoek bleek dat kleine bedrijven vaak kennis, data of geld missen. Hun idee: een afgeschermde online chatbot waaraan een bedrijf al zijn vragen kan stellen over prijzen, marketing, bezetting, omzet en sociale media, aangevuld met data-analyse en hulp bij het doorvoeren van verbeteringen."
+   ],
+   "tools": [
+    "chatbot",
+    "data-analyse"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "juni 2026"
+  },
+  {
+   "id": "documentaire-creatieve-professionals",
+   "rol": "student",
+   "wie": "Vierdejaars student Communication & Multimedia Design",
+   "spoor": "werkveld",
+   "aard": "doet",
+   "titel": "Een documentaire over AI en de waarde van creatief werk",
+   "kort": "Een student maakt voor zijn studioproject een onderzoekende documentaire over hoe generatieve AI de waarde en toekomst van creatieve professionals en ondernemers verandert.",
+   "verhaal": [
+    "Hij zoekt bewust alle kanten op: mensen die enthousiast met AI werken, mensen die er kritisch tegenover staan en mensen die er nog weinig mee te maken hebben. Deelnemers kunnen op camera of alleen in een achtergrondgesprek hun ervaring delen."
+   ],
+   "tools": [
+    "generatieve AI"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "september 2026"
+  },
+  {
+   "id": "ai-in-projectontwikkeling",
+   "rol": "student",
+   "wie": "Student Vastgoedkunde, minor I'M A.I.",
+   "spoor": "werkveld",
+   "aard": "doet",
+   "titel": "Wat doet AI met het tempo van projectontwikkeling?",
+   "kort": "Een student vastgoed volgt de AI-minor van NHL Stenden en onderzoekt wat het integreren van AI betekent voor het projectontwikkelingsproces.",
+   "verhaal": [
+    "Hij combineert zijn achtergrond in vastgoedontwikkeling met AI en interviewt mensen uit de projectontwikkeling over de gevolgen van een versnellend proces."
+   ],
+   "tools": [],
+   "kanaal": "LinkedIn",
+   "periode": "april 2026"
+  },
+  {
+   "id": "gesprek-met-een-zeeheld",
+   "rol": "student",
+   "wie": "Student, vak digitale geletterdheid",
+   "spoor": "geletterdheid",
+   "aard": "zegt",
+   "titel": "Een gesprek met een zeeheld, en de vraag hoe ver je wilt gaan",
+   "kort": "Voor het vak digitale geletterdheid voerden studenten via AI een gesprek met een historische figuur. Een student beschrijft wat dat met haar deed.",
+   "verhaal": [
+    "De AI gaf slimme antwoorden, vleiende feedback en stelde vragen terug. Het was bijna alsof je echt aan het chatten was, en volgens haar bijna verslavend. Dat zette haar aan het denken over hoe ver we kunnen en willen gaan met AI en in hoeverre we gehecht raken aan gesprekken met een machine."
+   ],
+   "tools": [
+    "chatbot met persona"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "januari 2026"
+  },
+  {
+   "id": "notebooklm-in-de-master",
+   "rol": "team",
+   "wie": "Master Educational Leadership",
+   "spoor": "leren",
+   "aard": "doet",
+   "titel": "Je eigen ontwikkeling als leider zichtbaar maken met NotebookLM",
+   "kort": "Studenten van een masteropleiding deden een oefening met NotebookLM om diepere ontwikkelingen in hun leiderschap inzichtelijk te maken.",
+   "verhaal": [
+    "De opleiding deelt als voorbeeld de ontwikkeling van een student: van een leider die zich klein voelde naar een leider die haar plek inneemt, weet waar ze met anderen naartoe gaat en daar de regie op voert."
+   ],
+   "tools": [
+    "NotebookLM"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "april 2026"
+  },
+  {
+   "id": "mixed-reality-hackathon",
+   "rol": "student",
+   "wie": "Student, internationale hackathon",
+   "spoor": "leren",
+   "aard": "ontwikkelt",
+   "titel": "Deskundige hulp bij elke taak met AI en mixed reality",
+   "kort": "Op een hackathon van het Europese netwerk bij NHL Stenden verkende een studententeam hoe AI in mixed reality kennis op het moment zelf beschikbaar maakt.",
+   "verhaal": [
+    "Het idee: bij elke taak begeleiding van een expert in beeld, zodat kennis toegankelijker en direct toepasbaar wordt."
+   ],
+   "tools": [
+    "mixed reality"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "maart 2026"
+  },
+  {
+   "id": "pdf-tekeningen-uitlezen",
+   "rol": "student",
+   "wie": "Afstudeerder Informatica bij een ingenieursbureau",
+   "spoor": "werkveld",
+   "aard": "ontwikkelt",
+   "titel": "Tagnummers automatisch uit technische tekeningen halen",
+   "kort": "Een student Informatica studeerde af op het automatisch uitlezen van procestekeningen in pdf.",
+   "verhaal": [
+    "Met verschillende technieken uit machine learning en AI maakt zijn oplossing een overzicht van alle coderingen, tag- en objectnummers op de documenten. Het bedrijf waar hij afstudeerde verwacht dat dit veel tijd bespaart, omdat coderingen niet meer met de hand in het documentbeheersysteem hoeven."
+   ],
+   "tools": [
+    "machine learning",
+    "documentherkenning"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "juli 2026"
+  },
+  {
+   "id": "ligduur-voorspellen",
+   "rol": "student",
+   "wie": "Studenten Toegepaste Wiskunde",
+   "spoor": "werkveld",
+   "aard": "ontwikkelt",
+   "titel": "Voorspellen hoe lang een patiënt in het ziekenhuis ligt",
+   "kort": "Drie studenten ontwikkelden voor een maker van zorgsoftware een voorspelmodel voor de ligduur van patiënten.",
+   "verhaal": [
+    "Aanleiding is de dagelijkse puzzel met beddencapaciteit in ziekenhuizen. Een van de studenten noemt het een mix van data-analyse, machine learning en praktische toepasbaarheid in de zorg."
+   ],
+   "tools": [
+    "machine learning",
+    "voorspelmodel"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "februari 2026"
+  },
+  {
+   "id": "perenboomgaard-in-3d",
+   "rol": "student",
+   "wie": "Masterstudent Computer Vision & Data Science",
+   "spoor": "onderzoek",
+   "aard": "ontwikkelt",
+   "titel": "Een snoeirobot leren kijken in de perenboomgaard",
+   "kort": "Een masterstudent onderzocht hoe computer vision en diepte-informatie robots helpen een boomgaard te begrijpen.",
+   "verhaal": [
+    "Met stereobeelden in hoge resolutie uit commerciële perenboomgaarden ontwikkelde en beoordeelde hij segmentatiemodellen die stammen, takken, steunpalen en draden herkennen. Hij onderzocht of diepte uit stereovisie het begrip van de omgeving verbetert. Door beeld en geometrie te combineren onderscheiden de modellen lastige structuren beter, als stap naar robotisch snoeien. Hij presenteerde het op het symposium van het lectoraat."
+   ],
+   "tools": [
+    "computer vision",
+    "stereovisie",
+    "segmentatiemodellen"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "juni 2026"
+  },
+  {
+   "id": "bacteriegroei-classificeren",
+   "rol": "student",
+   "wie": "Minorstudent AI en computer vision",
+   "spoor": "onderzoek",
+   "aard": "doet",
+   "titel": "Hoe zeker is een model van zijn eigen uitkomst?",
+   "kort": "Een student van een andere hogeschool volgde de minor bij NHL Stenden en deed met een bedrijf onderzoek naar kanscalibratie bij het classificeren van bacteriegroei.",
+   "verhaal": [
+    "Ze presenteerde haar poster op het afsluitende symposium en kreeg de prijs voor de beste pitch. De minor bracht haar dieper in AI en computer vision en versterkte haar onderzoeksvaardigheden."
+   ],
+   "tools": [
+    "computer vision",
+    "kanscalibratie"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "januari 2026"
+  },
+  {
+   "id": "lerarenopleider-met-chat",
+   "rol": "docent",
+   "wie": "Lerarenopleider",
+   "spoor": "leren",
+   "aard": "doet",
+   "titel": "Een dag uit het werk van een lerarenopleider, met AI erbij",
+   "kort": "Een lerarenopleider beschrijft haar werkdag. AI is daarin een gewoon stuk gereedschap geworden.",
+   "verhaal": [
+    "Ze vat haar visie op het begeleiden van leraren samen met behulp van een chatbot, voor haar eigen herregistratie. Zo houdt ze de kern voor de komende jaren vast en leert ze zelf hoe ze AI kan inzetten als begeleider van zulke trajecten."
+   ],
+   "tools": [
+    "chatbot"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "november 2025"
+  },
+  {
+   "id": "ai-als-co-creatieve-partner",
+   "rol": "team",
+   "wie": "Opleiding Kunst & Educatie",
+   "spoor": "leren",
+   "aard": "doet",
+   "titel": "AI als co-creatieve partner in het kunstonderwijs",
+   "kort": "De opleiding hield met een Fries kunstencentrum een projectweek over AI als partner in het maakproces.",
+   "verhaal": [
+    "De vraag was in hoeverre gesprekken met AI studenten Docent Beeldende Kunst en Vormgeving helpen bij het vormen van ideeën en het ontwikkelen van concepten. Een docent-onderzoeker deelde de inzichten in een panel tijdens de Dutch Design Week en gaf later een introductie over AI en kunst bij een inspiratiesessie. Er is een publicatie over verschenen."
+   ],
+   "tools": [
+    "generatieve AI"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "eind 2025"
+  },
+  {
+   "id": "softwarekwaliteit-tegengas",
+   "rol": "docent",
+   "wie": "Docent HBO-ICT",
+   "spoor": "verantwoordelijkheid",
+   "aard": "zegt",
+   "titel": "AI kan een website bouwen, maar voldoet die ook aan je eisen?",
+   "kort": "Een docent HBO-ICT geeft tegengas op de belofte dat AI het grootste deel van je website bouwt.",
+   "verhaal": [
+    "Hij twijfelt niet aan het bouwen zelf, wel aan de kwaliteit: is het resultaat veilig, houdt het zich aan de wetgeving, is het te onderhouden en toegankelijk voor mensen met een beperking? In zijn blog legt hij uit wat softwarekwaliteit is en hoe je die bereikt. Het is een onderwerp dat hij ook zijn studenten meegeeft."
+   ],
+   "tools": [
+    "softwarekwaliteit"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "januari 2026"
+  },
+  {
+   "id": "ai-in-de-financiele-sector",
+   "rol": "docent",
+   "wie": "Docent bedrijfseconomie",
+   "spoor": "geletterdheid",
+   "aard": "doet",
+   "titel": "Eerstejaars finance horen vroeg over kansen en risico's",
+   "kort": "Eerstejaars van de financiële opleidingen kregen een gastlezing van iemand uit de bankwereld over AI in de financiële sector.",
+   "verhaal": [
+    "Onderwerpen waren verantwoord gebruik van AI, veelgebruikte modellen zoals regressie, beslisbomen en neurale netwerken, en de opkomst van generatieve AI. Ook de gevolgen voor het werk en het belang van kritische, ethische en datagedreven vaardigheden kwamen aan bod. De docent vindt het belangrijk studenten hier vroeg in de studie in mee te nemen."
+   ],
+   "tools": [
+    "regressiemodellen",
+    "beslisbomen",
+    "neurale netwerken",
+    "generatieve AI"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "maart 2026"
+  },
+  {
+   "id": "beslissen-met-data-en-ai",
+   "rol": "docent",
+   "wie": "Docent-onderzoeker International Business",
+   "spoor": "leren",
+   "aard": "doet",
+   "titel": "Beslissen onder onzekerheid, met data en AI als steun",
+   "kort": "In een online minor leren studenten bewijs wegen, scenario's verkennen, strategieën testen en hun keuze uitleggen.",
+   "verhaal": [
+    "Data en AI ondersteunen het oordeel van de student en nemen het niet over. De minor van 15 studiepunten combineert besluitvorming, scenarioanalyse en generatieve AI."
+   ],
+   "tools": [
+    "generatieve AI",
+    "scenarioanalyse"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "oktober 2026"
+  },
+  {
+   "id": "alumni-geven-ai-workshops",
+   "rol": "alumnus",
+   "wie": "Twee alumni als gastdocent",
+   "spoor": "werkveld",
+   "aard": "doet",
+   "titel": "Alumni komen terug met de nieuwste AI-ontwikkelingen",
+   "kort": "Twee alumni met een eigen bureau gaven interactieve workshops over AI aan studenten van een minor ondernemerschap.",
+   "verhaal": [
+    "Volgens de opleiding hingen de studenten aan hun lippen, en de docenten ook. Studenten van een andere ondernemersminor bezochten een marketingbureau in Leeuwarden dat met AI werkt."
+   ],
+   "tools": [],
+   "kanaal": "LinkedIn",
+   "periode": "april en oktober 2026"
+  },
+  {
+   "id": "ict-bij-ondernemers-aan-tafel",
+   "rol": "team",
+   "wie": "Docenten en studenten HBO-ICT",
+   "spoor": "werkveld",
+   "aard": "doet",
+   "titel": "Docenten en studenten beantwoorden AI-vragen van ondernemers",
+   "kort": "Vier docenten en drie studenten HBO-ICT schoven aan bij een avond waar ondernemers uit de creatieve sector hun vragen over AI stelden.",
+   "verhaal": [
+    "De vragen liepen van \"welke AI-tools passen bij mijn werk\" tot \"hoe schrijf ik een goede prompt\". Samen met mbo-studenten gaven ze praktische tips waar de ondernemers direct mee verder konden."
+   ],
+   "tools": [
+    "prompts",
+    "ChatGPT"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "november 2025"
+  },
+  {
+   "id": "emmen-mkb-workshops",
+   "rol": "team",
+   "wie": "NHL Stenden Emmen met ondernemers en gemeente",
+   "spoor": "werkveld",
+   "aard": "doet",
+   "titel": "Een reeks AI-avonden voor het mkb in Emmen",
+   "kort": "NHL Stenden Emmen organiseert met de ondernemersvereniging en de gemeente workshops waarin ondernemers zelf met AI aan de slag gaan.",
+   "verhaal": [
+    "In januari ging het over online zoeken, van zoekmachine tot generatieve AI. In maart bouwden deelnemers op de campus een AI-gedreven workflow in de workshop \"Van ChatGPT naar bedrijfsprocesautomatisering met AI-agents\". In september volgde \"De kunst van het goede vragen stellen\": goede prompts schrijven en daarna een eigen AI-assistent maken. Er is een online AI-netwerk voor ondernemers in de regio gestart, en in oktober was er een AI-symposium bij NHL Stenden Emmen."
+   ],
+   "tools": [
+    "ChatGPT",
+    "AI-agents",
+    "Custom GPT",
+    "prompts",
+    "low-code"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "januari tot oktober 2026"
+  },
+  {
+   "id": "ai-en-studiecoaching",
+   "rol": "docent",
+   "wie": "Docent en studiecoach",
+   "spoor": "geletterdheid",
+   "aard": "doet",
+   "titel": "Wat betekent AI voor de studiecoach?",
+   "kort": "Docenten organiseerden bij NHL Stenden een themamiddag over de invloed van AI op studiecoaching.",
+   "verhaal": [
+    "AI speelt een rol bij studeren en plannen, maar ook bij reflectie, mentale ondersteuning en zelfinzicht van studenten. De middag bekeek dat vanuit drie kanten: praktische AI-tools voor feedback, reflectie en coachgesprekken, digitale veiligheid en ethiek, en het perspectief van de student zelf."
+   ],
+   "tools": [
+    "AI-tools voor feedback en reflectie"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "april 2026"
+  },
+  {
+   "id": "foodcourt-afrekenen",
+   "rol": "medewerker",
+   "wie": "Collega's uit verschillende disciplines",
+   "spoor": "werken",
+   "aard": "doet",
+   "titel": "Dienblad onder de scanner en de AI weet wat je hebt gepakt",
+   "kort": "In de Foodcourt herkent AI sinds maart 2026 de producten op je dienblad. Collega's uit verschillende disciplines werkten er achttien maanden aan.",
+   "verhaal": [
+    "Je zet je dienblad onder de scanner, de AI registreert wat er betaald moet worden en je rekent af bij de terminal. De oplossing werkt samen met de bestaande kassa-omgeving. In de pilot kijken ze naar de snelheid van afrekenen, het aantal fouten en het gebruik door medewerkers, studenten en bezoekers. Het bericht noemt het een voorbeeld van innovatie toepassen in een echte omgeving en er niet alleen over praten."
+   ],
+   "tools": [
+    "beeldherkenning"
+   ],
+   "kanaal": "Intranet",
+   "periode": "maart 2026"
+  },
+  {
+   "id": "futures-cafe-prototypes",
+   "rol": "student",
+   "wie": "Tweedejaars Tourism Management",
+   "spoor": "werkveld",
+   "aard": "ontwikkelt",
+   "titel": "Prototypes voor een Duitse regio, gemaakt zonder les in programmeren",
+   "kort": "Studenten presenteerden prototypes voor een toeristische regio in Duitsland. Opvallend dit jaar was het gebruik van AI en digitale tools.",
+   "verhaal": [
+    "De studenten leidden het project zelf, met een veldbezoek en gesprekken met betrokkenen. De prototypes waren duidelijk digitaler dan in eerdere jaren, terwijl de studenten geen vakken in ontwerpen of programmeren volgen. Een team ontwierp een koepel voor kunstsneeuw voor als er over vijftien jaar geen sneeuw meer ligt. Een ander team maakte een duurzaamheidsapp in de stijl van een arcadespel; de opdrachtgever overweegt er een echt product van te maken."
+   ],
+   "tools": [
+    "AI-hulp bij prototypen"
+   ],
+   "kanaal": "Intranet",
+   "periode": "januari 2026"
+  },
+  {
+   "id": "hotels-van-de-toekomst",
+   "rol": "onderzoeker",
+   "wie": "Onderzoekers hotelschool",
+   "spoor": "onderzoek",
+   "aard": "doet",
+   "titel": "Kan een robot in 2075 een Michelinster verdienen?",
+   "kort": "Een lectoraat van de hotelschool onderzoekt in een vierjarig project hoe AI, automatisering en humanoïde robots hotels veranderen.",
+   "verhaal": [
+    "Studenten en onderzoekers maken scenario's met scenarioplanning en service blueprinting. Nieuwe technologie wordt getest in living labs bij hotelscholen en in echte hotels. Het idee is dat medewerkers van hotels zelf meebouwen aan de gastervaring van morgen."
+   ],
+   "tools": [
+    "humanoïde robots",
+    "automatisering",
+    "scenarioplanning"
+   ],
+   "kanaal": "Intranet en LinkedIn",
+   "periode": "december 2025"
+  },
+  {
+   "id": "media-investigation-lab",
+   "rol": "student",
+   "wie": "Studenten in een learning community",
+   "spoor": "geletterdheid",
+   "aard": "doet",
+   "titel": "Kritischer kijken naar nieuws, algoritmen en AI",
+   "kort": "In het Media Investigation Lab deden 22 studenten samen onderzoek naar digitale mediageletterdheid.",
+   "verhaal": [
+    "In labsessies en workshops ging het over factchecking, onderzoek met open bronnen, desinformatie en AI. Uit de evaluatie blijkt dat studenten vaker bronnen controleren, perspectieven vergelijken en meer oog hebben voor de invloed van algoritmen, framing en AI. Het lab gaat dit studiejaar door en breidt uit naar andere opleidingen."
+   ],
+   "tools": [
+    "factchecking",
+    "OSINT"
+   ],
+   "kanaal": "Intranet",
+   "periode": "november 2026"
+  },
+  {
+   "id": "conferentie-lerarenopleiders",
+   "rol": "docent",
+   "wie": "Twee docenten lerarenopleiding",
+   "spoor": "geletterdheid",
+   "aard": "zegt",
+   "titel": "Jonge leerlingen nemen AI-antwoorden vaak zonder controle over",
+   "kort": "Twee docenten presenteerden op een Europese conferentie voor lerarenopleiders en brachten inzichten over AI mee terug.",
+   "verhaal": [
+    "Hun eigen bijdrage ging over kunst en digitale geletterdheid. In andere sessies ging het over de werking van AI en taalmodellen, het schrijven van goede prompts en kritisch omgaan met AI. Onderzoek liet zien dat jonge leerlingen antwoorden van AI vaak direct overnemen. AI geeft snel feedback, maar verbetert leerresultaten niet vanzelf. De rol van de leerkracht en goede begeleiding blijven nodig."
+   ],
+   "tools": [
+    "prompts",
+    "taalmodellen"
+   ],
+   "kanaal": "Intranet",
+   "periode": "mei 2026"
+  },
+  {
+   "id": "maritiem-ai-lab",
+   "rol": "onderzoeker",
+   "wie": "Vier lectoraten samen",
+   "spoor": "onderzoek",
+   "aard": "ontwikkelt",
+   "titel": "Slimmere en veiligere schepen",
+   "kort": "Vier lectoraten van NHL Stenden doen mee aan een innovatielab dat prototypes met AI ontwikkelt, valideert en demonstreert voor de maritieme sector.",
+   "verhaal": [
+    "Ze brengen kennis samen over recht en ethiek, maritieme techniek en data science. AI moet helpen bij het ontwerp en de exploitatie van schepen, nu emissievrij varen complexere systemen vraagt. Een professional doctorate maakt deel uit van het project."
+   ],
+   "tools": [
+    "data science"
+   ],
+   "kanaal": "Intranet",
+   "periode": "september 2025"
+  }
+ ]
+}

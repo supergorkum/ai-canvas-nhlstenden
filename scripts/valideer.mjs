@@ -48,3 +48,17 @@ const act = JSON.parse(readFileSync(new URL('../public/data/aiact.json', import.
 const actFouten = act.verplichtingen.flatMap(v => v.bij.filter(id => !ids.has(id)).map(id => `aiact.json: ${v.id} wijst naar onbekend onderdeel ${id}`))
 if (actFouten.length) { actFouten.forEach(f => console.error('✖', f)); process.exit(1) }
 console.log(`✔ aiact.json in orde: ${act.verplichtingen.length} verplichtingen.`)
+
+// Uit de praktijk: elk verhaal heeft een vindplaats, en geen vindplaats zonder verhaal.
+const pr = JSON.parse(readFileSync(new URL('../public/data/praktijk.json', import.meta.url), 'utf8'))
+const pb = JSON.parse(readFileSync(new URL('../public/data/praktijk-bronnen.json', import.meta.url), 'utf8'))
+const prIds = new Set(pr.items.map(i => i.id)), pbIds = new Set(pb.bronnen.map(b => b.id))
+const prFouten = [
+  ...pr.items.filter(i => !i.titel || !i.kort || !i.rol || !i.wie).map(i => `praktijk.json: ${i.id} is onvolledig`),
+  ...pr.items.filter(i => i.spoor && !SPOREN[i.spoor]).map(i => `praktijk.json: ${i.id} heeft onbekend spoor ${i.spoor}`),
+  ...pr.items.filter(i => !pbIds.has(i.id)).map(i => `praktijk.json: ${i.id} heeft geen vindplaats`),
+  ...pb.bronnen.filter(b => !prIds.has(b.id)).map(b => `praktijk-bronnen.json: vindplaats bij onbekend verhaal ${b.id}`),
+]
+if (prIds.size !== pr.items.length) prFouten.push('praktijk.json: dubbel id')
+if (prFouten.length) { prFouten.forEach(f => console.error('✖', f)); process.exit(1) }
+console.log(`✔ praktijk.json in orde: ${pr.items.length} verhalen, ${pb.bronnen.length} vindplaatsen.`)

@@ -7,6 +7,7 @@ initiatieven, beleid en externe samenwerkingen, en hoe ze met elkaar verbonden z
 - **Samenhang** (A3): koordendiagram van de verbindingen tussen de sporen, met de tien dragers ernaast.
 - **Treinnetwerk** (A3): de realisatie van de AI-Koers als spoorkaart. Zes koerslijnen en de sandbox rijden door de drie golven (funderen, uitbouwen, verankeren) naar hun indicator voor 2030; de stations zijn de mijlpalen uit de tijdlijn (`public/data/koers.json`). Dienstregeling op de achterkant.
 - **Organisatie & AI Act**: uitleg hoe je de AI Act leest (risiconiveaus, rollen, tijdlijn inclusief de Digital Omnibus), vijftien verplichtingen met taak, uitvoering, verantwoording en de stand bij NHL Stenden, en alle organisatieonderdelen met doel en AI Act-bijdrage (`public/data/aiact.json`).
+- **Uit de praktijk**: verhalen van docenten, studenten, onderzoekers en teams over hun eigen werk met AI, zonder namen (`public/data/praktijk.json`). De vindplaatsen staan apart in `public/data/praktijk-bronnen.json` en zijn te openen via het paragraafteken onder aan de rubriek (`#v=praktijkbronnen`).
 - **Meld activiteit**: formulier in vier stappen (Netlify Forms, `meld-activiteit`).
 - **Zuiver**: elk onderdeel heeft een herkomst en bron; meldingen staan tot bevestiging met een stippellijn.
 

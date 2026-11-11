@@ -1,2 +1,2 @@
 // Versie van het AI Canvas. Ophogen bij elke publicatie die de bezoeker merkt.
-export const VERSIE = '1.6'
+export const VERSIE = '1.7'

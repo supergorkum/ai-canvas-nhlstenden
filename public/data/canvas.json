@@ -1,6 +1,6 @@
 {
  "meta": {
-  "bijgewerkt": "10 november 2026",
+  "bijgewerkt": "11 november 2026",
   "ritme": "elke werkdag om 07:40 (redactieronde)",
   "aiNetwerkCommit": "497649c7e9ca9aa8b60e6b66fdf2d6b47cea0c07",
   "laatsteMelding": null,
@@ -27,7 +27,11 @@
    },
    {
     "naam": "intranet.nhlstenden.com",
-    "stand": "grondig gescand op 9 november 2026 via de zoek-API en de pagina-API: 2.861 AI-gerelateerde items op 145 sites, 260 intranetpagina's volledig gelezen. Proefpagina's van de redactie (Sandbox-registratiesite, AI-Netwerk-pagina's op het intranet, persoonlijke OneDrive) zijn bewust niet meegenomen. Privé-OneDrive van anderen en vertrouwelijke notulen niet overgenomen. Rapportage: PDF in Edgars mailbox"
+    "stand": "grondig gescand op 9 november 2026 via de zoek-API en de pagina-API: 2.861 AI-gerelateerde items op 145 sites, 260 intranetpagina's volledig gelezen. Proefpagina's van de redactie (Sandbox-registratiesite, AI-Netwerk-pagina's op het intranet, persoonlijke OneDrive) zijn bewust niet meegenomen. Privé-OneDrive van anderen en vertrouwelijke notulen niet overgenomen. Rapportage: PDF in Edgars mailbox. Vervolgscan op 11 november 2026 via de zoek-API en de pagina-API: 12 gewijzigde AI-gerelateerde pagina's sinds 8 november, 69 nieuwsberichten sinds september 2025 nagelopen en 23 pagina's volledig gelezen, ook voor de rubriek Uit de praktijk"
+   },
+   {
+    "naam": "LinkedIn (openbare berichten)",
+    "stand": "op 11 november 2026 doorzocht voor de rubriek Uit de praktijk: ruim 40 zoekvragen op NHL Stenden en AI. De verhalen staan zonder naam in de rubriek; ze zijn geen onderdeel van de kaart"
    }
   ],
   "koersversie": "0.55d",
@@ -608,10 +612,10 @@
    "soort": "organisatie",
    "spoor": "leren",
    "samenvatting": "Dienst en vakeigenaar voor onderwijs- en onderzoekskaders; primaire eigenaar van laag 3 (Onderwijs, Onderzoek & Data).",
-   "details": "Stuurt op de inhoudelijke en onderwijskundige kant van AI: integratie in curriculum en didactiek, passende AI-modellen, kwaliteit en privacy in data-architectuur. Afdeling bij thema's AI & Leren, AI & Geletterdheid en AI & Onderzoek. Opsteller van 'AI in DBE' (addendum OO&I-beleid); voegde het NHL Stenden AI-competentieframework toe aan het AI Netwerk.",
+   "details": "Stuurt op de inhoudelijke en onderwijskundige kant van AI: integratie in curriculum en didactiek, passende AI-modellen, kwaliteit en privacy in data-architectuur. Afdeling bij thema's AI & Leren, AI & Geletterdheid en AI & Onderzoek. Opsteller van 'AI in DBE' (addendum OO&I-beleid); voegde het NHL Stenden AI-competentieframework toe aan het AI Netwerk. Per 9 november 2026 heeft de dienst een nieuwe directeur (intranetbericht van die datum).",
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/data.js:92, src/data.js:93, src/initialData.js:293, src/pages/Governance.jsx:5 e.a.",
-   "bijgewerkt": "2026-11-10",
+   "bijgewerkt": "2026-11-11",
    "doel": "Vakeigenaar van de onderwijs- en onderzoekskaders, waaronder AI in DBE.",
    "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
    "bronnen": [
@@ -622,6 +626,14 @@
      "gecontroleerd": "2026-11-10",
      "uitkomst": "bevestigd",
      "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Bevestigd: eigenaar van laag 3 'Onderwijs, Onderzoek & Data' met de uitleg over curriculum, didactiek, AI-modellen en data-architectuur, afdeling bij AI & Leren, AI & Geletterdheid en AI & Onderzoek, en 'AI in DBE, addendum bij het OO&I-beleid 2025-2030 (dienst OO&I, juli 2026)'. Afwijkend: het canvas noemt OO&I 'opsteller' van het NHL Stenden AI-competentieframework, maar de bron zegt alleen 'toegevoegdDoor: OO&I' bij dat kader, en de bron noemt OO&I vakeigenaar 'voor onderwijs- en onderzoekskaders', niet voor 'datakaders'. Nagekeken: src/data.js:95, src/pages/Governance.jsx:4, src/pages/Governance.jsx:103, src/pages/Geletterdheid.jsx:69, public/ai-koers/paginas.json:pagina 16. Op 10 november 2026 is de canvastekst aangepast aan de bron; de bron is daarmee in overeenstemming."
+    },
+    {
+     "label": "Nieuwsbericht benoeming directeur OO&I (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/nieuws-medewerkers-NL/SitePages/Roelien-Linthorst-benoemd-tot-directeur-OO&I.aspx",
+     "soort": "intern",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen. Bericht van 9 november 2026: per 9 november 2026 heeft de dienst OO&I een nieuwe directeur. Het bericht noemt AI als een van de ontwikkelingen in het hoger onderwijs waar zij een brede blik op heeft."
     }
    ]
   },
@@ -5221,7 +5233,7 @@
    "spoor": "geletterdheid",
    "status": "lopend",
    "samenvatting": "Learning lab waarin studenten leren nepnieuws te herkennen en online informatie kritisch te onderzoeken, inclusief de invloed van AI op de informatie die je te zien krijgt.",
-   "details": "Nieuwsbericht van 9 november 2026 over wat studenten leerden; op 2 november 2026 volgde de oproep om weer mee te doen. Gepubliceerd op de site van de Academy of Media, Commerce & Entrepreneurship.",
+   "details": "Learning community van het lectoraat Organisations and Social Media. In de pilotfase (september 2025 tot april 2026) deden 22 studenten van Creative Business, European Studies en de master Content & Media Strategy mee aan labsessies en workshops over factchecking, OSINT, desinformatie en AI. Uit de evaluatie blijkt dat studenten bewuster en kritischer omgaan met nieuws en online informatie. In studiejaar 2026-2027 gaat het lab door en breidt het uit naar andere opleidingen, waaronder die van de Thorbecke Academie. Nieuwsbericht van 5 november 2026; op 2 november 2026 stond de oproep om weer mee te doen.",
    "links": [
     {
      "label": "Nieuwsbericht (NHL Stenden-login)",
@@ -5229,16 +5241,16 @@
     }
    ],
    "herkomst": "website",
-   "bronLabel": "Intranet (SharePoint), site ac-ccb (Academy of Media, Commerce & Entrepreneurship), gelezen 9 november 2026",
-   "bijgewerkt": "2026-11-09",
+   "bronLabel": "Intranet (SharePoint), site ac-ccb (Academy of Media, Commerce & Entrepreneurship), gelezen 9 en 11 november 2026",
+   "bijgewerkt": "2026-11-11",
    "bronnen": [
     {
      "label": "Nieuwsbericht (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/ac-ccb/SitePages/nl/Media-Investigation-Lab-shows-how-students-develop-a-more-critical-approach-to-online-information.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API en met de tekst vergeleken. De publicatiedatum van het bericht is 5 november 2026; de eerdere tekst noemde 9 november, dat was de datum van de laatste wijziging."
     }
    ]
   },
@@ -5332,7 +5344,7 @@
    "soort": "pilot",
    "spoor": "werkveld",
    "samenvatting": "Sinds de week van 11 maart 2026 herkent AI producten op het dienblad bij het afrekenen op de Foodcourt van Leisure, Tourism & Hospitality.",
-   "details": "Praktijkvoorbeeld van AI in een echte operationele omgeving: dienblad onder de scanner, producten worden herkend, daarna betalen bij de terminal. Bericht van 11-12 maart 2026.",
+   "details": "Dienblad onder de scanner, de AI herkent de producten, daarna betalen bij de terminal. Volgens het bericht werkten collega's uit verschillende disciplines hier achttien maanden aan met externe partners; de oplossing werkt samen met de bestaande kassa-omgeving en betaalterminals. In de pilot worden de snelheid van afrekenen, het aantal fouten en het gebruik gevolgd. Bericht van 10 maart 2026.",
    "links": [
     {
      "label": "Bericht (NHL Stenden-login)",
@@ -5341,16 +5353,16 @@
    ],
    "herkomst": "website",
    "bronLabel": "Intranet (SharePoint), site academy-leisure-tourism-and-hospitality, gelezen 9 november 2026",
-   "bijgewerkt": "2026-11-09",
+   "bijgewerkt": "2026-11-11",
    "status": "lopend",
    "bronnen": [
     {
      "label": "Bericht (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/academy-leisure-tourism-and-hospitality/SitePages/nl/New-at-the-Foodcourt--AI-in-practical-use-from-the-week-of-11-March.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API en met de tekst vergeleken."
     }
    ]
   },
@@ -5491,6 +5503,118 @@
      "gecontroleerd": null,
      "uitkomst": "nog niet gecontroleerd",
      "noot": "Vraagt inloggen met een NHL Stenden-account."
+    }
+   ]
+  },
+  {
+   "id": "aigrunn-2026",
+   "naam": "aiGrunn 2026 (educatieprogramma)",
+   "soort": "evenement",
+   "spoor": "leren",
+   "status": "gepland",
+   "samenvatting": "Evenement op 13 november 2026 in Groningen met acht tracks, waaronder een educatieprogramma van twee thema's met veertien sprekers. Het CTL wijst medewerkers erop.",
+   "details": "Volgens het bericht van het Centre for Teaching and Learning (29 oktober 2026) spreken in het educatieprogramma onder anderen sprekers van de RUG, de Hanze, Firda en SURF. Het bericht noemt geen bijdrage van NHL Stenden aan het programma.",
+   "links": [
+    {
+     "label": "Bericht CTL (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AIGrunn.aspx"
+    }
+   ],
+   "herkomst": "website",
+   "bronLabel": "Intranet (SharePoint), site center-for-teaching-and-learning, gelezen 11 november 2026",
+   "bijgewerkt": "2026-11-11",
+   "bronnen": [
+    {
+     "label": "Bericht CTL (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AIGrunn.aspx",
+     "soort": "intern",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet en met de tekst van dit onderdeel vergeleken."
+    }
+   ]
+  },
+  {
+   "id": "erasmus-staff-week-2027-ai",
+   "naam": "Erasmus+ Staff Week 2027: Communication in the Age of AI",
+   "soort": "evenement",
+   "spoor": "werken",
+   "status": "gepland",
+   "samenvatting": "Staff week van Hochschule Hannover van 13 tot en met 15 april 2027 over communiceren in het AI-tijdperk; medewerkers van NHL Stenden zijn uitgenodigd.",
+   "details": "Thema: kansen, uitdagingen en goede voorbeelden van AI in communicatie, advisering, onderwijs en studentmobiliteit. Bedoeld voor collega's van International Offices, studentondersteuning, onderwijs en onderzoek. Aankondiging van 7 november 2026 op de site voor internationale mobiliteit van medewerkers.",
+   "links": [
+    {
+     "label": "Aankondiging (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/internationale-mobiliteit-voor-medewerkers/SitePages/Save-the-Date---ERASMUS+-Staff-Week-2027---Communication-in-the-Age-of-AI.aspx"
+    }
+   ],
+   "herkomst": "website",
+   "bronLabel": "Intranet (SharePoint), site internationale-mobiliteit-voor-medewerkers, gelezen 11 november 2026",
+   "bijgewerkt": "2026-11-11",
+   "bronnen": [
+    {
+     "label": "Aankondiging (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/internationale-mobiliteit-voor-medewerkers/SitePages/Save-the-Date---ERASMUS+-Staff-Week-2027---Communication-in-the-Age-of-AI.aspx",
+     "soort": "intern",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet en met de tekst van dit onderdeel vergeleken."
+    }
+   ]
+  },
+  {
+   "id": "embrace-it-hotels",
+   "naam": "Embrace IT: hotels van de toekomst",
+   "soort": "project",
+   "spoor": "onderzoek",
+   "status": "lopend",
+   "samenvatting": "Vierjarig onderzoeksproject over AI, automatisering en humanoïde robots in hotels, waarin het lectoraat Disruption, Innovation and New Phenomena van Hotel Management School Leeuwarden meedoet.",
+   "details": "Volgens het bericht van 1 december 2025 start het lectoraat in januari 2026. Studenten en onderzoekers maken scenario's met scenarioplanning en service blueprinting; nieuwe technologie wordt uitgeprobeerd in living labs bij hotelscholen en in echte hotels. Het project wordt geleid vanuit Hotelschool The Hague en telt 21 partners.",
+   "links": [
+    {
+     "label": "Bericht (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/AC-SHMS/SitePages/Hotels-of-the-Future.aspx"
+    }
+   ],
+   "herkomst": "website",
+   "bronLabel": "Intranet (SharePoint), site AC-SHMS, gelezen 11 november 2026",
+   "bijgewerkt": "2026-11-11",
+   "bronnen": [
+    {
+     "label": "Bericht (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/AC-SHMS/SitePages/Hotels-of-the-Future.aspx",
+     "soort": "intern",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet en met de tekst van dit onderdeel vergeleken."
+    }
+   ]
+  },
+  {
+   "id": "onderzoek-digitale-autonomie-friezen",
+   "naam": "Onderzoek digitale autonomie van Friezen",
+   "soort": "project",
+   "spoor": "onderzoek",
+   "status": "lopend",
+   "samenvatting": "Verkennend onderzoek van de Thorbecke Academie met Planbureau Fryslân naar de grip die inwoners van Fryslân hebben op hun digitale leven, ook op wat AI-diensten met hun gegevens doen.",
+   "details": "Samenwerking van de lectoraten Bestuur en Veiligheid in een Digitaliserende Samenleving en Digitale Weerbaarheid van Mens en Organisatie. Start in oktober 2026 met gesprekken met experts en inwoners; in 2027 volgt een vragenlijst via Panel Fryslân. Het onderzoek kijkt naar het verschil tussen willen, kunnen en doen. Bericht van 19 oktober 2026.",
+   "links": [
+    {
+     "label": "Bericht (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/AC-TA/SitePages/nl/How-much-control-do-people-in-Frysl%C3%A2n-still-have-over-their-digital-lives-.aspx"
+    }
+   ],
+   "herkomst": "website",
+   "bronLabel": "Intranet (SharePoint), site AC-TA, gelezen 11 november 2026",
+   "bijgewerkt": "2026-11-11",
+   "bronnen": [
+    {
+     "label": "Bericht (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/AC-TA/SitePages/nl/How-much-control-do-people-in-Frysl%C3%A2n-still-have-over-their-digital-lives-.aspx",
+     "soort": "intern",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet en met de tekst van dit onderdeel vergeleken."
     }
    ]
   }
@@ -6989,6 +7113,10 @@
   {
    "datum": "10 november 2026",
    "tekst": "Verificatie ronde 5 (cloud): alle 160 bronnen naar de AI Netwerk-site nagelopen tegen de broncode (v2.55, file:line); 152 bevestigd, 8 afwijkend. Daarnaast 29 bronnen naar de AI-Koers v0.55d, openbare websites en de CoP-presentatie. Tekst aangepast aan de bron: AI compliance-capaciteit (Koers laat de rollen open; AI officer en data manager komen van de AI Netwerk-site), Gartner Hype Cycle (terug naar wat de AI Netwerk-site zegt), Team Privacy & Security (aanspreekpunt in plaats van beheerder van de QuickScan), OO&I (onderwijs- en onderzoekskaders; het competentieframework toegevoegd, niet opgesteld), Firda (typering mbo weggehaald, niet in de bron). Te controleren: SURF AI-Hub en de koppeling met de SURF Denktank (AI Netwerk noemt 'SURF AI-Hub & Denktank'), het onderzoek met 96% gebruik en de bespreeknotitie AI-governance (beide niet in Koers v0.55d), de datum van de SURF Model Verwerkersovereenkomst 4.0 (AI Netwerk: november 2024, SURF: 15 januari 2025). Let op: een bevestiging tegen de AI Netwerk-site zegt dat het canvas het AI Netwerk correct overneemt, niet dat de oorspronkelijke bron achter het AI Netwerk is gecontroleerd. Stand van alle bronnen: {'bevestigd': 258, 'nog niet gecontroleerd': 23, 'afwijkend': 15, 'niet te controleren': 16}. Na de tekstaanpassing zijn de AI Netwerk-bronnen van Team Privacy & Security, OO&I, Gartner en Firda op bevestigd gezet."
+  },
+  {
+   "datum": "11 november 2026",
+   "tekst": "Intranetscan (vervolg) en nieuwe rubriek Uit de praktijk. Intranet via de zoek-API en de pagina-API: 12 AI-gerelateerde pagina's gewijzigd sinds 8 november, 69 nieuwsberichten sinds september 2025 nagelopen, 23 pagina's volledig gelezen. Nieuw op de kaart: aiGrunn 2026 (educatieprogramma), Erasmus+ Staff Week 2027 over communicatie in het AI-tijdperk, Embrace IT (hotels van de toekomst) en het onderzoek naar de digitale autonomie van Friezen. Aangevuld en bevestigd: Media Investigation Lab (pilot met 22 studenten, vervolg in 2026-2027; publicatiedatum gecorrigeerd naar 5 november), AI-afrekenen bij de Foodcourt (achttien maanden voorbereiding, wat in de pilot wordt gevolgd) en OO&I (nieuwe directeur per 9 november 2026). De pagina AI in je studie van het CTL is op 10 november gewijzigd; wat er is veranderd is niet te zien. Nieuwe rubriek Uit de praktijk: verhalen van docenten, studenten, onderzoekers en teams van NHL Stenden over hun eigen werk met AI, gevonden in openbare LinkedIn-berichten en op het intranet, zonder namen. De rubriek staat los van de kaart; de vindplaatsen staan in een aparte lijst voor de redactie. Te controleren: of de verhalen van studenten en alumni ook een plek op de kaart verdienen als pilot of project."
   }
  ],
  "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

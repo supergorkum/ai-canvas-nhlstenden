@@ -8,6 +8,7 @@ import Spoorblad from './components/Spoorblad.jsx'
 import Samenhang from './components/Samenhang.jsx'
 import Treinnetwerk from './components/Treinnetwerk.jsx'
 import AIAct from './components/AIAct.jsx'
+import Praktijk from './components/Praktijk.jsx'
 import { SOORTEN } from './model.js'
 import InstallKaart from './components/InstallKaart.jsx'
 import { useTelefoon } from './toestel.js'
@@ -90,8 +91,8 @@ export default function App() {
             <span className="leading-tight hidden sm:block"><span className="block font-extrabold">AI Canvas</span><span className="block text-[11px] text-blue-200 -mt-0.5">NHL Stenden</span></span>
           </a>
           <nav className="flex gap-1 bg-white/10 rounded-xl p-1 text-xs sm:text-sm font-semibold" aria-label="Weergave">
-            {[['canvas', '▦', 'Canvas'], ['samenhang', '◎', 'Samenhang'], ['trein', '🚆', 'Treinnetwerk'], ['aiact', '⚖️', 'Organisatie & AI Act'], ['overzicht', '☰', 'Lijst'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (
-              <button key={id} onClick={() => setWeergave(id)} className={`px-2.5 sm:px-3 py-1.5 rounded-lg transition-colors ${weergave === id || (id === 'canvas' && weergave === 'spoor') ? 'bg-white text-nhl-blauw' : 'text-blue-100 hover:bg-white/10'}`}>
+            {[['canvas', '▦', 'Canvas'], ['samenhang', '◎', 'Samenhang'], ['trein', '🚆', 'Treinnetwerk'], ['aiact', '⚖️', 'Organisatie & AI Act'], ['praktijk', '💬', 'Uit de praktijk'], ['overzicht', '☰', 'Lijst'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (
+              <button key={id} onClick={() => setWeergave(id)} className={`px-2.5 sm:px-3 py-1.5 rounded-lg transition-colors ${weergave === id || (id === 'canvas' && weergave === 'spoor') || (id === 'praktijk' && weergave === 'praktijkbronnen') ? 'bg-white text-nhl-blauw' : 'text-blue-100 hover:bg-white/10'}`}>
                 <span className="sm:mr-1.5">{i}</span><span className="hidden sm:inline">{t}</span>
               </button>
             ))}
@@ -135,9 +136,10 @@ export default function App() {
           </button>
         )}
         {weergave === 'overzicht' && <div className="absolute inset-0 pt-14 bg-nhl-grijs"><Overzicht data={data} zichtbaar={zichtbaar} zoekTreffers={zoekTreffers} onKies={setGekozen} /></div>}
+        {(weergave === 'praktijk' || weergave === 'praktijkbronnen') && <Praktijk modus={weergave === 'praktijkbronnen' ? 'bronnen' : 'lijst'} onWeergave={setWeergave} />}
         {weergave === 'over' && <Over data={data} onMeld={() => setMeld({})} />}
 
-        {gekozen && data.index[gekozen] && weergave !== 'over' && (
+        {gekozen && data.index[gekozen] && weergave !== 'over' && !weergave.startsWith('praktijk') && (
           <Detailpaneel data={data} id={gekozen} onKies={setGekozen} onSluit={() => setGekozen(null)} onAanvullen={e => setMeld({ aanvullingOp: e })} />
         )}
 
@@ -159,7 +161,7 @@ export default function App() {
           style={{ paddingBottom: 'env(safe-area-inset-bottom)', paddingLeft: 'env(safe-area-inset-left)', paddingRight: 'env(safe-area-inset-right)' }}>
           <div className="grid grid-cols-5">
             {DUIMBALK.map(([id, i, t]) => {
-              const actief = id === 'meer' ? meer || ['overzicht', 'over'].includes(weergave) : !meer && (weergave === id || (id === 'canvas' && weergave === 'spoor'))
+              const actief = id === 'meer' ? meer || ['overzicht', 'over', 'praktijk', 'praktijkbronnen'].includes(weergave) : !meer && (weergave === id || (id === 'canvas' && weergave === 'spoor'))
               return (
                 <button key={id} onClick={() => { if (id === 'meer') setMeer(m => !m); else { setMeer(false); setGekozen(null); setWeergave(id) } }}
                   className={`h-[58px] flex flex-col items-center justify-center gap-0.5 text-[11px] font-semibold ${actief ? 'text-nhl-roze' : 'text-gray-500'}`} aria-current={actief ? 'page' : undefined}>
@@ -176,7 +178,7 @@ export default function App() {
           <div className="absolute inset-x-0 bottom-0 bg-white rounded-t-3xl p-5 space-y-3 animate-slide-up" onClick={e => e.stopPropagation()}
             style={{ paddingBottom: 'calc(20px + env(safe-area-inset-bottom))' }}>
             <div className="w-10 h-1.5 rounded-full bg-gray-200 mx-auto" />
-            {[['overzicht', '☰', 'Lijst van alle onderdelen', 'Zoeken en filteren per soort'], ['over', 'ℹ️', 'Over het canvas', 'Hoe het werkt, bronnen en logboek']].map(([id, i, t, x]) => (
+            {[['praktijk', '💬', 'Uit de praktijk', 'Wat collega\'s en studenten zelf doen met AI'], ['overzicht', '☰', 'Lijst van alle onderdelen', 'Zoeken en filteren per soort'], ['over', 'ℹ️', 'Over het canvas', 'Hoe het werkt, bronnen en logboek']].map(([id, i, t, x]) => (
               <button key={id} onClick={() => { setWeergave(id); setGekozen(null); setMeer(false) }} className="w-full flex items-center gap-3 rounded-2xl bg-nhl-grijs p-3.5 text-left">
                 <span className="w-10 h-10 rounded-xl bg-white grid place-items-center text-lg" aria-hidden="true">{i}</span>
                 <span><span className="block font-bold text-nhl-blauw">{t}</span><span className="block text-xs text-gray-500">{x}</span></span>

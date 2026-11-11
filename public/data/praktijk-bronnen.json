@@ -1,0 +1,404 @@
+{
+ "bijgewerkt": "2026-11-11",
+ "bronnen": [
+  {
+   "id": "revit-in-gewone-taal",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526030634746830849/"
+  },
+  {
+   "id": "demo-app-in-een-halfuur",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7418318118659461120/"
+  },
+  {
+   "id": "demo-app-in-een-halfuur",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7425835760794103808/"
+  },
+  {
+   "id": "fries-en-soevereine-data",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524927536657694721/",
+   "noot": "Bericht van een toehoorder, niet van de spreker zelf"
+  },
+  {
+   "id": "flipped-classroom-met-ai",
+   "kanaal": "LinkedIn en intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506328878026670082/"
+  },
+  {
+   "id": "flipped-classroom-met-ai",
+   "kanaal": "LinkedIn en intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/Onderwijsfestival-PLAY!-Programma.aspx"
+  },
+  {
+   "id": "vibecoden-voor-docenten",
+   "kanaal": "Intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/Onderwijsfestival-PLAY!-Programma.aspx"
+  },
+  {
+   "id": "ai-liedjes-en-games-in-de-les",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7470485155871080448/"
+  },
+  {
+   "id": "ai-liedjes-en-games-in-de-les",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7463193799452786688/"
+  },
+  {
+   "id": "ai-als-bondgenoot-pabo",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7419313261558280194/"
+  },
+  {
+   "id": "ai-als-bondgenoot-pabo",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7397388391958355968/"
+  },
+  {
+   "id": "ai-als-bondgenoot-pabo",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7412779534644707328/"
+  },
+  {
+   "id": "veertig-docenten-prompt-kritiek",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511531823030648833/"
+  },
+  {
+   "id": "veertig-docenten-prompt-kritiek",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439445752981946368/"
+  },
+  {
+   "id": "veertig-docenten-prompt-kritiek",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523648211656462336/"
+  },
+  {
+   "id": "eerstejaars-rechten-ai-regels",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7500504249148284928/"
+  },
+  {
+   "id": "leergang-ai-voor-ambtenaren",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7410265892577759232/"
+  },
+  {
+   "id": "ai-in-de-ggz-verpleegkunde",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7500934129224626176/"
+  },
+  {
+   "id": "textiel-sorteren-met-hyperspectraal",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7472700801761759232/"
+  },
+  {
+   "id": "textiel-sorteren-met-hyperspectraal",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478159918928318464/"
+  },
+  {
+   "id": "tina-transcriptie-fries",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7462821530687729664/"
+  },
+  {
+   "id": "tina-transcriptie-fries",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471134360986054657/"
+  },
+  {
+   "id": "afval-herkennen-met-ai",
+   "kanaal": "LinkedIn en intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7418986426119331840/",
+   "noot": "LinkedIn-bericht van een vakmedium"
+  },
+  {
+   "id": "afval-herkennen-met-ai",
+   "kanaal": "LinkedIn en intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/nieuws-studenten-medewerkers-nl/SitePages/Heb-jij-al-eens-geluisterd-naar-de-podcast-NHL-Stenden-Onderzoekt-.aspx",
+   "noot": "LinkedIn-bericht van een vakmedium"
+  },
+  {
+   "id": "aardbeienrobot",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7473802824083202050/"
+  },
+  {
+   "id": "aardbeienrobot",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7480204923679305729/"
+  },
+  {
+   "id": "data-verkennen-met-embeddings",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7392195265182662656/"
+  },
+  {
+   "id": "ai-als-medisch-hulpmiddel",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478466555614408704/"
+  },
+  {
+   "id": "chatbot-voor-een-hulplijn",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7399415743106396161/"
+  },
+  {
+   "id": "stoplicht-voor-je-prompt",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519715774161129473/"
+  },
+  {
+   "id": "stoplicht-voor-je-prompt",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521582341471965184/"
+  },
+  {
+   "id": "stoplicht-voor-je-prompt",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520046888562208769/"
+  },
+  {
+   "id": "chatbot-voor-kleine-horeca",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7468229067025227776/"
+  },
+  {
+   "id": "documentaire-creatieve-professionals",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7504080859336093696/"
+  },
+  {
+   "id": "ai-in-projectontwikkeling",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444299717263470594/"
+  },
+  {
+   "id": "gesprek-met-een-zeeheld",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7407683905111142400/"
+  },
+  {
+   "id": "notebooklm-in-de-master",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447612242277076993/"
+  },
+  {
+   "id": "mixed-reality-hackathon",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441564427998420992/"
+  },
+  {
+   "id": "pdf-tekeningen-uitlezen",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478413807363534848/",
+   "noot": "Bericht van het stagebedrijf"
+  },
+  {
+   "id": "ligduur-voorspellen",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427018537132797952/"
+  },
+  {
+   "id": "perenboomgaard-in-3d",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7472953305565069313/"
+  },
+  {
+   "id": "bacteriegroei-classificeren",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7419791785637441536/"
+  },
+  {
+   "id": "lerarenopleider-met-chat",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7392511111071309824/"
+  },
+  {
+   "id": "ai-als-co-creatieve-partner",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7394749747237949440/"
+  },
+  {
+   "id": "ai-als-co-creatieve-partner",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7413933565769535488/"
+  },
+  {
+   "id": "softwarekwaliteit-tegengas",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7415782193148710913/"
+  },
+  {
+   "id": "ai-in-de-financiele-sector",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7430356405192347648/"
+  },
+  {
+   "id": "beslissen-met-data-en-ai",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520815566471880704/"
+  },
+  {
+   "id": "alumni-geven-ai-workshops",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447936047377879040/"
+  },
+  {
+   "id": "alumni-geven-ai-workshops",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505608114528878594/"
+  },
+  {
+   "id": "ict-bij-ondernemers-aan-tafel",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7396895279582642176/"
+  },
+  {
+   "id": "emmen-mkb-workshops",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7435382106794557441/",
+   "noot": "Berichten van de partners in Emmen"
+  },
+  {
+   "id": "emmen-mkb-workshops",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7493592260236816384/",
+   "noot": "Berichten van de partners in Emmen"
+  },
+  {
+   "id": "emmen-mkb-workshops",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7420162710711218176/",
+   "noot": "Berichten van de partners in Emmen"
+  },
+  {
+   "id": "emmen-mkb-workshops",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7457372583982833664/",
+   "noot": "Berichten van de partners in Emmen"
+  },
+  {
+   "id": "emmen-mkb-workshops",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514254132459962369/",
+   "noot": "Berichten van de partners in Emmen"
+  },
+  {
+   "id": "ai-en-studiecoaching",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7429628604637933568/"
+  },
+  {
+   "id": "ai-en-studiecoaching",
+   "kanaal": "LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442822307305177088/"
+  },
+  {
+   "id": "foodcourt-afrekenen",
+   "kanaal": "Intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/academy-leisure-tourism-and-hospitality/SitePages/nl/New-at-the-Foodcourt--AI-in-practical-use-from-the-week-of-11-March.aspx"
+  },
+  {
+   "id": "futures-cafe-prototypes",
+   "kanaal": "Intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/academy-leisure-tourism-and-hospitality/SitePages/Futures-Caf%C3%A9--Creative-solutions-and-Innovations-by-Our-Tourism-Management-Students.aspx"
+  },
+  {
+   "id": "hotels-van-de-toekomst",
+   "kanaal": "Intranet en LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/AC-SHMS/SitePages/Hotels-of-the-Future.aspx"
+  },
+  {
+   "id": "hotels-van-de-toekomst",
+   "kanaal": "Intranet en LinkedIn",
+   "gelezen": "11 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444745431672119296/"
+  },
+  {
+   "id": "media-investigation-lab",
+   "kanaal": "Intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/ac-ccb/SitePages/nl/Media-Investigation-Lab-shows-how-students-develop-a-more-critical-approach-to-online-information.aspx"
+  },
+  {
+   "id": "conferentie-lerarenopleiders",
+   "kanaal": "Intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/RUN-EU-/SitePages/Internationale-inspiratie-voor-toekomstgericht-onderwijs.aspx"
+  },
+  {
+   "id": "maritiem-ai-lab",
+   "kanaal": "Intranet",
+   "gelezen": "11 november 2026",
+   "url": "https://newuniversity.sharepoint.com/sites/Onderzoeksgroep-maritiem/SitePages/Maritiem-AI-Innovation-lab.aspx"
+  }
+ ]
+}

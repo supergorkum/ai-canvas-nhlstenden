@@ -27,7 +27,8 @@ export default function Praktijk({ modus, onWeergave }) {
   const items = d?.items || []
   const tellingen = useMemo(() => { const t = {}; items.forEach(i => (t[i.rol] = (t[i.rol] || 0) + 1)); return t }, [items])
   const tools = useMemo(() => { const t = {}; items.forEach(i => (i.tools || []).forEach(x => (t[x] = (t[x] || 0) + 1))); return Object.entries(t).sort((a, b) => b[1] - a[1]) }, [items])
-  const lijst = items.filter(i => rol === 'alle' || i.rol === rol)
+  // Nieuwste verhaal bovenaan: op datum van het (laatste) bericht.
+  const lijst = items.filter(i => rol === 'alle' || i.rol === rol).sort((a, b) => (b.datum || '').localeCompare(a.datum || ''))
 
   if (!d) return <div className="h-full grid place-items-center bg-nhl-grijs text-gray-400">Verhalen worden geladen…</div>
 

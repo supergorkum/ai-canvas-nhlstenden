@@ -56,6 +56,7 @@ const prIds = new Set(pr.items.map(i => i.id)), pbIds = new Set(pb.bronnen.map(b
 const prFouten = [
   ...pr.items.filter(i => !i.titel || !i.kort || !i.rol || !i.wie).map(i => `praktijk.json: ${i.id} is onvolledig`),
   ...pr.items.filter(i => i.spoor && !SPOREN[i.spoor]).map(i => `praktijk.json: ${i.id} heeft onbekend spoor ${i.spoor}`),
+  ...pr.items.filter(i => !/^\d{4}-\d{2}-\d{2}$/.test(i.datum || '')).map(i => `praktijk.json: ${i.id} heeft geen datum (JJJJ-MM-DD)`),
   ...pr.items.filter(i => !pbIds.has(i.id)).map(i => `praktijk.json: ${i.id} heeft geen vindplaats`),
   ...pb.bronnen.filter(b => !prIds.has(b.id)).map(b => `praktijk-bronnen.json: vindplaats bij onbekend verhaal ${b.id}`),
 ]

@@ -29,7 +29,9 @@ export default function Overzicht({ data, zichtbaar, zoekTreffers, onKies }) {
                     </div>
                     <h3 className="font-bold text-gray-900 leading-snug">{e.naam}</h3>
                     {e.samenvatting && <p className="text-sm text-gray-600 line-clamp-3">{e.samenvatting}</p>}
-                    <div className="mt-auto pt-2 text-xs text-gray-400">🔗 {graad(e.id)} verbinding{graad(e.id) === 1 ? '' : 'en'}{e.eigenaar ? ` · ${e.eigenaar}` : ''}</div>
+                    <span className="flex-1" />
+                    {e.bronnen?.[0] && <div className="text-[11px] text-gray-400 truncate" title={e.bronnen.map(b => b.label).join(' · ')}>{e.bronnen.some(b => b.uitkomst === 'bevestigd') ? '✓ ' : ''}Bron: {e.bronnen[0].label}{e.bronnen.length > 1 ? ` +${e.bronnen.length - 1}` : ''}</div>}
+                    <div className="mt-auto pt-1 text-xs text-gray-400">🔗 {graad(e.id)} verbinding{graad(e.id) === 1 ? '' : 'en'}{e.eigenaar ? ` · ${e.eigenaar}` : ''}</div>
                   </button>
                 )
               })}

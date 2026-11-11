@@ -36,11 +36,11 @@
   ],
   "koersversie": "0.55d",
   "verificatie": {
-   "datum": "9 november 2026",
-   "onderdelen": 167,
-   "bevestigd": 18,
-   "niet_te_controleren": 6,
-   "nog_niet_gecontroleerd": 142,
+   "datum": "11 november 2026",
+   "onderdelen": 174,
+   "bevestigd": 166,
+   "niet_te_controleren": 1,
+   "nog_niet_gecontroleerd": 7,
    "gecorrigeerd": [
     "ai-fabriek-groningen",
     "eu-ai-act",
@@ -53,12 +53,12 @@
     "rathenau-ai-act-onderwijs"
    ],
    "toelichting": "Onderdelen met status bevestigd hebben minstens één bron die op de genoemde datum is geopend of in zoekresultaten gezien en met de inhoud is vergeleken. De overige onderdelen zijn overgenomen uit hun eigen bron (AI Netwerk-site, AI-Koers, intranet) en worden stap voor stap nagelopen.",
-   "bronnen_totaal": 295,
-   "bronnen_bevestigd": 24,
-   "bronnen_afwijkend": 2,
-   "bronnen_niet_te_controleren": 8,
-   "bronnen_nog_niet_gecontroleerd": 261,
-   "onderdelen_met_bevestigde_bron": 18,
+   "bronnen_totaal": 321,
+   "bronnen_bevestigd": 288,
+   "bronnen_afwijkend": 9,
+   "bronnen_niet_te_controleren": 17,
+   "bronnen_nog_niet_gecontroleerd": 7,
+   "onderdelen_met_bevestigde_bron": 166,
    "afwijkend": 1
   },
   "datum": "10 november 2026",
@@ -521,7 +521,7 @@
    ],
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/data/themas.js:19, src/data/themas.js:23, src/data/themas.js:75, src/data/themas.js:109 e.a.",
-   "bijgewerkt": "2026-11-05",
+   "bijgewerkt": "2026-11-11",
    "doel": "Professionele thuisbasis voor digitale didactiek, AI-geletterdheid en ontwerpkracht; vakeigenaar voor toetsing, didactiek en professionalisering.",
    "doelBron": "Drive: CONCEPT NHL Stenden AI-Koers v0.55d.pdf",
    "bronnen": [
@@ -529,33 +529,33 @@
      "label": "CTL: AI & Toetsing",
      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI---toetsing,-richtlijnen-en-beoordeling.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: pagina 'AI - toetsing, richtlijnen en beoordeling' van het CTL."
     },
     {
      "label": "CTL: AI in het onderwijs",
      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: pagina 'AI in het onderwijs' met onderdelen over verantwoord gebruik, professionalisering en onderzoek; gewijzigd op 8 oktober 2026."
     },
     {
      "label": "CTL: AI in je studie",
      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-in-je-studie.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: pagina 'AI in je studie' voor studenten; gewijzigd op 10 november 2026."
     },
     {
      "label": "CTL",
      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen. Startpagina gelezen op 11 november 2026: het CTL werkt samen met docententeams, MyAcademy, OO&I en lectoraten en noemt AI in het onderwijs als een van de thema's."
     },
     {
      "label": "AI Netwerk-site (broncode)",
@@ -1494,15 +1494,15 @@
    ],
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/initialData.js:280, src/pages/NVAO.jsx:28",
-   "bijgewerkt": "2026-11-05",
+   "bijgewerkt": "2026-11-11",
    "bronnen": [
     {
      "label": "CTL: AI-webinars van Npuls",
      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-webinars-van-Npuls.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd op de beschrijving van het bericht: 'Bekijk nu alle webinars van Npuls met informatie over AI in het onderwijs'. Bericht van 24 juni 2026."
     },
     {
      "label": "AI Netwerk-site (broncode)",
@@ -2048,26 +2048,26 @@
    "naam": "UvA eigen AI-chat",
    "soort": "extern",
    "spoor": "leren",
-   "samenvatting": "De Universiteit van Amsterdam lanceerde een eigen AI-chatomgeving voor veilig experimenteren; referentie voor NHL Stenden GPT-NL inzet.",
-   "details": "Gedeeld door CTL NHL Stenden (25 juni 2026).",
+   "samenvatting": "De Universiteit van Amsterdam biedt sinds 1 september met de UvA AI Chat een veilige omgeving om met generatieve AI te experimenteren. Het CTL van NHL Stenden deelde het bericht met collega's.",
+   "details": "Gedeeld door het CTL op 9 maart 2026 (artikel van ictmagazine.nl). De eerdere tekst noemde 25 juni 2026 en een verband met de inzet van GPT-NL; dat staat niet in het bericht en is weggehaald.",
    "eigenaar": "Universiteit van Amsterdam",
    "links": [
     {
      "label": "CTL artikel",
-     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/UvA-lanceert-eigen-AI-chat--veilig-exp-.aspx"
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/UvA-lanceert-eigen-AI-chat--veilig-experimenteren-met-generatieve-AI-in-het-onderwijs---ictmagazine.nl.aspx"
     }
    ],
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/initialData.js:287",
-   "bijgewerkt": "2026-11-05",
+   "bijgewerkt": "2026-11-11",
    "bronnen": [
     {
      "label": "CTL artikel",
-     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/UvA-lanceert-eigen-AI-chat--veilig-exp-.aspx",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/UvA-lanceert-eigen-AI-chat--veilig-experimenteren-met-generatieve-AI-in-het-onderwijs---ictmagazine.nl.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen. De oude link werkte niet meer; de juiste pagina is op 11 november 2026 gevonden en gelezen. Bevestigd: bericht van 9 maart 2026 over de UvA AI Chat. Niet in de bron: een verband met GPT-NL bij NHL Stenden."
     },
     {
      "label": "AI Netwerk-site (broncode)",
@@ -2635,7 +2635,7 @@
      "soort": "intern",
      "gecontroleerd": null,
      "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "noot": "Vraagt inloggen. Op 11 november 2026 zijn op de MyAcademy-site bestanden met de naam 'AI-op-je-werkplek' en 'AI-op-je-werkplek-2.0' gevonden (november 2024); de inhoud is niet gelezen, dus duur en opzet zijn niet bevestigd."
     },
     {
      "label": "AI Netwerk-site (broncode)",
@@ -3899,10 +3899,9 @@
    "naam": "CTL-richtlijnen AI & Toetsing (geen AI-detector)",
    "soort": "beleid",
    "spoor": "leren",
-   "samenvatting": "NHL Stenden-richtlijnen voor AI en toetsing met adviezen voor examencommissies en een stappenplan bij fraude; NHL Stenden kiest bewust geen AI-detector aan te schaffen.",
-   "details": "Detectoren zijn niet betrouwbaar; het beleid focust op sterk toetsontwerp en heldere toetsinstructie.",
+   "samenvatting": "NHL Stenden-richtlijnen voor AI en toetsing met adviezen voor examencommissies en een stappenplan bij fraude; NHL Stenden kiest er vooralsnog voor geen AI-detector aan te schaffen.",
+   "details": "Volgens de pagina is niet aangetoond dat AI-detectoren betrouwbaar zijn en wordt detectie steeds lastiger. Het advies is in elke toetsinstructie op te nemen of en hoe AI is toegestaan.",
    "eigenaar": "CTL",
-   "periode": "25 juni 2026 (artikel)",
    "links": [
     {
      "label": "CTL: AI & Toetsing",
@@ -3911,15 +3910,15 @@
    ],
    "herkomst": "ai-netwerk",
    "bronLabel": "AI Netwerk-site, broncode src/initialData.js:276, src/initialData.js:286, src/pages/NVAO.jsx:40, src/pages/NVAO.jsx:42 e.a.",
-   "bijgewerkt": "2026-11-05",
+   "bijgewerkt": "2026-11-11",
    "bronnen": [
     {
      "label": "CTL: AI & Toetsing",
      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI---toetsing,-richtlijnen-en-beoordeling.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: adviezen voor examinatoren, examencommissies en opleidingen en een stappenplan. Letterlijk: 'NHL Stenden hogeschool kiest er vooralsnog voor geen AI-detector aan te schaffen', omdat de betrouwbaarheid niet is aangetoond. Pagina gewijzigd op 7 januari 2026."
     },
     {
      "label": "AI Netwerk-site (broncode)",
@@ -4165,9 +4164,9 @@
      "label": "CTL artikel",
      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/AI-&-the-stability-of-learning-tasks.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "niet te controleren",
+     "noot": "Vraagt inloggen. De pagina bestaat (bericht van 9 maart 2026), maar de volledige tekst was via de pagina-API niet te lezen. De beschrijving gaat over opdrachten waarin het product in de plaats is gekomen van bewijs van denken."
     },
     {
      "label": "AI Netwerk-site (broncode)",
@@ -5288,7 +5287,7 @@
    "soort": "initiatief",
    "spoor": "werkveld",
    "samenvatting": "Lab van de onderzoeksgroep Maritiem dat de Nederlandse maritieme industrie een platform biedt om sectorbrede AI-prototypes te ontwikkelen, valideren en demonstreren.",
-   "details": "Doel: veiligere en duurzamere scheepvaart door digitalisering, onder meer slimmere ontwerp- en exploitatiesystemen voor emissievrije schepen. Pagina laatst gewijzigd 22 september 2025.",
+   "details": "Doel: veiligere en duurzamere scheepvaart door digitalisering, onder meer slimmere ontwerp- en exploitatiesystemen voor emissievrije schepen. Pagina laatst gewijzigd 22 september 2025. Vier lectoraten van NHL Stenden doen mee, met kennis van recht en ethiek, maritieme techniek en data science; een professional doctorate maakt deel uit van het project.",
    "links": [
     {
      "label": "Lab-pagina (NHL Stenden-login)",
@@ -5297,16 +5296,16 @@
    ],
    "herkomst": "website",
    "bronLabel": "Intranet (SharePoint), site Onderzoeksgroep-maritiem, gelezen 9 november 2026",
-   "bijgewerkt": "2026-11-09",
+   "bijgewerkt": "2026-11-11",
    "status": "actief",
    "bronnen": [
     {
      "label": "Lab-pagina (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/Onderzoeksgroep-maritiem/SitePages/Maritiem-AI-Innovation-lab.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: platform voor het ontwikkelen, valideren en demonstreren van sectorbrede prototypes; vier lectoraten van NHL Stenden doen mee; een professional doctorate hoort bij het project. Pagina gewijzigd op 22 september 2025."
     }
    ]
   },
@@ -5325,16 +5324,16 @@
    ],
    "herkomst": "website",
    "bronLabel": "Intranet (SharePoint), site DLWO, gelezen 9 november 2026",
-   "bijgewerkt": "2026-11-09",
+   "bijgewerkt": "2026-11-11",
    "status": "vastgesteld",
    "bronnen": [
     {
      "label": "Bericht (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/DLWO/SitePages/en/Otter.ai-niet-langer-beschikbaar-via-NHL-Stenden-account.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: advies van november 2025 om te stoppen, niet meer mogelijk per 4 februari 2026, hoog risico volgens de AI-compliance-risicoscan, Microsoft Teams als alternatief. Bericht van 30 januari 2026."
     }
    ]
   },
@@ -5381,16 +5380,16 @@
    ],
    "herkomst": "website",
    "bronLabel": "Intranet (SharePoint), site academie-educatie-cluster-a-olb, gelezen 9 november 2026",
-   "bijgewerkt": "2026-11-09",
+   "bijgewerkt": "2026-11-11",
    "status": "actief",
    "bronnen": [
     {
      "label": "Richtlijn (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/academie-educatie-cluster-a-olb/SitePages/AIenToetsenOLB.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: richtlijnen gebaseerd op de hogeschoolbrede afspraken; de student is volledig verantwoordelijk voor inhoud en bronnenlijst. Pagina gewijzigd op 3 november 2026."
     }
    ]
   },
@@ -5409,16 +5408,16 @@
    ],
    "herkomst": "website",
    "bronLabel": "Intranet (SharePoint), site examencommissie-thorbecke-academie, gelezen 9 november 2026",
-   "bijgewerkt": "2026-11-09",
+   "bijgewerkt": "2026-11-11",
    "status": "actief",
    "bronnen": [
     {
      "label": "Handreiking (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/examencommissie-thorbecke-academie/SitePages/Een vermoeden van ongeoorloofd gebruik van AI.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: ongeoorloofd gebruik van GenAI valt onder fraude (OER artikel 6.17), een duidelijke toetsinstructie (artikel 6.5) is nodig, met een stappenplan. Pagina van 12 februari 2026."
     }
    ]
   },
@@ -5437,16 +5436,16 @@
    ],
    "herkomst": "website",
    "bronLabel": "Intranet (SharePoint), site RUN-EU-, gelezen 9 november 2026",
-   "bijgewerkt": "2026-11-09",
+   "bijgewerkt": "2026-11-11",
    "status": "afgerond",
    "bronnen": [
     {
      "label": "Bericht (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/RUN-EU-/SitePages/RUN-EU-MOOC--Are-you-ready-to-UNLOCK-the-true-power-of-AI--Open-for-students-and-staff.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: MOOC over prompten, van basis tot gevorderd, open voor studenten en medewerkers; bericht van 17 maart 2025. De Research Challenge Artificial Intelligence staat niet op deze pagina en is niet opnieuw nagelopen."
     }
    ]
   },
@@ -5465,16 +5464,16 @@
    ],
    "herkomst": "website",
    "bronLabel": "Intranet (SharePoint), site hrmnhlstenden, gelezen 9 november 2026",
-   "bijgewerkt": "2026-11-09",
+   "bijgewerkt": "2026-11-11",
    "status": "te controleren",
    "bronnen": [
     {
      "label": "Pagina (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/hrmnhlstenden/SitePages/w-en-s-ChatGPT-&-AI.aspx",
      "soort": "intern",
-     "gecontroleerd": null,
-     "uitkomst": "nog niet gecontroleerd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account."
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet. Bevestigd: pagina over AI zoals ChatGPT bij sollicitaties, met een videocursus voor HR en recruitment; gewijzigd op 28 mei 2024. Of de pagina nog actueel beleid is, is niet na te gaan."
     }
    ]
   },
@@ -5513,7 +5512,7 @@
    "spoor": "leren",
    "status": "gepland",
    "samenvatting": "Evenement op 13 november 2026 in Groningen met acht tracks, waaronder een educatieprogramma van twee thema's met veertien sprekers. Het CTL wijst medewerkers erop.",
-   "details": "Volgens het bericht van het Centre for Teaching and Learning (29 oktober 2026) spreken in het educatieprogramma onder anderen sprekers van de RUG, de Hanze, Firda en SURF. Het bericht noemt geen bijdrage van NHL Stenden aan het programma.",
+   "details": "Volgens het bericht van het Centre for Teaching and Learning (29 oktober 2026) spreken in het educatieprogramma onder anderen sprekers van de RUG, de Hanze, Firda en SURF. Band met NHL Stenden: het CTL wijst collega's op het evenement, en in de track Sensible AI staat volgens de organisatie een spreker namens NHL Stenden en AI-hub Noord-Nederland over geopolitiek, digitale autonomie en rendement van AI.",
    "links": [
     {
      "label": "Bericht CTL (NHL Stenden-login)",
@@ -5531,6 +5530,14 @@
      "gecontroleerd": "2026-11-11",
      "uitkomst": "bevestigd",
      "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet en met de tekst van dit onderdeel vergeleken."
+    },
+    {
+     "label": "Bericht van aiGrunn over de track Sensible AI (LinkedIn)",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525942259549184000/",
+     "soort": "openbaar",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Gelezen op 11 november 2026 in de zoekresultaten van LinkedIn: de organisatie noemt een spreker van NHL Stenden / AI-hub Noord-Nederland in de track Sensible AI op 13 november 2026."
     }
    ]
   },
@@ -5615,6 +5622,93 @@
      "gecontroleerd": "2026-11-11",
      "uitkomst": "bevestigd",
      "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen via de pagina-API van het intranet en met de tekst van dit onderdeel vergeleken."
+    }
+   ]
+  },
+  {
+   "id": "run-eu-design-thinking-superweek-2026",
+   "naam": "RUN-EU Design Thinking Super Week",
+   "soort": "evenement",
+   "spoor": "leren",
+   "status": "gepland",
+   "samenvatting": "Internationale week voor docenten uit het RUN-EU-netwerk, vanaf 23 november 2026 in Leeuwarden, met NHL Stenden als gastheer. De eerste dag opent met een keynote over AI in het onderwijs.",
+   "details": "Volgens de agenda begint maandag 23 november om 9.30 uur met een welkom door de gastheren van NHL Stenden, gevolgd door een keynote over AI in het onderwijs door een associate lector van het lectoraat Computer Vision & Artificial Intelligence, die ook practor is bij Firda.",
+   "periode": "vanaf 23 november 2026, Mill, Leeuwarden",
+   "links": [
+    {
+     "label": "Agenda RUN-EU (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/RUN-EU-/Lists/Events/DispForm.aspx?ID=27"
+    }
+   ],
+   "herkomst": "website",
+   "bronLabel": "Intranet (SharePoint), agenda van site RUN-EU-, gelezen 11 november 2026",
+   "bijgewerkt": "2026-11-11",
+   "bronnen": [
+    {
+     "label": "Agenda RUN-EU (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/RUN-EU-/Lists/Events/DispForm.aspx?ID=27",
+     "soort": "intern",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen in de agenda op het intranet en met de tekst van dit onderdeel vergeleken."
+    }
+   ]
+  },
+  {
+   "id": "cop-sessie-buas-okt-2026",
+   "naam": "AI Community of Practice: BUas over Claude for Education",
+   "soort": "evenement",
+   "spoor": "leren",
+   "status": "afgerond",
+   "samenvatting": "Sessie van de AI Community of Practice van het CTL op 1 oktober 2026 met een gast van Breda University of Applied Sciences over hun instellingsbrede invoering van Claude for Education.",
+   "details": "Volgens de aankondiging was BUas de eerste hogeronderwijsinstelling in de EU die Claude for Education aan alle studenten en medewerkers aanbood, als onderdeel van een bewuste, mensgerichte strategie. De sessie ging over wat dat mogelijk maakte, wat er misging en hoe een variant bij NHL Stenden eruit zou kunnen zien.",
+   "periode": "1 oktober 2026, AI Experience Center, Leeuwarden",
+   "links": [
+    {
+     "label": "Agenda CTL (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/Lists/Events/DispForm.aspx?ID=13"
+    }
+   ],
+   "herkomst": "website",
+   "bronLabel": "Intranet (SharePoint), agenda van site center-for-teaching-and-learning, gelezen 11 november 2026",
+   "bijgewerkt": "2026-11-11",
+   "bronnen": [
+    {
+     "label": "Agenda CTL (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/Lists/Events/DispForm.aspx?ID=13",
+     "soort": "intern",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen in de agenda op het intranet en met de tekst van dit onderdeel vergeleken."
+    }
+   ]
+  },
+  {
+   "id": "ai-symposium-emmen-2026",
+   "naam": "AI Symposium Emmen",
+   "soort": "evenement",
+   "spoor": "werkveld",
+   "status": "afgerond",
+   "samenvatting": "Symposium op 8 oktober 2026 bij NHL Stenden Emmen over de invloed van AI op de economie van de regio Emmen, georganiseerd met de ondernemersvereniging en de gemeente.",
+   "details": "Een econoom sprak over de invloed van AI op de wereldeconomie en de vertaling naar de regio. Ook de kansen voor ondernemers en digitale weerbaarheid van bedrijven stonden op het programma.",
+   "periode": "8 oktober 2026, NHL Stenden Emmen",
+   "links": [
+    {
+     "label": "Agenda NHL Stenden Emmen (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/nhlstenden-locatie-emmen/Lists/Events/DispForm.aspx?ID=4"
+    }
+   ],
+   "herkomst": "website",
+   "bronLabel": "Intranet (SharePoint), agenda van site nhlstenden-locatie-emmen, gelezen 11 november 2026",
+   "bijgewerkt": "2026-11-11",
+   "bronnen": [
+    {
+     "label": "Agenda NHL Stenden Emmen (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/nhlstenden-locatie-emmen/Lists/Events/DispForm.aspx?ID=4",
+     "soort": "intern",
+     "gecontroleerd": "2026-11-11",
+     "uitkomst": "bevestigd",
+     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen in de agenda op het intranet en met de tekst van dit onderdeel vergeleken."
     }
    ]
   }
@@ -7050,6 +7144,20 @@
    "soort": "is onderdeel van",
    "herkomst": "website",
    "bron": "Intranet, werksite Transitieprogramma, projectlijn Sturingsmodel"
+  },
+  {
+   "van": "ai-community-of-practice",
+   "naar": "cop-sessie-buas-okt-2026",
+   "soort": "organiseert",
+   "herkomst": "website",
+   "bron": "Intranet, agenda CTL: 'the AI Community of Practice of the Centre for Teaching and Learning'"
+  },
+  {
+   "van": "lectoraat-cv-ai",
+   "naar": "run-eu-design-thinking-superweek-2026",
+   "soort": "levert input aan",
+   "herkomst": "website",
+   "bron": "Intranet, agenda RUN-EU: keynote door een associate lector van het lectoraat"
   }
  ],
  "aanvullingen": [],
@@ -7121,6 +7229,10 @@
   {
    "datum": "11 november 2026",
    "tekst": "Uit de praktijk aangepast op aanwijzing van de eigenaar: alleen verhalen van eigen collega's en studenten (drie verhalen van partners en alumni verwijderd, 41 over), bij elk verhaal staat nu de rol met de opleiding of afdeling, en onder elk geopend verhaal staat de link naar de bron."
+  },
+  {
+   "datum": "11 november 2026",
+   "tekst": "Extra verificatie met het intranet open (pagina-API). Veertien intranetbronnen gelezen en bevestigd bij tien onderdelen: Otter.ai, Maritime AI Innovation Lab, RUN-EU MOOC, richtlijnen OLB, CTL-richtlijnen AI & Toetsing, CTL (vier pagina's), Npuls AI-webinars, examencommissie Thorbecke Academie, HRM-pagina over ChatGPT en UvA AI-chat. Tekst aangepast aan de bron: CTL-richtlijnen (NHL Stenden kiest 'vooralsnog' voor geen AI-detector; de periode '25 juni 2026' is weggehaald, die staat niet op de pagina) en UvA AI-chat (link werkte niet meer en is hersteld; het bericht is van 9 maart 2026, niet 25 juni; het verband met GPT-NL staat niet in de bron en is weggehaald). Niet te controleren: het CTL-artikel over de stabiliteit van leertaken (tekst niet leesbaar via de API) en de workshops AI op je werkplek (bestanden gevonden, inhoud niet gelezen). Niet opnieuw gelezen: Kerngroep digitale soevereiniteit, FAP 2.0, AI-richtlijnen Commerciële Economie en de Copilot-pilot. Nieuwe evenementen uit de agenda's op het intranet, alle drie met NHL Stenden als organisator of gastheer: RUN-EU Design Thinking Super Week (vanaf 23 november 2026, keynote over AI in het onderwijs), AI Community of Practice van 1 oktober 2026 met BUas, en het AI Symposium Emmen van 8 oktober 2026. Bij aiGrunn 2026 is de band met NHL Stenden toegevoegd (spreker in de track Sensible AI). In het detailpaneel staan de bronnen nu standaard open, en op de kaartjes in de lijst staat de eerste bron."
   }
  ],
  "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",

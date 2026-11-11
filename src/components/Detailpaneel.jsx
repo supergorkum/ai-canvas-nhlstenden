@@ -146,7 +146,7 @@ function Bronnen({ bronnen = [], onMelding }) {
   const gecontroleerd = bronnen.some(b => b.uitkomst === 'bevestigd')
   const stand = gecontroleerd ? UITKOMST['bevestigd'] : (bronnen.some(b => b.uitkomst === 'niet te controleren') ? UITKOMST['niet te controleren'] : UITKOMST['nog niet gecontroleerd'])
   return (
-    <details className="rounded-2xl border border-gray-100 bg-white group" open={bronnen.some(b => b.uitkomst === 'afwijkend')}>
+    <details className="rounded-2xl border border-gray-100 bg-white group" open>
       <summary className="cursor-pointer list-none px-4 py-3 flex items-center gap-2 text-sm">
         <span className="w-5 h-5 rounded-full grid place-items-center text-white text-xs font-bold shrink-0" style={{ background: stand.kleur }} aria-hidden="true">{stand.icoon}</span>
         <span className="font-semibold text-nhl-blauw">Bronnen ({bronnen.length})</span>

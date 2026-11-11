@@ -90,3 +90,7 @@ Verandert de bron? Pas de inhoud aan en noteer oud en nieuw in het logboek.
 - Elke wijziging krijgt een `bronLabel`.
 - Persoonsnamen alleen als ze in een bron staan of de melder toestemming gaf.
 - Twijfel → logboek "te controleren", niet op de kaart.
+
+## Opruimen: wat geweest is, gaat van de kaart
+
+Afspraak met Edgar (11 november 2026). Bij elke ronde: evenementen waarvan de datum voorbij is, verplaats je van `entiteiten` naar `archief.entiteiten` in `canvas.json` (met `gearchiveerd: <datum>`), samen met hun verbindingen naar `archief.relaties`. Niets weggooien. Noem het in het logboek. Komende evenementen blijven staan, ook als de band met NHL Stenden alleen een uitnodiging aan medewerkers is. Nieuwe onderdelen en evenementen moeten altijd een aantoonbare band met NHL Stenden hebben; zet die band in de tekst.

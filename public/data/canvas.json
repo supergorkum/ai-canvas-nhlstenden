@@ -37,8 +37,8 @@
   "koersversie": "0.55d",
   "verificatie": {
    "datum": "11 november 2026",
-   "onderdelen": 174,
-   "bevestigd": 166,
+   "onderdelen": 165,
+   "bevestigd": 157,
    "niet_te_controleren": 1,
    "nog_niet_gecontroleerd": 7,
    "gecorrigeerd": [
@@ -53,12 +53,12 @@
     "rathenau-ai-act-onderwijs"
    ],
    "toelichting": "Onderdelen met status bevestigd hebben minstens één bron die op de genoemde datum is geopend of in zoekresultaten gezien en met de inhoud is vergeleken. De overige onderdelen zijn overgenomen uit hun eigen bron (AI Netwerk-site, AI-Koers, intranet) en worden stap voor stap nagelopen.",
-   "bronnen_totaal": 321,
-   "bronnen_bevestigd": 288,
+   "bronnen_totaal": 309,
+   "bronnen_bevestigd": 276,
    "bronnen_afwijkend": 9,
    "bronnen_niet_te_controleren": 17,
    "bronnen_nog_niet_gecontroleerd": 7,
-   "onderdelen_met_bevestigde_bron": 166,
+   "onderdelen_met_bevestigde_bron": 157,
    "afwijkend": 1
   },
   "datum": "10 november 2026",
@@ -4648,174 +4648,6 @@
    ]
   },
   {
-   "id": "ai-netwerk-kick-off",
-   "naam": "AI-Netwerk Kick-off Bijeenkomst",
-   "soort": "evenement",
-   "samenvatting": "Officiële lancering van het AI-Netwerk; kennismaking met het kernteam en netwerken.",
-   "details": "Locatie: NHL Stenden Leeuwarden, Rengerslaan 8, 13:00-16:00.",
-   "eigenaar": "Kernteam AI-Netwerk",
-   "periode": "10 september 2026",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:229",
-   "bijgewerkt": "2026-11-05",
-   "bronnen": [
-    {
-     "label": "AI Netwerk-site (broncode)",
-     "url": "https://ai-netwerk-nhlstenden.netlify.app",
-     "soort": "netwerksite",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Evenement met deze naam op 2026-09-10, Leeuwarden, Rengerslaan 8, 13:00 tot 16:00, officiele lancering met kennismaking met het kernteam, organisator Kernteam AI-Netwerk. Nagekeken: src/initialData.js:229."
-    }
-   ]
-  },
-  {
-   "id": "surf-summit-2026",
-   "naam": "SURF Summit 2026: Richting geven aan groei",
-   "soort": "evenement",
-   "spoor": "verantwoordelijkheid",
-   "samenvatting": "Jaarlijkse bijeenkomst voor bestuurders en directeuren van SURF-leden waar de actieagenda van de Denktank Digitale Transitie 2026 wordt gepresenteerd.",
-   "details": "Leerhotel Het Klooster, Amersfoort, 16:00-20:00.",
-   "eigenaar": "SURF",
-   "periode": "7 oktober 2026",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:241, src/pages/Beheer.jsx:1577",
-   "bijgewerkt": "2026-11-05",
-   "bronnen": [
-    {
-     "label": "AI Netwerk-site (broncode)",
-     "url": "https://ai-netwerk-nhlstenden.netlify.app",
-     "soort": "netwerksite",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Naam, Leerhotel Het Klooster in Amersfoort, 7 oktober 2026 van 16:00 tot 20:00, organisator SURF en de omschrijving met de actieagenda van de Denktank Digitale Transitie 2026 staan in de bron. Nagekeken: src/initialData.js:241, src/pages/Beheer.jsx:1577."
-    }
-   ]
-  },
-  {
-   "id": "surf-denktank-ai-onderwijs-2026",
-   "naam": "SURF Denktank: AI in Onderwijs",
-   "soort": "evenement",
-   "spoor": "leren",
-   "samenvatting": "Strategische sessie over AI in het Nederlandse hoger onderwijs.",
-   "details": "SURF Utrecht, 10:00-15:00.",
-   "eigenaar": "SURF",
-   "periode": "24 september 2026",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:253",
-   "bijgewerkt": "2026-11-05",
-   "bronnen": [
-    {
-     "label": "AI Netwerk-site (broncode)",
-     "url": "https://ai-netwerk-nhlstenden.netlify.app",
-     "soort": "netwerksite",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Bevestigd: evenement 'SURF Denktank - AI in Onderwijs', strategische sessie over AI in het Nederlandse hoger onderwijs, SURF Utrecht, 24 september 2026, 10:00-15:00, organisator SURF, koerslijnen 1 en 3. Nagekeken: src/initialData.js:253."
-    }
-   ]
-  },
-  {
-   "id": "stuurgroep-sessie-10-sept-2026",
-   "naam": "Stuurgroep bijgepraat over AI-Koers en Programma AI",
-   "soort": "evenement",
-   "status": "afgerond",
-   "samenvatting": "De Stuurgroep Transitieprogramma is op 10 september 2026 bijgepraat over de lijn, de route en het opzetten van het Programma AI. In de AI-Koers v0.55d is geen sprake meer van een apart Programma AI: de uitvoering loopt binnen het Transitieprogramma Digitalisering.",
-   "details": "Eerste stap in de route naar vaststelling van de AI-Koers.",
-   "periode": "10 september 2026",
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:117, src/pages/Governance.jsx:139",
-   "bijgewerkt": "2026-11-06",
-   "bronnen": [
-    {
-     "label": "AI Netwerk-site (broncode)",
-     "url": "https://ai-netwerk-nhlstenden.netlify.app",
-     "soort": "netwerksite",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). In de route staat '10 september 2026, Stuurgroep: Bijpraten over de lijn, de route en het opzetten van het Programma AI' als eerste stap naar vaststelling, en dat bevestigt de banner op de Governance-pagina. De zin dat de AI-Koers v0.55d geen apart Programma AI meer kent, komt niet uit deze bron (de site (v0.4d) spreekt nog van Programma AI), maar is een expliciete Koers-duiding en geen tegenspraak. Nagekeken: src/pages/Governance.jsx:117, src/pages/Governance.jsx:139."
-    },
-    {
-     "label": "AI-Koers v0.55d (concept, Drive)",
-     "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
-     "soort": "concept",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Gelezen in de AI-Koers v0.55d: de uitvoering loopt binnen het Transitieprogramma Digitalisering, zonder een aparte projectvorm; een Programma AI komt in deze versie niet voor. Dat de Stuurgroep op 10 september is bijgepraat, staat op de AI Netwerk-site."
-    }
-   ]
-  },
-  {
-   "id": "werksessie-friese-ai-behoeften",
-   "naam": "Werksessie Friese AI-behoeften",
-   "soort": "evenement",
-   "spoor": "werkveld",
-   "samenvatting": "Werksessie voor de Friese AI-propositie met Frisius MC, NHL Stenden en Firda; uitgewerkt in een terugkoppelingsdocument.",
-   "periode": "19 januari (2026, documentdatum januari 2026)",
-   "links": [
-    {
-     "label": "Terugkoppeling (PDF)",
-     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Terugkoppeling werksessie 19 januari.pdf"
-    }
-   ],
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/initialData.js:222",
-   "bijgewerkt": "2026-11-05",
-   "bronnen": [
-    {
-     "label": "Terugkoppeling (PDF)",
-     "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Terugkoppeling werksessie 19 januari.pdf",
-     "soort": "netwerksite",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Documentatie-item 'Friese AI-behoeften werksessie', januari 2026, uitwerking met Frisius MC, NHL Stenden en Firda, bestand 'Terugkoppeling werksessie 19 januari.pdf'. Nagekeken: src/initialData.js:222."
-    },
-    {
-     "label": "AI Netwerk-site (broncode)",
-     "url": "https://ai-netwerk-nhlstenden.netlify.app",
-     "soort": "netwerksite",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Het document 'Friese AI-behoeften werksessie' (januari 2026) beschrijft de 'Uitwerking werksessie Friese AI-propositie met Frisius MC, NHL Stenden en Firda'. De PDF in public/docs is gedateerd 19 januari 2026. Nagekeken: src/initialData.js:222, public/docs/Terugkoppeling werksessie 19 januari.pdf."
-    }
-   ]
-  },
-  {
-   "id": "ai-fryslan-event-2026",
-   "naam": "AI Fryslân Event 2026",
-   "soort": "evenement",
-   "spoor": "werkveld",
-   "samenvatting": "Regionaal evenement rond AI-samenwerking en leerresultaten.",
-   "periode": "2026",
-   "links": [
-    {
-     "label": "Evenement",
-     "url": "https://www.nhlstenden.com/evenementen/ai-fryslan-event-2026"
-    }
-   ],
-   "herkomst": "ai-netwerk",
-   "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:58",
-   "bijgewerkt": "2026-11-05",
-   "bronnen": [
-    {
-     "label": "NHL Stenden: AI Fryslân Event 2026 (evenementenpagina)",
-     "url": "https://www.nhlstenden.com/evenementen/ai-fryslan-event-2026",
-     "soort": "openbaar",
-     "gecontroleerd": "2026-11-09",
-     "uitkomst": "bevestigd",
-     "noot": "Pagina geopend. Bevestigd: event van het programma AI Fryslân op dinsdag 7 juli 2026, 14.30 tot 18.00 uur, I'M A.I. Centre Leeuwarden; partners NHL Stenden, Firda, RUG, Frisius MC en provincie Fryslân. Het event is inmiddels geweest. Het woord 'leerresultaten' in de samenvatting staat niet op de pagina."
-    },
-    {
-     "label": "AI Netwerk-site (broncode)",
-     "url": "https://ai-netwerk-nhlstenden.netlify.app",
-     "soort": "netwerksite",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Bevestigd: de site verwijst naar 'AI Fryslân Event 2026: regionale samenwerking en leerresultaten' (NVAO-pagina, standaard gerealiseerde leerresultaten). De koerslijn 'werkveld' staat niet bij dit evenement in de broncode en is een indeling van de canvas. Nagekeken: src/pages/NVAO.jsx:58."
-    }
-   ]
-  },
-  {
    "id": "chatgpt",
    "naam": "ChatGPT / OpenAI",
    "soort": "tool",
@@ -5096,35 +4928,6 @@
      "gecontroleerd": "2026-11-10",
      "uitkomst": "bevestigd",
      "noot": "Presentatie zelf gelezen op 6 november 2026 (10 dia's, aangeleverd door Edgar). Alle beweringen en citaten komen uit de dia's; deelnemers, trekker en formele opdracht staan er niet in. De presentatie staat niet online. Interne presentatie; een link volgt zodra de PDF in de Drive-map AI Canvas NHL Stenden staat."
-    }
-   ]
-  },
-  {
-   "id": "cop-sessie-3",
-   "naam": "AI Community of Practice, sessie 3: Finding our place in the Digitale Koers",
-   "soort": "evenement",
-   "spoor": "leren",
-   "status": "afgerond",
-   "samenvatting": "Derde sessie van de AI Community of Practice over de plek van de CoP in de Digitale Koers 2030 en AI in DBE, met gastspreker Josien Boetje.",
-   "details": "Agenda: Updates & News (15 min); NHL Stenden Digitale Koers + AI in DBE: where do we fit? (50 min); pauze; gast Josien Boetje: A human-centred look at AI (45 min). Afsluiting: van belangrijkste lessen naar volgende stappen.",
-   "periode": "29 oktober 2026, NHL Stenden Leeuwarden",
-   "mensen": [
-    {
-     "naam": "Josien Boetje",
-     "rol": "gastspreker; onderwijswetenschapper en hoofdauteur van het DIPS-model"
-    }
-   ],
-   "herkomst": "redactie",
-   "bronLabel": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
-   "bijgewerkt": "2026-11-06",
-   "bronnen": [
-    {
-     "label": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
-     "url": "",
-     "soort": "intern",
-     "gecontroleerd": "2026-11-10",
-     "uitkomst": "bevestigd",
-     "noot": "Presentatie zelf gelezen op 6 november 2026: datum, plaats, agenda met tijden, gastspreker Josien Boetje en het DIPS-model staan op de dia's. Interne presentatie; een link volgt zodra de PDF in de Drive-map AI Canvas NHL Stenden staat."
     }
    ]
   },
@@ -5653,64 +5456,6 @@
      "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen in de agenda op het intranet en met de tekst van dit onderdeel vergeleken."
     }
    ]
-  },
-  {
-   "id": "cop-sessie-buas-okt-2026",
-   "naam": "AI Community of Practice: BUas over Claude for Education",
-   "soort": "evenement",
-   "spoor": "leren",
-   "status": "afgerond",
-   "samenvatting": "Sessie van de AI Community of Practice van het CTL op 1 oktober 2026 met een gast van Breda University of Applied Sciences over hun instellingsbrede invoering van Claude for Education.",
-   "details": "Volgens de aankondiging was BUas de eerste hogeronderwijsinstelling in de EU die Claude for Education aan alle studenten en medewerkers aanbood, als onderdeel van een bewuste, mensgerichte strategie. De sessie ging over wat dat mogelijk maakte, wat er misging en hoe een variant bij NHL Stenden eruit zou kunnen zien.",
-   "periode": "1 oktober 2026, AI Experience Center, Leeuwarden",
-   "links": [
-    {
-     "label": "Agenda CTL (NHL Stenden-login)",
-     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/Lists/Events/DispForm.aspx?ID=13"
-    }
-   ],
-   "herkomst": "website",
-   "bronLabel": "Intranet (SharePoint), agenda van site center-for-teaching-and-learning, gelezen 11 november 2026",
-   "bijgewerkt": "2026-11-11",
-   "bronnen": [
-    {
-     "label": "Agenda CTL (NHL Stenden-login)",
-     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/Lists/Events/DispForm.aspx?ID=13",
-     "soort": "intern",
-     "gecontroleerd": "2026-11-11",
-     "uitkomst": "bevestigd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen in de agenda op het intranet en met de tekst van dit onderdeel vergeleken."
-    }
-   ]
-  },
-  {
-   "id": "ai-symposium-emmen-2026",
-   "naam": "AI Symposium Emmen",
-   "soort": "evenement",
-   "spoor": "werkveld",
-   "status": "afgerond",
-   "samenvatting": "Symposium op 8 oktober 2026 bij NHL Stenden Emmen over de invloed van AI op de economie van de regio Emmen, georganiseerd met de ondernemersvereniging en de gemeente.",
-   "details": "Een econoom sprak over de invloed van AI op de wereldeconomie en de vertaling naar de regio. Ook de kansen voor ondernemers en digitale weerbaarheid van bedrijven stonden op het programma.",
-   "periode": "8 oktober 2026, NHL Stenden Emmen",
-   "links": [
-    {
-     "label": "Agenda NHL Stenden Emmen (NHL Stenden-login)",
-     "url": "https://newuniversity.sharepoint.com/sites/nhlstenden-locatie-emmen/Lists/Events/DispForm.aspx?ID=4"
-    }
-   ],
-   "herkomst": "website",
-   "bronLabel": "Intranet (SharePoint), agenda van site nhlstenden-locatie-emmen, gelezen 11 november 2026",
-   "bijgewerkt": "2026-11-11",
-   "bronnen": [
-    {
-     "label": "Agenda NHL Stenden Emmen (NHL Stenden-login)",
-     "url": "https://newuniversity.sharepoint.com/sites/nhlstenden-locatie-emmen/Lists/Events/DispForm.aspx?ID=4",
-     "soort": "intern",
-     "gecontroleerd": "2026-11-11",
-     "uitkomst": "bevestigd",
-     "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen in de agenda op het intranet en met de tekst van dit onderdeel vergeleken."
-    }
-   ]
   }
  ],
  "relaties": [
@@ -5847,13 +5592,6 @@
    "soort": "levert input aan",
    "herkomst": "ai-netwerk",
    "bron": "src/pages/AIKoers.jsx:159"
-  },
-  {
-   "van": "stuurgroep-sessie-10-sept-2026",
-   "naar": "stuurgroep-transitieprogramma",
-   "soort": "neemt deel aan",
-   "herkomst": "ai-netwerk",
-   "bron": "src/pages/Governance.jsx:117"
   },
   {
    "van": "ai-governancestructuur",
@@ -6654,28 +6392,6 @@
    "bron": "src/pages/Netwerk.jsx:426"
   },
   {
-   "van": "surf",
-   "naar": "surf-summit-2026",
-   "soort": "organiseert",
-   "herkomst": "ai-netwerk",
-   "bron": "src/initialData.js:247"
-  },
-  {
-   "van": "surf",
-   "naar": "surf-denktank-ai-onderwijs-2026",
-   "soort": "organiseert",
-   "herkomst": "ai-netwerk",
-   "bron": "src/initialData.js:259"
-  },
-  {
-   "van": "surf-denktank",
-   "naar": "surf-summit-2026",
-   "soort": "levert input aan",
-   "herkomst": "ai-netwerk",
-   "bron": "src/initialData.js:246",
-   "toelichting": "actieagenda"
-  },
-  {
    "van": "ai-netwerk",
    "naar": "surf-ai-hub",
    "soort": "neemt deel aan",
@@ -6815,13 +6531,6 @@
    "soort": "werkt samen met",
    "herkomst": "ai-netwerk",
    "bron": "src/initialData.js:97"
-  },
-  {
-   "van": "werksessie-friese-ai-behoeften",
-   "naar": "friese-ai-propositie",
-   "soort": "levert input aan",
-   "herkomst": "ai-netwerk",
-   "bron": "src/initialData.js:222"
   },
   {
    "van": "rug",
@@ -7048,20 +6757,6 @@
    "toelichting": "De Digitale Koers als \"the umbrella\" die de digitale richting zet."
   },
   {
-   "van": "ai-community-of-practice",
-   "naar": "cop-sessie-3",
-   "soort": "organiseert",
-   "herkomst": "redactie",
-   "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)"
-  },
-  {
-   "van": "dips-model",
-   "naar": "cop-sessie-3",
-   "soort": "levert input aan",
-   "herkomst": "redactie",
-   "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)"
-  },
-  {
    "van": "kerngroep-digitale-soevereiniteit",
    "naar": "transitieprogramma-digitalisering",
    "soort": "is onderdeel van",
@@ -7146,13 +6841,6 @@
    "bron": "Intranet, werksite Transitieprogramma, projectlijn Sturingsmodel"
   },
   {
-   "van": "ai-community-of-practice",
-   "naar": "cop-sessie-buas-okt-2026",
-   "soort": "organiseert",
-   "herkomst": "website",
-   "bron": "Intranet, agenda CTL: 'the AI Community of Practice of the Centre for Teaching and Learning'"
-  },
-  {
    "van": "lectoraat-cv-ai",
    "naar": "run-eu-design-thinking-superweek-2026",
    "soort": "levert input aan",
@@ -7233,6 +6921,10 @@
   {
    "datum": "11 november 2026",
    "tekst": "Extra verificatie met het intranet open (pagina-API). Dertien intranetbronnen gelezen en bevestigd bij tien onderdelen: Otter.ai, Maritime AI Innovation Lab, RUN-EU MOOC, richtlijnen OLB, CTL-richtlijnen AI & Toetsing, CTL (vier pagina's), Npuls AI-webinars, examencommissie Thorbecke Academie, HRM-pagina over ChatGPT en UvA AI-chat. Tekst aangepast aan de bron: CTL-richtlijnen (NHL Stenden kiest 'vooralsnog' voor geen AI-detector; de periode '25 juni 2026' is weggehaald, die staat niet op de pagina) en UvA AI-chat (link werkte niet meer en is hersteld; het bericht is van 9 maart 2026, niet 25 juni; het verband met GPT-NL staat niet in de bron en is weggehaald). Niet te controleren: het CTL-artikel over de stabiliteit van leertaken (tekst niet leesbaar via de API) en de workshops AI op je werkplek (bestanden gevonden, inhoud niet gelezen). Niet opnieuw gelezen: Kerngroep digitale soevereiniteit, FAP 2.0, AI-richtlijnen Commerciële Economie en de Copilot-pilot. Nieuwe evenementen uit de agenda's op het intranet, alle drie met NHL Stenden als organisator of gastheer: RUN-EU Design Thinking Super Week (vanaf 23 november 2026, keynote over AI in het onderwijs), AI Community of Practice van 1 oktober 2026 met BUas, en het AI Symposium Emmen van 8 oktober 2026. Bij aiGrunn 2026 is de band met NHL Stenden toegevoegd (spreker in de track Sensible AI). In het detailpaneel staan de bronnen nu standaard open, en op de kaartjes in de lijst staat de eerste bron."
+  },
+  {
+   "datum": "11 november 2026",
+   "tekst": "Opgeruimd op aanwijzing van de eigenaar: evenementen die voorbij zijn gaan van de kaart. Negen evenementen zijn naar het archief in canvas.json verplaatst, met hun bronnen en verbindingen: AI-Netwerk Kick-off (10 september), stuurgroepsessie (10 september), SURF Denktank (24 september), AI Community of Practice met BUas (1 oktober), SURF Summit (7 oktober), AI Symposium Emmen (8 oktober), AI Community of Practice sessie 3 (29 oktober), de werksessie Friese AI-behoeften (januari) en het AI Fryslân Event 2026. Op de kaart blijven de komende evenementen: aiGrunn (13 november), RUN-EU Design Thinking Super Week (vanaf 23 november) en de Erasmus+ Staff Week 2027. Vaste regel voor elke ronde: wat geweest is, gaat naar het archief."
   }
  ],
  "notities": "BRONNEN: Alle entiteiten komen uit code in src/ en netlify/, plus de tekst van de AI-Koers in public/ai-koers/paginas.json (aangehaald als 'paginas.json:pagina N', omdat het JSON-bestand geen bruikbare regelnummers heeft). De PDF's/PPTX in public/docs en public/ai-koers zijn niet inhoudelijk gelezen; alleen hun titel/omschrijving uit INIT_DOCS is gebruikt. Bestanden in public: ai-koers/ (NHL-Stenden-AI-Koers.pdf, -presentatie.pptx, -Poster-A2-preview.png, -v0_4-concept-restyle.html, -v0_4d.html, paginas.json, thumbs/pagina-0..16.png); docs/ (Analyse_AI_Gebruik, Digital_Sovereignty_Radar, Hype_Cycle_2025.jpeg, InfoPlaat-sandbox.png, Kennisnet-ICILS, NHL_Stenden_AI_Compass Definitief .pdf+.pptx, Programmavoorstel Bach, Samenvatting.png, Startverkenning GenAI, TRAI-document, Terugkoppeling werksessie 19 januari, Voortgangsrapportage_AI_Compliance_v1, WEF_Future_of_Jobs_2025, ai-en-werk, regulatory_sandbox_ai_NHL_Stenden, whitepaper_AI_koers v09). Samenvatting.png en de Compass-.pptx worden nergens in code gelinkt.\nRUNTIME-DATA (niet extraheerbaar): Netlify Blobs (store 'aihub-data', via netlify/functions/storage.js) bevat door gebruikers toegevoegde initiatieven ('extraInitiatieven'), betrokkenen per initiatief ('betrokkenen-initiatieven', met namen/afdelingen), pilot-updates, roadmap-wijzigingen, inzichten (incl. automatisch opgehaald nieuws via nieuws-ophalen), documentuploads, berichten/vragen (deels localStorage 'aihub-berichten'), video's ('aihub-videos'), AI-Koers-feedback en het gegenereerde feedbackrapport, wijzigingen-log en backups. Daarom zijn trekkers per koerslijn ('Volgt' / 'Wordt ingevuld') en namen van kernteamleden onbekend.\nDUPLICATEN/SAMENGEVOEGD: 'AI-HUB' (oude naam, o.a. components/Netwerk.jsx, Lagen.jsx, Evenementen VOORBEELD, 'Kernteam AI-HUB') = AI-Netwerk. 'Stuurgroep Digitalisering' = Stuurgroep Transitieprogramma (Beheer changelog: naam gelijkgetrokken; rapport-genereren.js gebruikt nog de oude naam). 'Prog. Digitale Transitie' (eigenaar laag 4, AI-desk) samengevoegd met Transitieprogramma Digitalisering (Fundament.jsx:87 noemt 'het Transitieprogramma' bij lagen 1-4) - aanname. 'AI Compliance Groep' / 'AI Compliance Team' / 'AI-compliance team' samengevoegd. 'Thema-overleg' (data.js) en 'spreektafel' (Governance/AI-Koers) per koerslijn samengevoegd - aanname. Lectoraat 'Computer Vision & AI' en 'Computer Vision & Data Science' als één entiteit (verschillende URL's; mogelijk hernoemd). data.js id 10 'Regulatory Sandbox' (intern, in voorbereiding) en id 20 'AI Regulatory Sandbox' (extern) samengevoegd; data.js id 6 'SURF AI-Hub & Denktank' gesplitst in SURF AI-Hub en SURF Denktank; id 8 'SURF AI-HUB & GPT-NL' verdeeld over SURF AI-Hub en GPT-NL. AMCE heet ook 'Academie Media, Commercie & Ondernemerschap'. 'Academie Verpleegkunde en Gezondheid' (pilot) staat niet in NHL_ACADEMIES ('Academie Gezondheid & Welzijn'). FCP: 'Financiën, Control & Planning' vs 'Finance, Control & Procurement'. Roadmap-items (App.jsx INIT_ROADMAP) en pilots (initialData.js) van AMCE/WP1-4 samengevoegd. Pages/Pilots.jsx, Linkjes.jsx en Inspiratie.jsx bevatten verouderde lokale INIT-kopieen (o.a. intranet-URL nhlstenden.sharepoint.com, 'AI & Organisatie'/'AI & Onderwijs' als oude spoornamen); de app gebruikt initialData.js.\nAMBIGU/NIET OPGENOMEN: 'HSB' en 'NBA' worden niet uitgelegd. Spoor-tegenstrijdigheid: AI-Koers-tijdlijn noemt 'Regulatory sandbox operationeel (augustus 2026)' terwijl elders (gecorrigeerd) uiterlijk 2 augustus 2027. Datum werksessie Friese AI-behoeften alleen '19 januari' (doc gedateerd januari 2026). Governance.jsx 'Drie voorbeelden' (vroegsignalering uitval, AI-chatbot administratie, AI-feedback schrijfopdrachten) zijn illustratieve scenario's, niet als entiteit opgenomen. Evenementen.jsx VOORBEELD (o.a. 'Workshop AI-Geletterdheid voor Docenten', 7 okt 2026, OO&I, BDB) is ongebruikte code. Peers uit de AI-Koers (Utrecht, Hanzehogeschool, HAN, Leiden), CEDA, MCP-servers, 'AI Sandbox'-platform (AMCE), LLaMA (alleen keuzelijst), Midjourney/GitHub Copilot (uitlegvoorbeelden) niet als aparte entiteit. Nieuwsfeeds (Rijksoverheid, SURF, Npuls, EU, The Gradient, 80,000 Hours, Import AI) zijn bronnen van de nieuwsfunctie, niet opgenomen. Toegang via A.I. 2 Business-portfolio (edgar-van-gorkum.netlify.app) is platforminfrastructuur, niet opgenomen. Personen in 'mensen' alleen waar in de bron genoemd; kernteamrollen staan zonder naam.",
@@ -7330,5 +7022,333 @@
     }
    ]
   }
- ]
+ ],
+ "archief": {
+  "toelichting": "Evenementen die voorbij zijn, van de kaart gehaald maar hier bewaard met hun bronnen en verbindingen.",
+  "entiteiten": [
+   {
+    "id": "ai-netwerk-kick-off",
+    "naam": "AI-Netwerk Kick-off Bijeenkomst",
+    "soort": "evenement",
+    "samenvatting": "Officiële lancering van het AI-Netwerk; kennismaking met het kernteam en netwerken.",
+    "details": "Locatie: NHL Stenden Leeuwarden, Rengerslaan 8, 13:00-16:00.",
+    "eigenaar": "Kernteam AI-Netwerk",
+    "periode": "10 september 2026",
+    "herkomst": "ai-netwerk",
+    "bronLabel": "AI Netwerk-site, broncode src/initialData.js:229",
+    "bijgewerkt": "2026-11-05",
+    "bronnen": [
+     {
+      "label": "AI Netwerk-site (broncode)",
+      "url": "https://ai-netwerk-nhlstenden.netlify.app",
+      "soort": "netwerksite",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Evenement met deze naam op 2026-09-10, Leeuwarden, Rengerslaan 8, 13:00 tot 16:00, officiele lancering met kennismaking met het kernteam, organisator Kernteam AI-Netwerk. Nagekeken: src/initialData.js:229."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   },
+   {
+    "id": "surf-summit-2026",
+    "naam": "SURF Summit 2026: Richting geven aan groei",
+    "soort": "evenement",
+    "spoor": "verantwoordelijkheid",
+    "samenvatting": "Jaarlijkse bijeenkomst voor bestuurders en directeuren van SURF-leden waar de actieagenda van de Denktank Digitale Transitie 2026 wordt gepresenteerd.",
+    "details": "Leerhotel Het Klooster, Amersfoort, 16:00-20:00.",
+    "eigenaar": "SURF",
+    "periode": "7 oktober 2026",
+    "herkomst": "ai-netwerk",
+    "bronLabel": "AI Netwerk-site, broncode src/initialData.js:241, src/pages/Beheer.jsx:1577",
+    "bijgewerkt": "2026-11-05",
+    "bronnen": [
+     {
+      "label": "AI Netwerk-site (broncode)",
+      "url": "https://ai-netwerk-nhlstenden.netlify.app",
+      "soort": "netwerksite",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Naam, Leerhotel Het Klooster in Amersfoort, 7 oktober 2026 van 16:00 tot 20:00, organisator SURF en de omschrijving met de actieagenda van de Denktank Digitale Transitie 2026 staan in de bron. Nagekeken: src/initialData.js:241, src/pages/Beheer.jsx:1577."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   },
+   {
+    "id": "surf-denktank-ai-onderwijs-2026",
+    "naam": "SURF Denktank: AI in Onderwijs",
+    "soort": "evenement",
+    "spoor": "leren",
+    "samenvatting": "Strategische sessie over AI in het Nederlandse hoger onderwijs.",
+    "details": "SURF Utrecht, 10:00-15:00.",
+    "eigenaar": "SURF",
+    "periode": "24 september 2026",
+    "herkomst": "ai-netwerk",
+    "bronLabel": "AI Netwerk-site, broncode src/initialData.js:253",
+    "bijgewerkt": "2026-11-05",
+    "bronnen": [
+     {
+      "label": "AI Netwerk-site (broncode)",
+      "url": "https://ai-netwerk-nhlstenden.netlify.app",
+      "soort": "netwerksite",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Bevestigd: evenement 'SURF Denktank - AI in Onderwijs', strategische sessie over AI in het Nederlandse hoger onderwijs, SURF Utrecht, 24 september 2026, 10:00-15:00, organisator SURF, koerslijnen 1 en 3. Nagekeken: src/initialData.js:253."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   },
+   {
+    "id": "stuurgroep-sessie-10-sept-2026",
+    "naam": "Stuurgroep bijgepraat over AI-Koers en Programma AI",
+    "soort": "evenement",
+    "status": "afgerond",
+    "samenvatting": "De Stuurgroep Transitieprogramma is op 10 september 2026 bijgepraat over de lijn, de route en het opzetten van het Programma AI. In de AI-Koers v0.55d is geen sprake meer van een apart Programma AI: de uitvoering loopt binnen het Transitieprogramma Digitalisering.",
+    "details": "Eerste stap in de route naar vaststelling van de AI-Koers.",
+    "periode": "10 september 2026",
+    "herkomst": "ai-netwerk",
+    "bronLabel": "AI Netwerk-site, broncode src/pages/Governance.jsx:117, src/pages/Governance.jsx:139",
+    "bijgewerkt": "2026-11-06",
+    "bronnen": [
+     {
+      "label": "AI Netwerk-site (broncode)",
+      "url": "https://ai-netwerk-nhlstenden.netlify.app",
+      "soort": "netwerksite",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). In de route staat '10 september 2026, Stuurgroep: Bijpraten over de lijn, de route en het opzetten van het Programma AI' als eerste stap naar vaststelling, en dat bevestigt de banner op de Governance-pagina. De zin dat de AI-Koers v0.55d geen apart Programma AI meer kent, komt niet uit deze bron (de site (v0.4d) spreekt nog van Programma AI), maar is een expliciete Koers-duiding en geen tegenspraak. Nagekeken: src/pages/Governance.jsx:117, src/pages/Governance.jsx:139."
+     },
+     {
+      "label": "AI-Koers v0.55d (concept, Drive)",
+      "url": "https://drive.google.com/file/d/14tqutS8lHRPaWNtexDULvDS5Ocr4MICs/view",
+      "soort": "concept",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Gelezen in de AI-Koers v0.55d: de uitvoering loopt binnen het Transitieprogramma Digitalisering, zonder een aparte projectvorm; een Programma AI komt in deze versie niet voor. Dat de Stuurgroep op 10 september is bijgepraat, staat op de AI Netwerk-site."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   },
+   {
+    "id": "werksessie-friese-ai-behoeften",
+    "naam": "Werksessie Friese AI-behoeften",
+    "soort": "evenement",
+    "spoor": "werkveld",
+    "samenvatting": "Werksessie voor de Friese AI-propositie met Frisius MC, NHL Stenden en Firda; uitgewerkt in een terugkoppelingsdocument.",
+    "periode": "19 januari (2026, documentdatum januari 2026)",
+    "links": [
+     {
+      "label": "Terugkoppeling (PDF)",
+      "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Terugkoppeling werksessie 19 januari.pdf"
+     }
+    ],
+    "herkomst": "ai-netwerk",
+    "bronLabel": "AI Netwerk-site, broncode src/initialData.js:222",
+    "bijgewerkt": "2026-11-05",
+    "bronnen": [
+     {
+      "label": "Terugkoppeling (PDF)",
+      "url": "https://ai-netwerk-nhlstenden.netlify.app/docs/Terugkoppeling werksessie 19 januari.pdf",
+      "soort": "netwerksite",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Documentatie-item 'Friese AI-behoeften werksessie', januari 2026, uitwerking met Frisius MC, NHL Stenden en Firda, bestand 'Terugkoppeling werksessie 19 januari.pdf'. Nagekeken: src/initialData.js:222."
+     },
+     {
+      "label": "AI Netwerk-site (broncode)",
+      "url": "https://ai-netwerk-nhlstenden.netlify.app",
+      "soort": "netwerksite",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Het document 'Friese AI-behoeften werksessie' (januari 2026) beschrijft de 'Uitwerking werksessie Friese AI-propositie met Frisius MC, NHL Stenden en Firda'. De PDF in public/docs is gedateerd 19 januari 2026. Nagekeken: src/initialData.js:222, public/docs/Terugkoppeling werksessie 19 januari.pdf."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   },
+   {
+    "id": "ai-fryslan-event-2026",
+    "naam": "AI Fryslân Event 2026",
+    "soort": "evenement",
+    "spoor": "werkveld",
+    "samenvatting": "Regionaal evenement rond AI-samenwerking en leerresultaten.",
+    "periode": "2026",
+    "links": [
+     {
+      "label": "Evenement",
+      "url": "https://www.nhlstenden.com/evenementen/ai-fryslan-event-2026"
+     }
+    ],
+    "herkomst": "ai-netwerk",
+    "bronLabel": "AI Netwerk-site, broncode src/pages/NVAO.jsx:58",
+    "bijgewerkt": "2026-11-05",
+    "bronnen": [
+     {
+      "label": "NHL Stenden: AI Fryslân Event 2026 (evenementenpagina)",
+      "url": "https://www.nhlstenden.com/evenementen/ai-fryslan-event-2026",
+      "soort": "openbaar",
+      "gecontroleerd": "2026-11-09",
+      "uitkomst": "bevestigd",
+      "noot": "Pagina geopend. Bevestigd: event van het programma AI Fryslân op dinsdag 7 juli 2026, 14.30 tot 18.00 uur, I'M A.I. Centre Leeuwarden; partners NHL Stenden, Firda, RUG, Frisius MC en provincie Fryslân. Het event is inmiddels geweest. Het woord 'leerresultaten' in de samenvatting staat niet op de pagina."
+     },
+     {
+      "label": "AI Netwerk-site (broncode)",
+      "url": "https://ai-netwerk-nhlstenden.netlify.app",
+      "soort": "netwerksite",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Vergeleken met de broncode van de AI Netwerk-site (v2.55). Bevestigd: de site verwijst naar 'AI Fryslân Event 2026: regionale samenwerking en leerresultaten' (NVAO-pagina, standaard gerealiseerde leerresultaten). De koerslijn 'werkveld' staat niet bij dit evenement in de broncode en is een indeling van de canvas. Nagekeken: src/pages/NVAO.jsx:58."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   },
+   {
+    "id": "cop-sessie-3",
+    "naam": "AI Community of Practice, sessie 3: Finding our place in the Digitale Koers",
+    "soort": "evenement",
+    "spoor": "leren",
+    "status": "afgerond",
+    "samenvatting": "Derde sessie van de AI Community of Practice over de plek van de CoP in de Digitale Koers 2030 en AI in DBE, met gastspreker Josien Boetje.",
+    "details": "Agenda: Updates & News (15 min); NHL Stenden Digitale Koers + AI in DBE: where do we fit? (50 min); pauze; gast Josien Boetje: A human-centred look at AI (45 min). Afsluiting: van belangrijkste lessen naar volgende stappen.",
+    "periode": "29 oktober 2026, NHL Stenden Leeuwarden",
+    "mensen": [
+     {
+      "naam": "Josien Boetje",
+      "rol": "gastspreker; onderwijswetenschapper en hoofdauteur van het DIPS-model"
+     }
+    ],
+    "herkomst": "redactie",
+    "bronLabel": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+    "bijgewerkt": "2026-11-06",
+    "bronnen": [
+     {
+      "label": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)",
+      "url": "",
+      "soort": "intern",
+      "gecontroleerd": "2026-11-10",
+      "uitkomst": "bevestigd",
+      "noot": "Presentatie zelf gelezen op 6 november 2026: datum, plaats, agenda met tijden, gastspreker Josien Boetje en het DIPS-model staan op de dia's. Interne presentatie; een link volgt zodra de PDF in de Drive-map AI Canvas NHL Stenden staat."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   },
+   {
+    "id": "cop-sessie-buas-okt-2026",
+    "naam": "AI Community of Practice: BUas over Claude for Education",
+    "soort": "evenement",
+    "spoor": "leren",
+    "status": "afgerond",
+    "samenvatting": "Sessie van de AI Community of Practice van het CTL op 1 oktober 2026 met een gast van Breda University of Applied Sciences over hun instellingsbrede invoering van Claude for Education.",
+    "details": "Volgens de aankondiging was BUas de eerste hogeronderwijsinstelling in de EU die Claude for Education aan alle studenten en medewerkers aanbood, als onderdeel van een bewuste, mensgerichte strategie. De sessie ging over wat dat mogelijk maakte, wat er misging en hoe een variant bij NHL Stenden eruit zou kunnen zien.",
+    "periode": "1 oktober 2026, AI Experience Center, Leeuwarden",
+    "links": [
+     {
+      "label": "Agenda CTL (NHL Stenden-login)",
+      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/Lists/Events/DispForm.aspx?ID=13"
+     }
+    ],
+    "herkomst": "website",
+    "bronLabel": "Intranet (SharePoint), agenda van site center-for-teaching-and-learning, gelezen 11 november 2026",
+    "bijgewerkt": "2026-11-11",
+    "bronnen": [
+     {
+      "label": "Agenda CTL (NHL Stenden-login)",
+      "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/Lists/Events/DispForm.aspx?ID=13",
+      "soort": "intern",
+      "gecontroleerd": "2026-11-11",
+      "uitkomst": "bevestigd",
+      "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen in de agenda op het intranet en met de tekst van dit onderdeel vergeleken."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   },
+   {
+    "id": "ai-symposium-emmen-2026",
+    "naam": "AI Symposium Emmen",
+    "soort": "evenement",
+    "spoor": "werkveld",
+    "status": "afgerond",
+    "samenvatting": "Symposium op 8 oktober 2026 bij NHL Stenden Emmen over de invloed van AI op de economie van de regio Emmen, georganiseerd met de ondernemersvereniging en de gemeente.",
+    "details": "Een econoom sprak over de invloed van AI op de wereldeconomie en de vertaling naar de regio. Ook de kansen voor ondernemers en digitale weerbaarheid van bedrijven stonden op het programma.",
+    "periode": "8 oktober 2026, NHL Stenden Emmen",
+    "links": [
+     {
+      "label": "Agenda NHL Stenden Emmen (NHL Stenden-login)",
+      "url": "https://newuniversity.sharepoint.com/sites/nhlstenden-locatie-emmen/Lists/Events/DispForm.aspx?ID=4"
+     }
+    ],
+    "herkomst": "website",
+    "bronLabel": "Intranet (SharePoint), agenda van site nhlstenden-locatie-emmen, gelezen 11 november 2026",
+    "bijgewerkt": "2026-11-11",
+    "bronnen": [
+     {
+      "label": "Agenda NHL Stenden Emmen (NHL Stenden-login)",
+      "url": "https://newuniversity.sharepoint.com/sites/nhlstenden-locatie-emmen/Lists/Events/DispForm.aspx?ID=4",
+      "soort": "intern",
+      "gecontroleerd": "2026-11-11",
+      "uitkomst": "bevestigd",
+      "noot": "Vraagt inloggen met een NHL Stenden-account. Op 11 november 2026 gelezen in de agenda op het intranet en met de tekst van dit onderdeel vergeleken."
+     }
+    ],
+    "gearchiveerd": "2026-11-11"
+   }
+  ],
+  "relaties": [
+   {
+    "van": "stuurgroep-sessie-10-sept-2026",
+    "naar": "stuurgroep-transitieprogramma",
+    "soort": "neemt deel aan",
+    "herkomst": "ai-netwerk",
+    "bron": "src/pages/Governance.jsx:117"
+   },
+   {
+    "van": "surf",
+    "naar": "surf-summit-2026",
+    "soort": "organiseert",
+    "herkomst": "ai-netwerk",
+    "bron": "src/initialData.js:247"
+   },
+   {
+    "van": "surf",
+    "naar": "surf-denktank-ai-onderwijs-2026",
+    "soort": "organiseert",
+    "herkomst": "ai-netwerk",
+    "bron": "src/initialData.js:259"
+   },
+   {
+    "van": "surf-denktank",
+    "naar": "surf-summit-2026",
+    "soort": "levert input aan",
+    "herkomst": "ai-netwerk",
+    "bron": "src/initialData.js:246",
+    "toelichting": "actieagenda"
+   },
+   {
+    "van": "werksessie-friese-ai-behoeften",
+    "naar": "friese-ai-propositie",
+    "soort": "levert input aan",
+    "herkomst": "ai-netwerk",
+    "bron": "src/initialData.js:222"
+   },
+   {
+    "van": "ai-community-of-practice",
+    "naar": "cop-sessie-3",
+    "soort": "organiseert",
+    "herkomst": "redactie",
+    "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)"
+   },
+   {
+    "van": "dips-model",
+    "naar": "cop-sessie-3",
+    "soort": "levert input aan",
+    "herkomst": "redactie",
+    "bron": "Presentatie 'AI Community of Practice, sessie 3: Finding our place in the Digitale Koers' (29 oktober 2026)"
+   },
+   {
+    "van": "ai-community-of-practice",
+    "naar": "cop-sessie-buas-okt-2026",
+    "soort": "organiseert",
+    "herkomst": "website",
+    "bron": "Intranet, agenda CTL: 'the AI Community of Practice of the Centre for Teaching and Learning'"
+   }
+  ]
+ }
 }

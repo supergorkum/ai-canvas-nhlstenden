@@ -65,3 +65,7 @@ eigen werk met AI: wat ze doen, ontwikkelen of erover zeggen. Bestanden:
    Maak een Gmail-concept aan edgarvgorkum@gmail.com, onderwerp "Uit de praktijk: weekronde <datum>", labels "NHL Stenden"
    en "20 Vision/Concepten Claude": hoeveel nieuw, welke titels, wat je hebt overgeslagen en waarom, en twijfelgevallen.
    Niets nieuws gevonden: geen concept, alleen het logboek.
+
+## Opruimen: wat geweest is, gaat van de kaart
+
+Afspraak met Edgar (11 november 2026). Bij elke ronde: evenementen waarvan de datum voorbij is, verplaats je van `entiteiten` naar `archief.entiteiten` in `canvas.json` (met `gearchiveerd: <datum>`), samen met hun verbindingen naar `archief.relaties`. Niets weggooien. Noem het in het logboek. Komende evenementen blijven staan, ook als de band met NHL Stenden alleen een uitnodiging aan medewerkers is. Nieuwe onderdelen en evenementen moeten altijd een aantoonbare band met NHL Stenden hebben; zet die band in de tekst.

@@ -96,6 +96,14 @@ export default function Praktijk({ modus, onWeergave }) {
                 <h3 className="font-bold text-gray-900 leading-snug">{i.titel}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{i.kort}</p>
                 {isOpen && i.verhaal && <div className="text-sm text-gray-700 leading-relaxed space-y-2 border-t border-gray-100 pt-2">{i.verhaal.map((p, n) => <p key={n}>{p}</p>)}</div>}
+                {isOpen && (i.bronnen || []).length > 0 && (
+                  <div className="text-xs text-gray-500 border-t border-gray-100 pt-2">
+                    <span className="font-semibold text-gray-600">{i.bronnen.length === 1 ? 'Bron' : 'Bronnen'}: </span>
+                    {i.bronnen.map((b, n) => (
+                      <span key={b.url}>{n > 0 && ' · '}<a href={b.url} target="_blank" rel="noreferrer" className="text-nhl-blauw-light hover:underline">{b.label}{i.bronnen.length > 1 ? ` ${n + 1}` : ''} ↗</a>{b.noot ? ` (${b.noot.charAt(0).toLowerCase() + b.noot.slice(1)})` : ''}</span>
+                    ))}
+                  </div>
+                )}
                 {(i.tools || []).length > 0 && <div className="flex flex-wrap gap-1 pt-1">{i.tools.map(t => <span key={t} className="text-[11px] rounded-full bg-blue-50 text-nhl-blauw px-2 py-0.5">{t}</span>)}</div>}
                 <div className="mt-auto pt-2 flex items-center justify-between text-xs text-gray-400">
                   <span>{i.kanaal} · {i.periode}</span>

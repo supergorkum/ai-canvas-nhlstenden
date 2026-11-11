@@ -1,12 +1,12 @@
 {
- "inleiding": "Hier lees je wat docenten, studenten, onderzoekers en teams van NHL Stenden zelf vertellen over hun werk met AI: wat ze doen, wat ze ontwikkelen en wat ze erover zeggen. De verhalen komen uit openbare berichten op LinkedIn en van het intranet. Ze staan hier zonder naam; het gaat om wat er gebeurt.",
+ "inleiding": "Hier lees je wat docenten, studenten, onderzoekers en teams van NHL Stenden zelf vertellen over hun werk met AI: wat ze doen, wat ze ontwikkelen en wat ze erover zeggen. De verhalen komen uit openbare berichten op LinkedIn en van het intranet. We noemen de rol en de opleiding of afdeling, geen namen. Open je een verhaal, dan staat de link naar de bron eronder.",
  "verantwoording": "Elk verhaal is gelezen in de bron en zo getrouw mogelijk samengevat, zonder aanvullingen van de redactie. Deze rubriek staat los van de kaart: het zijn verhalen, geen vastgestelde onderdelen. Laatst bijgewerkt op 11 november 2026.",
  "bijgewerkt": "2026-11-11",
  "items": [
   {
    "id": "revit-in-gewone-taal",
    "rol": "docent",
-   "wie": "Docent bouwkunde (BIM)",
+   "wie": "Docent BIM",
    "spoor": "leren",
    "aard": "doet",
    "titel": "Praten tegen het bouwmodel, en het model doet het",
@@ -28,12 +28,18 @@
     "Excel"
    ],
    "kanaal": "LinkedIn",
-   "periode": "november 2026"
+   "periode": "november 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526030634746830849/"
+    }
+   ]
   },
   {
    "id": "demo-app-in-een-halfuur",
    "rol": "onderzoeker",
-   "wie": "Onderzoeker toegepaste AI",
+   "wie": "Associate lector toegepaste AI",
    "spoor": "onderzoek",
    "aard": "doet",
    "titel": "Een demo-applicatie in een halfuur in plaats van drie weken",
@@ -51,12 +57,22 @@
     "lokaal taalmodel"
    ],
    "kanaal": "LinkedIn",
-   "periode": "februari 2026"
+   "periode": "februari 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7418318118659461120/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7425835760794103808/"
+    }
+   ]
   },
   {
    "id": "fries-en-soevereine-data",
    "rol": "onderzoeker",
-   "wie": "Onderzoeker toegepaste AI",
+   "wie": "Associate lector toegepaste AI",
    "spoor": "verantwoordelijkheid",
    "aard": "zegt",
    "titel": "Zeggenschap over data als basis voor het Fries",
@@ -69,12 +85,19 @@
     "open source"
    ],
    "kanaal": "LinkedIn",
-   "periode": "november 2026"
+   "periode": "november 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524927536657694721/",
+     "noot": "Bericht van een toehoorder, niet van de spreker zelf"
+    }
+   ]
   },
   {
    "id": "flipped-classroom-met-ai",
    "rol": "docent",
-   "wie": "Docent-onderzoeker",
+   "wie": "Docent-onderzoeker en oprichter van het Fab Lab",
    "spoor": "leren",
    "aard": "ontwikkelt",
    "titel": "Een flipped classroom met AI als steiger",
@@ -88,7 +111,17 @@
     "flipped classroom"
    ],
    "kanaal": "LinkedIn en intranet",
-   "periode": "mei en oktober 2026"
+   "periode": "mei en oktober 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506328878026670082/"
+    },
+    {
+     "label": "Intranetpagina (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/Onderwijsfestival-PLAY!-Programma.aspx"
+    }
+   ]
   },
   {
    "id": "vibecoden-voor-docenten",
@@ -107,7 +140,13 @@
     "Codex"
    ],
    "kanaal": "Intranet",
-   "periode": "mei 2026"
+   "periode": "mei 2026",
+   "bronnen": [
+    {
+     "label": "Intranetpagina (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/center-for-teaching-and-learning/SitePages/Onderwijsfestival-PLAY!-Programma.aspx"
+    }
+   ]
   },
   {
    "id": "ai-liedjes-en-games-in-de-les",
@@ -127,12 +166,22 @@
     "AI Act"
    ],
    "kanaal": "LinkedIn",
-   "periode": "juni 2026"
+   "periode": "juni 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7470485155871080448/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7463193799452786688/"
+    }
+   ]
   },
   {
    "id": "ai-als-bondgenoot-pabo",
    "rol": "docent",
-   "wie": "Docent pabo en trainer",
+   "wie": "Docent pabo Groningen en trainer Challenge Lab",
    "spoor": "leren",
    "aard": "doet",
    "titel": "AI als bondgenoot, de docent in de regie",
@@ -146,12 +195,26 @@
     "chatbot met persona's"
    ],
    "kanaal": "LinkedIn",
-   "periode": "eind 2025 tot februari 2026"
+   "periode": "eind 2025 tot februari 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7419313261558280194/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7397388391958355968/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7412779534644707328/"
+    }
+   ]
   },
   {
    "id": "veertig-docenten-prompt-kritiek",
    "rol": "docent",
-   "wie": "Docent-onderzoeker hotelmanagement",
+   "wie": "Docent-onderzoeker Hotel Management School",
    "spoor": "leren",
    "aard": "doet",
    "titel": "Van \"mogen studenten AI gebruiken\" naar \"welk denkwerk laten ze zien\"",
@@ -166,12 +229,26 @@
     "PACADI 2.0"
    ],
    "kanaal": "LinkedIn",
-   "periode": "april tot november 2026"
+   "periode": "april tot november 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511531823030648833/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439445752981946368/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523648211656462336/"
+    }
+   ]
   },
   {
    "id": "eerstejaars-rechten-ai-regels",
    "rol": "onderzoeker",
-   "wie": "Lector",
+   "wie": "Lector Thorbecke Academie",
    "spoor": "verantwoordelijkheid",
    "aard": "doet",
    "titel": "Eerstejaars rechten leren meteen wat AI wel en niet is",
@@ -183,12 +260,18 @@
     "generatieve AI"
    ],
    "kanaal": "LinkedIn",
-   "periode": "september 2026"
+   "periode": "september 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7500504249148284928/"
+    }
+   ]
   },
   {
    "id": "leergang-ai-voor-ambtenaren",
    "rol": "onderzoeker",
-   "wie": "Lector",
+   "wie": "Lector Thorbecke Academie",
    "spoor": "werkveld",
    "aard": "ontwikkelt",
    "titel": "Een leergang AI voor ambtenaren",
@@ -202,12 +285,18 @@
     "AI-verordening"
    ],
    "kanaal": "LinkedIn",
-   "periode": "januari 2026"
+   "periode": "januari 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7410265892577759232/"
+    }
+   ]
   },
   {
    "id": "ai-in-de-ggz-verpleegkunde",
    "rol": "onderzoeker",
-   "wie": "Lector in de zorg",
+   "wie": "Lector Zorg & Innovatie in de Psychiatrie",
    "spoor": "onderzoek",
    "aard": "doet",
    "titel": "Hoe gebruiken ggz-verpleegkundigen AI?",
@@ -222,12 +311,18 @@
     "spraakgestuurd rapporteren"
    ],
    "kanaal": "LinkedIn",
-   "periode": "september 2026"
+   "periode": "september 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7500934129224626176/"
+    }
+   ]
   },
   {
    "id": "textiel-sorteren-met-hyperspectraal",
    "rol": "onderzoeker",
-   "wie": "Docent-onderzoeker AI",
+   "wie": "Docent-onderzoeker lectoraat Computer Vision & AI",
    "spoor": "onderzoek",
    "aard": "ontwikkelt",
    "titel": "Een camera die ziet waar kleding van gemaakt is",
@@ -241,12 +336,22 @@
     "computer vision"
    ],
    "kanaal": "LinkedIn",
-   "periode": "zomer 2026"
+   "periode": "zomer 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7472700801761759232/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478159918928318464/"
+    }
+   ]
   },
   {
    "id": "tina-transcriptie-fries",
    "rol": "team",
-   "wie": "Lectoraat met twee gemeenten",
+   "wie": "Lectoraat Computer Vision & AI met twee gemeenten",
    "spoor": "onderzoek",
    "aard": "ontwikkelt",
    "titel": "Een open source transcriptietool voor Nederlands en Fries",
@@ -260,7 +365,17 @@
     "lokaal draaien"
    ],
    "kanaal": "LinkedIn",
-   "periode": "juni 2026"
+   "periode": "juni 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7462821530687729664/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7471134360986054657/"
+    }
+   ]
   },
   {
    "id": "aardbeienrobot",
@@ -279,12 +394,22 @@
     "robotica"
    ],
    "kanaal": "LinkedIn",
-   "periode": "juni 2026"
+   "periode": "juni 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7473802824083202050/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7480204923679305729/"
+    }
+   ]
   },
   {
    "id": "data-verkennen-met-embeddings",
    "rol": "student",
-   "wie": "Afgestudeerde HBO-ICT",
+   "wie": "Afgestudeerde HBO-ICT, lectoraat Computer Vision & Data Science",
    "spoor": "onderzoek",
    "aard": "ontwikkelt",
    "titel": "Een applicatie om beelddata te verkennen met multimodale embeddings",
@@ -297,12 +422,18 @@
     "segmentatiemodellen"
    ],
    "kanaal": "LinkedIn",
-   "periode": "eind 2025"
+   "periode": "eind 2025",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7392195265182662656/"
+    }
+   ]
   },
   {
    "id": "ai-als-medisch-hulpmiddel",
    "rol": "student",
-   "wie": "Afgestudeerde HBO-Rechten",
+   "wie": "Afgestudeerde HBO-Rechten, Thorbecke Academie",
    "spoor": "verantwoordelijkheid",
    "aard": "doet",
    "titel": "Zelf ontwikkelde AI in het ziekenhuis: wat vragen de regels?",
@@ -316,7 +447,13 @@
     "ISO 13485"
    ],
    "kanaal": "LinkedIn",
-   "periode": "juli 2026"
+   "periode": "juli 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478466555614408704/"
+    }
+   ]
   },
   {
    "id": "chatbot-voor-een-hulplijn",
@@ -334,7 +471,13 @@
     "design thinking"
    ],
    "kanaal": "LinkedIn",
-   "periode": "december 2025"
+   "periode": "december 2025",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7399415743106396161/"
+    }
+   ]
   },
   {
    "id": "stoplicht-voor-je-prompt",
@@ -353,7 +496,13 @@
     "prompts"
    ],
    "kanaal": "LinkedIn",
-   "periode": "oktober 2026"
+   "periode": "oktober 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519715774161129473/"
+    }
+   ]
   },
   {
    "id": "chatbot-voor-kleine-horeca",
@@ -371,7 +520,13 @@
     "data-analyse"
    ],
    "kanaal": "LinkedIn",
-   "periode": "juni 2026"
+   "periode": "juni 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7468229067025227776/"
+    }
+   ]
   },
   {
    "id": "documentaire-creatieve-professionals",
@@ -388,7 +543,13 @@
     "generatieve AI"
    ],
    "kanaal": "LinkedIn",
-   "periode": "september 2026"
+   "periode": "september 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7504080859336093696/"
+    }
+   ]
   },
   {
    "id": "ai-in-projectontwikkeling",
@@ -403,7 +564,13 @@
    ],
    "tools": [],
    "kanaal": "LinkedIn",
-   "periode": "april 2026"
+   "periode": "april 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444299717263470594/"
+    }
+   ]
   },
   {
    "id": "gesprek-met-een-zeeheld",
@@ -420,7 +587,13 @@
     "chatbot met persona"
    ],
    "kanaal": "LinkedIn",
-   "periode": "januari 2026"
+   "periode": "januari 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7407683905111142400/"
+    }
+   ]
   },
   {
    "id": "notebooklm-in-de-master",
@@ -437,7 +610,13 @@
     "NotebookLM"
    ],
    "kanaal": "LinkedIn",
-   "periode": "april 2026"
+   "periode": "april 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447612242277076993/"
+    }
+   ]
   },
   {
    "id": "mixed-reality-hackathon",
@@ -454,7 +633,13 @@
     "mixed reality"
    ],
    "kanaal": "LinkedIn",
-   "periode": "maart 2026"
+   "periode": "maart 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441564427998420992/"
+    }
+   ]
   },
   {
    "id": "pdf-tekeningen-uitlezen",
@@ -472,7 +657,14 @@
     "documentherkenning"
    ],
    "kanaal": "LinkedIn",
-   "periode": "juli 2026"
+   "periode": "juli 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7478413807363534848/",
+     "noot": "Bericht van het stagebedrijf"
+    }
+   ]
   },
   {
    "id": "ligduur-voorspellen",
@@ -490,7 +682,13 @@
     "voorspelmodel"
    ],
    "kanaal": "LinkedIn",
-   "periode": "februari 2026"
+   "periode": "februari 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427018537132797952/"
+    }
+   ]
   },
   {
    "id": "perenboomgaard-in-3d",
@@ -509,7 +707,13 @@
     "segmentatiemodellen"
    ],
    "kanaal": "LinkedIn",
-   "periode": "juni 2026"
+   "periode": "juni 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7472953305565069313/"
+    }
+   ]
   },
   {
    "id": "bacteriegroei-classificeren",
@@ -527,12 +731,18 @@
     "kanscalibratie"
    ],
    "kanaal": "LinkedIn",
-   "periode": "januari 2026"
+   "periode": "januari 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7419791785637441536/"
+    }
+   ]
   },
   {
    "id": "lerarenopleider-met-chat",
    "rol": "docent",
-   "wie": "Lerarenopleider",
+   "wie": "Lerarenopleider Academie Educatie",
    "spoor": "leren",
    "aard": "doet",
    "titel": "Een dag uit het werk van een lerarenopleider, met AI erbij",
@@ -544,7 +754,13 @@
     "chatbot"
    ],
    "kanaal": "LinkedIn",
-   "periode": "november 2025"
+   "periode": "november 2025",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7392511111071309824/"
+    }
+   ]
   },
   {
    "id": "ai-als-co-creatieve-partner",
@@ -561,7 +777,17 @@
     "generatieve AI"
    ],
    "kanaal": "LinkedIn",
-   "periode": "eind 2025"
+   "periode": "eind 2025",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7394749747237949440/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7413933565769535488/"
+    }
+   ]
   },
   {
    "id": "softwarekwaliteit-tegengas",
@@ -578,7 +804,13 @@
     "softwarekwaliteit"
    ],
    "kanaal": "LinkedIn",
-   "periode": "januari 2026"
+   "periode": "januari 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7415782193148710913/"
+    }
+   ]
   },
   {
    "id": "ai-in-de-financiele-sector",
@@ -598,7 +830,13 @@
     "generatieve AI"
    ],
    "kanaal": "LinkedIn",
-   "periode": "maart 2026"
+   "periode": "maart 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7430356405192347648/"
+    }
+   ]
   },
   {
    "id": "beslissen-met-data-en-ai",
@@ -616,7 +854,13 @@
     "scenarioanalyse"
    ],
    "kanaal": "LinkedIn",
-   "periode": "oktober 2026"
+   "periode": "oktober 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520815566471880704/"
+    }
+   ]
   },
   {
    "id": "ict-bij-ondernemers-aan-tafel",
@@ -634,12 +878,18 @@
     "ChatGPT"
    ],
    "kanaal": "LinkedIn",
-   "periode": "november 2025"
+   "periode": "november 2025",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7396895279582642176/"
+    }
+   ]
   },
   {
    "id": "ai-en-studiecoaching",
    "rol": "docent",
-   "wie": "Docent en studiecoach",
+   "wie": "Docent Leisure & Events",
    "spoor": "geletterdheid",
    "aard": "doet",
    "titel": "Wat betekent AI voor de studiecoach?",
@@ -651,12 +901,22 @@
     "AI-tools voor feedback en reflectie"
    ],
    "kanaal": "LinkedIn",
-   "periode": "april 2026"
+   "periode": "april 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7429628604637933568/"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442822307305177088/"
+    }
+   ]
   },
   {
    "id": "foodcourt-afrekenen",
    "rol": "medewerker",
-   "wie": "Collega's uit verschillende disciplines",
+   "wie": "Collega's rond de Foodcourt (Leisure, Tourism & Hospitality)",
    "spoor": "werken",
    "aard": "doet",
    "titel": "Dienblad onder de scanner en de AI weet wat je hebt gepakt",
@@ -668,7 +928,13 @@
     "beeldherkenning"
    ],
    "kanaal": "Intranet",
-   "periode": "maart 2026"
+   "periode": "maart 2026",
+   "bronnen": [
+    {
+     "label": "Intranetpagina (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/academy-leisure-tourism-and-hospitality/SitePages/nl/New-at-the-Foodcourt--AI-in-practical-use-from-the-week-of-11-March.aspx"
+    }
+   ]
   },
   {
    "id": "futures-cafe-prototypes",
@@ -685,12 +951,18 @@
     "AI-hulp bij prototypen"
    ],
    "kanaal": "Intranet",
-   "periode": "januari 2026"
+   "periode": "januari 2026",
+   "bronnen": [
+    {
+     "label": "Intranetpagina (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/academy-leisure-tourism-and-hospitality/SitePages/Futures-Caf%C3%A9--Creative-solutions-and-Innovations-by-Our-Tourism-Management-Students.aspx"
+    }
+   ]
   },
   {
    "id": "hotels-van-de-toekomst",
    "rol": "onderzoeker",
-   "wie": "Onderzoekers hotelschool",
+   "wie": "Lectoraat van Hotel Management School Leeuwarden",
    "spoor": "onderzoek",
    "aard": "doet",
    "titel": "Kan een robot in 2075 een Michelinster verdienen?",
@@ -704,7 +976,17 @@
     "scenarioplanning"
    ],
    "kanaal": "Intranet en LinkedIn",
-   "periode": "december 2025"
+   "periode": "december 2025",
+   "bronnen": [
+    {
+     "label": "Intranetpagina (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/AC-SHMS/SitePages/Hotels-of-the-Future.aspx"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444745431672119296/"
+    }
+   ]
   },
   {
    "id": "media-investigation-lab",
@@ -722,12 +1004,18 @@
     "OSINT"
    ],
    "kanaal": "Intranet",
-   "periode": "november 2026"
+   "periode": "november 2026",
+   "bronnen": [
+    {
+     "label": "Intranetpagina (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/ac-ccb/SitePages/nl/Media-Investigation-Lab-shows-how-students-develop-a-more-critical-approach-to-online-information.aspx"
+    }
+   ]
   },
   {
    "id": "conferentie-lerarenopleiders",
    "rol": "docent",
-   "wie": "Twee docenten lerarenopleiding",
+   "wie": "Twee docenten van NHL Stenden",
    "spoor": "geletterdheid",
    "aard": "zegt",
    "titel": "Jonge leerlingen nemen AI-antwoorden vaak zonder controle over",
@@ -740,7 +1028,13 @@
     "taalmodellen"
    ],
    "kanaal": "Intranet",
-   "periode": "mei 2026"
+   "periode": "mei 2026",
+   "bronnen": [
+    {
+     "label": "Intranetpagina (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/RUN-EU-/SitePages/Internationale-inspiratie-voor-toekomstgericht-onderwijs.aspx"
+    }
+   ]
   },
   {
    "id": "maritiem-ai-lab",
@@ -757,7 +1051,13 @@
     "data science"
    ],
    "kanaal": "Intranet",
-   "periode": "september 2025"
+   "periode": "september 2025",
+   "bronnen": [
+    {
+     "label": "Intranetpagina (NHL Stenden-login)",
+     "url": "https://newuniversity.sharepoint.com/sites/Onderzoeksgroep-maritiem/SitePages/Maritiem-AI-Innovation-lab.aspx"
+    }
+   ]
   }
  ]
 }

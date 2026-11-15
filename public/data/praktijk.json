@@ -1,8 +1,94 @@
 {
  "inleiding": "Hier lees je wat docenten, studenten, onderzoekers en teams van NHL Stenden zelf vertellen over hun werk met AI: wat ze doen, wat ze ontwikkelen en wat ze erover zeggen. De verhalen komen uit openbare berichten op LinkedIn en van het intranet. We noemen de rol en de opleiding of afdeling, geen namen. Open je een verhaal, dan staat de link naar de bron eronder.",
- "verantwoording": "Elk verhaal is gelezen in de bron en zo getrouw mogelijk samengevat, zonder aanvullingen van de redactie. Deze rubriek staat los van de kaart: het zijn verhalen, geen vastgestelde onderdelen. Laatst bijgewerkt op 11 november 2026.",
- "bijgewerkt": "2026-11-11",
+ "verantwoording": "Elk verhaal is gelezen in de bron en zo getrouw mogelijk samengevat, zonder aanvullingen van de redactie. Deze rubriek staat los van de kaart: het zijn verhalen, geen vastgestelde onderdelen. Laatst bijgewerkt op 15 november 2026.",
+ "bijgewerkt": "2026-11-15",
  "items": [
+  {
+   "id": "ai-agents-voor-kleine-ondernemers",
+   "rol": "student",
+   "wie": "Student Business Management (Howest), internationale week bij NHL Stenden",
+   "spoor": "leren",
+   "aard": "ontwikkelt",
+   "titel": "Een dagelijkse samenvattingsmail voor een ondernemer die geen techneut is",
+   "kort": "Een Belgische student ontwierp tijdens de internationale week \"AI for Equity\" een gratis AI-assistent voor de mailbox van een kleine ondernemer.",
+   "verhaal": [
+    "De student volgde van 19 tot 23 oktober het Erasmus-programma \"AI for Equity\", dat NHL Stenden samen met Howest organiseerde. Zijn uitdaging: AI-agents voor kleine bedrijven. Hij ontwierp voor een denkbeeldige ondernemer van 45 met weinig technische kennis.",
+    "Het prototype is een gratis Google Apps Script met Gemini voor Gmail, zonder technische installatie. Elke werkdagochtend komt er één samenvattingsmail met de kernpunten, een stappenplan op volgorde van belang en een checklist. Binnenkomende mail wordt in labels gesorteerd. Conceptantwoorden worden klaargezet en nooit automatisch verstuurd. Op vrijdag komt er een weekoverzicht. Wie wil, draait een lokaal AI-model op de eigen pc, zodat de gegevens binnen het bedrijf blijven.",
+    "Zijn belangrijkste les: niet iedereen heeft dezelfde toegang tot AI, je gegevens moeten van jou blijven (of je moet weten dat ze gedeeld worden) en privacy verdient een gesprek."
+   ],
+   "tools": [
+    "Gemini",
+    "Google Apps Script",
+    "Gmail",
+    "lokaal AI-model"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "oktober 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521582341471965184/"
+    }
+   ],
+   "noot": "De student studeert aan Howest (partner in het Europese netwerk) en volgde dit programma bij NHL Stenden.",
+   "datum": "2026-10-29",
+   "toegevoegd": "2026-11-15"
+  },
+  {
+   "id": "lector-chatgpt-als-psycholoog",
+   "rol": "onderzoeker",
+   "wie": "Lector Transformational Media",
+   "spoor": "onderzoek",
+   "aard": "zegt",
+   "titel": "Wat vraag je een cliënt als die met een AI-chatbot praat?",
+   "kort": "Een lector sprak in een webinar voor zorgprofessionals over de digitale leefwereld, inclusief cliënten die ChatGPT als psycholoog gebruiken.",
+   "verhaal": [
+    "Aanleiding was onderzoek van studenten van NHL Stenden. Daaruit bleek dat zorgprofessionals het soms lastig vinden om de digitale leefwereld van cliënten bespreekbaar te maken, zeker als ze de platforms zelf niet kennen. Ook zijn er zorgen over wat mensen online meemaken, bijvoorbeeld in besloten groepen of als ze ChatGPT als psycholoog gebruiken.",
+    "Over AI-chatbots zegt de lector twee dingen. Een gesprek kan helpen om gedachten onder woorden te brengen. Maar antwoorden kunnen onjuist zijn, of iemand bevestigen in gedachten die juist samen met een professional onderzocht moeten worden.",
+    "Haar advies: vraag minder naar schermtijd en meer naar wat iemand online doet, met wie diegene contact heeft en hoe die zich daarna voelt. Je hoeft niet elk platform te kennen. \"Kun je me laten zien wat je online tegenkomt?\" is al een begin."
+   ],
+   "tools": [
+    "ChatGPT",
+    "AI-chatbots"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "november 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523394460223967232/"
+    }
+   ],
+   "datum": "2026-11-03",
+   "toegevoegd": "2026-11-15"
+  },
+  {
+   "id": "data-to-impact-water-en-ai",
+   "rol": "onderzoeker",
+   "wie": "Lector Watertechnologie",
+   "spoor": "onderzoek",
+   "aard": "doet",
+   "titel": "Water en AI aan één tafel tijdens de Europese Watertechnologieweek",
+   "kort": "Het lectoraat Watertechnologie organiseerde met het AI-lectoraat en Wetsus een sessie over AI in de watersector.",
+   "verhaal": [
+    "Tijdens de European Water Technology Week in Leeuwarden presenteerden studenten van het lectoraat Watertechnologie hun onderzoek op posters. Daarnaast organiseerde het lectoraat samen met het AI-lectoraat van NHL Stenden en Wetsus de parallelsessie \"From Data to Impact\".",
+    "In die sessie kwamen verschillende blikken bijeen op de kansen, uitdagingen en behoeften op het snijvlak van watertechnologie en kunstmatige intelligentie. Vier organisaties uit de praktijk gaven elk hun kijk op AI en water."
+   ],
+   "tools": [
+    "data",
+    "kunstmatige intelligentie"
+   ],
+   "kanaal": "LinkedIn",
+   "periode": "oktober 2026",
+   "bronnen": [
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520947076327739392/"
+    }
+   ],
+   "datum": "2026-10-27",
+   "toegevoegd": "2026-11-15"
+  },
   {
    "id": "revit-in-gewone-taal",
    "rol": "docent",
@@ -74,22 +160,28 @@
    "titel": "Kritischer kijken naar nieuws, algoritmen en AI",
    "kort": "In het Media Investigation Lab deden 22 studenten samen onderzoek naar digitale mediageletterdheid.",
    "verhaal": [
-    "In labsessies en workshops ging het over factchecking, onderzoek met open bronnen, desinformatie en AI. Uit de evaluatie blijkt dat studenten vaker bronnen controleren, perspectieven vergelijken en meer oog hebben voor de invloed van algoritmen, framing en AI. Het lab gaat dit studiejaar door en breidt uit naar andere opleidingen."
+    "In labsessies en workshops ging het over factchecking, onderzoek met open bronnen, desinformatie en AI. Uit de evaluatie blijkt dat studenten vaker bronnen controleren, perspectieven vergelijken en meer oog hebben voor de invloed van algoritmen, framing en AI. Het lab gaat dit studiejaar door en breidt uit naar andere opleidingen.",
+    "Over de start van de eerste cyclus meldt de community Click-Check-Control op LinkedIn dat studenten van verschillende opleidingen werken aan echte casussen over hoe informatie ontstaat, zich verspreidt en soms wordt gemanipuleerd. De vraag die de cyclus stuurt: \"Wie bepaalt wat waar is?\" Studenten leren informatie te bevragen, te controleren en te zien welke belangen erachter zitten."
    ],
    "tools": [
     "factchecking",
     "OSINT"
    ],
-   "kanaal": "Intranet",
+   "kanaal": "Intranet en LinkedIn",
    "periode": "november 2026",
    "bronnen": [
     {
      "label": "Intranetpagina (NHL Stenden-login)",
      "url": "https://newuniversity.sharepoint.com/sites/ac-ccb/SitePages/nl/Media-Investigation-Lab-shows-how-students-develop-a-more-critical-approach-to-online-information.aspx"
+    },
+    {
+     "label": "LinkedIn-bericht",
+     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524870106485624833/"
     }
    ],
-   "datum": "2026-11-05",
-   "toegevoegd": "2026-11-11"
+   "datum": "2026-11-07",
+   "toegevoegd": "2026-11-11",
+   "noot": "Het LinkedIn-bericht komt van de community Click-Check-Control, niet van een collega persoonlijk."
   },
   {
    "id": "veertig-docenten-prompt-kritiek",

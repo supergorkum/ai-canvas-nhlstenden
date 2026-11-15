@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-11",
+ "bijgewerkt": "2026-11-15",
  "bronnen": [
   {
    "id": "revit-in-gewone-taal",
@@ -326,6 +326,30 @@
    "kanaal": "Intranet",
    "gelezen": "11 november 2026",
    "url": "https://newuniversity.sharepoint.com/sites/Onderzoeksgroep-maritiem/SitePages/Maritiem-AI-Innovation-lab.aspx"
+  },
+  {
+   "id": "ai-agents-voor-kleine-ondernemers",
+   "kanaal": "LinkedIn",
+   "gelezen": "15 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521582341471965184/"
+  },
+  {
+   "id": "lector-chatgpt-als-psycholoog",
+   "kanaal": "LinkedIn",
+   "gelezen": "15 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523394460223967232/"
+  },
+  {
+   "id": "data-to-impact-water-en-ai",
+   "kanaal": "LinkedIn",
+   "gelezen": "15 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520947076327739392/"
+  },
+  {
+   "id": "media-investigation-lab",
+   "kanaal": "LinkedIn",
+   "gelezen": "15 november 2026",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524870106485624833/"
   }
  ]
 }

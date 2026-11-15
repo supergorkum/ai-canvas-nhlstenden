@@ -61,7 +61,7 @@ eigen werk met AI: wat ze doen, ontwikkelen of erover zeggen. Bestanden:
    Zet dezelfde bronnen in `praktijk-bronnen.json`. Werk `bijgewerkt` en de datum in `verantwoording` bij.
 7. **Kaart.** Vind je op het intranet ook nieuws voor de kaart zelf (nieuw project, beleid, evenement), verwerk dat
    volgens `docs/REDACTIERONDE.md`.
-8. **Controleren en publiceren.** `npm run build` (valideert), versie in `src/data/versie.js` alleen ophogen bij nieuwe verhalen,
+8. **Controleren en publiceren.** (Cowork blokkeert `git push`: commit alleen lokaal. Edgar of een taak op de HUB buiten Cowork draait daarna `scripts/publiceer.sh`.) `npm run build` (valideert), versie in `src/data/versie.js` alleen ophogen bij nieuwe verhalen,
    één regel in het `logboek` van `canvas.json`, commit en push naar `main`. Netlify bouwt zelf.
 9. **Opruimen en melden.** Sluit je eigen tabbladen behalve `seed`, laat Plex en andermans vensters met rust.
    Maak een Gmail-concept aan edgarvgorkum@gmail.com, onderwerp "Uit de praktijk: weekronde <datum>", labels "NHL Stenden"

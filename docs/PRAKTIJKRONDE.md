@@ -47,7 +47,9 @@ eigen werk met AI: wat ze doen, ontwikkelen of erover zeggen. Bestanden:
      `<code>` is base64url; sla de eerste drie bytes over, lees de varint en deel door twee: dat is het activity-id.
      Link: `https://www.linkedin.com/feed/update/urn:li:activity:<id>/`. Controleer bij twijfel één link door hem te openen.
    - Klik "… meer" open voordat je de tekst leest, anders mis je de helft.
-4. **Intranet.** `https://newuniversity.sharepoint.com` zoek-API:
+4. **Intranet, één keer per maand.** Afspraak met Edgar (15 november 2026): het intranet scannen we alleen in de eerste week van een nieuwe maand, niet elke week. In de andere weken sla je deze stap over en meld je dat in het logboek niet als gemist. Edgar logt daarvoor zelf in in de ingebouwde Claude-browser op de HUB. Vision herinnert hem daar in de BILA aan, een dag van tevoren en op de dag zelf. Is de sessie bij de scan toch verlopen: meld het en ga door met LinkedIn.
+   Houd de sessie levend: wissel ongeveer elk uur van intranetpagina, zodat er geen time-out komt. Dat helpt ook bij andere intranetopdrachten.
+   `https://newuniversity.sharepoint.com` zoek-API:
    `/_api/search/query?querytext='(AI OR "kunstmatige intelligentie" OR Copilot OR ChatGPT OR chatbot OR "generatieve AI") PromotedState:2 LastModifiedTime>=<datum twee weken terug>'`,
    en de paginatekst via `/sites/<site>/_api/web/getfilebyserverrelativepath(decodedurl='<pad>')/ListItemAllFields?$select=Title,CanvasContent1,FirstPublishedDate`.
    Kijk of er iets bij zit waarin collega's of studenten vertellen wat ze met AI doen. Is de sessie verlopen: meld het, ga door met LinkedIn.

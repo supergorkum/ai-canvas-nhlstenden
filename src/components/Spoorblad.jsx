@@ -1,3 +1,4 @@
+import PrintKop from './PrintKop.jsx'
 import { useMemo } from 'react'
 import { SOORTEN, STATUS, omgekeerd } from '../model.js'
 import { VAKKEN, perVak } from '../groepen.js'
@@ -37,6 +38,7 @@ export default function Spoorblad({ data, vakId, onKies, onTerug, onSpoor }) {
         </nav>
 
         <article className="a4 spoorblad-a4 bg-white rounded-3xl shadow-xl print:shadow-none print:rounded-none p-4 sm:p-6 lg:p-8">
+          <PrintKop />
           <header className="pb-4 mb-5 border-b-2 flex flex-wrap items-end gap-4 justify-between" style={{ borderColor: vak.kleur }}>
             <div className="min-w-0">
               <div className="section-label">AI Canvas · laag 2</div>

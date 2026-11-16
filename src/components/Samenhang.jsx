@@ -1,3 +1,4 @@
+import PrintKop from './PrintKop.jsx'
 import { useMemo, useState } from 'react'
 import { SOORTEN, omgekeerd } from '../model.js'
 import { VAKKEN, vakVan, graadMap } from '../groepen.js'
@@ -98,6 +99,7 @@ export default function Samenhang({ data, onKies }) {
     <div className="h-full overflow-y-auto bg-[#E9EDF5] print:bg-white">
       <div className="mx-auto max-w-[1500px] px-3 sm:px-6 py-5 sm:py-8 print:p-0">
         <article className="a3 samenhang-a3 bg-white rounded-3xl shadow-xl print:shadow-none print:rounded-none p-4 sm:p-6 lg:p-8">
+          <PrintKop />
           <header className="flex flex-wrap items-end justify-between gap-3 pb-4 mb-5 border-b-2 border-nhl-blauw">
             <div>
               <div className="section-label">NHL Stenden · AI Canvas · Samenhang</div>

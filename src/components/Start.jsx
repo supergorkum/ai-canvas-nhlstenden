@@ -1,3 +1,4 @@
+import Logo from './Logo.jsx'
 import { useEffect, useState } from 'react'
 import { SOORTEN } from '../model.js'
 import { VERSIE } from '../data/versie.js'
@@ -56,7 +57,7 @@ export default function Start({ data, onGa, onMeld }) {
     <div className="h-full overflow-y-auto bg-white">
       <div className="nhl-gradient-deep text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-          <div className="text-xs font-bold tracking-widest uppercase text-blue-200">NHL Stenden</div>
+          <Logo className="h-16 sm:h-20 w-auto" />
           <h1 className="text-3xl sm:text-5xl font-extrabold mt-2 leading-tight">Het AI Canvas</h1>
           <p className="mt-4 text-lg sm:text-xl text-blue-100 max-w-2xl leading-snug">Een actuele foto van alles wat er bij NHL Stenden rond AI gebeurt: wie het doet, hoe het samenhangt en waar het vandaan komt.</p>
           <div className="mt-6 flex flex-wrap gap-3">

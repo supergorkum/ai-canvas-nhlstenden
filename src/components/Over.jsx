@@ -1,3 +1,4 @@
+import Logo from './Logo.jsx'
 import { HERKOMST } from '../model.js'
 import InstallKaart from './InstallKaart.jsx'
 import { VERSIE } from '../data/versie.js'
@@ -8,6 +9,7 @@ export default function Over({ data, onMeld }) {
   return (
     <div className="h-full overflow-y-auto bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10 space-y-8 text-gray-700 leading-relaxed">
+        <Logo kleur="zwart" className="h-14 w-auto" />
         <section>
           <div className="section-label">Over dit canvas</div>
           <h2 className="page-title mt-1">Eén landkaart voor alles rond AI</h2>

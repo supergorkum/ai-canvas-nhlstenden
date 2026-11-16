@@ -1,3 +1,4 @@
+import Logo from './components/Logo.jsx'
 import { useEffect, useMemo, useState } from 'react'
 import Detailpaneel from './components/Detailpaneel.jsx'
 import Meldformulier from './components/Meldformulier.jsx'
@@ -75,8 +76,9 @@ export default function App() {
             ) : (
               <>
                 <button onClick={() => { setWeergave('start'); setGekozen(null) }} className="flex items-center gap-2.5 min-w-0 flex-1 text-left">
-                  <span className="w-9 h-9 rounded-xl bg-white text-nhl-blauw font-extrabold grid place-items-center text-sm shadow shrink-0">AI</span>
-                  <span className="leading-tight min-w-0"><span className="block font-extrabold">AI Canvas</span><span className="block text-[11px] text-blue-200 -mt-0.5">NHL Stenden</span></span>
+                  <Logo className="h-9 w-auto shrink-0" />
+                  <span className="w-px h-7 bg-white/30 shrink-0" aria-hidden="true" />
+                  <span className="font-extrabold leading-tight truncate">AI Canvas</span>
                 </button>
                 <button onClick={() => setZoekOpen(true)} className="w-11 h-11 rounded-xl bg-white/10 grid place-items-center" aria-label="Zoeken">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M20 20l-4-4" /></svg>
@@ -88,8 +90,9 @@ export default function App() {
         ) : (
         <div className="px-4 sm:px-6 h-16 flex items-center gap-3 sm:gap-6">
           <a href="#v=start" onClick={() => { setWeergave('start'); setGekozen(null) }} className="flex items-center gap-2.5 shrink-0">
-            <span className="w-9 h-9 rounded-xl bg-white text-nhl-blauw font-extrabold grid place-items-center text-sm shadow">AI</span>
-            <span className="leading-tight hidden sm:block"><span className="block font-extrabold">AI Canvas</span><span className="block text-[11px] text-blue-200 -mt-0.5">NHL Stenden</span></span>
+            <Logo className="h-10 w-auto" />
+            <span className="w-px h-8 bg-white/30 hidden sm:block" aria-hidden="true" />
+            <span className="font-extrabold text-lg leading-tight hidden sm:block">AI Canvas</span>
           </a>
           <nav className="flex gap-1 bg-white/10 rounded-xl p-1 text-xs sm:text-sm font-semibold" aria-label="Weergave">
             {[['start', '🏠', 'Start'], ['canvas', '▦', 'Canvas'], ['samenhang', '◎', 'Samenhang'], ['trein', '🚆', 'Treinnetwerk'], ['aiact', '⚖️', 'AI Act'], ['praktijk', '💬', 'Praktijk'], ['overzicht', '☰', 'Lijst'], ['over', 'ℹ️', 'Over']].map(([id, i, t]) => (

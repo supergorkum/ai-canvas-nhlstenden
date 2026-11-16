@@ -15,13 +15,13 @@
 // Bewust buiten schot: alles wat geen GET is (het meldformulier) en alles van
 // een ander domein (lettertypes, externe links).
 
-const CACHE = 'ai-canvas-v1'
+const CACHE = 'ai-canvas-v2'
 const OFFLINE = './offline.html'
 
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE)
-      .then(c => c.addAll([new Request(OFFLINE, { cache: 'reload' }), new Request('./', { cache: 'reload' })]))
+      .then(c => c.addAll([new Request(OFFLINE, { cache: 'reload' }), new Request('./', { cache: 'reload' }), new Request('./logo-nhl-stenden-wit.png'), new Request('./logo-nhl-stenden-zwart.png')]))
       .catch(() => {})
       .then(() => self.skipWaiting())
   )

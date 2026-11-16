@@ -1,3 +1,4 @@
+import PrintKop from './PrintKop.jsx'
 import { useEffect, useMemo, useState } from 'react'
 import { SPOREN } from '../model.js'
 
@@ -58,6 +59,7 @@ export default function Treinnetwerk({ data, onKies, onSpoor }) {
     <div className="h-full overflow-y-auto bg-[#E9EDF5] print:bg-white">
       <div className="mx-auto max-w-[1760px] px-3 sm:px-6 py-5 sm:py-8 print:p-0">
         <article className="a3 trein-a3 bg-white rounded-3xl shadow-xl print:shadow-none print:rounded-none p-4 sm:p-6 lg:p-8">
+          <PrintKop />
           <header className="flex flex-wrap items-end justify-between gap-4 pb-4 mb-4 border-b-2 border-nhl-blauw">
             <div className="min-w-0">
               <div className="section-label">NHL Stenden · AI Canvas · Treinnetwerk</div>

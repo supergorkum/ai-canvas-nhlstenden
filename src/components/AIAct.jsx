@@ -1,3 +1,4 @@
+import PrintKop from './PrintKop.jsx'
 import { useEffect, useMemo, useState } from 'react'
 
 // 'Organisatie & AI Act': hoe je de AI Act moet zien, wat hij van NHL Stenden vraagt
@@ -42,6 +43,7 @@ export default function AIAct({ data, onKies }) {
     <div className="h-full overflow-y-auto bg-[#E9EDF5] print:bg-white">
       <div className="mx-auto max-w-[1200px] px-3 sm:px-6 py-5 sm:py-8 print:p-0">
         <article className="bg-white rounded-3xl shadow-xl print:shadow-none print:rounded-none p-5 sm:p-8 lg:p-10 space-y-12">
+          <PrintKop />
           <header className="pb-5 border-b-2 border-nhl-blauw">
             <div className="section-label">NHL Stenden · AI Canvas · Organisatie & AI Act</div>
             <h1 className="text-2xl sm:text-4xl font-extrabold text-nhl-blauw leading-tight mt-1" style={{ textWrap: 'balance' }}>Wat vraagt de AI Act van ons, en wat hebben we al?</h1>
